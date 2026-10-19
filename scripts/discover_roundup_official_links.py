@@ -273,6 +273,32 @@ def summarize_official(body, title=""):
     return summary
 
 
+def extract_record_count(body):
+    """Return an unambiguous official record count; people counts are excluded."""
+    token = re.compile(r"(?:(?:約|最大|およそ|少なくとも)\\s*)?(\\d[\\d,]*(?:\\.\\d+)?(?:万\\d[\\d,]*(?:\\.\\d+)?)?)\\s*(件|レコード|ファイル)")
+    record_terms = ("個人情報", "メールアドレス", "会員情報", "情報漏えい", "情報流出", "漏えい", "漏洩", "流出", "レコード", "ファイル", "データ")
+    values = set()
+    for sentence in re.split(r"[。！？\\n]", body or ""):
+        if not any(term in sentence for term in record_terms) or "人数" in sentence:
+            continue
+        for found in token.finditer(sentence):
+            raw = found.group(1).replace(",", "")
+            if "万" in raw:
+                high, _, low = raw.partition("万")
+                try:
+                    value = int(float(high) * 10000) + (int(low.replace(",", "")) if low else 0)
+                except ValueError:
+                    continue
+            else:
+                try:
+                    value = int(float(raw))
+                except ValueError:
+                    continue
+            if value >= 0:
+                values.add(value)
+    return next(iter(values)) if len(values) == 1 else None
+
+
 try:
     payload = json.loads(OUT.read_text(encoding="utf-8"))
     events = payload.get("incidents", [])
@@ -287,6 +313,10 @@ for event in events:
     for report in reports:
         if report.get("source_url"):
             by_url[canonical_url(report["source_url"])] = event
+    if event.get("incident_count") is None and event.get("leaked_records") is None:
+        count = extract_record_count(event.get("detail", ""))
+        if count is not None:
+            event["leaked_records"] = count
 
 errors = []
 roundups_succeeded = 0
@@ -338,11 +368,18 @@ for source in CONFIG.get("roundup_sources", []):
                 canonical = canonical_url(official_url)
                 existing = by_url.get(canonical)
                 summary = summarize_official(body, title)
+                record_count = extract_record_count(body)
                 if existing is not None:
                     # Backfill only crawler-discovered records, using sentences from
                     # the verified official page. Never overwrite curated text.
+                    changed = False
                     if not existing.get("detail") and existing.get("discovered_from") and summary:
                         existing["detail"] = summary
+                        changed = True
+                    if existing.get("incident_count") is None and existing.get("leaked_records") is None and record_count is not None:
+                        existing["leaked_records"] = record_count
+                        changed = True
+                    if changed:
                         existing["updated_at"] = NOW_TEXT
                     reports = existing.setdefault("reports", [])
                     if not any(canonical_url(row.get("source_url", "")) == canonical for row in reports):
@@ -371,7 +408,7 @@ for source in CONFIG.get("roundup_sources", []):
                     "incident_count": None,
                     "incident_count_label": None,
                     "affected_people": None,
-                    "leaked_records": None,
+                    "leaked_records": record_count,
                     "detail": summary,
                     "source_url": canonical,
                     "official_host": host,
