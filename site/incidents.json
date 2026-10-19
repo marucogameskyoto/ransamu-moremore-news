@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T22:12:34.952Z",
+  "updated_at": "2026-10-19T22:13:22.621140+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -184,6 +184,86 @@
       ]
     },
     {
+      "id": "eb2a4aabe5f51e5b267e",
+      "event_key": null,
+      "event_scope": "",
+      "name": "タイムズカー、個人情報漏えいで約660万件のアカウント情報が対象に",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-09-25",
+      "status": "official",
+      "source": "パーク２４株式会社",
+      "issuer": "パーク２４株式会社",
+      "reported_org": "タイムズカー会員・退会者等",
+      "incident_count": 6600000,
+      "incident_count_label": "漏えいしたアカウント数（約660万件）",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "タイムズカーWebシステムへの不正アクセスにより、会員情報の一部が第三者に取得されたことを確認。第2報で漏えいしたアカウント数を約660万件と公表。第3報では、そのうち運転免許証画像等の本人確認書類が漏えいしたアカウント数を約160万件と公表。約160万件は約660万件の内数として扱い、別事案・別件数として合算していません。",
+      "source_url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
+      "official_host": "www.park24.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-19T16:48:37.216144+00:00",
+      "updated_at": "2026-10-19T22:12:34.952Z",
+      "reports": [
+        {
+          "title": "「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）※追記あり | タイムズモビリティ株式会社",
+          "date": "2026-09-25",
+          "source": "「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）※追記あり | タイムズモビリティ株式会社",
+          "issuer": "「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）※追記あり | タイムズモビリティ株式会社",
+          "source_url": "https://www.timesmobi.co.jp/news/2026/09/web1.html",
+          "canonical_url": "https://www.timesmobi.co.jp/news/2026/09/web1.html",
+          "official_host": "www.timesmobi.co.jp",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        },
+        {
+          "title": "タイムズカーWebサイトへの不正アクセスによる個人情報漏えいの可能性について（第1報）",
+          "date": "2026-09-25",
+          "source": "パーク２４株式会社",
+          "issuer": "パーク２４株式会社",
+          "source_url": "https://www.park24.co.jp/news/2026/09/web1.html",
+          "canonical_url": "https://www.park24.co.jp/news/2026/09/web1.html",
+          "official_host": "www.park24.co.jp",
+          "first_seen_at": "2026-10-19T13:07:28Z",
+          "last_seen_at": "2026-10-19T13:07:28Z"
+        },
+        {
+          "title": "タイムズカーWebシステムへの不正アクセスに関する調査結果および今後の対応について（第2報）",
+          "date": "2026-09-28",
+          "source": "パーク２４株式会社",
+          "issuer": "パーク２４株式会社",
+          "source_url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
+          "canonical_url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
+          "official_host": "www.park24.co.jp",
+          "first_seen_at": "2026-10-19T22:08:50.502Z",
+          "last_seen_at": "2026-10-19T22:08:50.502Z"
+        },
+        {
+          "title": "タイムズカーWebシステムへの不正アクセスに関する調査結果および今後の対応について（第3報）",
+          "date": "2026-09-29",
+          "source": "パーク２４株式会社",
+          "issuer": "パーク２４株式会社",
+          "source_url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
+          "canonical_url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
+          "official_host": "www.park24.co.jp",
+          "first_seen_at": "2026-10-19T22:08:50.502Z",
+          "last_seen_at": "2026-10-19T22:08:50.502Z"
+        },
+        {
+          "title": "タイムズカーWebシステムへの不正アクセスに関する対応について（第4報）",
+          "date": "2026-10-16",
+          "source": "パーク２４株式会社",
+          "issuer": "パーク２４株式会社",
+          "source_url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
+          "canonical_url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
+          "official_host": "www.park24.co.jp",
+          "first_seen_at": "2026-10-19T22:08:50.502Z",
+          "last_seen_at": "2026-10-19T22:08:50.502Z"
+        }
+      ]
+    },
+    {
       "id": "fa15ad2728305b51e64a",
       "event_key": null,
       "event_scope": "",
@@ -298,86 +378,6 @@
           "official_host": "www.jaea.go.jp",
           "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
           "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ]
-    },
-    {
-      "id": "eb2a4aabe5f51e5b267e",
-      "event_key": null,
-      "event_scope": "",
-      "name": "タイムズカー、個人情報漏えいで約660万件のアカウント情報が対象に",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-09-25",
-      "status": "official",
-      "source": "パーク２４株式会社",
-      "issuer": "パーク２４株式会社",
-      "reported_org": "タイムズカー会員・退会者等",
-      "incident_count": 6600000,
-      "incident_count_label": "漏えいしたアカウント数（約660万件）",
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "タイムズカーWebシステムへの不正アクセスにより、会員情報の一部が第三者に取得されたことを確認。第2報で漏えいしたアカウント数を約660万件と公表。第3報では、そのうち運転免許証画像等の本人確認書類が漏えいしたアカウント数を約160万件と公表。約160万件は約660万件の内数として扱い、別事案・別件数として合算していません。",
-      "source_url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
-      "official_host": "www.park24.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T16:48:37.216144+00:00",
-      "updated_at": "2026-10-19T22:12:34.952Z",
-      "reports": [
-        {
-          "title": "「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）※追記あり | タイムズモビリティ株式会社",
-          "date": "2026-09-25",
-          "source": "「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）※追記あり | タイムズモビリティ株式会社",
-          "issuer": "「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）※追記あり | タイムズモビリティ株式会社",
-          "source_url": "https://www.timesmobi.co.jp/news/2026/09/web1.html",
-          "canonical_url": "https://www.timesmobi.co.jp/news/2026/09/web1.html",
-          "official_host": "www.timesmobi.co.jp",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        },
-        {
-          "title": "タイムズカーWebサイトへの不正アクセスによる個人情報漏えいの可能性について（第1報）",
-          "date": "2026-09-25",
-          "source": "パーク２４株式会社",
-          "issuer": "パーク２４株式会社",
-          "source_url": "https://www.park24.co.jp/news/2026/09/web1.html",
-          "canonical_url": "https://www.park24.co.jp/news/2026/09/web1.html",
-          "official_host": "www.park24.co.jp",
-          "first_seen_at": "2026-10-19T13:07:28Z",
-          "last_seen_at": "2026-10-19T13:07:28Z"
-        },
-        {
-          "title": "タイムズカーWebシステムへの不正アクセスに関する調査結果および今後の対応について（第2報）",
-          "date": "2026-09-28",
-          "source": "パーク２４株式会社",
-          "issuer": "パーク２４株式会社",
-          "source_url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
-          "canonical_url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
-          "official_host": "www.park24.co.jp",
-          "first_seen_at": "2026-10-19T22:08:50.502Z",
-          "last_seen_at": "2026-10-19T22:08:50.502Z"
-        },
-        {
-          "title": "タイムズカーWebシステムへの不正アクセスに関する調査結果および今後の対応について（第3報）",
-          "date": "2026-09-29",
-          "source": "パーク２４株式会社",
-          "issuer": "パーク２４株式会社",
-          "source_url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
-          "canonical_url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
-          "official_host": "www.park24.co.jp",
-          "first_seen_at": "2026-10-19T22:08:50.502Z",
-          "last_seen_at": "2026-10-19T22:08:50.502Z"
-        },
-        {
-          "title": "タイムズカーWebシステムへの不正アクセスに関する対応について（第4報）",
-          "date": "2026-10-16",
-          "source": "パーク２４株式会社",
-          "issuer": "パーク２４株式会社",
-          "source_url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
-          "canonical_url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
-          "official_host": "www.park24.co.jp",
-          "first_seen_at": "2026-10-19T22:08:50.502Z",
-          "last_seen_at": "2026-10-19T22:08:50.502Z"
         }
       ]
     },
@@ -3235,7 +3235,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-19T22:09:23.100795+00:00"
+          "last_seen_at": "2026-10-19T22:12:53.747045+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -3608,7 +3608,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T22:09:23.100795+00:00"
+          "last_seen_at": "2026-10-19T22:12:53.747045+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -3619,7 +3619,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T22:09:23.100795+00:00"
+          "last_seen_at": "2026-10-19T22:12:53.747045+00:00"
         }
       ],
       "leaked_records": null
@@ -3732,7 +3732,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T22:09:23.100795+00:00"
+          "last_seen_at": "2026-10-19T22:12:53.747045+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -3743,7 +3743,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T22:09:23.100795+00:00"
+          "last_seen_at": "2026-10-19T22:12:53.747045+00:00"
         }
       ],
       "leaked_records": null,
@@ -3813,7 +3813,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T22:09:23.100795+00:00"
+          "last_seen_at": "2026-10-19T22:12:53.747045+00:00"
         }
       ]
     },
@@ -3857,7 +3857,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T22:09:23.100795+00:00"
+          "last_seen_at": "2026-10-19T22:12:53.747045+00:00"
         }
       ],
       "leaked_records": null
@@ -3970,8 +3970,8 @@
   "discovery_summary": {
     "roundup_pages_succeeded": 3,
     "official_links_found": 190,
-    "official_pages_verified": 1,
-    "new_records": 1,
+    "official_pages_verified": 0,
+    "new_records": 0,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
