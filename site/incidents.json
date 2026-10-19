@@ -139,7 +139,7 @@
       "source": "RIZAP株式会社",
       "issuer": "RIZAP株式会社",
       "reported_org": "REXT株式会社・REXT Holdings株式会社",
-      "incident_count": null,
+      "incident_count": 310,
       "affected_people": 27,
       "detail": "同社は公開を確認したファイルが310件、約54MBと発表。採用応募者および従業員の個人情報を含むファイルの対象者は27人。暗号化サーバー上の顧客情報は窃取の事実を確認していないが、アクセスを否定できず漏えいのおそれとして扱うとした",
       "source_url": "https://rizap.co.jp/news/5hSUfKJ_",
@@ -170,7 +170,8 @@
           "last_seen_at": "2026-10-19T12:30:00Z"
         }
       ],
-      "leaked_records": null
+      "leaked_records": null,
+      "incident_count_label": "公開確認ファイル"
     },
     {
       "id": "japan-times-20261016",
