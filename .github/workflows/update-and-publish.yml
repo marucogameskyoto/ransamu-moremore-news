@@ -5,7 +5,7 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: "0 22,3,9,14 * * *" # 07:00, 12:00, 18:00, 23:00 JST daily
+    - cron: "17 22,3,9,14 * * *" # 07:17, 12:17, 18:17, 23:17 JST daily
 
 permissions:
   contents: write
@@ -57,4 +57,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
