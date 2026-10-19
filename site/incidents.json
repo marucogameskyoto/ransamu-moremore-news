@@ -4,85 +4,6 @@
   "automation": "official-source-manual-domestic-ransomware",
   "incidents": [
     {
-      "id": "nssg-20260911",
-      "event_key": null,
-      "event_scope": "",
-      "name": "日本資産総研、ランサムウェア攻撃で顧客個人データの公開を確認",
-      "sector": "不動産・資産コンサルティング",
-      "region": "日本",
-      "date": "2026-09-11",
-      "status": "official",
-      "source": "株式会社日本資産総研",
-      "issuer": "株式会社日本資産総研",
-      "reported_org": "株式会社日本資産総研",
-      "incident_count": null,
-      "affected_people": null,
-      "detail": "同社はシステムへのランサムウェア攻撃とファイル暗号化を確認。2026年8月26日時点で顧客個人データが攻撃者のリークサイトに公開されたと発表。対象者数は公表されていない",
-      "source_url": "https://www.nssg.co.jp/news/2026/0911-1600.html",
-      "official_host": "www.nssg.co.jp",
-      "last_seen_at": "2026-10-19T12:30:00Z",
-      "updated_at": "2026-10-19T12:30:00Z",
-      "reports": [
-        {
-          "title": "セキュリティインシデントの発生に関するご報告（第4報）",
-          "date": "2026-09-11",
-          "source": "株式会社日本資産総研",
-          "issuer": "株式会社日本資産総研",
-          "source_url": "https://www.nssg.co.jp/news/2026/0911-1600.html",
-          "canonical_url": "https://www.nssg.co.jp/news/2026/0911-1600.html",
-          "official_host": "www.nssg.co.jp",
-          "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T12:30:00Z"
-        }
-      ],
-      "leaked_records": null
-    },
-    {
-      "id": "washingtonhotel-20260925",
-      "event_key": null,
-      "event_scope": "",
-      "name": "ワシントンホテル、ランサムウェア被害で従業員情報の漏えい可能性を否定できず",
-      "sector": "ホテル",
-      "region": "日本",
-      "date": "2026-09-25",
-      "status": "official",
-      "source": "ワシントンホテル株式会社",
-      "issuer": "ワシントンホテル株式会社",
-      "reported_org": "ワシントンホテル株式会社",
-      "incident_count": null,
-      "affected_people": null,
-      "detail": "9月7日の最終報では社内サーバーに一部従業員の個人情報が保存されていたと説明。9月25日の発表では情報窃取の痕跡や公開は確認されていない一方、退職者情報の漏えい可能性を完全には否定できないとした。対象人数は公表されていない",
-      "source_url": "https://www.washingtonhotel.co.jp/corporation/news/228/",
-      "official_host": "www.washingtonhotel.co.jp",
-      "last_seen_at": "2026-10-19T12:30:00Z",
-      "updated_at": "2026-10-19T12:30:00Z",
-      "reports": [
-        {
-          "title": "ランサムウェア感染被害に関する調査結果および対応状況のお知らせ（最終報）",
-          "date": "2026-09-07",
-          "source": "ワシントンホテル株式会社",
-          "issuer": "ワシントンホテル株式会社",
-          "source_url": "https://www.washingtonhotel.co.jp/corporation/news/229/",
-          "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/229",
-          "official_host": "www.washingtonhotel.co.jp",
-          "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T12:30:00Z"
-        },
-        {
-          "title": "ランサムウェア感染被害に伴う退職者の皆様の個人情報に関するお知らせ",
-          "date": "2026-09-25",
-          "source": "ワシントンホテル株式会社",
-          "issuer": "ワシントンホテル株式会社",
-          "source_url": "https://www.washingtonhotel.co.jp/corporation/news/228/",
-          "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
-          "official_host": "www.washingtonhotel.co.jp",
-          "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T12:30:00Z"
-        }
-      ],
-      "leaked_records": null
-    },
-    {
       "id": "keio-20261016",
       "event_key": null,
       "event_scope": "",
@@ -126,52 +47,6 @@
         }
       ],
       "leaked_records": null
-    },
-    {
-      "id": "rizap-rext-20261009",
-      "event_key": null,
-      "event_scope": "",
-      "name": "RIZAP、REXT社らへのランサムウェア攻撃で公開ファイル310件を確認",
-      "sector": "小売・スポーツ用品",
-      "region": "日本",
-      "date": "2026-10-09",
-      "status": "official",
-      "source": "RIZAP株式会社",
-      "issuer": "RIZAP株式会社",
-      "reported_org": "REXT株式会社・REXT Holdings株式会社",
-      "incident_count": 310,
-      "affected_people": 27,
-      "detail": "同社は公開を確認したファイルが310件、約54MBと発表。採用応募者および従業員の個人情報を含むファイルの対象者は27人。暗号化サーバー上の顧客情報は窃取の事実を確認していないが、アクセスを否定できず漏えいのおそれとして扱うとした",
-      "source_url": "https://rizap.co.jp/news/5hSUfKJ_",
-      "official_host": "rizap.co.jp",
-      "last_seen_at": "2026-10-19T12:30:00Z",
-      "updated_at": "2026-10-19T12:30:00Z",
-      "reports": [
-        {
-          "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第4報）",
-          "date": "2026-09-11",
-          "source": "RIZAP株式会社",
-          "issuer": "RIZAP株式会社",
-          "source_url": "https://rizap.co.jp/news/gP13TGSu",
-          "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
-          "official_host": "rizap.co.jp",
-          "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T12:30:00Z"
-        },
-        {
-          "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）",
-          "date": "2026-10-09",
-          "source": "RIZAP株式会社",
-          "issuer": "RIZAP株式会社",
-          "source_url": "https://rizap.co.jp/news/5hSUfKJ_",
-          "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
-          "official_host": "rizap.co.jp",
-          "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T12:30:00Z"
-        }
-      ],
-      "leaked_records": null,
-      "incident_count_label": "公開確認ファイル"
     },
     {
       "id": "japan-times-20261016",
@@ -251,6 +126,269 @@
         }
       ],
       "leaked_records": null
+    },
+    {
+      "id": "rizap-rext-20261009",
+      "event_key": null,
+      "event_scope": "",
+      "name": "RIZAP、REXT社らへのランサムウェア攻撃で公開ファイル310件を確認",
+      "sector": "小売・スポーツ用品",
+      "region": "日本",
+      "date": "2026-10-09",
+      "status": "official",
+      "source": "RIZAP株式会社",
+      "issuer": "RIZAP株式会社",
+      "reported_org": "REXT株式会社・REXT Holdings株式会社",
+      "incident_count": 310,
+      "affected_people": 27,
+      "detail": "同社は公開を確認したファイルが310件、約54MBと発表。採用応募者および従業員の個人情報を含むファイルの対象者は27人。暗号化サーバー上の顧客情報は窃取の事実を確認していないが、アクセスを否定できず漏えいのおそれとして扱うとした",
+      "source_url": "https://rizap.co.jp/news/5hSUfKJ_",
+      "official_host": "rizap.co.jp",
+      "last_seen_at": "2026-10-19T12:30:00Z",
+      "updated_at": "2026-10-19T12:30:00Z",
+      "reports": [
+        {
+          "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第4報）",
+          "date": "2026-09-11",
+          "source": "RIZAP株式会社",
+          "issuer": "RIZAP株式会社",
+          "source_url": "https://rizap.co.jp/news/gP13TGSu",
+          "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
+          "official_host": "rizap.co.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        },
+        {
+          "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）",
+          "date": "2026-10-09",
+          "source": "RIZAP株式会社",
+          "issuer": "RIZAP株式会社",
+          "source_url": "https://rizap.co.jp/news/5hSUfKJ_",
+          "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
+          "official_host": "rizap.co.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        }
+      ],
+      "leaked_records": null,
+      "incident_count_label": "公開確認ファイル"
+    },
+    {
+      "id": "ryomo-clients-20261005",
+      "event_key": null,
+      "event_scope": "",
+      "name": "両毛システムズへのランサムウェア攻撃、委託元4組織が情報漏えいの可能性を公表",
+      "sector": "委託先・複数業種",
+      "region": "日本",
+      "date": "2026-10-05",
+      "status": "official",
+      "source": "委託元各組織の公式発表",
+      "issuer": "大東ガス株式会社ほか",
+      "reported_org": "大東ガス・伊勢崎市・名張近鉄ガス・長野都市ガス",
+      "incident_count": 138189,
+      "incident_count_label": "各組織の公表件数の単純合算（概数を含む）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "両毛システムズの社内ネットワークへの不正アクセスについて、伊勢崎市は委託先がランサムウェア攻撃を受けたと発表。委託元4組織は顧客・学習者情報を含むファイル等の漏えい可能性を公表。大東ガス約124,000件、伊勢崎市3,789件、名張近鉄ガス約6,800件、長野都市ガス約3,600件。公表値の単純合算は138,189件（概数を含む）",
+      "source_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
+      "official_host": "www.nagano-toshi-gas.co.jp",
+      "last_seen_at": "2026-10-19T12:30:00Z",
+      "updated_at": "2026-10-19T12:30:00Z",
+      "reports": [
+        {
+          "title": "システムサービス提供事業者へのサイバー攻撃に伴うお客さま情報流出の可能性について",
+          "date": "2026-09-28",
+          "source": "大東ガス株式会社",
+          "issuer": "大東ガス株式会社",
+          "source_url": "https://www.daitogas.co.jp/info/170",
+          "canonical_url": "https://www.daitogas.co.jp/info/170",
+          "official_host": "www.daitogas.co.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        },
+        {
+          "title": "本市委託先への不正アクセスによる情報漏洩の可能性について",
+          "date": "2026-09-28",
+          "source": "伊勢崎市",
+          "issuer": "伊勢崎市",
+          "source_url": "https://www.city.isesaki.lg.jp/soshiki/kyoikubu/shisetsu/23971.html",
+          "canonical_url": "https://www.city.isesaki.lg.jp/soshiki/kyoikubu/shisetsu/23971.html",
+          "official_host": "www.city.isesaki.lg.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        },
+        {
+          "title": "当社委託先のファイルサーバーへの不正アクセスによるお客さま情報漏洩の可能性について",
+          "date": "2026-09-30",
+          "source": "名張近鉄ガス株式会社",
+          "issuer": "名張近鉄ガス株式会社",
+          "source_url": "https://www.kintetsugas.co.jp/news/p_release/260930pr/index.html",
+          "canonical_url": "https://www.kintetsugas.co.jp/news/p_release/260930pr/index.html",
+          "official_host": "www.kintetsugas.co.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        },
+        {
+          "title": "業務委託先企業における「不正アクセスによるお客さま情報流出の可能性」についてのお詫びとお知らせ（第二報）",
+          "date": "2026-10-05",
+          "source": "長野都市ガス株式会社",
+          "issuer": "長野都市ガス株式会社",
+          "source_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
+          "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
+          "official_host": "www.nagano-toshi-gas.co.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "washingtonhotel-20260925",
+      "event_key": null,
+      "event_scope": "",
+      "name": "ワシントンホテル、ランサムウェア被害で従業員情報の漏えい可能性を否定できず",
+      "sector": "ホテル",
+      "region": "日本",
+      "date": "2026-09-25",
+      "status": "official",
+      "source": "ワシントンホテル株式会社",
+      "issuer": "ワシントンホテル株式会社",
+      "reported_org": "ワシントンホテル株式会社",
+      "incident_count": null,
+      "affected_people": null,
+      "detail": "9月7日の最終報では社内サーバーに一部従業員の個人情報が保存されていたと説明。9月25日の発表では情報窃取の痕跡や公開は確認されていない一方、退職者情報の漏えい可能性を完全には否定できないとした。対象人数は公表されていない",
+      "source_url": "https://www.washingtonhotel.co.jp/corporation/news/228/",
+      "official_host": "www.washingtonhotel.co.jp",
+      "last_seen_at": "2026-10-19T12:30:00Z",
+      "updated_at": "2026-10-19T12:30:00Z",
+      "reports": [
+        {
+          "title": "ランサムウェア感染被害に関する調査結果および対応状況のお知らせ（最終報）",
+          "date": "2026-09-07",
+          "source": "ワシントンホテル株式会社",
+          "issuer": "ワシントンホテル株式会社",
+          "source_url": "https://www.washingtonhotel.co.jp/corporation/news/229/",
+          "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/229",
+          "official_host": "www.washingtonhotel.co.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        },
+        {
+          "title": "ランサムウェア感染被害に伴う退職者の皆様の個人情報に関するお知らせ",
+          "date": "2026-09-25",
+          "source": "ワシントンホテル株式会社",
+          "issuer": "ワシントンホテル株式会社",
+          "source_url": "https://www.washingtonhotel.co.jp/corporation/news/228/",
+          "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
+          "official_host": "www.washingtonhotel.co.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        }
+      ],
+      "leaked_records": null
+    },
+    {
+      "id": "nssg-20260911",
+      "event_key": null,
+      "event_scope": "",
+      "name": "日本資産総研、ランサムウェア攻撃で顧客個人データの公開を確認",
+      "sector": "不動産・資産コンサルティング",
+      "region": "日本",
+      "date": "2026-09-11",
+      "status": "official",
+      "source": "株式会社日本資産総研",
+      "issuer": "株式会社日本資産総研",
+      "reported_org": "株式会社日本資産総研",
+      "incident_count": null,
+      "affected_people": null,
+      "detail": "同社はシステムへのランサムウェア攻撃とファイル暗号化を確認。2026年8月26日時点で顧客個人データが攻撃者のリークサイトに公開されたと発表。対象者数は公表されていない",
+      "source_url": "https://www.nssg.co.jp/news/2026/0911-1600.html",
+      "official_host": "www.nssg.co.jp",
+      "last_seen_at": "2026-10-19T12:30:00Z",
+      "updated_at": "2026-10-19T12:30:00Z",
+      "reports": [
+        {
+          "title": "セキュリティインシデントの発生に関するご報告（第4報）",
+          "date": "2026-09-11",
+          "source": "株式会社日本資産総研",
+          "issuer": "株式会社日本資産総研",
+          "source_url": "https://www.nssg.co.jp/news/2026/0911-1600.html",
+          "canonical_url": "https://www.nssg.co.jp/news/2026/0911-1600.html",
+          "official_host": "www.nssg.co.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        }
+      ],
+      "leaked_records": null
+    },
+    {
+      "id": "fivefoxes-20260908",
+      "event_key": null,
+      "event_scope": "",
+      "name": "ファイブフォックス、ランサムウェア感染の可能性を公表後、個人情報73,185件の漏えい可能性を発表",
+      "sector": "小売・アパレル",
+      "region": "日本",
+      "date": "2026-09-08",
+      "status": "official",
+      "source": "株式会社ファイブフォックス",
+      "issuer": "株式会社ファイブフォックス",
+      "reported_org": "株式会社ファイブフォックス・株式会社コムサ",
+      "incident_count": 73185,
+      "incident_count_label": "漏えい可能性のある公表件数（単純合算）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "同社は7月14日に本社サーバーの一部がランサムウェアに感染した可能性を公表。9月8日の第二報で顧客情報59,504件・8,403件、ファイブフォックス従業員情報2,450件、コムサ従業員情報2,828件について漏えいの可能性を発表。公表値の単純合算は73,185件。9月8日時点で不正利用等は確認されていない",
+      "source_url": "https://www.fivefoxes.co.jp/2026/09/post-23.html",
+      "official_host": "www.fivefoxes.co.jp",
+      "last_seen_at": "2026-10-19T12:30:00Z",
+      "updated_at": "2026-10-19T12:30:00Z",
+      "reports": [
+        {
+          "title": "不正アクセスによる個人情報流出の可能性についてのお知らせとお詫び（第二報）",
+          "date": "2026-09-08",
+          "source": "株式会社ファイブフォックス",
+          "issuer": "株式会社ファイブフォックス",
+          "source_url": "https://www.fivefoxes.co.jp/2026/09/post-23.html",
+          "canonical_url": "https://www.fivefoxes.co.jp/2026/09/post-23.html",
+          "official_host": "www.fivefoxes.co.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "musashino-20260907",
+      "event_key": null,
+      "event_scope": "",
+      "name": "武蔵野大学、ランサムウェア被害で複数ファイル流出と一部個人情報を確認",
+      "sector": "教育",
+      "region": "日本",
+      "date": "2026-09-07",
+      "status": "official",
+      "source": "学校法人武蔵野大学",
+      "issuer": "学校法人武蔵野大学",
+      "reported_org": "学校法人武蔵野大学",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "同法人は6月15日に管理サーバーへのサイバー攻撃とランサムウェア感染を確認。9月7日の第二報で共有フォルダ内の複数ファイル流出と、その一部に氏名・住所などの個人情報が含まれることを発表。対象者・項目・件数は調査中",
+      "source_url": "https://ef.musashino-u.ac.jp/news/20260907-8715.html",
+      "official_host": "ef.musashino-u.ac.jp",
+      "last_seen_at": "2026-10-19T12:30:00Z",
+      "updated_at": "2026-10-19T12:30:00Z",
+      "reports": [
+        {
+          "title": "不正アクセスによるシステム障害について（第二報）",
+          "date": "2026-09-07",
+          "source": "学校法人武蔵野大学",
+          "issuer": "学校法人武蔵野大学",
+          "source_url": "https://ef.musashino-u.ac.jp/news/20260907-8715.html",
+          "canonical_url": "https://ef.musashino-u.ac.jp/news/20260907-8715.html",
+          "official_host": "ef.musashino-u.ac.jp",
+          "first_seen_at": "2026-10-19T12:30:00Z",
+          "last_seen_at": "2026-10-19T12:30:00Z"
+        }
+      ]
     }
   ]
 }
