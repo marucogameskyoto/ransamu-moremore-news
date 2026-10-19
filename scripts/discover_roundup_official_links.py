@@ -260,7 +260,7 @@ def summarize_official(body, title=""):
         if not (incident or leak):
             continue
         score = (3 if incident else 0) + (3 if leak else 0)
-        if re.search(r"\\d", sentence):
+        if re.search(r"\d", sentence):
             score += 1
         if any(term in sentence for term in ("確認", "公表", "発表", "可能性", "対象")):
             score += 1
@@ -275,10 +275,10 @@ def summarize_official(body, title=""):
 
 def extract_record_count(body):
     """Return an unambiguous official record count; people counts are excluded."""
-    token = re.compile(r"(?:(?:約|最大|およそ|少なくとも)\\s*)?(\\d[\\d,]*(?:\\.\\d+)?(?:万\\d[\\d,]*(?:\\.\\d+)?)?)\\s*(件|レコード|ファイル)")
+    token = re.compile(r"(?:(?:約|最大|およそ|少なくとも)\s*)?(\d[\d,]*(?:\.\d+)?(?:万\d[\d,]*(?:\.\d+)?)?)\s*(件|レコード|ファイル)")
     record_terms = ("個人情報", "メールアドレス", "会員情報", "情報漏えい", "情報流出", "漏えい", "漏洩", "流出", "レコード", "ファイル", "データ")
     values = set()
-    for sentence in re.split(r"[。！？\\n]", body or ""):
+    for sentence in re.split(r"[。！？\n]", body or ""):
         if not any(term in sentence for term in record_terms) or "人数" in sentence:
             continue
         for found in token.finditer(sentence):
