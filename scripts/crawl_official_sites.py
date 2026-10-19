@@ -79,14 +79,24 @@ class PageParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.links = []
         self.text_parts = []
+        self.content_parts = []
         self.meta = []
         self._anchor = None
         self._title = False
         self._time = False
+        self._main_depth = 0
+        self._article_depth = 0
+        self._suppressed_depth = 0
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         tag = tag.lower()
+        if tag in {"script", "style", "noscript", "svg"}:
+            self._suppressed_depth += 1
+        if tag == "main":
+            self._main_depth += 1
+        elif tag == "article":
+            self._article_depth += 1
         if tag == "a":
             self._anchor = [attrs.get("href", ""), attrs.get("title", ""), []]
         elif tag == "meta":
@@ -102,6 +112,12 @@ class PageParser(HTMLParser):
 
     def handle_endtag(self, tag):
         tag = tag.lower()
+        if tag in {"script", "style", "noscript", "svg"} and self._suppressed_depth:
+            self._suppressed_depth -= 1
+        if tag == "main" and self._main_depth:
+            self._main_depth -= 1
+        elif tag == "article" and self._article_depth:
+            self._article_depth -= 1
         if tag == "a" and self._anchor:
             href, title, parts = self._anchor
             self.links.append((href, clean(" ".join([title] + parts))))
@@ -112,8 +128,12 @@ class PageParser(HTMLParser):
             self._time = False
 
     def handle_data(self, data):
+        if self._suppressed_depth:
+            return
         if data.strip():
             self.text_parts.append(data.strip())
+            if self._main_depth or self._article_depth:
+                self.content_parts.append(data.strip())
         if self._anchor is not None:
             self._anchor[2].append(data)
         if self._title:
@@ -202,7 +222,7 @@ def discover(source):
         page, final_target, skipped = fetch(target, host, robots)
         if skipped or not page:
             continue
-        body = clean(" ".join(page.text_parts))
+        body = clean(" ".join(page.content_parts or page.text_parts))
         title = next((value for key, value in page.meta if key in {"og:title", "twitter:title", "title"} and value), "") or label
         # Only a detail page that itself confirms both an intrusion and a leak
         # enters the public listing.
