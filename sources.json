@@ -154,6 +154,22 @@
       "max_age_days": 3650,
       "max_candidates": 200,
       "delay_seconds_per_host": 1
+    },
+    {
+      "name": "LegalAgent AI 法務ラボ 情報漏えい・サイバー攻撃ニュース",
+      "url": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "region": "日本",
+      "max_age_days": 3650,
+      "max_candidates": 160,
+      "delay_seconds_per_host": 1
+    },
+    {
+      "name": "Gate02 インシデントニュース",
+      "url": "https://www.gate02.ne.jp/lab/incident-news/",
+      "region": "日本",
+      "max_age_days": 3650,
+      "max_candidates": 120,
+      "delay_seconds_per_host": 1
     }
   ],
   "primary_source_labels": [
