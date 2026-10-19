@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T13:22:55.152105+00:00",
+  "updated_at": "2026-10-19T14:00:00+09:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -809,6 +809,227 @@
           "last_seen_at": "2026-10-19T12:30:00Z"
         }
       ]
+    },
+    {
+      "id": "trunk-20260901",
+      "event_key": null,
+      "event_scope": "",
+      "name": "TRUNK、従業員メールへの不正アクセスで個人情報424件（人数）の漏えいを公表",
+      "sector": "宿泊・ホテル",
+      "region": "日本",
+      "date": "2026-09-01",
+      "status": "official",
+      "source": "株式会社TRUNK",
+      "issuer": "株式会社TRUNK",
+      "reported_org": "TRUNK関係者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": 424,
+      "detail": "従業員のメールアカウントへの第三者による不正アクセスを確認し、個人情報の一部が外部に漏えいしたと公表。氏名・住所・メールアドレス・勤務先等、件数（人数）は424件。第三者が同社や従業員になりすました不審メールを送信していた。",
+      "source_url": "https://www.trunk-base.com/company/news/20260901/",
+      "official_host": "www.trunk-base.com",
+      "reports": [
+        {
+          "title": "不正アクセスによる個人情報漏えいのお詫びと当社メールアカウントを用いた不審メールへの注意喚起について",
+          "date": "2026-09-01",
+          "source": "株式会社TRUNK",
+          "issuer": "株式会社TRUNK",
+          "source_url": "https://www.trunk-base.com/company/news/20260901/",
+          "canonical_url": "https://www.trunk-base.com/company/news/20260901/",
+          "official_host": "www.trunk-base.com",
+          "first_seen_at": "2026-10-19T14:00:00+09:00",
+          "last_seen_at": "2026-10-19T14:00:00+09:00"
+        }
+      ],
+      "last_seen_at": "2026-10-19T14:00:00+09:00",
+      "updated_at": "2026-10-19T14:00:00+09:00"
+    },
+    {
+      "id": "mitsuifudosan-20260901",
+      "event_key": null,
+      "event_scope": "",
+      "name": "三井不動産グループ、システム不正アクセスで最大55,000件の情報漏えい可能性",
+      "sector": "不動産",
+      "region": "日本",
+      "date": "2026-09-01",
+      "status": "official",
+      "source": "三井不動産株式会社",
+      "issuer": "三井不動産株式会社",
+      "reported_org": "三井不動産グループ",
+      "incident_count": 55000,
+      "incident_count_label": "漏えい可能性のある情報（2区分の公表最大件数を合算）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "グループが利用する一部システムへの不正アクセスで資格情報が不正利用され、情報の一部が第三者に閲覧された可能性を公表。9月28日第二報で、役職員等最大19,000件、社外関係者最大36,000件、合計最大55,000件を公表。実際に全件が閲覧・取得されたと確認したものではなく、情報流出の事実も確認されていないと説明。",
+      "source_url": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
+      "official_host": "www.mitsuifudosan.co.jp",
+      "reports": [
+        {
+          "title": "不正アクセスによる情報漏えいの可能性について",
+          "date": "2026-09-01",
+          "source": "三井不動産株式会社",
+          "issuer": "三井不動産株式会社",
+          "source_url": "https://www.mitsuifudosan.co.jp/letter/260901/download/260901.pdf",
+          "canonical_url": "https://www.mitsuifudosan.co.jp/letter/260901/download/260901.pdf",
+          "official_host": "www.mitsuifudosan.co.jp",
+          "first_seen_at": "2026-10-19T14:00:00+09:00",
+          "last_seen_at": "2026-10-19T14:00:00+09:00"
+        },
+        {
+          "title": "不正アクセスによる情報漏えいの可能性について（第二報）",
+          "date": "2026-09-28",
+          "source": "三井不動産株式会社",
+          "issuer": "三井不動産株式会社",
+          "source_url": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
+          "canonical_url": "https://www.mitsuifudosan.co.jp/letter/260928/download/260928.pdf",
+          "official_host": "www.mitsuifudosan.co.jp",
+          "first_seen_at": "2026-10-19T14:00:00+09:00",
+          "last_seen_at": "2026-10-19T14:00:00+09:00"
+        }
+      ],
+      "last_seen_at": "2026-10-19T14:00:00+09:00",
+      "updated_at": "2026-10-19T14:00:00+09:00"
+    },
+    {
+      "id": "sakura-sakumirai-20260907",
+      "event_key": null,
+      "event_scope": "",
+      "name": "さくらさくみらい、委託先への不正アクセスでサーバーパスワード流出の可能性",
+      "sector": "保育・教育",
+      "region": "日本",
+      "date": "2026-09-07",
+      "status": "official",
+      "source": "株式会社さくらさくみらい",
+      "issuer": "株式会社さくらさくみらい",
+      "reported_org": "さくらさくみらい",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "委託先が利用するシステムへの不正アクセスに伴い、同社が利用する一部サーバーのパスワード情報が流出した可能性があると公表。対象情報の範囲を調査し、園児・保護者向け保育ICT情報等は委託先サーバーを利用しておらず影響範囲外と説明。",
+      "source_url": "https://www.sakura-39.jp/news/27120",
+      "official_host": "www.sakura-39.jp",
+      "reports": [
+        {
+          "title": "〖重要〗当社が利用する外部サーバーシステムへの不正アクセスに伴う影響と対応に関するお知らせ",
+          "date": "2026-09-07",
+          "source": "株式会社さくらさくみらい",
+          "issuer": "株式会社さくらさくみらい",
+          "source_url": "https://www.sakura-39.jp/news/27120",
+          "canonical_url": "https://www.sakura-39.jp/news/27120",
+          "official_host": "www.sakura-39.jp",
+          "first_seen_at": "2026-10-19T14:00:00+09:00",
+          "last_seen_at": "2026-10-19T14:00:00+09:00"
+        }
+      ],
+      "last_seen_at": "2026-10-19T14:00:00+09:00",
+      "updated_at": "2026-10-19T14:00:00+09:00"
+    },
+    {
+      "id": "science-tokyo-20260907",
+      "event_key": null,
+      "event_scope": "",
+      "name": "東京科学大学、情報基盤への不正アクセスで個人情報漏えいの疑い",
+      "sector": "教育・研究",
+      "region": "日本",
+      "date": "2026-09-07",
+      "status": "official",
+      "source": "国立大学法人東京科学大学",
+      "issuer": "国立大学法人東京科学大学",
+      "reported_org": "東京科学大学の学生・教職員等",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "情報基盤への第三者による不正アクセスを受け、個人情報漏えいの疑いがあると公表。対象は大学および統合前の旧東京工業大学・旧東京医科歯科大学の学生・教職員などの氏名・住所・メールアドレスを含む情報。影響範囲・詳細は調査中。",
+      "source_url": "https://www.isct.ac.jp/ja/news/mrep3c3mj6bx",
+      "official_host": "www.isct.ac.jp",
+      "reports": [
+        {
+          "title": "情報基盤への不正アクセスによる個人情報漏えいの疑いについて（第一報）",
+          "date": "2026-09-07",
+          "source": "国立大学法人東京科学大学",
+          "issuer": "国立大学法人東京科学大学",
+          "source_url": "https://www.isct.ac.jp/ja/news/mrep3c3mj6bx",
+          "canonical_url": "https://www.isct.ac.jp/ja/news/mrep3c3mj6bx",
+          "official_host": "www.isct.ac.jp",
+          "first_seen_at": "2026-10-19T14:00:00+09:00",
+          "last_seen_at": "2026-10-19T14:00:00+09:00"
+        }
+      ],
+      "last_seen_at": "2026-10-19T14:00:00+09:00",
+      "updated_at": "2026-10-19T14:00:00+09:00"
+    },
+    {
+      "id": "fusodentsu-20260910",
+      "event_key": null,
+      "event_scope": "",
+      "name": "扶桑電通、クラウドストレージへの不正アクセスで個人情報26,489件の漏えい可能性",
+      "sector": "情報通信",
+      "region": "日本",
+      "date": "2026-09-10",
+      "status": "official",
+      "source": "扶桑電通株式会社",
+      "issuer": "扶桑電通株式会社",
+      "reported_org": "取引先の顧客・担当者",
+      "incident_count": 26489,
+      "incident_count_label": "漏えい可能性のある個人情報",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "社外関係者との情報共有に利用していたクラウドストレージの共有フォルダへの不正アクセスを公表。第三者による認証情報の不正利用を確認。フォルダ内に個人情報を含むファイルがあり、取引先の顧客・担当者の氏名、住所、電話番号計26,489件が漏えいした可能性があると発表。",
+      "source_url": "https://www.fusodentsu.co.jp/news/news_cp_20260910.html",
+      "official_host": "www.fusodentsu.co.jp",
+      "reports": [
+        {
+          "title": "当社が利用するクラウドストレージへの不正アクセスについて（第2報）",
+          "date": "2026-09-10",
+          "source": "扶桑電通株式会社",
+          "issuer": "扶桑電通株式会社",
+          "source_url": "https://www.fusodentsu.co.jp/news/news_cp_20260910.html",
+          "canonical_url": "https://www.fusodentsu.co.jp/news/news_cp_20260910.html",
+          "official_host": "www.fusodentsu.co.jp",
+          "first_seen_at": "2026-10-19T14:00:00+09:00",
+          "last_seen_at": "2026-10-19T14:00:00+09:00"
+        }
+      ],
+      "last_seen_at": "2026-10-19T14:00:00+09:00",
+      "updated_at": "2026-10-19T14:00:00+09:00"
+    },
+    {
+      "id": "applynow-20261009",
+      "event_key": null,
+      "event_scope": "",
+      "name": "ApplyNow、採用管理サービスへの不正アクセスで約39万人分の個人データ漏えいを確認",
+      "sector": "IT・採用サービス",
+      "region": "日本",
+      "date": "2026-10-09",
+      "status": "official",
+      "source": "株式会社ApplyNow",
+      "issuer": "株式会社ApplyNow",
+      "reported_org": "Interview Cloud・ApplyNow・ApplyNow Signの利用者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": 390000,
+      "detail": "採用管理プラットフォームへの不正アクセスについて、10月9日の更新で個人データの漏えいを確認したと公表。対象データ件数は約39万人（うちApplyNow Sign利用者は約3万人）で、外部機関による調査で引き続き確認中。一部データには生年月日、性別、住所、職業が含まれる。",
+      "source_url": "https://applynow.co.jp/news/20260909",
+      "official_host": "applynow.co.jp",
+      "reports": [
+        {
+          "title": "当社サービスをご利用いただいているお客様への重要なお知らせとお詫び（10月9日更新）",
+          "date": "2026-10-09",
+          "source": "株式会社ApplyNow",
+          "issuer": "株式会社ApplyNow",
+          "source_url": "https://applynow.co.jp/news/20260909",
+          "canonical_url": "https://applynow.co.jp/news/20260909",
+          "official_host": "applynow.co.jp",
+          "first_seen_at": "2026-10-19T14:00:00+09:00",
+          "last_seen_at": "2026-10-19T14:00:00+09:00"
+        }
+      ],
+      "last_seen_at": "2026-10-19T14:00:00+09:00",
+      "updated_at": "2026-10-19T14:00:00+09:00"
     }
   ],
   "discovery_summary": {
