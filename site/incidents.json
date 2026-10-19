@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T13:30:15.607704+00:00",
+  "updated_at": "2026-10-19T22:31:00+09:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -1030,6 +1030,181 @@
           "official_host": "ef.musashino-u.ac.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
           "last_seen_at": "2026-10-19T12:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "digital-agency-gss-20260911",
+      "event_key": null,
+      "event_scope": "",
+      "name": "デジタル庁、GSSへの不正アクセスで約24.6万件の個人情報漏えい可能性",
+      "sector": "行政・公共",
+      "region": "日本",
+      "date": "2026-09-11",
+      "status": "official",
+      "source": "デジタル庁",
+      "issuer": "デジタル庁",
+      "reported_org": "GSS利用機関の職員・業務関係者",
+      "incident_count": 246000,
+      "incident_count_label": "漏えい可能性のある個人情報（約24.6万件）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "GSSの保守運用担当者アカウントを利用したサーバーへの不正アクセスを公表。漏えいした可能性のある個人情報は約24.6万件で、氏名・メールアドレス・電話番号・住所等を含む。内訳は職員・公務員等約18.9万件、業務に携わった事業者・個人約5.7万件。属性別件数は重複があるため合算していない。",
+      "source_url": "https://www.digital.go.jp/news/2026-0911-01",
+      "official_host": "www.digital.go.jp",
+      "last_seen_at": "2026-10-19T22:31:00+09:00",
+      "updated_at": "2026-10-19T22:31:00+09:00",
+      "reports": [
+        {
+          "title": "ガバメントソリューションサービスへの不正アクセスによる職員等の個人情報の漏えいの可能性について",
+          "date": "2026-09-11",
+          "source": "デジタル庁",
+          "issuer": "デジタル庁",
+          "source_url": "https://www.digital.go.jp/news/2026-0911-01",
+          "canonical_url": "https://www.digital.go.jp/news/2026-0911-01",
+          "official_host": "www.digital.go.jp",
+          "first_seen_at": "2026-10-19T22:31:00+09:00",
+          "last_seen_at": "2026-10-19T22:31:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "gmo-infoq-20261014",
+      "event_key": null,
+      "event_scope": "",
+      "name": "GMOリサーチ&AI、infoQへの不正アクセスで個人情報894,082件の持ち出しを確認",
+      "sector": "IT・アンケートサービス",
+      "region": "日本",
+      "date": "2026-10-14",
+      "status": "official",
+      "source": "GMOリサーチ&AI株式会社",
+      "issuer": "GMOリサーチ&AI株式会社",
+      "reported_org": "infoQ会員",
+      "incident_count": 894082,
+      "incident_count_label": "外部に持ち出された個人情報（確定件数）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "infoQサーバーへの不正アクセスを受け、会員情報が外部に持ち出されたことを確認。10月14日の第二報で個人情報の持ち出しを894,082件と確定。第一報の最大948,498件から調査後に確定した数値。",
+      "source_url": "https://gmo-research.ai/pressroom/notice/notice-20261014",
+      "official_host": "gmo-research.ai",
+      "last_seen_at": "2026-10-19T22:31:00+09:00",
+      "updated_at": "2026-10-19T22:31:00+09:00",
+      "reports": [
+        {
+          "title": "当社が運営するアンケートサイト「infoQ」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第2報）",
+          "date": "2026-10-14",
+          "source": "GMOリサーチ&AI株式会社",
+          "issuer": "GMOリサーチ&AI株式会社",
+          "source_url": "https://gmo-research.ai/pressroom/notice/notice-20261014",
+          "canonical_url": "https://gmo-research.ai/pressroom/notice/notice-20261014",
+          "official_host": "gmo-research.ai",
+          "first_seen_at": "2026-10-19T22:31:00+09:00",
+          "last_seen_at": "2026-10-19T22:31:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "daiichilife-hr-20261002",
+      "event_key": null,
+      "event_scope": "",
+      "name": "第一ライフグループ・第一生命、従業員向け人事システムへの不正アクセスで約12万人分の情報流出可能性",
+      "sector": "金融・保険",
+      "region": "日本",
+      "date": "2026-10-02",
+      "status": "official",
+      "source": "株式会社第一ライフグループ・第一生命保険株式会社",
+      "issuer": "株式会社第一ライフグループ・第一生命保険株式会社",
+      "reported_org": "両社の従業員・退職者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": 120000,
+      "detail": "両社が利用する従業員向け人事システムへの不正アクセスを検知し、従業員および退職者の個人情報が閲覧され、外部へ流出した可能性を公表。対象者数は約12万人（従業員約5万人、退職者約7万人）。",
+      "source_url": "https://www.dai-ichi-life.co.jp/information/pdf/index_192.pdf",
+      "official_host": "www.dai-ichi-life.co.jp",
+      "last_seen_at": "2026-10-19T22:31:00+09:00",
+      "updated_at": "2026-10-19T22:31:00+09:00",
+      "reports": [
+        {
+          "title": "退職された皆さまへのお知らせ　当社の従業員向け人事システムへの不正アクセスについて",
+          "date": "2026-10-02",
+          "source": "株式会社第一ライフグループ・第一生命保険株式会社",
+          "issuer": "株式会社第一ライフグループ・第一生命保険株式会社",
+          "source_url": "https://www.dai-ichi-life.co.jp/information/pdf/index_192.pdf",
+          "canonical_url": "https://www.dai-ichi-life.co.jp/information/pdf/index_192.pdf",
+          "official_host": "www.dai-ichi-life.co.jp",
+          "first_seen_at": "2026-10-19T22:31:00+09:00",
+          "last_seen_at": "2026-10-19T22:31:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "sagawa-tracking-20261001",
+      "event_key": null,
+      "event_scope": "",
+      "name": "佐川急便、荷物問い合わせサービスへの不正アクセスで個人情報流出の可能性",
+      "sector": "運輸・物流",
+      "region": "日本",
+      "date": "2026-10-01",
+      "status": "official",
+      "source": "佐川急便株式会社",
+      "issuer": "佐川急便株式会社",
+      "reported_org": "荷物問い合わせサービス利用者・荷主等",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "「お荷物問い合わせサービス（インターネット貨物システム）」への第三者による不正アクセスにより、個人情報が外部に流出した可能性を公表。10月9日時点で対象件数・範囲を調査中としており、件数は未公表。",
+      "source_url": "https://www2.sagawa-exp.co.jp/information/detail/420/",
+      "official_host": "www2.sagawa-exp.co.jp",
+      "last_seen_at": "2026-10-19T22:31:00+09:00",
+      "updated_at": "2026-10-19T22:31:00+09:00",
+      "reports": [
+        {
+          "title": "「お荷物問い合わせサービス」への不正アクセスによる個人情報流出の可能性について（第2報）",
+          "date": "2026-10-01",
+          "source": "佐川急便株式会社",
+          "issuer": "佐川急便株式会社",
+          "source_url": "https://www2.sagawa-exp.co.jp/information/detail/420/",
+          "canonical_url": "https://www2.sagawa-exp.co.jp/information/detail/420/",
+          "official_host": "www2.sagawa-exp.co.jp",
+          "first_seen_at": "2026-10-19T22:31:00+09:00",
+          "last_seen_at": "2026-10-19T22:31:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "monogatari-yakiniku-king-20261005",
+      "event_key": null,
+      "event_scope": "",
+      "name": "物語コーポレーション、焼肉きんぐ公式アプリへの不正アクセスで10,788,963件の会員情報漏えいを確認",
+      "sector": "外食・会員サービス",
+      "region": "日本",
+      "date": "2026-10-05",
+      "status": "official",
+      "source": "株式会社物語コーポレーション",
+      "issuer": "株式会社物語コーポレーション",
+      "reported_org": "焼肉きんぐ公式アプリ会員",
+      "incident_count": 10788963,
+      "incident_count_label": "漏えいした会員情報（件）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "焼肉きんぐ公式アプリ会員管理システムへの不正アクセスにより、会員情報が漏えいしたと公表。ユーザー登録数10,808,784件のうち、漏えいした件数は10,788,963件。会員番号、登録名、メールアドレス、電話番号を含む。",
+      "source_url": "https://www.monogatari.co.jp/news/261005_news/",
+      "official_host": "www.monogatari.co.jp",
+      "last_seen_at": "2026-10-19T22:31:00+09:00",
+      "updated_at": "2026-10-19T22:31:00+09:00",
+      "reports": [
+        {
+          "title": "『焼肉きんぐ』公式アプリ 会員管理システムへの第三者からの不正アクセスによる個人情報漏えいに関するお詫び",
+          "date": "2026-10-05",
+          "source": "株式会社物語コーポレーション",
+          "issuer": "株式会社物語コーポレーション",
+          "source_url": "https://www.monogatari.co.jp/news/261005_news/",
+          "canonical_url": "https://www.monogatari.co.jp/news/261005_news/",
+          "official_host": "www.monogatari.co.jp",
+          "first_seen_at": "2026-10-19T22:31:00+09:00",
+          "last_seen_at": "2026-10-19T22:31:00+09:00"
         }
       ]
     }
