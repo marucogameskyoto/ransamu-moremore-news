@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-10-19T12:07:52Z",
+  "updated_at": "2026-10-19T12:19:28Z",
   "demo": false,
-  "automation": "official-rss-headlines",
-  "incidents": []
+  "automation": "official-rss-events",
+  "incidents": [
+    {
+      "id": "adv-202208-ransomware",
+      "event_key": null,
+      "event_scope": "",
+      "name": "Advancedのランサムウェア事案、79,404人分の個人情報が持ち出されたと英ICOが発表",
+      "sector": "IT・医療ケア",
+      "region": "英国",
+      "date": "2025-03-27",
+      "status": "official",
+      "source": "英国情報コミッショナー局（ICO）",
+      "issuer": "英国情報コミッショナー局（ICO）",
+      "reported_org": "Advanced Computer Software Group Ltd（Advanced）",
+      "incident_count": null,
+      "affected_people": 79404,
+      "detail": "英国ICOは、Advancedの子会社で2022年8月に発生したランサムウェア事案について、79,404人分の個人情報が持ち出されたと発表。うち890人は在宅ケアを受けており、住居への立入りに関する情報が含まれていた。ICOは同社に3,076,320ポンドの制裁金を科した。",
+      "source_url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/03/software-provider-fined-3m-following-2022-ransomware-attack/",
+      "official_host": "ico.org.uk",
+      "last_seen_at": "2026-10-19T12:19:28Z",
+      "updated_at": "2026-10-19T12:19:28Z",
+      "reports": [
+        {
+          "title": "Software provider fined £3m following 2022 ransomware attack",
+          "date": "2025-03-27",
+          "source": "英国情報コミッショナー局（ICO）",
+          "issuer": "英国情報コミッショナー局（ICO）",
+          "source_url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/03/software-provider-fined-3m-following-2022-ransomware-attack/",
+          "canonical_url": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2025/03/software-provider-fined-3m-following-2022-ransomware-attack",
+          "official_host": "ico.org.uk",
+          "first_seen_at": "2026-10-19T12:19:28Z",
+          "last_seen_at": "2026-10-19T12:19:28Z"
+        }
+      ]
+    }
+  ]
 }
+
+
