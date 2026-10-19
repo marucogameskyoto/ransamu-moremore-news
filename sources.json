@@ -31,7 +31,7 @@
     "データ流出"
   ],
   "max_age_days": 45,
-  "max_items": 200,
+  "max_items": 1000,
   "match_groups": {
     "incident": [
       "ransomware",
@@ -129,5 +129,37 @@
       "max_candidates": 25
     }
   ],
-  "history_days": 3650
+  "history_days": 3650,
+  "roundup_sources": [
+    {
+      "name": "SmartScope 情報漏洩・不正アクセス一覧",
+      "url": "https://smartscope.blog/blog/japan-data-breach-list-tier-2026-09-10/",
+      "region": "日本",
+      "max_age_days": 3650,
+      "max_candidates": 500,
+      "delay_seconds_per_host": 1
+    },
+    {
+      "name": "Rocket Boys 情報漏えい事案まとめ",
+      "url": "https://rocket-boys.co.jp/security-measures-lab/2026-09-data-breach-cases-summary/",
+      "region": "日本",
+      "max_age_days": 3650,
+      "max_candidates": 300,
+      "delay_seconds_per_host": 1
+    },
+    {
+      "name": "Unitis 情報漏えい事案まとめ",
+      "url": "https://unitis.jp/articles/24616/",
+      "region": "日本",
+      "max_age_days": 3650,
+      "max_candidates": 200,
+      "delay_seconds_per_host": 1
+    }
+  ],
+  "primary_source_labels": [
+    "原文",
+    "公式発表",
+    "公式サイト",
+    "公表文"
+  ]
 }
