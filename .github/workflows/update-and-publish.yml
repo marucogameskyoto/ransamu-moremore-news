@@ -8,7 +8,7 @@ on:
     - cron: "0 22,3,9,14 * * *" # 07:00, 12:00, 18:00, 23:00 JST daily
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -33,6 +33,19 @@ jobs:
         run: python scripts/update_feed.py
       - name: Crawl allowlisted official disclosure pages
         run: python scripts/crawl_official_sites.py
+      - name: Discover leads and verify official disclosures
+        run: python scripts/discover_roundup_official_links.py
+      - name: Persist collected incident records
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/incidents.json
+          if git diff --cached --quiet; then
+            echo "No incident data changes to persist."
+          else
+            git commit -m "Update official incident digest"
+            git push
+          fi
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
