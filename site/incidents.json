@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T16:33:59+00:00",
+  "updated_at": "2026-10-19T16:38:19.287849+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -180,6 +180,356 @@
           "official_host": "www.digital.go.jp",
           "first_seen_at": "2026-10-19T22:31:00+09:00",
           "last_seen_at": "2026-10-19T22:31:00+09:00"
+        }
+      ]
+    },
+    {
+      "id": "entatch-toho-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "東邦ホールディングス子会社エンタッチ、ランサムウェア攻撃による情報漏えいを公表",
+      "sector": "医療・医薬品",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "東邦ホールディングス株式会社（子会社：エンタッチ株式会社）",
+      "issuer": "東邦ホールディングス株式会社（子会社：エンタッチ株式会社）",
+      "reported_org": "医療従事者・サービス利用者等",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "エンタッチが管理するデータベースから10月13日に情報が外部へ漏えいしたことが発覚。ランサムウェア攻撃を行う第三者による不正アクセスが原因と公表。医療従事者やユーザー等の情報が対象で、件数と詳細範囲は調査中です。",
+      "source_url": "https://www.release.tdnet.info/inbs/140120261019553091.pdf",
+      "official_host": "www.release.tdnet.info",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "当社子会社における不正アクセスおよび情報漏洩に関するお知らせ",
+          "date": "2026-10-19",
+          "source": "東邦ホールディングス株式会社（子会社：エンタッチ株式会社）",
+          "issuer": "東邦ホールディングス株式会社（子会社：エンタッチ株式会社）",
+          "source_url": "https://www.release.tdnet.info/inbs/140120261019553091.pdf",
+          "canonical_url": "https://www.release.tdnet.info/inbs/140120261019553091.pdf",
+          "official_host": "www.release.tdnet.info",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "hachimuni-bank-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "八十二長野銀行、職員メールへの不正アクセスで個人情報34名などの漏えい可能性を公表",
+      "sector": "金融・保険",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "株式会社八十二長野銀行",
+      "issuer": "株式会社八十二長野銀行",
+      "reported_org": "個人・法人取引先・関係機関",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": 34,
+      "detail": "10月7日に職員1名のメールアカウントが不正アクセスを受けた事案の第2報。第三者に閲覧されたメールを調査し、個人34名、法人取引先627社、その他関係機関11機関に関する情報の漏えい可能性を公表。各区分は単位が異なるため合算せず、個人情報の件数合計は公表されていません。",
+      "source_url": "https://bank.82group.jp/file.jsp?id=release/2026/pdf/news20261019.pdf",
+      "official_host": "bank.82group.jp",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによるお客さま情報漏えいのお詫びとご報告（第2報）",
+          "date": "2026-10-19",
+          "source": "株式会社八十二長野銀行",
+          "issuer": "株式会社八十二長野銀行",
+          "source_url": "https://bank.82group.jp/file.jsp?id=release/2026/pdf/news20261019.pdf",
+          "canonical_url": "https://bank.82group.jp/file.jsp?id=release/2026/pdf/news20261019.pdf",
+          "official_host": "bank.82group.jp",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "yumirlink-mail-service-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "ユミルリンク、メール配信サービスへの不正アクセスで延べ約900万件のデータ出力を確認",
+      "sector": "IT・メール配信",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "ユミルリンク株式会社",
+      "issuer": "ユミルリンク株式会社",
+      "reported_org": "メール配信サービス利用者等",
+      "incident_count": 9000000,
+      "incident_count_label": "5システムから出力された情報（延べ件数）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "メール配信サービスの一部システムに不正アクセスがあり、個人情報が外部に持ち出されたことを確認。5システムからメールアドレスを含む情報が延べ約900万件出力されたと試算。出力データの詳細は調査中で、延べ件数は一意の人数を示すものではありません。",
+      "source_url": "https://www.release.tdnet.info/inbs/140120261019553124.pdf",
+      "official_host": "www.release.tdnet.info",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "当社システムへの不正なアクセスに関するご報告（第一報）",
+          "date": "2026-10-19",
+          "source": "ユミルリンク株式会社",
+          "issuer": "ユミルリンク株式会社",
+          "source_url": "https://www.release.tdnet.info/inbs/140120261019553124.pdf",
+          "canonical_url": "https://www.release.tdnet.info/inbs/140120261019553124.pdf",
+          "official_host": "www.release.tdnet.info",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "papilles-renta-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "パピレス、電子書籍サイト「Renta!」サーバーへの不正アクセスの可能性を公表",
+      "sector": "IT・電子書籍",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "株式会社パピレス",
+      "issuer": "株式会社パピレス",
+      "reported_org": "Renta!利用者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "10月18日、電子書籍販売サイト「Renta!」のサーバーに外部から不正アクセスがあった可能性を把握し、サービスを一時停止。公表時点で詳細調査中で、情報漏えいの有無・対象件数は公表されていません。",
+      "source_url": "https://www.release.tdnet.info/inbs/140120261019552777.pdf",
+      "official_host": "www.release.tdnet.info",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "当社が運営する電子書籍販売サイト「Renta！」のサービス一時停止に関するお知らせ",
+          "date": "2026-10-19",
+          "source": "株式会社パピレス",
+          "issuer": "株式会社パピレス",
+          "source_url": "https://www.release.tdnet.info/inbs/140120261019552777.pdf",
+          "canonical_url": "https://www.release.tdnet.info/inbs/140120261019552777.pdf",
+          "official_host": "www.release.tdnet.info",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "nifty-application-system-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "ニフティ、回線申込・受付管理システムへの不正アクセスで最大542,513件の漏えい可能性",
+      "sector": "通信・インターネット",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "ニフティ株式会社",
+      "issuer": "ニフティ株式会社",
+      "reported_org": "＠nifty光等の申込者",
+      "incident_count": 542513,
+      "incident_count_label": "漏えい可能性がある情報（最大件数）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "回線申込・受付管理システムへの不正アクセスを10月19日に確認。2019年以降の対象サービス申込者の会員ID、氏名等、最大542,513件の情報が漏えいした可能性があると公表。漏えい情報は調査中。",
+      "source_url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
+      "official_host": "www.nifty.co.jp",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "【第一報】当社回線申込・受付管理システムへの不正アクセスの発生について",
+          "date": "2026-10-19",
+          "source": "ニフティ株式会社",
+          "issuer": "ニフティ株式会社",
+          "source_url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
+          "canonical_url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
+          "official_host": "www.nifty.co.jp",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "trustbank-furusato-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "トラストバンク、「ふるさとチョイス」で不正アクセスの疑いを検知",
+      "sector": "IT・ふるさと納税",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "株式会社トラストバンク",
+      "issuer": "株式会社トラストバンク",
+      "reported_org": "ふるさとチョイス利用者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "「ふるさとチョイス」で不正アクセスの疑いがある事象を検知し、関連サービスを一時停止して調査中と公表。事実関係・影響範囲および件数は公表時点で未確定です。",
+      "source_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
+      "official_host": "www.trustbank.co.jp",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスの疑いに伴うサービス一時停止のお知らせ",
+          "date": "2026-10-19",
+          "source": "株式会社トラストバンク",
+          "issuer": "株式会社トラストバンク",
+          "source_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
+          "canonical_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
+          "official_host": "www.trustbank.co.jp",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "arcadia-speecan-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "アルカディア、SpeeCAN等への不正アクセスによる個人情報漏えい可能性を更新",
+      "sector": "IT・自治体向けシステム",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "株式会社アルカディア",
+      "issuer": "株式会社アルカディア",
+      "reported_org": "SpeeCAN RAIDEN等の利用者",
+      "incident_count": 3136000,
+      "incident_count_label": "メールアドレスの漏えい可能性（約313.6万件、推定）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "10月19日の第12報。10月11日に不正アクセスが疑われる挙動を確認した事案について、複数サービスの個人情報漏えい可能性と調査・対応状況を更新。公表値にはメールアドレス約3,136,000件など複数の項目別推定値があり、項目間・サービス間の重複を除いた合計人数は公表されていません。",
+      "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+      "official_host": "raiden.site.ktaiwork.jp",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "弊社サービスへの不正アクセスに伴う一連の対応について（10月19日 第12報）",
+          "date": "2026-10-19",
+          "source": "株式会社アルカディア",
+          "issuer": "株式会社アルカディア",
+          "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "canonical_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "official_host": "raiden.site.ktaiwork.jp",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "joshin-network-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "Joshin、社内ネットワークへの不正アクセスで情報流出の有無を調査",
+      "sector": "小売・家電",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "株式会社Joshin",
+      "issuer": "株式会社Joshin",
+      "reported_org": "顧客・関係者情報",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "10月16日にネットワークへの不正アクセスを認識。一部サービスが停止し、個人情報等の情報流出の有無を調査中。個人情報漏えいの可能性は否定できないとしており、対象件数は公表されていません。",
+      "source_url": "https://www.joshin.co.jp/ja/ir/news/auto_20261019552813/pdfFile.pdf",
+      "official_host": "www.joshin.co.jp",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによるシステム障害発生のお詫びとお知らせ",
+          "date": "2026-10-19",
+          "source": "株式会社Joshin",
+          "issuer": "株式会社Joshin",
+          "source_url": "https://www.joshin.co.jp/ja/ir/news/auto_20261019552813/pdfFile.pdf",
+          "canonical_url": "https://www.joshin.co.jp/ja/ir/news/auto_20261019552813/pdfFile.pdf",
+          "official_host": "www.joshin.co.jp",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "h2o-hankyu-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "H2Oリテイリング・阪急阪神百貨店、H2O ID約126万件の個人情報の一部漏えいを公表",
+      "sector": "小売・百貨店",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "エイチ・ツー・オー リテイリング株式会社・株式会社阪急阪神百貨店",
+      "issuer": "エイチ・ツー・オー リテイリング株式会社・株式会社阪急阪神百貨店",
+      "reported_org": "H2O ID会員",
+      "incident_count": 1260000,
+      "incident_count_label": "対象H2O ID会員（約126万件、一部情報が漏えい）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "予約サイト経由の顧客管理システムへの不正アクセスを10月16日に確認。10月17日にはHANKYU HANSHIN E-STORESとRemo Orderでも確認。10月19日、H2O ID会員約126万件の個人情報の一部が漏えいしたと公表。注文履歴等の影響は調査中。",
+      "source_url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
+      "official_host": "data.swcms.net",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "第三者による不正アクセス発生と個人情報漏えいに関するお詫びとお知らせ",
+          "date": "2026-10-19",
+          "source": "エイチ・ツー・オー リテイリング株式会社・株式会社阪急阪神百貨店",
+          "issuer": "エイチ・ツー・オー リテイリング株式会社・株式会社阪急阪神百貨店",
+          "source_url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
+          "canonical_url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
+          "official_host": "data.swcms.net",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ]
+    },
+    {
+      "id": "jfa-passport-20261018",
+      "event_key": null,
+      "event_scope": "",
+      "name": "日本サッカー協会、JFA Passportへの不正アクセスで利用者情報への影響を調査",
+      "sector": "スポーツ・団体",
+      "region": "日本",
+      "date": "2026-10-18",
+      "status": "official",
+      "source": "公益財団法人日本サッカー協会",
+      "issuer": "公益財団法人日本サッカー協会",
+      "reported_org": "JFA Passport利用者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "JFA公式アプリ「JFA Passport」に第三者による不正アクセスが発生。発生時間は10月17日3時25分頃から19時頃まで。個人情報を含む利用者情報への影響範囲は調査中で、件数は公表されていません。",
+      "source_url": "https://www.jfa.jp/about_jfa/news/00036934/",
+      "official_host": "www.jfa.jp",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "JFA公式アプリ「JFA Passport」への不正アクセスについて",
+          "date": "2026-10-18",
+          "source": "公益財団法人日本サッカー協会",
+          "issuer": "公益財団法人日本サッカー協会",
+          "source_url": "https://www.jfa.jp/about_jfa/news/00036934/",
+          "canonical_url": "https://www.jfa.jp/about_jfa/news/00036934/",
+          "official_host": "www.jfa.jp",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
         }
       ]
     },
@@ -418,7 +768,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-19T15:12:27.492415+00:00"
+          "last_seen_at": "2026-10-19T16:37:50.281300+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -848,7 +1198,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T15:12:27.492415+00:00"
+          "last_seen_at": "2026-10-19T16:37:50.281300+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -859,7 +1209,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T15:12:27.492415+00:00"
+          "last_seen_at": "2026-10-19T16:37:50.281300+00:00"
         }
       ],
       "leaked_records": null
@@ -972,7 +1322,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T15:12:27.492415+00:00"
+          "last_seen_at": "2026-10-19T16:37:50.281300+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -983,7 +1333,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T15:12:27.492415+00:00"
+          "last_seen_at": "2026-10-19T16:37:50.281300+00:00"
         }
       ],
       "leaked_records": null,
@@ -1053,7 +1403,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T15:12:27.492415+00:00"
+          "last_seen_at": "2026-10-19T16:37:50.281300+00:00"
         }
       ]
     },
@@ -1097,7 +1447,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T15:12:27.492415+00:00"
+          "last_seen_at": "2026-10-19T16:37:50.281300+00:00"
         }
       ],
       "leaked_records": null
@@ -1203,356 +1553,6 @@
           "official_host": "ef.musashino-u.ac.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
           "last_seen_at": "2026-10-19T12:30:00Z"
-        }
-      ]
-    },
-    {
-      "id": "jfa-passport-20261018",
-      "event_key": null,
-      "event_scope": "",
-      "name": "日本サッカー協会、JFA Passportへの不正アクセスで利用者情報への影響を調査",
-      "sector": "スポーツ・団体",
-      "region": "日本",
-      "date": "2026-10-18",
-      "status": "official",
-      "source": "公益財団法人日本サッカー協会",
-      "issuer": "公益財団法人日本サッカー協会",
-      "reported_org": "JFA Passport利用者",
-      "incident_count": null,
-      "incident_count_label": null,
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "JFA公式アプリ「JFA Passport」に第三者による不正アクセスが発生。発生時間は10月17日3時25分頃から19時頃まで。個人情報を含む利用者情報への影響範囲は調査中で、件数は公表されていません。",
-      "source_url": "https://www.jfa.jp/about_jfa/news/00036934/",
-      "official_host": "www.jfa.jp",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "JFA公式アプリ「JFA Passport」への不正アクセスについて",
-          "date": "2026-10-18",
-          "source": "公益財団法人日本サッカー協会",
-          "issuer": "公益財団法人日本サッカー協会",
-          "source_url": "https://www.jfa.jp/about_jfa/news/00036934/",
-          "canonical_url": "https://www.jfa.jp/about_jfa/news/00036934/",
-          "official_host": "www.jfa.jp",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        }
-      ]
-    },
-    {
-      "id": "h2o-hankyu-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "H2Oリテイリング・阪急阪神百貨店、H2O ID約126万件の個人情報の一部漏えいを公表",
-      "sector": "小売・百貨店",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "エイチ・ツー・オー リテイリング株式会社・株式会社阪急阪神百貨店",
-      "issuer": "エイチ・ツー・オー リテイリング株式会社・株式会社阪急阪神百貨店",
-      "reported_org": "H2O ID会員",
-      "incident_count": 1260000,
-      "incident_count_label": "対象H2O ID会員（約126万件、一部情報が漏えい）",
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "予約サイト経由の顧客管理システムへの不正アクセスを10月16日に確認。10月17日にはHANKYU HANSHIN E-STORESとRemo Orderでも確認。10月19日、H2O ID会員約126万件の個人情報の一部が漏えいしたと公表。注文履歴等の影響は調査中。",
-      "source_url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
-      "official_host": "data.swcms.net",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "第三者による不正アクセス発生と個人情報漏えいに関するお詫びとお知らせ",
-          "date": "2026-10-19",
-          "source": "エイチ・ツー・オー リテイリング株式会社・株式会社阪急阪神百貨店",
-          "issuer": "エイチ・ツー・オー リテイリング株式会社・株式会社阪急阪神百貨店",
-          "source_url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
-          "canonical_url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
-          "official_host": "data.swcms.net",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        }
-      ]
-    },
-    {
-      "id": "nifty-application-system-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "ニフティ、回線申込・受付管理システムへの不正アクセスで最大542,513件の漏えい可能性",
-      "sector": "通信・インターネット",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "ニフティ株式会社",
-      "issuer": "ニフティ株式会社",
-      "reported_org": "＠nifty光等の申込者",
-      "incident_count": 542513,
-      "incident_count_label": "漏えい可能性がある情報（最大件数）",
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "回線申込・受付管理システムへの不正アクセスを10月19日に確認。2019年以降の対象サービス申込者の会員ID、氏名等、最大542,513件の情報が漏えいした可能性があると公表。漏えい情報は調査中。",
-      "source_url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
-      "official_host": "www.nifty.co.jp",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "【第一報】当社回線申込・受付管理システムへの不正アクセスの発生について",
-          "date": "2026-10-19",
-          "source": "ニフティ株式会社",
-          "issuer": "ニフティ株式会社",
-          "source_url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
-          "canonical_url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
-          "official_host": "www.nifty.co.jp",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        }
-      ]
-    },
-    {
-      "id": "yumirlink-mail-service-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "ユミルリンク、メール配信サービスへの不正アクセスで延べ約900万件のデータ出力を確認",
-      "sector": "IT・メール配信",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "ユミルリンク株式会社",
-      "issuer": "ユミルリンク株式会社",
-      "reported_org": "メール配信サービス利用者等",
-      "incident_count": 9000000,
-      "incident_count_label": "5システムから出力された情報（延べ件数）",
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "メール配信サービスの一部システムに不正アクセスがあり、個人情報が外部に持ち出されたことを確認。5システムからメールアドレスを含む情報が延べ約900万件出力されたと試算。出力データの詳細は調査中で、延べ件数は一意の人数を示すものではありません。",
-      "source_url": "https://www.release.tdnet.info/inbs/140120261019553124.pdf",
-      "official_host": "www.release.tdnet.info",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "当社システムへの不正なアクセスに関するご報告（第一報）",
-          "date": "2026-10-19",
-          "source": "ユミルリンク株式会社",
-          "issuer": "ユミルリンク株式会社",
-          "source_url": "https://www.release.tdnet.info/inbs/140120261019553124.pdf",
-          "canonical_url": "https://www.release.tdnet.info/inbs/140120261019553124.pdf",
-          "official_host": "www.release.tdnet.info",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        }
-      ]
-    },
-    {
-      "id": "joshin-network-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "Joshin、社内ネットワークへの不正アクセスで情報流出の有無を調査",
-      "sector": "小売・家電",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "株式会社Joshin",
-      "issuer": "株式会社Joshin",
-      "reported_org": "顧客・関係者情報",
-      "incident_count": null,
-      "incident_count_label": null,
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "10月16日にネットワークへの不正アクセスを認識。一部サービスが停止し、個人情報等の情報流出の有無を調査中。個人情報漏えいの可能性は否定できないとしており、対象件数は公表されていません。",
-      "source_url": "https://www.joshin.co.jp/ja/ir/news/auto_20261019552813/pdfFile.pdf",
-      "official_host": "www.joshin.co.jp",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "不正アクセスによるシステム障害発生のお詫びとお知らせ",
-          "date": "2026-10-19",
-          "source": "株式会社Joshin",
-          "issuer": "株式会社Joshin",
-          "source_url": "https://www.joshin.co.jp/ja/ir/news/auto_20261019552813/pdfFile.pdf",
-          "canonical_url": "https://www.joshin.co.jp/ja/ir/news/auto_20261019552813/pdfFile.pdf",
-          "official_host": "www.joshin.co.jp",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        }
-      ]
-    },
-    {
-      "id": "papilles-renta-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "パピレス、電子書籍サイト「Renta!」サーバーへの不正アクセスの可能性を公表",
-      "sector": "IT・電子書籍",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "株式会社パピレス",
-      "issuer": "株式会社パピレス",
-      "reported_org": "Renta!利用者",
-      "incident_count": null,
-      "incident_count_label": null,
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "10月18日、電子書籍販売サイト「Renta!」のサーバーに外部から不正アクセスがあった可能性を把握し、サービスを一時停止。公表時点で詳細調査中で、情報漏えいの有無・対象件数は公表されていません。",
-      "source_url": "https://www.release.tdnet.info/inbs/140120261019552777.pdf",
-      "official_host": "www.release.tdnet.info",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "当社が運営する電子書籍販売サイト「Renta！」のサービス一時停止に関するお知らせ",
-          "date": "2026-10-19",
-          "source": "株式会社パピレス",
-          "issuer": "株式会社パピレス",
-          "source_url": "https://www.release.tdnet.info/inbs/140120261019552777.pdf",
-          "canonical_url": "https://www.release.tdnet.info/inbs/140120261019552777.pdf",
-          "official_host": "www.release.tdnet.info",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        }
-      ]
-    },
-    {
-      "id": "trustbank-furusato-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "トラストバンク、「ふるさとチョイス」で不正アクセスの疑いを検知",
-      "sector": "IT・ふるさと納税",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "株式会社トラストバンク",
-      "issuer": "株式会社トラストバンク",
-      "reported_org": "ふるさとチョイス利用者",
-      "incident_count": null,
-      "incident_count_label": null,
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "「ふるさとチョイス」で不正アクセスの疑いがある事象を検知し、関連サービスを一時停止して調査中と公表。事実関係・影響範囲および件数は公表時点で未確定です。",
-      "source_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
-      "official_host": "www.trustbank.co.jp",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "不正アクセスの疑いに伴うサービス一時停止のお知らせ",
-          "date": "2026-10-19",
-          "source": "株式会社トラストバンク",
-          "issuer": "株式会社トラストバンク",
-          "source_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
-          "canonical_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
-          "official_host": "www.trustbank.co.jp",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        }
-      ]
-    },
-    {
-      "id": "entatch-toho-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "東邦ホールディングス子会社エンタッチ、ランサムウェア攻撃による情報漏えいを公表",
-      "sector": "医療・医薬品",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "東邦ホールディングス株式会社（子会社：エンタッチ株式会社）",
-      "issuer": "東邦ホールディングス株式会社（子会社：エンタッチ株式会社）",
-      "reported_org": "医療従事者・サービス利用者等",
-      "incident_count": null,
-      "incident_count_label": null,
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "エンタッチが管理するデータベースから10月13日に情報が外部へ漏えいしたことが発覚。ランサムウェア攻撃を行う第三者による不正アクセスが原因と公表。医療従事者やユーザー等の情報が対象で、件数と詳細範囲は調査中です。",
-      "source_url": "https://www.release.tdnet.info/inbs/140120261019553091.pdf",
-      "official_host": "www.release.tdnet.info",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "当社子会社における不正アクセスおよび情報漏洩に関するお知らせ",
-          "date": "2026-10-19",
-          "source": "東邦ホールディングス株式会社（子会社：エンタッチ株式会社）",
-          "issuer": "東邦ホールディングス株式会社（子会社：エンタッチ株式会社）",
-          "source_url": "https://www.release.tdnet.info/inbs/140120261019553091.pdf",
-          "canonical_url": "https://www.release.tdnet.info/inbs/140120261019553091.pdf",
-          "official_host": "www.release.tdnet.info",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        }
-      ]
-    },
-    {
-      "id": "hachimuni-bank-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "八十二長野銀行、職員メールへの不正アクセスで個人情報34名などの漏えい可能性を公表",
-      "sector": "金融・保険",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "株式会社八十二長野銀行",
-      "issuer": "株式会社八十二長野銀行",
-      "reported_org": "個人・法人取引先・関係機関",
-      "incident_count": null,
-      "incident_count_label": null,
-      "leaked_records": null,
-      "affected_people": 34,
-      "detail": "10月7日に職員1名のメールアカウントが不正アクセスを受けた事案の第2報。第三者に閲覧されたメールを調査し、個人34名、法人取引先627社、その他関係機関11機関に関する情報の漏えい可能性を公表。各区分は単位が異なるため合算せず、個人情報の件数合計は公表されていません。",
-      "source_url": "https://bank.82group.jp/file.jsp?id=release/2026/pdf/news20261019.pdf",
-      "official_host": "bank.82group.jp",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "不正アクセスによるお客さま情報漏えいのお詫びとご報告（第2報）",
-          "date": "2026-10-19",
-          "source": "株式会社八十二長野銀行",
-          "issuer": "株式会社八十二長野銀行",
-          "source_url": "https://bank.82group.jp/file.jsp?id=release/2026/pdf/news20261019.pdf",
-          "canonical_url": "https://bank.82group.jp/file.jsp?id=release/2026/pdf/news20261019.pdf",
-          "official_host": "bank.82group.jp",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        }
-      ]
-    },
-    {
-      "id": "arcadia-speecan-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "アルカディア、SpeeCAN等への不正アクセスによる個人情報漏えい可能性を更新",
-      "sector": "IT・自治体向けシステム",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "株式会社アルカディア",
-      "issuer": "株式会社アルカディア",
-      "reported_org": "SpeeCAN RAIDEN等の利用者",
-      "incident_count": 3136000,
-      "incident_count_label": "メールアドレスの漏えい可能性（約313.6万件、推定）",
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "10月19日の第12報。10月11日に不正アクセスが疑われる挙動を確認した事案について、複数サービスの個人情報漏えい可能性と調査・対応状況を更新。公表値にはメールアドレス約3,136,000件など複数の項目別推定値があり、項目間・サービス間の重複を除いた合計人数は公表されていません。",
-      "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
-      "official_host": "raiden.site.ktaiwork.jp",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "弊社サービスへの不正アクセスに伴う一連の対応について（10月19日 第12報）",
-          "date": "2026-10-19",
-          "source": "株式会社アルカディア",
-          "issuer": "株式会社アルカディア",
-          "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
-          "canonical_url": "https://raiden.site.ktaiwork.jp/archives/4597",
-          "official_host": "raiden.site.ktaiwork.jp",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
         }
       ]
     }
