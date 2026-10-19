@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T22:09:53.410784+00:00",
+  "updated_at": "2026-10-19T22:12:34.952Z",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -317,12 +317,12 @@
       "incident_count_label": "漏えいしたアカウント数（約660万件）",
       "affected_people": null,
       "leaked_records": null,
-      "detail": "タイムズカーWebシステムへの不正アクセスにより、会員情報の一部が第三者に取得されたことを確認。第2報で漏えいしたアカウント数を約660万件と公表。第3報では、そのうち運転免許証画像等の本人確認書類が漏えいしたアカウント数を約160万件と公表。約160万件は約660万件の内数として扱い、合算していません。",
+      "detail": "タイムズカーWebシステムへの不正アクセスにより、会員情報の一部が第三者に取得されたことを確認。第2報で漏えいしたアカウント数を約660万件と公表。第3報では、そのうち運転免許証画像等の本人確認書類が漏えいしたアカウント数を約160万件と公表。約160万件は約660万件の内数として扱い、別事案・別件数として合算していません。",
       "source_url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
       "official_host": "www.park24.co.jp",
       "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
       "last_seen_at": "2026-10-19T16:48:37.216144+00:00",
-      "updated_at": "2026-10-19T22:08:50.502Z",
+      "updated_at": "2026-10-19T22:12:34.952Z",
       "reports": [
         {
           "title": "「タイムズカーWebサイト」への不正アクセスによる個人情報漏えいの可能性について（第1報）※追記あり | タイムズモビリティ株式会社",
@@ -334,6 +334,17 @@
           "official_host": "www.timesmobi.co.jp",
           "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
           "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        },
+        {
+          "title": "タイムズカーWebサイトへの不正アクセスによる個人情報漏えいの可能性について（第1報）",
+          "date": "2026-09-25",
+          "source": "パーク２４株式会社",
+          "issuer": "パーク２４株式会社",
+          "source_url": "https://www.park24.co.jp/news/2026/09/web1.html",
+          "canonical_url": "https://www.park24.co.jp/news/2026/09/web1.html",
+          "official_host": "www.park24.co.jp",
+          "first_seen_at": "2026-10-19T13:07:28Z",
+          "last_seen_at": "2026-10-19T13:07:28Z"
         },
         {
           "title": "タイムズカーWebシステムへの不正アクセスに関する調査結果および今後の対応について（第2報）",
@@ -3271,63 +3282,6 @@
           "source_url": "https://www.g-plan.net/news/details/20260930.html",
           "canonical_url": "https://www.g-plan.net/news/details/20260930.html",
           "official_host": "www.g-plan.net",
-          "first_seen_at": "2026-10-19T13:07:28Z",
-          "last_seen_at": "2026-10-19T13:07:28Z"
-        }
-      ],
-      "leaked_records": null
-    },
-    {
-      "id": "timescar-20260929",
-      "event_key": null,
-      "event_scope": "",
-      "name": "タイムズカー、本人確認書類情報が漏えいしたアカウント約160万件を確認",
-      "sector": "交通・カーシェア",
-      "region": "日本",
-      "date": "2026-09-29",
-      "status": "official",
-      "source": "パーク２４株式会社",
-      "issuer": "パーク２４株式会社",
-      "reported_org": "タイムズカー会員",
-      "incident_count": 1600000,
-      "incident_count_label": "本人確認書類情報が漏えいしたアカウント（約160万件）",
-      "affected_people": null,
-      "detail": "タイムズカーWebシステムへの不正アクセスについて、9月29日の第三報で運転免許証画像等の本人確認書類情報が漏えいしたアカウント数を約160万件と確認。対象書類は運転免許証、現住所確認書類、学生証、家族確認書類等。10月16日の第四報では画像保有ルールの見直し等を発表",
-      "source_url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
-      "official_host": "www.park24.co.jp",
-      "last_seen_at": "2026-10-19T13:07:28Z",
-      "updated_at": "2026-10-19T13:07:28Z",
-      "reports": [
-        {
-          "title": "タイムズカーWebサイトへの不正アクセスによる個人情報漏えいの可能性について（第1報）",
-          "date": "2026-09-25",
-          "source": "パーク２４株式会社",
-          "issuer": "パーク２４株式会社",
-          "source_url": "https://www.park24.co.jp/news/2026/09/web1.html",
-          "canonical_url": "https://www.park24.co.jp/news/2026/09/web1.html",
-          "official_host": "www.park24.co.jp",
-          "first_seen_at": "2026-10-19T13:07:28Z",
-          "last_seen_at": "2026-10-19T13:07:28Z"
-        },
-        {
-          "title": "タイムズカーWebシステムへの不正アクセスに関する調査結果および今後の対応について（第3報）",
-          "date": "2026-09-29",
-          "source": "パーク２４株式会社",
-          "issuer": "パーク２４株式会社",
-          "source_url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
-          "canonical_url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
-          "official_host": "www.park24.co.jp",
-          "first_seen_at": "2026-10-19T13:07:28Z",
-          "last_seen_at": "2026-10-19T13:07:28Z"
-        },
-        {
-          "title": "タイムズカーWebシステムへの不正アクセスに関する対応について（第4報）",
-          "date": "2026-10-16",
-          "source": "パーク２４株式会社",
-          "issuer": "パーク２４株式会社",
-          "source_url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
-          "canonical_url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
-          "official_host": "www.park24.co.jp",
           "first_seen_at": "2026-10-19T13:07:28Z",
           "last_seen_at": "2026-10-19T13:07:28Z"
         }
