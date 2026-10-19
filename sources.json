@@ -161,5 +161,16 @@
     "公式発表",
     "公式サイト",
     "公表文"
+  ],
+  "publication_incident_terms": [
+    "ransomware",
+    "ransom",
+    "ランサムウェア",
+    "ランサム",
+    "不正アクセス",
+    "不正侵入",
+    "不正ログイン",
+    "unauthorized access",
+    "unauthorised access"
   ]
 }
