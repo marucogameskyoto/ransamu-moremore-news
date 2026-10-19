@@ -61,7 +61,7 @@ jobs:
           )
           should_run = "false" if succeeded else "true"
           with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
-              output.write(f"should_run={should_run}\\n")
+              output.write(f"should_run={should_run}\n")
           print("A scheduled refresh already succeeded in this UTC hour; skipping." if succeeded else "No successful scheduled refresh this UTC hour; proceeding.")
 
           PY
