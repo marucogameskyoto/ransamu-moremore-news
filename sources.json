@@ -30,8 +30,8 @@
     "個人情報流出",
     "データ流出"
   ],
-  "max_age_days": 30,
-  "max_items": 60,
+  "max_age_days": 45,
+  "max_items": 200,
   "match_groups": {
     "incident": [
       "ransomware",
@@ -60,5 +60,63 @@
       "個人情報流出",
       "データ流出"
     ]
-  }
+  },
+  "crawl_sources": [
+    {
+      "name": "京王電鉄",
+      "organization": "京王電鉄",
+      "allowed_host": "www.keio.co.jp",
+      "start_url": "https://www.keio.co.jp/news/update/news_release/news_all.html",
+      "path_prefixes": [
+        "/news/update/news_release/"
+      ],
+      "region": "日本",
+      "max_candidates": 25
+    },
+    {
+      "name": "日本酒類販売株式会社",
+      "organization": "日本酒類販売",
+      "allowed_host": "www.nishuhan.co.jp",
+      "start_url": "https://www.nishuhan.co.jp/news/",
+      "path_prefixes": [
+        "/news/"
+      ],
+      "region": "日本",
+      "max_candidates": 25
+    },
+    {
+      "name": "ワシントンホテル株式会社",
+      "organization": "ワシントンホテル",
+      "allowed_host": "www.washingtonhotel.co.jp",
+      "start_url": "https://www.washingtonhotel.co.jp/corporation/news/",
+      "path_prefixes": [
+        "/corporation/news/"
+      ],
+      "region": "日本",
+      "max_candidates": 25
+    },
+    {
+      "name": "株式会社日本資産総研",
+      "organization": "日本資産総研",
+      "allowed_host": "www.nssg.co.jp",
+      "start_url": "https://www.nssg.co.jp/news/",
+      "path_prefixes": [
+        "/news/"
+      ],
+      "region": "日本",
+      "max_candidates": 25
+    },
+    {
+      "name": "RIZAP株式会社",
+      "organization": "RIZAP",
+      "allowed_host": "rizap.co.jp",
+      "start_url": "https://rizap.co.jp/news/",
+      "path_prefixes": [
+        "/news/"
+      ],
+      "region": "日本",
+      "max_candidates": 25
+    }
+  ],
+  "history_days": 3650
 }
