@@ -72,16 +72,6 @@ def published_date(text, values):
     return None
 
 
-def published_time(values):
-    japan = timezone(timedelta(hours=9))
-    for value in values:
-        if not re.search(r"(?:T|\\s)\\d{1,2}:\\d{2}", value or ""):
-            continue
-        parsed = parse_date(value)
-        if parsed:
-            return parsed.astimezone(japan).strftime("%H:%M")
-    return None
-
 
 class DocumentParser(HTMLParser):
     def __init__(self):
@@ -368,7 +358,6 @@ for source in CONFIG.get("roundup_sources", []):
                 if skipped or not detail_page:
                     continue
                 title, body, date_values = page_summary(detail_page, candidate.get("organization", "公式発表"))
-                time_value = published_time(date_values)
                 if not matches(title + " " + body, INCIDENT_TERMS):
                     continue
                 if not matches(title + " " + body, LEAK_TERMS):
@@ -391,16 +380,22 @@ for source in CONFIG.get("roundup_sources", []):
                     if existing.get("incident_count") is None and existing.get("leaked_records") is None and record_count is not None:
                         existing["leaked_records"] = record_count
                         changed = True
-                    if time_value and not existing.get("time"):
-                        existing["time"] = time_value
-                        changed = True
                     if changed:
                         existing["updated_at"] = NOW_TEXT
+                    if not existing.get("posted_at"):
+
+                        first_seen = sorted(row.get("first_seen_at") for row in existing.get("reports", [])
+
+                                            if row.get("first_seen_at"))
+
+                        existing["posted_at"] = first_seen[0] if first_seen else NOW_TEXT
+
+                        changed = True
+
                     reports = existing.setdefault("reports", [])
                     if not any(canonical_url(row.get("source_url", "")) == canonical for row in reports):
                         reports.append({
                             "title": title, "date": dt.date().isoformat() if dt else "日付不明",
-                            "time": time_value,
                             "source": candidate.get("organization") or host,
                             "issuer": candidate.get("organization") or host,
                             "source_url": canonical, "canonical_url": canonical,
@@ -417,7 +412,7 @@ for source in CONFIG.get("roundup_sources", []):
                     "sector": "公式発表",
                     "region": source.get("region", "日本"),
                     "date": dt.date().isoformat() if dt else "日付不明",
-                    "time": time_value,
+                    "posted_at": NOW_TEXT,
                     "status": "official",
                     "source": org,
                     "issuer": org,
@@ -435,7 +430,6 @@ for source in CONFIG.get("roundup_sources", []):
                     "reports": [{
                         "title": title,
                         "date": dt.date().isoformat() if dt else "日付不明",
-                        "time": time_value,
                         "source": org,
                         "issuer": org,
                         "source_url": canonical,
