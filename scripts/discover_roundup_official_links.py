@@ -244,6 +244,35 @@ def page_summary(parser, fallback):
     return clean(title) or fallback, body, date_values
 
 
+def summarize_official(body, title=""):
+    """Build a short factual excerpt only from sentences in the official page."""
+    excluded = ("プライバシーポリシー", "個人情報保護方針", "お問い合わせ", "サイトマップ", "cookie")
+    title_key = clean(title).casefold()
+    sentences = [clean(value) for value in re.split(r"(?<=[。！？])", body or "")]
+    ranked = []
+    for index, sentence in enumerate(sentences):
+        if len(sentence) < 22 or any(term in sentence.casefold() for term in excluded):
+            continue
+        if title_key and sentence.casefold() == title_key:
+            continue
+        incident = matches(sentence, INCIDENT_TERMS)
+        leak = matches(sentence, LEAK_TERMS)
+        if not (incident or leak):
+            continue
+        score = (3 if incident else 0) + (3 if leak else 0)
+        if re.search(r"\\d", sentence):
+            score += 1
+        if any(term in sentence for term in ("確認", "公表", "発表", "可能性", "対象")):
+            score += 1
+        ranked.append((score, index, sentence))
+    ranked.sort(key=lambda item: (-item[0], item[1]))
+    chosen = sorted(ranked[:2], key=lambda item: item[1])
+    summary = "".join(item[2] for item in chosen)
+    if len(summary) > 260:
+        summary = summary[:259].rsplit("。", 1)[0] + "。"
+    return summary
+
+
 try:
     payload = json.loads(OUT.read_text(encoding="utf-8"))
     events = payload.get("incidents", [])
@@ -279,7 +308,9 @@ for source in CONFIG.get("roundup_sources", []):
         host_delay = {}
         for candidate in candidates[:source.get("max_candidates", 500)]:
             official_url = candidate["url"]
-            if canonical_url(official_url) in by_url:
+            canonical = canonical_url(official_url)
+            existing = by_url.get(canonical)
+            if existing is not None and (existing.get("detail") or not existing.get("discovered_from")):
                 continue
             host = urlparse(official_url).hostname
             if not host:
@@ -306,9 +337,13 @@ for source in CONFIG.get("roundup_sources", []):
                 verified_pages += 1
                 canonical = canonical_url(official_url)
                 existing = by_url.get(canonical)
+                summary = summarize_official(body, title)
                 if existing is not None:
-                    # Never replace a hand-curated record. Add the primary report
-                    # only when the same URL was not already attached to it.
+                    # Backfill only crawler-discovered records, using sentences from
+                    # the verified official page. Never overwrite curated text.
+                    if not existing.get("detail") and existing.get("discovered_from") and summary:
+                        existing["detail"] = summary
+                        existing["updated_at"] = NOW_TEXT
                     reports = existing.setdefault("reports", [])
                     if not any(canonical_url(row.get("source_url", "")) == canonical for row in reports):
                         reports.append({
@@ -337,7 +372,7 @@ for source in CONFIG.get("roundup_sources", []):
                     "incident_count_label": None,
                     "affected_people": None,
                     "leaked_records": None,
-                    "detail": "",
+                    "detail": summary,
                     "source_url": canonical,
                     "official_host": host,
                     "discovered_from": source["url"],
