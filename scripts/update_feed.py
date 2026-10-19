@@ -15,6 +15,7 @@ OUT = ROOT / "site" / "incidents.json"
 NOW = datetime.now(timezone.utc)
 NOW_TEXT = NOW.isoformat()
 KEYWORDS = [x.casefold() for x in CONFIG["keywords"]]
+MATCH_GROUPS = {name: [word.casefold() for word in words] for name, words in CONFIG.get("match_groups", {}).items()}
 TRACKING_PARAMS = {"fbclid", "gclid", "ref", "source"}
 
 
@@ -101,7 +102,12 @@ def fetch_feed(feed):
         published = child_text(item, "pubdate", "published", "updated", "date")
         dt = parse_date(published)
         haystack = (title + " " + clean(child_text(item, "description", "summary", "content"))).casefold()
-        if not title or not link or not any(word in haystack for word in KEYWORDS):
+        if not title or not link:
+            continue
+        if MATCH_GROUPS:
+            if not all(any(word in haystack for word in words) for words in MATCH_GROUPS.values()):
+                continue
+        elif not any(word in haystack for word in KEYWORDS):
             continue
         if dt and dt < NOW - timedelta(days=CONFIG["max_age_days"]):
             continue
@@ -115,7 +121,7 @@ def fetch_feed(feed):
         found.append({
             "name": title,
             "sector": "公式サイバーセキュリティ発表",
-            "region": "公式発表",
+            "region": feed.get("region", "公式発表"),
             "date": dt.date().isoformat() if dt else "日付不明",
             "status": "official",
             "source": feed["name"],
