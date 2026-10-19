@@ -172,9 +172,9 @@ def load_robots(host):
         robots.read()
         return robots
     except Exception:
-        # A failed robots.txt fetch does not grant permission to crawl more broadly;
-        # configured start pages and same-host links remain tightly capped.
-        return None
+        # If robots.txt cannot be checked, skip this host rather than crawl blindly.
+        robots.disallow_all = True
+        return robots
 
 
 def within_prefix(url, prefixes):
