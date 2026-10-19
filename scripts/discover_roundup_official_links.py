@@ -28,7 +28,7 @@ PRIMARY_LABELS = tuple(x.casefold() for x in CONFIG.get(
 
 
 def clean(value):
-    return re.sub(r"\\s+", " ", html.unescape(value or "")).strip()
+    return re.sub(r"\s+", " ", html.unescape(value or "")).strip()
 
 
 def canonical_url(value):
@@ -63,7 +63,7 @@ def published_date(text, values):
         parsed = parse_date(value)
         if parsed:
             return parsed
-    found = re.search(r"(20\\d{2})\\s*[年./-]\\s*(\\d{1,2})\\s*[月./-]\\s*(\\d{1,2})", text or "")
+    found = re.search(r"(20\d{2})\s*[年./-]\s*(\d{1,2})\s*[月./-]\s*(\d{1,2})", text or "")
     if found:
         try:
             return datetime(int(found.group(1)), int(found.group(2)), int(found.group(3)), tzinfo=timezone.utc)
@@ -226,7 +226,7 @@ def roundup_candidates(source, parser, final_url):
             for href, label in cell.get("links", []):
                 if not is_primary_label(label):
                     continue
-                organization = re.sub(r"[（(]?\\s*(原文|公式発表|公式サイト|公表文)\\s*[）)]?", "", cell.get("text", ""), flags=re.I)
+                organization = re.sub(r"[（(]?\s*(原文|公式発表|公式サイト|公表文)\s*[）)]?", "", cell.get("text", ""), flags=re.I)
                 organization = re.sub(r"^[0-9年月日/.-]+", "", organization).strip(" ：:｜|・")
                 if not organization:
                     organization = next((item.get("text", "") for item in cells
