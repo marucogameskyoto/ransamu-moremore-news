@@ -1,0 +1,29 @@
+{
+  "feeds": [
+    {
+      "name": "CISA（米国サイバーセキュリティ・インフラ安全庁）",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "kind": "official_advisory",
+      "allowed_host": "www.cisa.gov"
+    },
+    {
+      "name": "JPCERT/CC",
+      "url": "https://www.jpcert.or.jp/rss/jpcert.rdf",
+      "kind": "official_alerts",
+      "allowed_host": "www.jpcert.or.jp"
+    }
+  ],
+  "keywords": [
+    "ransomware",
+    "ransom",
+    "data breach",
+    "data leak",
+    "勒索",
+    "ランサムウェア",
+    "ランサム",
+    "情報漏洩",
+    "情報流出"
+  ],
+  "max_age_days": 30,
+  "max_items": 60
+}
