@@ -116,6 +116,17 @@
       ],
       "region": "日本",
       "max_candidates": 25
+    },
+    {
+      "name": "長野都市ガス株式会社",
+      "organization": "長野都市ガス",
+      "allowed_host": "www.nagano-toshi-gas.co.jp",
+      "start_url": "https://www.nagano-toshi-gas.co.jp/news/",
+      "path_prefixes": [
+        "/news/"
+      ],
+      "region": "日本",
+      "max_candidates": 25
     }
   ],
   "history_days": 3650
