@@ -126,6 +126,7 @@ def fetch_feed(feed):
             "source_url": link,
             "official_host": feed["allowed_host"],
             "event_key": event_key or None,
+            "event_scope": feed.get("event_key_scope", feed["name"]),
             "report": report_from_item({"title": title, "date": published, "url": link}, feed),
         })
     return found
@@ -151,6 +152,7 @@ def migrate_event(old):
             })
     event["reports"] = reports
     event.setdefault("event_key", None)
+    event.setdefault("event_scope", "")
     event.setdefault("last_seen_at", old.get("updated_at", NOW_TEXT))
     event.setdefault("updated_at", old.get("updated_at", NOW_TEXT))
     event.setdefault("id", stable_id("url:" + canonical_url(old["source_url"])) if old.get("source_url") else stable_id(json.dumps(old, sort_keys=True)))
@@ -159,7 +161,7 @@ def migrate_event(old):
 
 def event_identity(item):
     if item.get("event_key"):
-        return "official-event:" + item["event_key"].casefold()
+        return "official-event:" + item.get("event_scope", "").casefold() + ":" + item["event_key"].casefold()
     return "url:" + item["report"]["canonical_url"]
 
 
@@ -188,6 +190,7 @@ def merge_event(event, item):
         "official_host": newest.get("official_host", item["official_host"]),
         "date": newest.get("date", item["date"]),
         "event_key": item.get("event_key") or event.get("event_key"),
+        "event_scope": item.get("event_scope") or event.get("event_scope", ""),
         "last_seen_at": NOW_TEXT,
         "updated_at": NOW_TEXT,
         "detail": item["detail"],
@@ -207,7 +210,7 @@ except (OSError, json.JSONDecodeError, TypeError):
 
 events = {}
 for event in previous_events:
-    identity = ("official-event:" + event["event_key"].casefold()) if event.get("event_key") else (
+    identity = ("official-event:" + event.get("event_scope", "").casefold() + ":" + event["event_key"].casefold()) if event.get("event_key") else (
         "url:" + (event["reports"][0].get("canonical_url") if event["reports"] else event["id"])
     )
     events[identity] = event
@@ -225,6 +228,7 @@ for feed in CONFIG["feeds"]:
                 event = {
                     "id": stable_id(identity),
                     "event_key": item.get("event_key"),
+                    "event_scope": item.get("event_scope", ""),
                     "reports": [],
                     "reported_org": item.get("reported_org"),
                     "incident_count": item.get("incident_count"),
