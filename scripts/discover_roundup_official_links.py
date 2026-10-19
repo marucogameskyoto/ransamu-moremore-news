@@ -337,7 +337,7 @@ for source in CONFIG.get("roundup_sources", []):
                     "incident_count_label": None,
                     "affected_people": None,
                     "leaked_records": None,
-                    "detail": "リンク先の組織公式発表で、不正アクセス等と情報漏えいに関する記載を確認済みです。件数は公式発表に明記された値のみ掲載します。",
+                    "detail": "",
                     "source_url": canonical,
                     "official_host": host,
                     "discovered_from": source["url"],
