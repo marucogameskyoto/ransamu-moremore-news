@@ -136,15 +136,10 @@ def fetch(url, host, robots=None, max_bytes=2_000_000):
         content_type = response.headers.get_content_type()
         if content_type not in {"text/html", "application/xhtml+xml"}:
             return None, None, "not an HTML page"
+        charset = response.headers.get_content_charset() or "utf-8"
         payload = response.read(max_bytes + 1)
     if len(payload) > max_bytes:
         raise ValueError("page exceeded size limit")
-    charset = "utf-8"
-    try:
-        with urllib.request.urlopen(url, timeout=1) as response:
-            charset = response.headers.get_content_charset() or charset
-    except Exception:
-        pass
     parser = PageParser()
     parser.feed(payload.decode(charset, errors="replace"))
     return parser, final_url, None
@@ -287,6 +282,7 @@ for source in CONFIG.get("crawl_sources", []):
         for item in found:
             key = canonical_url(item["source_url"])
             event = by_url.get(key)
+            is_existing_event = event is not None
             if event is None:
                 event = {
                     "id": item["id"], "event_key": None, "event_scope": "", "reports": [],
@@ -303,6 +299,10 @@ for source in CONFIG.get("crawl_sources", []):
                 event["reports"] = [item["report"] if canonical_url(row.get("source_url", "")) == key else row for row in event["reports"]]
             else:
                 event["reports"].append(item["report"])
+            # Keep curated records intact when the crawler rediscovers one of their
+            # source links; a generic crawl summary must not replace verified detail/counts.
+            if is_existing_event:
+                continue
             event.update({key: item[key] for key in ("name", "sector", "region", "date", "status", "source", "issuer",
                                                        "reported_org", "detail", "source_url", "official_host")})
             event["last_seen_at"] = NOW_TEXT
