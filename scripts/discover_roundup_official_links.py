@@ -279,6 +279,8 @@ for source in CONFIG.get("roundup_sources", []):
         host_delay = {}
         for candidate in candidates[:source.get("max_candidates", 500)]:
             official_url = candidate["url"]
+            if canonical_url(official_url) in by_url:
+                continue
             host = urlparse(official_url).hostname
             if not host:
                 continue
