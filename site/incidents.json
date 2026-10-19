@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T23:50:36.349Z",
+  "updated_at": "2026-10-19T23:52:49.171843+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -290,42 +290,6 @@
           "issuer": "不正アクセスによるお客様情報の流出に関するお詫びとお知らせ（第2報） | 株式会社アドベンチャー",
           "source_url": "https://jp.adventurekk.com/news/news-2026-unauthorized-access-notice-2",
           "canonical_url": "https://jp.adventurekk.com/news/news-2026-unauthorized-access-notice-2",
-          "official_host": "jp.adventurekk.com",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ]
-    },
-    {
-      "id": "ab0d42403e3704d66a5a",
-      "event_key": null,
-      "event_scope": "",
-      "name": "不正アクセスによるお客様情報の流出に関するお詫びとお知らせ | 株式会社アドベンチャー",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-10-09",
-      "status": "official",
-      "source": "株式会社アドベンチャー",
-      "issuer": "株式会社アドベンチャー",
-      "reported_org": "skyticket利用者",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": 14640000,
-      "detail": "skyticketに関連する3件の事案を公表。サーバーへの不正アクセスでは、登録・入力した顧客の情報約1,464万件（うちログインパスワードを含むもの約413万件）が対象。別の業務管理システムでは17,780件（重複を含む）、バス予約情報では約12,000件が対象とされた。",
-      "source_url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak",
-      "official_host": "jp.adventurekk.com",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
-      "updated_at": "2026-10-19T23:26:28.672677+00:00",
-      "reports": [
-        {
-          "title": "不正アクセスによるお客様情報の流出に関するお詫びとお知らせ | 株式会社アドベンチャー",
-          "date": "2026-10-09",
-          "source": "株式会社アドベンチャー",
-          "issuer": "株式会社アドベンチャー",
-          "source_url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak",
-          "canonical_url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak",
           "official_host": "jp.adventurekk.com",
           "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
           "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
@@ -651,6 +615,42 @@
           "source_url": "https://www.enecom.co.jp/information/3920",
           "canonical_url": "https://www.enecom.co.jp/information/3920",
           "official_host": "www.enecom.co.jp",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ab0d42403e3704d66a5a",
+      "event_key": null,
+      "event_scope": "",
+      "name": "不正アクセスによるお客様情報の流出に関するお詫びとお知らせ | 株式会社アドベンチャー",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-09",
+      "status": "official",
+      "source": "株式会社アドベンチャー",
+      "issuer": "株式会社アドベンチャー",
+      "reported_org": "skyticket利用者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": 14640000,
+      "detail": "skyticketに関連する3件の事案を公表。サーバーへの不正アクセスでは、登録・入力した顧客の情報約1,464万件（うちログインパスワードを含むもの約413万件）が対象。別の業務管理システムでは17,780件（重複を含む）、バス予約情報では約12,000件が対象とされた。",
+      "source_url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak",
+      "official_host": "jp.adventurekk.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
+      "updated_at": "2026-10-19T23:26:28.672677+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによるお客様情報の流出に関するお詫びとお知らせ | 株式会社アドベンチャー",
+          "date": "2026-10-09",
+          "source": "株式会社アドベンチャー",
+          "issuer": "株式会社アドベンチャー",
+          "source_url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak",
+          "canonical_url": "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak",
+          "official_host": "jp.adventurekk.com",
           "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
           "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
         }
@@ -2453,7 +2453,7 @@
       "source_url": "https://hotel.inc/news/information/20261013_01",
       "official_host": "hotel.inc",
       "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
+      "last_seen_at": "2026-10-19T23:52:49.171843+00:00",
       "updated_at": "2026-10-19T16:48:37.216144+00:00",
       "reports": [
         {
@@ -2489,7 +2489,7 @@
       "source_url": "https://communeinc.com/ja/news/2026oct09",
       "official_host": "communeinc.com",
       "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
+      "last_seen_at": "2026-10-19T23:52:49.171843+00:00",
       "updated_at": "2026-10-19T16:48:37.216144+00:00",
       "reports": [
         {
@@ -2525,7 +2525,7 @@
       "source_url": "https://www.whiteessence.com/news/news/20261005",
       "official_host": "www.whiteessence.com",
       "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
+      "last_seen_at": "2026-10-19T23:52:49.171843+00:00",
       "updated_at": "2026-10-19T16:48:37.216144+00:00",
       "reports": [
         {
@@ -3235,7 +3235,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-19T23:25:59.977650+00:00"
+          "last_seen_at": "2026-10-19T23:52:23.780503+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -3608,7 +3608,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:25:59.977650+00:00"
+          "last_seen_at": "2026-10-19T23:52:23.780503+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -3619,7 +3619,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:25:59.977650+00:00"
+          "last_seen_at": "2026-10-19T23:52:23.780503+00:00"
         }
       ],
       "leaked_records": null
@@ -3732,7 +3732,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:25:59.977650+00:00"
+          "last_seen_at": "2026-10-19T23:52:23.780503+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -3743,7 +3743,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:25:59.977650+00:00"
+          "last_seen_at": "2026-10-19T23:52:23.780503+00:00"
         }
       ],
       "leaked_records": null,
@@ -3813,7 +3813,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:25:59.977650+00:00"
+          "last_seen_at": "2026-10-19T23:52:23.780503+00:00"
         }
       ]
     },
@@ -3857,7 +3857,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:25:59.977650+00:00"
+          "last_seen_at": "2026-10-19T23:52:23.780503+00:00"
         }
       ],
       "leaked_records": null
@@ -3970,7 +3970,7 @@
   "discovery_summary": {
     "roundup_pages_succeeded": 3,
     "official_links_found": 190,
-    "official_pages_verified": 61,
+    "official_pages_verified": 3,
     "new_records": 0,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
