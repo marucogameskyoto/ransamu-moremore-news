@@ -34,7 +34,8 @@
           "first_seen_at": "2026-10-19T12:30:00Z",
           "last_seen_at": "2026-10-19T12:30:00Z"
         }
-      ]
+      ],
+      "leaked_records": null
     },
     {
       "id": "washingtonhotel-20260925",
@@ -78,7 +79,8 @@
           "first_seen_at": "2026-10-19T12:30:00Z",
           "last_seen_at": "2026-10-19T12:30:00Z"
         }
-      ]
+      ],
+      "leaked_records": null
     },
     {
       "id": "keio-20261016",
@@ -122,7 +124,8 @@
           "first_seen_at": "2026-10-19T12:30:00Z",
           "last_seen_at": "2026-10-19T12:30:00Z"
         }
-      ]
+      ],
+      "leaked_records": null
     },
     {
       "id": "rizap-rext-20261009",
@@ -166,7 +169,8 @@
           "first_seen_at": "2026-10-19T12:30:00Z",
           "last_seen_at": "2026-10-19T12:30:00Z"
         }
-      ]
+      ],
+      "leaked_records": null
     },
     {
       "id": "japan-times-20261016",
@@ -199,7 +203,8 @@
           "first_seen_at": "2026-10-19T12:30:00Z",
           "last_seen_at": "2026-10-19T12:30:00Z"
         }
-      ]
+      ],
+      "leaked_records": null
     },
     {
       "id": "nishuhan-20261016",
@@ -243,8 +248,8 @@
           "first_seen_at": "2026-10-19T12:30:00Z",
           "last_seen_at": "2026-10-19T12:30:00Z"
         }
-      ]
+      ],
+      "leaked_records": null
     }
   ]
 }
-
