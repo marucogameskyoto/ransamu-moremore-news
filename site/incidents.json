@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T09:02:09+00:00",
+  "updated_at": "2026-10-20T09:04:26.752920+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,137 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "lawson-app-reservation-20261019",
+      "event_key": null,
+      "event_scope": "ローソンアプリ予約への不正アクセス",
+      "name": "ローソンアプリ予約への不正アクセスで個人情報26件の漏えいを確認・予約機能を再開",
+      "sector": "小売・コンビニエンスストア",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "株式会社ローソン",
+      "issuer": "株式会社ローソン",
+      "reported_org": "ローソンアプリ予約利用者",
+      "incident_count": 26,
+      "incident_count_label": "漏えいが確認された対象（件）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "ローソンアプリ予約は2026年9月17日に不正アクセスを受け、氏名・電話番号・クレジットカード番号の一部を含む個人情報26件の漏えいを確認。停止していた予約機能は10月19日に再開したと公式発表。",
+      "source_url": "https://www.lawson.co.jp/contents/cont07/1533371_3310.html",
+      "official_host": "www.lawson.co.jp",
+      "posted_at": "2026-10-20T09:02:09+00:00",
+      "last_seen_at": "2026-10-20T09:02:09+00:00",
+      "updated_at": "2026-10-20T09:02:09+00:00",
+      "reports": [
+        {
+          "title": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ（10月19日更新）",
+          "date": "2026-10-08",
+          "source": "株式会社ローソン",
+          "issuer": "株式会社ローソン",
+          "source_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
+          "canonical_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
+          "official_host": "www.lawson.co.jp",
+          "first_seen_at": "2026-10-20T09:02:09+00:00",
+          "last_seen_at": "2026-10-20T09:02:09+00:00"
+        },
+        {
+          "title": "ローソンアプリ予約の利用再開について",
+          "date": "2026-10-19",
+          "source": "株式会社ローソン",
+          "issuer": "株式会社ローソン",
+          "source_url": "https://www.lawson.co.jp/contents/cont07/1533371_3310.html",
+          "canonical_url": "https://www.lawson.co.jp/contents/cont07/1533371_3310.html",
+          "official_host": "www.lawson.co.jp",
+          "first_seen_at": "2026-10-20T09:02:09+00:00",
+          "last_seen_at": "2026-10-20T09:02:09+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e9cccd0acf6884624acb",
+      "event_key": null,
+      "event_scope": "",
+      "name": "アエナECアプリへの不正アクセスで最大817,215人の情報が閲覧された可能性、アプリ再開",
+      "sector": "小売・アパレル",
+      "region": "日本",
+      "date": "2026-10-19",
+      "status": "official",
+      "source": "株式会社アエナ",
+      "issuer": "株式会社アエナ",
+      "reported_org": "アエナECアプリ会員",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": 817215,
+      "leaked_records": null,
+      "detail": "アエナはECアプリ会員マイページへの不正アクセスにより、最大817,215人の氏名・連絡先・配送先等が閲覧された可能性を公表。10月19日正午にECアプリを再開し、初回起動時のパスワード再設定を案内。対象最大人数は漏えい可能性のある範囲で、実際に閲覧された人数は公表されていない。",
+      "source_url": "https://www.aena.co.jp/news/detail/7904/",
+      "official_host": "www.aena.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
+      "updated_at": "2026-10-20T09:02:09+00:00",
+      "reports": [
+        {
+          "title": "外部からの不正アクセスによるお客様情報流出の可能性について",
+          "date": "2026-10-14",
+          "source": "株式会社アエナ",
+          "issuer": "株式会社アエナ",
+          "source_url": "https://www.aena.co.jp/news/detail/7826/",
+          "canonical_url": "https://www.aena.co.jp/news/detail/7826/",
+          "official_host": "www.aena.co.jp",
+          "first_seen_at": "2026-10-20T09:02:09+00:00",
+          "last_seen_at": "2026-10-20T09:02:09+00:00"
+        },
+        {
+          "title": "〖重要〗弊社ECアプリ サービス再開のお知らせ",
+          "date": "2026-10-19",
+          "source": "株式会社アエナ",
+          "issuer": "株式会社アエナ",
+          "source_url": "https://www.aena.co.jp/news/detail/7904/",
+          "canonical_url": "https://www.aena.co.jp/news/detail/7904/",
+          "official_host": "www.aena.co.jp",
+          "first_seen_at": "2026-10-20T09:02:09+00:00",
+          "last_seen_at": "2026-10-20T09:02:09+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
+    {
+      "id": "daiichikosho-ncg-20261008",
+      "event_key": null,
+      "event_scope": "日本コロムビアグループ委託先端末のマルウェア感染による情報漏えい可能性",
+      "name": "第一興商、委託先端末のマルウェア感染で顧客・従業員情報約872万4,000件の漏えい可能性",
+      "sector": "エンターテインメント",
+      "region": "日本",
+      "date": "2026-10-08",
+      "status": "official",
+      "source": "株式会社第一興商",
+      "issuer": "株式会社第一興商",
+      "reported_org": "第一興商の店舗顧客・従業員",
+      "incident_count": 8724000,
+      "incident_count_label": "漏えいのおそれがある情報（重複調整後、約件）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "委託先の日本コロムビアグループ株式会社から従業員端末1台のマルウェア感染報告を受け、第一興商は顧客・従業員情報の漏えい可能性を公表。氏名・性別・生年月日・メールアドレス・電話番号等、重複調整後の総数は約8,724,000件。実際の外部漏えいは確認されておらず、原因と範囲は調査中。",
+      "source_url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
+      "official_host": "www.dkkaraoke.co.jp",
+      "posted_at": "2026-10-20T09:02:09+00:00",
+      "last_seen_at": "2026-10-20T09:02:09+00:00",
+      "updated_at": "2026-10-20T09:02:09+00:00",
+      "reports": [
+        {
+          "title": "委託先における個人情報漏えいのおそれについて（追記あり）",
+          "date": "2026-10-08",
+          "source": "株式会社第一興商",
+          "issuer": "株式会社第一興商",
+          "source_url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
+          "canonical_url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
+          "official_host": "www.dkkaraoke.co.jp",
+          "first_seen_at": "2026-10-20T09:02:09+00:00",
+          "last_seen_at": "2026-10-20T09:02:09+00:00"
+        }
+      ]
+    },
     {
       "id": "japanpost-yuid-20261019",
       "event_key": "japanpost-yuid-credential-stuffing-20261019",
@@ -233,7 +364,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-10-20T08:41:54.933759+00:00"
+          "last_seen_at": "2026-10-20T09:03:55.311324+00:00"
         }
       ]
     },
@@ -941,54 +1072,6 @@
       "posted_at": "2026-10-19T16:48:37.216144+00:00"
     },
     {
-      "id": "e9cccd0acf6884624acb",
-      "event_key": null,
-      "event_scope": "",
-      "name": "アエナECアプリへの不正アクセスで最大817,215人の情報が閲覧された可能性、アプリ再開",
-      "sector": "小売・アパレル",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "株式会社アエナ",
-      "issuer": "株式会社アエナ",
-      "reported_org": "アエナECアプリ会員",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": 817215,
-      "leaked_records": null,
-      "detail": "アエナはECアプリ会員マイページへの不正アクセスにより、最大817,215人の氏名・連絡先・配送先等が閲覧された可能性を公表。10月19日正午にECアプリを再開し、初回起動時のパスワード再設定を案内。対象最大人数は漏えい可能性のある範囲で、実際に閲覧された人数は公表されていない。",
-      "source_url": "https://www.aena.co.jp/news/detail/7904/",
-      "official_host": "www.aena.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
-      "updated_at": "2026-10-20T09:02:09+00:00",
-      "reports": [
-        {
-          "title": "外部からの不正アクセスによるお客様情報流出の可能性について",
-          "date": "2026-10-14",
-          "source": "株式会社アエナ",
-          "issuer": "株式会社アエナ",
-          "source_url": "https://www.aena.co.jp/news/detail/7826/",
-          "canonical_url": "https://www.aena.co.jp/news/detail/7826/",
-          "official_host": "www.aena.co.jp",
-          "first_seen_at": "2026-10-20T09:02:09+00:00",
-          "last_seen_at": "2026-10-20T09:02:09+00:00"
-        },
-        {
-          "title": "〖重要〗弊社ECアプリ サービス再開のお知らせ",
-          "date": "2026-10-19",
-          "source": "株式会社アエナ",
-          "issuer": "株式会社アエナ",
-          "source_url": "https://www.aena.co.jp/news/detail/7904/",
-          "canonical_url": "https://www.aena.co.jp/news/detail/7904/",
-          "official_host": "www.aena.co.jp",
-          "first_seen_at": "2026-10-20T09:02:09+00:00",
-          "last_seen_at": "2026-10-20T09:02:09+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
       "id": "a4937f5eb29af5669695",
       "event_key": null,
       "event_scope": "",
@@ -1241,43 +1324,6 @@
           "source_url": "https://coconala.co.jp/news-20261009",
           "canonical_url": "https://coconala.co.jp/news-20261009",
           "official_host": "coconala.co.jp",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
-      "id": "2680ddd77575c62e2af2",
-      "event_key": null,
-      "event_scope": "",
-      "name": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-10-08",
-      "status": "official",
-      "source": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
-      "issuer": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
-      "reported_org": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ 2026年10月8日 第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ このたび、弊社が運営するアカウントサービス「ローソン ID 」 ( ※ 1) および「ローソンアプリ予約」 ( ※ 2) に対し第三者による不正アクセスが行われ、お客様の個人情報の一部が漏えいしたことが判明いたしました。",
-      "source_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
-      "official_host": "www.lawson.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
-      "updated_at": "2026-10-19T23:26:28.672677+00:00",
-      "reports": [
-        {
-          "title": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
-          "date": "2026-10-08",
-          "source": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
-          "issuer": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
-          "source_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
-          "canonical_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
-          "official_host": "www.lawson.co.jp",
           "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
           "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
         }
@@ -3489,7 +3535,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-20T08:41:54.933759+00:00"
+          "last_seen_at": "2026-10-20T09:03:55.311324+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -3872,7 +3918,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T08:41:54.933759+00:00"
+          "last_seen_at": "2026-10-20T09:03:55.311324+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -3883,7 +3929,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T08:41:54.933759+00:00"
+          "last_seen_at": "2026-10-20T09:03:55.311324+00:00"
         }
       ],
       "leaked_records": null,
@@ -3999,7 +4045,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T08:41:54.933759+00:00"
+          "last_seen_at": "2026-10-20T09:03:55.311324+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -4010,7 +4056,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T08:41:54.933759+00:00"
+          "last_seen_at": "2026-10-20T09:03:55.311324+00:00"
         }
       ],
       "leaked_records": null,
@@ -4081,7 +4127,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T08:41:54.933759+00:00"
+          "last_seen_at": "2026-10-20T09:03:55.311324+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -4126,7 +4172,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T08:41:54.933759+00:00"
+          "last_seen_at": "2026-10-20T09:03:55.311324+00:00"
         }
       ],
       "leaked_records": null,
@@ -4238,125 +4284,6 @@
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
-    },
-    {
-      "id": "lawson-id-20261008",
-      "event_key": null,
-      "event_scope": "ローソンIDへの不正アクセス",
-      "name": "ローソンIDへの不正アクセスで個人情報2,155,345件の漏えいを確認",
-      "sector": "小売・コンビニエンスストア",
-      "region": "日本",
-      "date": "2026-10-08",
-      "status": "official",
-      "source": "株式会社ローソン",
-      "issuer": "株式会社ローソン",
-      "reported_org": "ローソンID利用者",
-      "incident_count": 2155345,
-      "incident_count_label": "漏えいが確認された対象（件）",
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "ローソンは、2026年9月12日から14日にローソンIDが不正アクセスを受け、メールアドレス・氏名等2,155,345件の個人情報が漏えいしたと公表。10月19日更新の公式発表でも件数を掲載。",
-      "source_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
-      "official_host": "www.lawson.co.jp",
-      "posted_at": "2026-10-20T09:02:09+00:00",
-      "last_seen_at": "2026-10-20T09:02:09+00:00",
-      "updated_at": "2026-10-20T09:02:09+00:00",
-      "reports": [
-        {
-          "title": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ（10月19日更新）",
-          "date": "2026-10-08",
-          "source": "株式会社ローソン",
-          "issuer": "株式会社ローソン",
-          "source_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
-          "canonical_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
-          "official_host": "www.lawson.co.jp",
-          "first_seen_at": "2026-10-20T09:02:09+00:00",
-          "last_seen_at": "2026-10-20T09:02:09+00:00"
-        }
-      ]
-    },
-    {
-      "id": "lawson-app-reservation-20261019",
-      "event_key": null,
-      "event_scope": "ローソンアプリ予約への不正アクセス",
-      "name": "ローソンアプリ予約への不正アクセスで個人情報26件の漏えいを確認・予約機能を再開",
-      "sector": "小売・コンビニエンスストア",
-      "region": "日本",
-      "date": "2026-10-19",
-      "status": "official",
-      "source": "株式会社ローソン",
-      "issuer": "株式会社ローソン",
-      "reported_org": "ローソンアプリ予約利用者",
-      "incident_count": 26,
-      "incident_count_label": "漏えいが確認された対象（件）",
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "ローソンアプリ予約は2026年9月17日に不正アクセスを受け、氏名・電話番号・クレジットカード番号の一部を含む個人情報26件の漏えいを確認。停止していた予約機能は10月19日に再開したと公式発表。",
-      "source_url": "https://www.lawson.co.jp/contents/cont07/1533371_3310.html",
-      "official_host": "www.lawson.co.jp",
-      "posted_at": "2026-10-20T09:02:09+00:00",
-      "last_seen_at": "2026-10-20T09:02:09+00:00",
-      "updated_at": "2026-10-20T09:02:09+00:00",
-      "reports": [
-        {
-          "title": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ（10月19日更新）",
-          "date": "2026-10-08",
-          "source": "株式会社ローソン",
-          "issuer": "株式会社ローソン",
-          "source_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
-          "canonical_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
-          "official_host": "www.lawson.co.jp",
-          "first_seen_at": "2026-10-20T09:02:09+00:00",
-          "last_seen_at": "2026-10-20T09:02:09+00:00"
-        },
-        {
-          "title": "ローソンアプリ予約の利用再開について",
-          "date": "2026-10-19",
-          "source": "株式会社ローソン",
-          "issuer": "株式会社ローソン",
-          "source_url": "https://www.lawson.co.jp/contents/cont07/1533371_3310.html",
-          "canonical_url": "https://www.lawson.co.jp/contents/cont07/1533371_3310.html",
-          "official_host": "www.lawson.co.jp",
-          "first_seen_at": "2026-10-20T09:02:09+00:00",
-          "last_seen_at": "2026-10-20T09:02:09+00:00"
-        }
-      ]
-    },
-    {
-      "id": "daiichikosho-ncg-20261008",
-      "event_key": null,
-      "event_scope": "日本コロムビアグループ委託先端末のマルウェア感染による情報漏えい可能性",
-      "name": "第一興商、委託先端末のマルウェア感染で顧客・従業員情報約872万4,000件の漏えい可能性",
-      "sector": "エンターテインメント",
-      "region": "日本",
-      "date": "2026-10-08",
-      "status": "official",
-      "source": "株式会社第一興商",
-      "issuer": "株式会社第一興商",
-      "reported_org": "第一興商の店舗顧客・従業員",
-      "incident_count": 8724000,
-      "incident_count_label": "漏えいのおそれがある情報（重複調整後、約件）",
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "委託先の日本コロムビアグループ株式会社から従業員端末1台のマルウェア感染報告を受け、第一興商は顧客・従業員情報の漏えい可能性を公表。氏名・性別・生年月日・メールアドレス・電話番号等、重複調整後の総数は約8,724,000件。実際の外部漏えいは確認されておらず、原因と範囲は調査中。",
-      "source_url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
-      "official_host": "www.dkkaraoke.co.jp",
-      "posted_at": "2026-10-20T09:02:09+00:00",
-      "last_seen_at": "2026-10-20T09:02:09+00:00",
-      "updated_at": "2026-10-20T09:02:09+00:00",
-      "reports": [
-        {
-          "title": "委託先における個人情報漏えいのおそれについて（追記あり）",
-          "date": "2026-10-08",
-          "source": "株式会社第一興商",
-          "issuer": "株式会社第一興商",
-          "source_url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
-          "canonical_url": "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
-          "official_host": "www.dkkaraoke.co.jp",
-          "first_seen_at": "2026-10-20T09:02:09+00:00",
-          "last_seen_at": "2026-10-20T09:02:09+00:00"
-        }
-      ]
     }
   ],
   "discovery_summary": {
