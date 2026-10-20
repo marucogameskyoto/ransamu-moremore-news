@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T00:22:53.259747+00:00",
+  "updated_at": "2026-10-20T00:25:24.663Z",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,42 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "sourcenext-20261015",
+      "event_key": null,
+      "event_scope": "",
+      "name": "ソースネクスト、会員情報2,251万9,960件の流出可能性を公表",
+      "sector": "ソフトウェア",
+      "region": "日本",
+      "date": "2026-10-15",
+      "posted_at": "2026-10-20T00:25:24.663Z",
+      "status": "official",
+      "source": "ソースネクスト株式会社",
+      "issuer": "ソースネクスト株式会社",
+      "reported_org": "ソースネクスト株式会社",
+      "incident_count": 22519960,
+      "incident_count_label": "流出可能性対象件数",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "2026年10月9日10時頃から会員情報取得APIへの不正アクセスがあり、10月13日9時頃に検知。第三者が会員情報を取得し、会員情報22,519,960件が外部に流出した可能性があると公表。対象にはメールアドレス、パスワード、氏名、住所、電話番号等が含まれ、クレジットカード情報は対象システムに保存されていないと説明。発表元：ソースネクスト株式会社。",
+      "source_url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+      "official_host": "www.sourcenext.com",
+      "last_seen_at": "2026-10-20T00:25:24.663Z",
+      "updated_at": "2026-10-20T00:25:24.663Z",
+      "reports": [
+        {
+          "title": "当社サイトへの不正アクセスによるお客様情報流出のお詫びとお知らせ",
+          "date": "2026-10-15",
+          "source": "ソースネクスト株式会社",
+          "issuer": "ソースネクスト株式会社",
+          "source_url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+          "canonical_url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+          "official_host": "www.sourcenext.com",
+          "first_seen_at": "2026-10-20T00:25:24.663Z",
+          "last_seen_at": "2026-10-20T00:25:24.663Z"
+        }
+      ]
+    },
     {
       "id": "crypton-sonicwire-20261019",
       "event_key": null,
