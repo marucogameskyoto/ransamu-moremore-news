@@ -235,6 +235,60 @@ def roundup_candidates(source, parser, final_url):
                 add(href, label, organization)
     for href, label in parser.links:
         add(href, label)
+    if source.get("kind") == "news_lead":
+        # Use the newsroom only to discover article links. Never publish or
+        # summarize secondary reporting; continue only through a clearly
+        # labeled external official-source link and verify that page below.
+        lead_host = source.get("allowed_host") or urlparse(final_url).hostname
+        prefixes = source.get("path_prefixes", [])
+        leads = []
+        lead_seen = set()
+        for href, label in parser.links:
+            target = urljoin(final_url, href)
+            parsed = urlparse(target)
+            if parsed.scheme != "https" or parsed.hostname != lead_host:
+                continue
+            if not any(parsed.path.startswith(prefix) for prefix in prefixes):
+                continue
+            if not (matches(label, INCIDENT_TERMS) or matches(label, LEAK_TERMS)):
+                continue
+            key = canonical_url(target)
+            if key not in lead_seen:
+                lead_seen.add(key)
+                leads.append((target, label))
+        last_fetch = None
+        delay = float(source.get("delay_seconds_per_host", 1))
+        for article_url, article_label in leads[:source.get("max_candidates", 40)]:
+            if last_fetch is not None:
+                wait = delay - (time.monotonic() - last_fetch)
+                if wait > 0:
+                    time.sleep(wait)
+            last_fetch = time.monotonic()
+            try:
+                article, article_final, skipped = fetch(article_url, lead_host)
+                if skipped or not article:
+                    continue
+                article_title = next((value for key, value in article.meta
+                                      if key in {"og:title", "twitter:title", "title"} and value), "") or article_label
+                article_body = clean(" ".join(article.text_parts))
+                article_text = article_title + " " + article_body
+                if not matches(article_text, INCIDENT_TERMS) or not matches(article_text, LEAK_TERMS):
+                    continue
+                article_date = published_date(article_body, [value for key, value in article.meta if "date" in key])
+                if article_date and (article_date < NOW - timedelta(days=source.get("max_age_days", 45))
+                                     or article_date > NOW + timedelta(days=1)):
+                    continue
+                for official_href, official_label in article.links:
+                    if not is_primary_label(official_label):
+                        continue
+                    official_url = urljoin(article_final, official_href)
+                    official_host = urlparse(official_url).hostname
+                    if official_host and official_host != lead_host:
+                        add(official_url, official_label)
+            except Exception:
+                # A secondary lead failing to load must not affect official-source
+                # discovery from the other configured roundup sources.
+                continue
     return rows
 
 
