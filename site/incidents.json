@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T00:05:21.451013+00:00",
+  "updated_at": "2026-10-20T00:11:23.226006+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,154 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "bd5df00782710907e6e1",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-07-31",
+      "status": "official",
+      "source": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
+      "issuer": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
+      "reported_org": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "2026年7月16日付でお知らせいたしました当社システムへの不正アクセス事案につきまして、その後の調査状況および対応状況についてご報告申し上げます。現時点において、当社が保有する個人情報、お客様情報および取引先情報等について、外部への漏えいまたは不正利用が行われた事実は確認されておりません。",
+      "source_url": "https://www.solid-adv.co.jp/20260731-01",
+      "official_host": "www.solid-adv.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-20T00:11:23.226006+00:00",
+      "updated_at": "2026-10-20T00:11:23.226006+00:00",
+      "reports": [
+        {
+          "title": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
+          "date": "2026-07-31",
+          "source": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
+          "issuer": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
+          "source_url": "https://www.solid-adv.co.jp/20260731-01",
+          "canonical_url": "https://www.solid-adv.co.jp/20260731-01",
+          "official_host": "www.solid-adv.co.jp",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
+    {
+      "id": "741f8238c38ae7b90061",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-07-30",
+      "status": "official",
+      "source": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
+      "issuer": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
+      "reported_org": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル オフィス用品のアスクル(法人様向け) 2026年7月30日 お客様各位 アスクル株式会社 ランサムウェア攻撃に伴う情報漏えいのおそれに関する追加の本人通知について 平素よりアスクルをご利用いただき、誠にありがとうございます。",
+      "source_url": "https://www.askul.co.jp/shopnews/news_260730_rw_notification.html",
+      "official_host": "www.askul.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-20T00:11:23.226006+00:00",
+      "updated_at": "2026-10-20T00:11:23.226006+00:00",
+      "reports": [
+        {
+          "title": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
+          "date": "2026-07-30",
+          "source": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
+          "issuer": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
+          "source_url": "https://www.askul.co.jp/shopnews/news_260730_rw_notification.html",
+          "canonical_url": "https://www.askul.co.jp/shopnews/news_260730_rw_notification.html",
+          "official_host": "www.askul.co.jp",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
+    {
+      "id": "f2f655ebb88a9a7c6e67",
+      "event_key": null,
+      "event_scope": "",
+      "name": "お知らせ詳細 | 精電舎電子工業",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-07-21",
+      "status": "official",
+      "source": "お知らせ詳細 | 精電舎電子工業",
+      "issuer": "お知らせ詳細 | 精電舎電子工業",
+      "reported_org": "お知らせ詳細 | 精電舎電子工業",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "調査の結果、システム障害の原因はランサムウェア攻撃によるものと確認され、本日まで攻撃者の行動の特定とランサムウェア被害範囲について詳細調査を進めてまいりました。１．ランサムウェア被害発生時の対応 2026年4月22日午前7時50分、マルウェアによる不正アクセスを確認し、直ちに全社ネットワークを遮断いたしました。",
+      "source_url": "https://www.sedeco.co.jp/news/detail?dispmid=567&itemid=111",
+      "official_host": "www.sedeco.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-20T00:11:23.226006+00:00",
+      "updated_at": "2026-10-20T00:11:23.226006+00:00",
+      "reports": [
+        {
+          "title": "お知らせ詳細 | 精電舎電子工業",
+          "date": "2026-07-21",
+          "source": "お知らせ詳細 | 精電舎電子工業",
+          "issuer": "お知らせ詳細 | 精電舎電子工業",
+          "source_url": "https://www.sedeco.co.jp/news/detail?dispmid=567&itemid=111",
+          "canonical_url": "https://www.sedeco.co.jp/news/detail?dispmid=567&itemid=111",
+          "official_host": "www.sedeco.co.jp",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
+    {
+      "id": "6c05a1385b4f72c87461",
+      "event_key": null,
+      "event_scope": "",
+      "name": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-07-14",
+      "status": "official",
+      "source": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
+      "issuer": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
+      "reported_org": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び ABOUT NEWS BRAND SHOP LIST RECRUIT ONLINE TOP NEWS INFORMATION ランサムウェア感染の可能性に関するお知らせとお詫び NEWS ニュース INFORMATION 2026年7月14日 ランサムウェア感染の可能性に関するお知らせとお詫び 株式会社ファイブフォックスは、本社サーバーの一部がランサムウェアに感染している可能性があることが確認された事をお。",
+      "source_url": "https://www.fivefoxes.co.jp/2026/07/post-20.html",
+      "official_host": "www.fivefoxes.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-20T00:11:23.226006+00:00",
+      "updated_at": "2026-10-20T00:11:23.226006+00:00",
+      "reports": [
+        {
+          "title": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
+          "date": "2026-07-14",
+          "source": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
+          "issuer": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
+          "source_url": "https://www.fivefoxes.co.jp/2026/07/post-20.html",
+          "canonical_url": "https://www.fivefoxes.co.jp/2026/07/post-20.html",
+          "official_host": "www.fivefoxes.co.jp",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
     {
       "id": "6328105d6d374cd26b1d",
       "event_key": null,
@@ -2611,154 +2759,6 @@
       "posted_at": "2026-10-19T16:48:37.216144+00:00"
     },
     {
-      "id": "bd5df00782710907e6e1",
-      "event_key": null,
-      "event_scope": "",
-      "name": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-07-31",
-      "status": "official",
-      "source": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
-      "issuer": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
-      "reported_org": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "",
-      "source_url": "https://www.solid-adv.co.jp/20260731-01",
-      "official_host": "www.solid-adv.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T16:48:37.216144+00:00",
-      "updated_at": "2026-10-19T16:48:37.216144+00:00",
-      "reports": [
-        {
-          "title": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
-          "date": "2026-07-31",
-          "source": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
-          "issuer": "当社システムへの不正アクセス事案に関する続報（第二報） – ソリッドアドバンス株式会社",
-          "source_url": "https://www.solid-adv.co.jp/20260731-01",
-          "canonical_url": "https://www.solid-adv.co.jp/20260731-01",
-          "official_host": "www.solid-adv.co.jp",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
-      "id": "741f8238c38ae7b90061",
-      "event_key": null,
-      "event_scope": "",
-      "name": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-07-30",
-      "status": "official",
-      "source": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
-      "issuer": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
-      "reported_org": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "",
-      "source_url": "https://www.askul.co.jp/shopnews/news_260730_rw_notification.html",
-      "official_host": "www.askul.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T16:48:37.216144+00:00",
-      "updated_at": "2026-10-19T16:48:37.216144+00:00",
-      "reports": [
-        {
-          "title": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
-          "date": "2026-07-30",
-          "source": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
-          "issuer": "【ASKUL】お知らせ詳細 - オフィス用品の通販 アスクル",
-          "source_url": "https://www.askul.co.jp/shopnews/news_260730_rw_notification.html",
-          "canonical_url": "https://www.askul.co.jp/shopnews/news_260730_rw_notification.html",
-          "official_host": "www.askul.co.jp",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
-      "id": "f2f655ebb88a9a7c6e67",
-      "event_key": null,
-      "event_scope": "",
-      "name": "お知らせ詳細 | 精電舎電子工業",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-07-21",
-      "status": "official",
-      "source": "お知らせ詳細 | 精電舎電子工業",
-      "issuer": "お知らせ詳細 | 精電舎電子工業",
-      "reported_org": "お知らせ詳細 | 精電舎電子工業",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "",
-      "source_url": "https://www.sedeco.co.jp/news/detail?dispmid=567&itemid=111",
-      "official_host": "www.sedeco.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T16:48:37.216144+00:00",
-      "updated_at": "2026-10-19T16:48:37.216144+00:00",
-      "reports": [
-        {
-          "title": "お知らせ詳細 | 精電舎電子工業",
-          "date": "2026-07-21",
-          "source": "お知らせ詳細 | 精電舎電子工業",
-          "issuer": "お知らせ詳細 | 精電舎電子工業",
-          "source_url": "https://www.sedeco.co.jp/news/detail?dispmid=567&itemid=111",
-          "canonical_url": "https://www.sedeco.co.jp/news/detail?dispmid=567&itemid=111",
-          "official_host": "www.sedeco.co.jp",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
-      "id": "6c05a1385b4f72c87461",
-      "event_key": null,
-      "event_scope": "",
-      "name": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-07-14",
-      "status": "official",
-      "source": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
-      "issuer": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
-      "reported_org": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "",
-      "source_url": "https://www.fivefoxes.co.jp/2026/07/post-20.html",
-      "official_host": "www.fivefoxes.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T16:48:37.216144+00:00",
-      "updated_at": "2026-10-19T16:48:37.216144+00:00",
-      "reports": [
-        {
-          "title": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
-          "date": "2026-07-14",
-          "source": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
-          "issuer": "FIVE FOXes（ファイブフォックス）公式サイト - ランサムウェア感染の可能性に関するお知らせとお詫び",
-          "source_url": "https://www.fivefoxes.co.jp/2026/07/post-20.html",
-          "canonical_url": "https://www.fivefoxes.co.jp/2026/07/post-20.html",
-          "official_host": "www.fivefoxes.co.jp",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
       "id": "entatch-toho-20261019",
       "event_key": null,
       "event_scope": "",
@@ -3323,7 +3323,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
+          "last_seen_at": "2026-10-20T00:10:56.436023+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -3706,7 +3706,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
+          "last_seen_at": "2026-10-20T00:10:56.436023+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -3717,7 +3717,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
+          "last_seen_at": "2026-10-20T00:10:56.436023+00:00"
         }
       ],
       "leaked_records": null,
@@ -3833,7 +3833,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
+          "last_seen_at": "2026-10-20T00:10:56.436023+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -3844,7 +3844,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
+          "last_seen_at": "2026-10-20T00:10:56.436023+00:00"
         }
       ],
       "leaked_records": null,
@@ -3915,7 +3915,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
+          "last_seen_at": "2026-10-20T00:10:56.436023+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -3960,7 +3960,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
+          "last_seen_at": "2026-10-20T00:10:56.436023+00:00"
         }
       ],
       "leaked_records": null,
@@ -4077,7 +4077,7 @@
   "discovery_summary": {
     "roundup_pages_succeeded": 3,
     "official_links_found": 190,
-    "official_pages_verified": 2,
+    "official_pages_verified": 0,
     "new_records": 0,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
