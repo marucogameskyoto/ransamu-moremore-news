@@ -182,6 +182,19 @@
       "max_age_days": 3650,
       "max_candidates": 120,
       "delay_seconds_per_host": 1
+    },
+    {
+      "name": "ITmedia NEWS（発見用）",
+      "url": "https://www.itmedia.co.jp/news/subtop/news/",
+      "kind": "news_lead",
+      "allowed_host": "www.itmedia.co.jp",
+      "path_prefixes": [
+        "/news/article/"
+      ],
+      "region": "日本",
+      "max_age_days": 45,
+      "max_candidates": 40,
+      "delay_seconds_per_host": 1
     }
   ],
   "primary_source_labels": [
