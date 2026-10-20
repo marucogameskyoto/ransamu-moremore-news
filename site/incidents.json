@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T00:34:07.266408+00:00",
+  "updated_at": "2026-10-20T00:39:30Z",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -10,6 +10,42 @@
     ]
   },
   "incidents": [
+    {
+      "id": "yamato-kuroneko-postpay-20261016",
+      "event_key": "yamato-kuroneko-postpay",
+      "event_scope": "クロネコ代金後払いサービスへの不正アクセス",
+      "name": "ヤマト運輸「クロネコ代金後払いサービス」から約526万件の情報持ち出しを公表",
+      "sector": "運輸・物流",
+      "region": "日本",
+      "date": "2026-10-16",
+      "posted_at": "2026-10-20T00:39:30Z",
+      "status": "official",
+      "source": "ヤマト運輸株式会社",
+      "issuer": "ヤマト運輸株式会社",
+      "reported_org": "クロネコ代金後払いサービスの利用者等",
+      "incident_count": 5260000,
+      "incident_count_label": "利用者情報（約526万件）",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "9月28日に「クロネコ代金後払いサービス」への不正アクセスを確認。調査の結果、同サービスに関わる情報の不正持ち出しが判明したと10月16日に公表。利用者情報は約526万件（メールアドレスを含む件数は約49万件）、届け先情報は約5万件、加盟店情報は約4,100件。区分の重複を避け、合計には主指標の利用者情報約526万件のみ計上。発表元：ヤマト運輸株式会社。",
+      "source_url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+      "official_host": "www.yamato-hd.co.jp",
+      "last_seen_at": "2026-10-20T00:39:30Z",
+      "updated_at": "2026-10-20T00:39:30Z",
+      "reports": [
+        {
+          "title": "〖第4報〗「クロネコ代金後払いサービス」への不正アクセスに関する調査結果と今後の対応について",
+          "date": "2026-10-16",
+          "source": "ヤマト運輸株式会社",
+          "issuer": "ヤマト運輸株式会社",
+          "source_url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+          "canonical_url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+          "official_host": "www.yamato-hd.co.jp",
+          "first_seen_at": "2026-10-20T00:39:30Z",
+          "last_seen_at": "2026-10-20T00:39:30Z"
+        }
+      ]
+    },
     {
       "id": "sourcenext-20261015",
       "event_key": null,
