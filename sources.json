@@ -127,6 +127,18 @@
       ],
       "region": "日本",
       "max_candidates": 25
+    },
+    {
+      "name": "クリプトン・フューチャー・メディア株式会社",
+      "organization": "クリプトン・フューチャー・メディア株式会社",
+      "allowed_host": "www.crypton.co.jp",
+      "start_url": "https://www.crypton.co.jp/cfm/news",
+      "path_prefixes": [
+        "/cfm/news/"
+      ],
+      "region": "日本",
+      "max_candidates": 30,
+      "delay_seconds": 1
     }
   ],
   "history_days": 3650,
