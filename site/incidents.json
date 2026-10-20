@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T00:17:11.396931+00:00",
+  "updated_at": "2026-10-20T00:21:52.870Z",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,42 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "crypton-sonicwire-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "クリプトン、SONICWIRE・D2Rへの不正アクセスで会員情報漏えいの可能性",
+      "sector": "音楽・ソフトウェア",
+      "region": "日本",
+      "date": "2026-10-19",
+      "posted_at": "2026-10-20T00:21:52.870Z",
+      "status": "official",
+      "source": "クリプトン・フューチャー・メディア株式会社",
+      "issuer": "クリプトン・フューチャー・メディア株式会社",
+      "reported_org": "SONICWIRE・D2R",
+      "incident_count": 420000,
+      "incident_count_label": "SONICWIRE会員（最大約）",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "2026年10月17日20時頃、運営するSONICWIREおよびD2Rで不正アクセスの可能性を確認し、同日23時39分頃に両サービスのサーバー停止を完了。SONICWIRE会員（ニュースレター購読者を含む）最大約42万件について、氏名、メールアドレス、ハッシュ化パスワード等が閲覧・取得された可能性を公表。D2R登録店舗情報も対象だが件数は公表されていない。発表元：クリプトン・フューチャー・メディア株式会社。",
+      "source_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
+      "official_host": "www.crypton.co.jp",
+      "last_seen_at": "2026-10-20T00:21:52.870Z",
+      "updated_at": "2026-10-20T00:21:52.870Z",
+      "reports": [
+        {
+          "title": "不正アクセスによるお客様情報漏えいの可能性に関するお知らせ",
+          "date": "2026-10-19",
+          "source": "クリプトン・フューチャー・メディア株式会社",
+          "issuer": "クリプトン・フューチャー・メディア株式会社",
+          "source_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
+          "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
+          "official_host": "www.crypton.co.jp",
+          "first_seen_at": "2026-10-20T00:21:52.870Z",
+          "last_seen_at": "2026-10-20T00:21:52.870Z"
+        }
+      ]
+    },
     {
       "id": "bd5df00782710907e6e1",
       "event_key": null,
