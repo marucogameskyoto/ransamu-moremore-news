@@ -63,7 +63,7 @@ const labels={confirmed:'確認済み',claim:'攻撃者の主張',disputed:'否�
 [...new Set(incidents.map(x=>x.sector))].sort().forEach(s=>{let o=document.createElement('option');o.value=s;o.textContent=s;$('sectorFilter').append(o)});
 function esc(v){return String(v??'').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]))}
 function formatPostedAt(value){const date=new Date(value);if(Number.isNaN(date.getTime()))return '投稿日時不明';const parts=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(date);const part=type=>parts.find(x=>x.type===type)?.value||'';return `${part('year')}年${part('month')}月${part('day')}日 ${part('hour')}:${part('minute')}`}
-function articleSummary(detail,issuer){let summary=String(detail||"").trim().replace(/[。．\\s]+$/,"")||"公式発表ページで不正アクセスまたは情報漏えいに関する事案を公表";summary=summary.replace(/(?:。?\\s*発表元[：:][^。]+。?)+$/g,"").trim().replace(/[。．\\s]+$/,"");return summary+"。発表元："+(issuer||"公式発表")+"。"}
+function articleSummary(detail,issuer){let summary=String(detail||"").trim().replace(/[。．\s]+$/,"")||"公式発表ページで不正アクセスまたは情報漏えいに関する事案を公表";summary=summary.replace(/(?:。?\s*発表元[：:][^。]+。?)+$/g,"").trim().replace(/[。．\s]+$/,"");return summary+"。発表元："+(issuer||"公式発表")+"。"}
 function officialHref(report){try{const u=new URL(report.source_url);return u.protocol==='https:'&&u.hostname===report.official_host?u.href:''}catch{return ''}}
 function tokyoDate(){return new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())}
 function renderTodaySummary(){
