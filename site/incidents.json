@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T09:04:26.752920+00:00",
+  "updated_at": "2026-10-20T11:55:41.860Z",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,42 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "lawson-id-20261008",
+      "event_key": "lawson-id-unauthorized-access-20261008",
+      "event_scope": "ローソンIDへの不正アクセス",
+      "name": "ローソンIDへの不正アクセスで215万5,345件の個人情報漏えいを公表",
+      "sector": "小売・コンビニエンスストア",
+      "region": "日本",
+      "date": "2026-10-08",
+      "status": "official",
+      "source": "株式会社ローソン",
+      "issuer": "株式会社ローソン",
+      "reported_org": "ローソンID利用者",
+      "incident_count": 2155345,
+      "incident_count_label": "対象人数（公式発表の表記：件）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "ローソンは、2026年9月12日から14日にローソンIDへの不正アクセスを受け、メールアドレス・氏名など215万5,345件の個人情報が漏えいしたと公表。対象人数は公式発表の表記に従い「件」として掲載。ローソンアプリ予約の別事案26件は別記事に掲載。",
+      "source_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
+      "official_host": "www.lawson.co.jp",
+      "posted_at": "2026-10-20T11:55:41+00:00",
+      "last_seen_at": "2026-10-20T11:55:41+00:00",
+      "updated_at": "2026-10-20T11:55:41+00:00",
+      "reports": [
+        {
+          "title": "第三者による不正アクセスに伴う個人情報漏えいに関するお詫びとお知らせ",
+          "date": "2026-10-08",
+          "source": "株式会社ローソン",
+          "issuer": "株式会社ローソン",
+          "source_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
+          "canonical_url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html",
+          "official_host": "www.lawson.co.jp",
+          "first_seen_at": "2026-10-20T11:55:41+00:00",
+          "last_seen_at": "2026-10-20T11:55:41+00:00"
+        }
+      ]
+    },
     {
       "id": "lawson-app-reservation-20261019",
       "event_key": null,
