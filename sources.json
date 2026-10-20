@@ -139,6 +139,18 @@
       "region": "日本",
       "max_candidates": 30,
       "delay_seconds": 1
+    },
+    {
+      "name": "ヤマトホールディングス",
+      "organization": "ヤマト運輸株式会社",
+      "allowed_host": "www.yamato-hd.co.jp",
+      "start_url": "https://www.yamato-hd.co.jp/important/",
+      "path_prefixes": [
+        "/important/"
+      ],
+      "region": "日本",
+      "max_candidates": 20,
+      "delay_seconds": 1
     }
   ],
   "history_days": 3650,
