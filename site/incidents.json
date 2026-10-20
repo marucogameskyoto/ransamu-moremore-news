@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T02:04:29.230528+00:00",
+  "updated_at": "2026-10-20T02:42:48Z",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,42 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "lixil-lpocket-20261019",
+      "event_key": "lixil-lpocket-unauthorized-access",
+      "event_scope": "LIXIL「L-ポケット」「L-ポケットLite版」への不正アクセス",
+      "name": "LIXIL「L-ポケット」への不正アクセス、登録会員など3,379人の情報漏えいを公表",
+      "sector": "住宅・建材",
+      "region": "日本",
+      "date": "2026-10-19",
+      "posted_at": "2026-10-20T02:42:48Z",
+      "status": "official",
+      "source": "株式会社LIXIL",
+      "issuer": "株式会社LIXIL",
+      "reported_org": "L-ポケットおよびL-ポケットLite版の登録会員、LIXIL・グループ従業員等",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": 3379,
+      "leaked_records": null,
+      "detail": "2026年10月13日に「L-ポケット」「L-ポケットLite版」で第三者による不正アクセスを検知し、登録会員などの個人情報が外部へ漏えいしたことを確認したと10月19日に公表。対象は3,379人（うちLIXILおよびグループ会社の従業員・退職者375人）。氏名、メールアドレス、生年月日、性別、会員番号または登録コード、事業者情報が含まれる。決済情報への影響はないと説明。発表元：株式会社LIXIL。",
+      "source_url": "https://www.lixil.co.jp/announce/notice-info-leak-20261019.htm",
+      "official_host": "www.lixil.co.jp",
+      "last_seen_at": "2026-10-20T02:42:48Z",
+      "updated_at": "2026-10-20T02:42:48Z",
+      "reports": [
+        {
+          "title": "LIXILが提供する業務支援アプリケーション「L-ポケット」における不正アクセスに伴う登録会員情報漏えいについてのお詫びとご報告",
+          "date": "2026-10-19",
+          "source": "株式会社LIXIL",
+          "issuer": "株式会社LIXIL",
+          "source_url": "https://www.lixil.co.jp/announce/notice-info-leak-20261019.htm",
+          "canonical_url": "https://www.lixil.co.jp/announce/notice-info-leak-20261019.htm",
+          "official_host": "www.lixil.co.jp",
+          "first_seen_at": "2026-10-20T02:42:48Z",
+          "last_seen_at": "2026-10-20T02:42:48Z"
+        }
+      ]
+    },
     {
       "id": "yamato-kuroneko-postpay-20261016",
       "event_key": "yamato-kuroneko-postpay",
