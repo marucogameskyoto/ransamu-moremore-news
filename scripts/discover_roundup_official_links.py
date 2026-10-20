@@ -449,6 +449,50 @@ for source in CONFIG.get("roundup_sources", []):
     except Exception as exc:
         errors.append(source.get("name", "roundup") + ": " + type(exc).__name__ + ": " + str(exc))
 
+# Revisit already-listed official links whose factual overview is still missing.
+backfill_host_delay = {}
+for event in events:
+    if event.get("detail") or not event.get("discovered_from") or not event.get("source_url"):
+        continue
+    official_url = event["source_url"]
+    parsed = urlparse(official_url)
+    host = parsed.hostname
+    if not host or parsed.scheme != "https" or host != event.get("official_host"):
+        errors.append(str(host or "unknown host") + ": incomplete article summary has an invalid official URL")
+        continue
+    delay = float(CONFIG.get("backfill_delay_seconds_per_host", 1))
+    last_fetch = backfill_host_delay.get(host)
+    if last_fetch is not None:
+        wait = delay - (time.monotonic() - last_fetch)
+        if wait > 0:
+            time.sleep(wait)
+    backfill_host_delay[host] = time.monotonic()
+    try:
+        page, final_url, skipped = fetch(official_url, host)
+        if skipped or not page:
+            if skipped:
+                errors.append(host + ": summary backfill skipped: " + skipped)
+            continue
+        title, body, date_values = page_summary(page, event.get("name", "公式発表"))
+        combined = title + " " + body
+        if not matches(combined, INCIDENT_TERMS) or not matches(combined, LEAK_TERMS):
+            errors.append(host + ": official page did not verify as an incident and information exposure")
+            continue
+        event["detail"] = summarize_official(body, title)
+        record_count = extract_record_count(body)
+        if event.get("incident_count") is None and event.get("leaked_records") is None and record_count is not None:
+            event["leaked_records"] = record_count
+        published = published_date(body, date_values)
+        if event.get("date") in (None, "", "日付不明") and date_values and published:
+            event["date"] = published.date().isoformat()
+        reports = event.get("reports") or []
+        for report in reports:
+            if report.get("date") in (None, "", "日付不明") and date_values and published:
+                report["date"] = published.date().isoformat()
+        event["updated_at"] = NOW_TEXT
+        event["last_seen_at"] = NOW_TEXT
+    except Exception as exc:
+        errors.append(host + ": summary backfill: " + type(exc).__name__ + ": " + str(exc))
 if CONFIG.get("roundup_sources") and roundups_succeeded == 0:
     raise SystemExit("All roundup discovery pages failed; keeping published data. " + "; ".join(errors))
 
