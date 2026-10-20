@@ -6,7 +6,6 @@ import re
 import socket
 import time
 import urllib.robotparser
-import xml.etree.ElementTree as ET
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
@@ -170,7 +169,7 @@ def get_robots(host):
     return ROBOTS[host]
 
 
-def fetch(url, host, max_bytes=2_000_000, allow_external_redirect=False):
+def fetch(url, host, max_bytes=2_000_000):
     parsed = urlparse(url)
     if parsed.scheme != "https" or parsed.hostname != host or not public_hostname(host):
         raise ValueError("URL is not a public HTTPS page on the expected host")
@@ -183,12 +182,8 @@ def fetch(url, host, max_bytes=2_000_000, allow_external_redirect=False):
     })
     with urllib.request.urlopen(request, timeout=20) as response:
         final_url = response.geturl()
-        final_host = urlparse(final_url).hostname
-        if final_host != host:
-            if not allow_external_redirect or not final_host or not public_hostname(final_host):
-                raise ValueError("Redirect left the source host")
-            if not get_robots(final_host).can_fetch(USER_AGENT, final_url):
-                return None, None, "redirect target robots.txt disallows this URL"
+        if urlparse(final_url).hostname != host:
+            raise ValueError("Redirect left the source host")
         if response.headers.get_content_type() not in {"text/html", "application/xhtml+xml"}:
             return None, None, "not an HTML page"
         charset = response.headers.get_content_charset() or "utf-8"
@@ -297,49 +292,6 @@ def roundup_candidates(source, parser, final_url):
     return rows
 
 
-def google_news_candidates(source):
-    feed_url = source["url"]
-    host = urlparse(feed_url).hostname
-    if urlparse(feed_url).scheme != "https" or host != "news.google.com" or not public_hostname(host):
-        raise ValueError("Google News RSS URL must use news.google.com over HTTPS")
-    if not get_robots(host).can_fetch(USER_AGENT, feed_url):
-        raise ValueError("Google News RSS robots.txt disallows this URL")
-    request = urllib.request.Request(feed_url, headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/xml"})
-    with urllib.request.urlopen(request, timeout=25) as response:
-        payload = response.read(2_000_000)
-    root = ET.fromstring(payload)
-    candidates, seen = [], set()
-    items = [node for node in root.iter() if node.tag.rsplit("}", 1)[-1].lower() == "item"]
-    for item in items[:source.get("max_candidates", 40)]:
-        fields = {node.tag.rsplit("}", 1)[-1].lower(): clean(node.text or "") for node in item}
-        title, link = fields.get("title", ""), fields.get("link", "")
-        if not link or not matches(title, INCIDENT_TERMS):
-            continue
-        try:
-            article, article_url, skipped = fetch(link, host, allow_external_redirect=True)
-            if skipped or not article:
-                continue
-            article_host = urlparse(article_url).hostname
-            article_title, body, date_values = page_summary(article, title)
-            if not matches(article_title + " " + body, INCIDENT_TERMS) or not matches(body, LEAK_TERMS):
-                continue
-            published = published_date(body, date_values)
-            if published and (published < NOW - timedelta(days=source.get("max_age_days", 45)) or published > NOW + timedelta(days=1)):
-                continue
-            for href, label in article.links:
-                if not is_primary_label(label):
-                    continue
-                target = urljoin(article_url, href)
-                parsed = urlparse(target)
-                key = canonical_url(target)
-                if parsed.scheme == "https" and parsed.hostname and parsed.hostname != article_host and key not in seen:
-                    seen.add(key)
-                    candidates.append({"url": target, "organization": "", "roundup": feed_url})
-        except Exception:
-            continue
-    return candidates
-
-
 def page_summary(parser, fallback):
     title = next((value for key, value in parser.meta if key in {"og:title", "twitter:title", "title"} and value), "")
     date_values = [value for key, value in parser.meta if "date" in key or key == "pubdate"]
@@ -433,16 +385,12 @@ for source in CONFIG.get("roundup_sources", []):
         roundup_host = urlparse(source["url"]).hostname
         if not roundup_host:
             raise ValueError("Roundup URL has no hostname")
-        if source.get("kind") == "google_news_rss":
-            roundups_succeeded += 1
-            candidates = google_news_candidates(source)
-        else:
-            listing, final_url, skipped = fetch(source["url"], roundup_host)
-            if skipped or not listing:
-                errors.append(source.get("name", roundup_host) + ": " + (skipped or "page unavailable"))
-                continue
-            roundups_succeeded += 1
-            candidates = roundup_candidates(source, listing, final_url)
+        listing, final_url, skipped = fetch(source["url"], roundup_host)
+        if skipped or not listing:
+            errors.append(source.get("name", roundup_host) + ": " + (skipped or "page unavailable"))
+            continue
+        roundups_succeeded += 1
+        candidates = roundup_candidates(source, listing, final_url)
         candidate_count += len(candidates)
         host_delay = {}
         for candidate in candidates[:source.get("max_candidates", 500)]:
