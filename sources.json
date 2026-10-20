@@ -195,6 +195,19 @@
       "max_age_days": 45,
       "max_candidates": 40,
       "delay_seconds_per_host": 1
+    },
+    {
+      "name": "ScanNetSecurity（発見用）",
+      "url": "https://s.netsecurity.ne.jp/category/incident/incident/latest/",
+      "kind": "news_lead",
+      "allowed_host": "s.netsecurity.ne.jp",
+      "path_prefixes": [
+        "/article/"
+      ],
+      "region": "日本",
+      "max_age_days": 60,
+      "max_candidates": 40,
+      "delay_seconds_per_host": 1
     }
   ],
   "primary_source_labels": [
