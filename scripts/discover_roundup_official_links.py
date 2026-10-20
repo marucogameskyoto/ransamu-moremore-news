@@ -269,6 +269,8 @@ def summarize_official(body, title=""):
     ranked.sort(key=lambda item: (-item[0], item[1]))
     chosen = sorted(ranked[:2], key=lambda item: item[1])
     summary = "".join(item[2] for item in chosen)
+    if not summary:
+        summary = "公式発表ページで不正アクセスまたは情報漏えいに関する事案を公表。"
     if len(summary) > 260:
         summary = summary[:259].rsplit("。", 1)[0] + "。"
     return summary
