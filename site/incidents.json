@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T23:55:26.025909+00:00",
+  "updated_at": "2026-10-20T00:05:21.451013+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,117 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "6328105d6d374cd26b1d",
+      "event_key": null,
+      "event_scope": "",
+      "name": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "日付不明",
+      "status": "official",
+      "source": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
+      "issuer": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
+      "reported_org": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "公式発表ページで不正アクセスまたは情報漏えいに関する事案を公表。",
+      "source_url": "https://hotel.inc/news/information/20261013_01",
+      "official_host": "hotel.inc",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-20T00:05:21.451013+00:00",
+      "updated_at": "2026-10-20T00:05:21.451013+00:00",
+      "reports": [
+        {
+          "title": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
+          "date": "日付不明",
+          "source": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
+          "issuer": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
+          "source_url": "https://hotel.inc/news/information/20261013_01",
+          "canonical_url": "https://hotel.inc/news/information/20261013_01",
+          "official_host": "hotel.inc",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
+    {
+      "id": "61791027c2286535de90",
+      "event_key": null,
+      "event_scope": "",
+      "name": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-05",
+      "status": "official",
+      "source": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
+      "issuer": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
+      "reported_org": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "公式発表ページで不正アクセスまたは情報漏えいに関する事案を公表。",
+      "source_url": "https://www.whiteessence.com/news/news/20261005",
+      "official_host": "www.whiteessence.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-20T00:05:21.451013+00:00",
+      "updated_at": "2026-10-20T00:05:21.451013+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
+          "date": "2026-10-05",
+          "source": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
+          "issuer": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
+          "source_url": "https://www.whiteessence.com/news/news/20261005",
+          "canonical_url": "https://www.whiteessence.com/news/news/20261005",
+          "official_host": "www.whiteessence.com",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
+    {
+      "id": "2816dd97095353892d0f",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-09",
+      "status": "official",
+      "source": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
+      "issuer": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
+      "reported_org": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "2026年10月5日から6日にかけてサービスへの不正アクセスを受け、一部コミュニティで会員情報の漏えいを確認。10月6日に全コミュニティを停止し、防御措置後、10月8日から再開を希望するコミュニティを順次再開したと公表。漏えい件数は公式発表に記載なし。",
+      "source_url": "https://communeinc.com/ja/news/2026oct09",
+      "official_host": "communeinc.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-19T23:55:26.025909+00:00",
+      "updated_at": "2026-10-20T00:01:55.901Z",
+      "reports": [
+        {
+          "title": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
+          "date": "2026-10-09",
+          "source": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
+          "issuer": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
+          "source_url": "https://communeinc.com/ja/news/2026oct09",
+          "canonical_url": "https://communeinc.com/ja/news/2026oct09",
+          "official_host": "communeinc.com",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
     {
       "id": "fa15ad2728305b51e64a",
       "event_key": null,
@@ -2500,117 +2611,6 @@
       "posted_at": "2026-10-19T16:48:37.216144+00:00"
     },
     {
-      "id": "6328105d6d374cd26b1d",
-      "event_key": null,
-      "event_scope": "",
-      "name": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "日付不明",
-      "status": "official",
-      "source": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
-      "issuer": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
-      "reported_org": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "",
-      "source_url": "https://hotel.inc/news/information/20261013_01",
-      "official_host": "hotel.inc",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:55:26.025909+00:00",
-      "updated_at": "2026-10-19T16:48:37.216144+00:00",
-      "reports": [
-        {
-          "title": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
-          "date": "日付不明",
-          "source": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
-          "issuer": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ｜民泊ホテル開業支援・運営代行 | すべてのホテルの応援団",
-          "source_url": "https://hotel.inc/news/information/20261013_01",
-          "canonical_url": "https://hotel.inc/news/information/20261013_01",
-          "official_host": "hotel.inc",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
-      "id": "2816dd97095353892d0f",
-      "event_key": null,
-      "event_scope": "",
-      "name": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-10-09",
-      "status": "official",
-      "source": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
-      "issuer": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
-      "reported_org": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "2026年10月5日から6日にかけてサービスへの不正アクセスを受け、一部コミュニティで会員情報の漏えいを確認。10月6日に全コミュニティを停止し、防御措置後、10月8日から再開を希望するコミュニティを順次再開したと公表。漏えい件数は公式発表に記載なし。",
-      "source_url": "https://communeinc.com/ja/news/2026oct09",
-      "official_host": "communeinc.com",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:55:26.025909+00:00",
-      "updated_at": "2026-10-20T00:01:55.901Z",
-      "reports": [
-        {
-          "title": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
-          "date": "2026-10-09",
-          "source": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
-          "issuer": "【重要】当社サービス「Commune」、「Commune for Work」への不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
-          "source_url": "https://communeinc.com/ja/news/2026oct09",
-          "canonical_url": "https://communeinc.com/ja/news/2026oct09",
-          "official_host": "communeinc.com",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
-      "id": "61791027c2286535de90",
-      "event_key": null,
-      "event_scope": "",
-      "name": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-10-05",
-      "status": "official",
-      "source": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
-      "issuer": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
-      "reported_org": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "",
-      "source_url": "https://www.whiteessence.com/news/news/20261005",
-      "official_host": "www.whiteessence.com",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:55:26.025909+00:00",
-      "updated_at": "2026-10-19T16:48:37.216144+00:00",
-      "reports": [
-        {
-          "title": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
-          "date": "2026-10-05",
-          "source": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
-          "issuer": "不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ | ホワイトエッセンス",
-          "source_url": "https://www.whiteessence.com/news/news/20261005",
-          "canonical_url": "https://www.whiteessence.com/news/news/20261005",
-          "official_host": "www.whiteessence.com",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
       "id": "bd5df00782710907e6e1",
       "event_key": null,
       "event_scope": "",
@@ -3323,7 +3323,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-19T23:54:56.356763+00:00"
+          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -3706,7 +3706,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:54:56.356763+00:00"
+          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -3717,7 +3717,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:54:56.356763+00:00"
+          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
         }
       ],
       "leaked_records": null,
@@ -3833,7 +3833,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:54:56.356763+00:00"
+          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -3844,7 +3844,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:54:56.356763+00:00"
+          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
         }
       ],
       "leaked_records": null,
@@ -3915,7 +3915,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:54:56.356763+00:00"
+          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -3960,7 +3960,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-19T23:54:56.356763+00:00"
+          "last_seen_at": "2026-10-20T00:04:55.993600+00:00"
         }
       ],
       "leaked_records": null,
@@ -4077,7 +4077,7 @@
   "discovery_summary": {
     "roundup_pages_succeeded": 3,
     "official_links_found": 190,
-    "official_pages_verified": 3,
+    "official_pages_verified": 2,
     "new_records": 0,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
