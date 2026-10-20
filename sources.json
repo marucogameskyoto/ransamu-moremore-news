@@ -220,6 +220,15 @@
       "max_age_days": 60,
       "max_candidates": 40,
       "delay_seconds_per_host": 1
+    },
+    {
+      "name": "Googleニュース（ランサム・不正アクセス発見用）",
+      "kind": "google_news_rss",
+      "url": "https://news.google.com/rss/search?q=(%E3%83%A9%E3%83%B3%E3%82%B5%E3%83%A0%20OR%20%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9)%20(%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%20OR%20%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%20OR%20%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1)&hl=ja&gl=JP&ceid=JP%3Aja",
+      "region": "日本",
+      "max_age_days": 45,
+      "max_candidates": 40,
+      "delay_seconds_per_host": 1
     }
   ],
   "primary_source_labels": [
