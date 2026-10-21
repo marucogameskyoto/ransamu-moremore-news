@@ -1,13 +1,132 @@
 {
-  "updated_at": "2026-10-21T13:10:58Z",
+  "updated_at": "2026-10-21T13:11:52.300632+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
-    "sources_succeeded": 8,
+    "sources_succeeded": 7,
     "new_records": 0,
-    "warnings": []
+    "warnings": [
+      "クリプトン・フューチャー・メディア株式会社: robots.txt disallows this URL"
+    ]
   },
   "incidents": [
+    {
+      "id": "arcadia-speecan-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "アルカディア、不正アクセス後のフィッシングメール約142万通配信と機能制限解除を公表",
+      "sector": "IT・自治体向けシステム",
+      "region": "日本",
+      "date": "2026-10-21",
+      "status": "official",
+      "source": "株式会社アルカディア",
+      "issuer": "株式会社アルカディア",
+      "reported_org": "SpeeCAN RAIDEN等の利用者",
+      "incident_count": 3136000,
+      "incident_count_label": "SpeeCAN RAIDENの漏えい可能性があるメールアドレス（約313.6万件、推定）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "アルカディアは不正アクセス後の調査状況を更新。10月21日の第17報で、不正なプログラムにより1,423,428通のフィッシングメールが配信され、少なくとも869,575通は同社内に保有するメールアドレス宛てではなかったことを公表。第18報では一部機能の制限解除を発表した。各サービスの個人情報漏えい可能性の規模は従来の公表値のままで、フィッシングメールの配信通数は漏えい件数に加算しない。",
+      "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+      "official_host": "raiden.site.ktaiwork.jp",
+      "last_seen_at": "2026-10-21T13:10:58Z",
+      "updated_at": "2026-10-21T13:10:58Z",
+      "reports": [
+        {
+          "title": "弊社サービスへの不正アクセスに伴う一連の対応について（10月19日 第12報）",
+          "date": "2026-10-19",
+          "source": "株式会社アルカディア",
+          "issuer": "株式会社アルカディア",
+          "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "canonical_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "official_host": "raiden.site.ktaiwork.jp",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        },
+        {
+          "title": "不正アクセスに伴う一連の対応について | お知らせ | 株式会社アルカディア",
+          "date": "2026-10-19",
+          "source": "不正アクセスに伴う一連の対応について | お知らせ | 株式会社アルカディア",
+          "issuer": "不正アクセスに伴う一連の対応について | お知らせ | 株式会社アルカディア",
+          "source_url": "https://www.arcadia.co.jp/info/4076",
+          "canonical_url": "https://www.arcadia.co.jp/info/4076",
+          "official_host": "www.arcadia.co.jp",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        },
+        {
+          "title": "弊社サービスへの不正アクセスに伴う一連の対応について（第13報）",
+          "date": "2026-10-20",
+          "source": "株式会社アルカディア",
+          "issuer": "株式会社アルカディア",
+          "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "canonical_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "official_host": "raiden.site.ktaiwork.jp",
+          "first_seen_at": "2026-10-21T13:10:58Z",
+          "last_seen_at": "2026-10-21T13:10:58Z"
+        },
+        {
+          "title": "弊社サービスへの不正アクセスに伴う一連の対応について（第14～18報）",
+          "date": "2026-10-21",
+          "source": "株式会社アルカディア",
+          "issuer": "株式会社アルカディア",
+          "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "canonical_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "official_host": "raiden.site.ktaiwork.jp",
+          "first_seen_at": "2026-10-21T13:10:58Z",
+          "last_seen_at": "2026-10-21T13:10:58Z"
+        }
+      ],
+      "posted_at": "2026-10-21T13:10:58Z"
+    },
+    {
+      "id": "fa15ad2728305b51e64a",
+      "event_key": null,
+      "event_scope": "",
+      "name": "ジェトロ、一部ウェブサイトの不正アクセス被害を公表し暫定再開",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-20",
+      "status": "official",
+      "source": "独立行政法人日本貿易振興機構（ジェトロ）",
+      "issuer": "独立行政法人日本貿易振興機構（ジェトロ）",
+      "reported_org": "日本貿易振興機構（ジェトロ）",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": 743,
+      "detail": "ジェトロは一部ウェブサイトへの不正アクセスを確認し、企業名・担当者のメールアドレスなど743件の個人情報漏えいを公表。10月20日にウェブサイトを一部機能制限付きで暫定再開した。検索機能や認証が必要なコンテンツには利用制限が残る。",
+      "source_url": "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html",
+      "official_host": "www.jetro.go.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-21T13:10:58Z",
+      "updated_at": "2026-10-21T13:10:58Z",
+      "reports": [
+        {
+          "title": "当機構ウェブサイトへの不正アクセスについて",
+          "date": "2026-10-19",
+          "source": "独立行政法人日本貿易振興機構（ジェトロ）",
+          "issuer": "独立行政法人日本貿易振興機構（ジェトロ）",
+          "source_url": "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html",
+          "canonical_url": "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html",
+          "official_host": "www.jetro.go.jp",
+          "first_seen_at": "2026-10-19T22:09:53.410784+00:00",
+          "last_seen_at": "2026-10-19T22:09:53.410784+00:00"
+        },
+        {
+          "title": "当機構ウェブサイトの暫定再開について",
+          "date": "2026-10-20",
+          "source": "独立行政法人日本貿易振興機構（ジェトロ）",
+          "issuer": "独立行政法人日本貿易振興機構（ジェトロ）",
+          "source_url": "https://www.jetro.go.jp/news/announcement/2026/1e5d9962ca1cec2f.html",
+          "canonical_url": "https://www.jetro.go.jp/news/announcement/2026/1e5d9962ca1cec2f.html",
+          "official_host": "www.jetro.go.jp",
+          "first_seen_at": "2026-10-21T13:10:58Z",
+          "last_seen_at": "2026-10-21T13:10:58Z"
+        }
+      ],
+      "posted_at": "2026-10-21T13:10:58Z"
+    },
     {
       "id": "studio-unauthorized-access-20261016",
       "event_key": "studio-cloud-unauthorized-access-20260930",
@@ -146,7 +265,7 @@
       "incident_count": null,
       "incident_count_label": null,
       "affected_people": null,
-      "leaked_records": null,
+      "leaked_records": 1789,
       "detail": "1. 経緯 2026年10月13日 7時9分頃：セキュリティ監視ツールが、外部からの不正アクセスの兆候を検知。2. 流出した情報と、照会された可能性がある情報 (1) 従業員・退職者、委託先・パートナー企業の方に関する情報（流出を確認） 項目：氏名（一部はフリガナを含む）、社用メールアドレス 対象：現職の従業員、退職者、委託先・パートナー企業の方 件数：1,789件 原因：社内システムおよびツールの管理者・利用者のリストが記載されたファイルが流出したことによるもの。",
       "source_url": "https://company.golfdigest.co.jp/corp/pr/2026101601.html",
       "official_host": "company.golfdigest.co.jp",
@@ -858,54 +977,6 @@
         }
       ],
       "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
-      "id": "fa15ad2728305b51e64a",
-      "event_key": null,
-      "event_scope": "",
-      "name": "ジェトロ、一部ウェブサイトの不正アクセス被害を公表し暫定再開",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-10-20",
-      "status": "official",
-      "source": "独立行政法人日本貿易振興機構（ジェトロ）",
-      "issuer": "独立行政法人日本貿易振興機構（ジェトロ）",
-      "reported_org": "日本貿易振興機構（ジェトロ）",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": 743,
-      "detail": "ジェトロは一部ウェブサイトへの不正アクセスを確認し、企業名・担当者のメールアドレスなど743件の個人情報漏えいを公表。10月20日にウェブサイトを一部機能制限付きで暫定再開した。検索機能や認証が必要なコンテンツには利用制限が残る。",
-      "source_url": "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html",
-      "official_host": "www.jetro.go.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-21T13:10:58Z",
-      "updated_at": "2026-10-21T13:10:58Z",
-      "reports": [
-        {
-          "title": "当機構ウェブサイトへの不正アクセスについて",
-          "date": "2026-10-19",
-          "source": "独立行政法人日本貿易振興機構（ジェトロ）",
-          "issuer": "独立行政法人日本貿易振興機構（ジェトロ）",
-          "source_url": "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html",
-          "canonical_url": "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html",
-          "official_host": "www.jetro.go.jp",
-          "first_seen_at": "2026-10-19T22:09:53.410784+00:00",
-          "last_seen_at": "2026-10-19T22:09:53.410784+00:00"
-        },
-        {
-          "title": "当機構ウェブサイトの暫定再開について",
-          "date": "2026-10-20",
-          "source": "独立行政法人日本貿易振興機構（ジェトロ）",
-          "issuer": "独立行政法人日本貿易振興機構（ジェトロ）",
-          "source_url": "https://www.jetro.go.jp/news/announcement/2026/1e5d9962ca1cec2f.html",
-          "canonical_url": "https://www.jetro.go.jp/news/announcement/2026/1e5d9962ca1cec2f.html",
-          "official_host": "www.jetro.go.jp",
-          "first_seen_at": "2026-10-21T13:10:58Z",
-          "last_seen_at": "2026-10-21T13:10:58Z"
-        }
-      ],
-      "posted_at": "2026-10-21T13:10:58Z"
     },
     {
       "id": "a5374aca81c47e693851",
@@ -3130,75 +3201,6 @@
       "posted_at": "2026-10-19T13:07:28Z"
     },
     {
-      "id": "arcadia-speecan-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "アルカディア、不正アクセス後のフィッシングメール約142万通配信と機能制限解除を公表",
-      "sector": "IT・自治体向けシステム",
-      "region": "日本",
-      "date": "2026-10-21",
-      "status": "official",
-      "source": "株式会社アルカディア",
-      "issuer": "株式会社アルカディア",
-      "reported_org": "SpeeCAN RAIDEN等の利用者",
-      "incident_count": 3136000,
-      "incident_count_label": "SpeeCAN RAIDENの漏えい可能性があるメールアドレス（約313.6万件、推定）",
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "アルカディアは不正アクセス後の調査状況を更新。10月21日の第17報で、不正なプログラムにより1,423,428通のフィッシングメールが配信され、少なくとも869,575通は同社内に保有するメールアドレス宛てではなかったことを公表。第18報では一部機能の制限解除を発表した。各サービスの個人情報漏えい可能性の規模は従来の公表値のままで、フィッシングメールの配信通数は漏えい件数に加算しない。",
-      "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
-      "official_host": "raiden.site.ktaiwork.jp",
-      "last_seen_at": "2026-10-21T13:10:58Z",
-      "updated_at": "2026-10-21T13:10:58Z",
-      "reports": [
-        {
-          "title": "弊社サービスへの不正アクセスに伴う一連の対応について（10月19日 第12報）",
-          "date": "2026-10-19",
-          "source": "株式会社アルカディア",
-          "issuer": "株式会社アルカディア",
-          "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
-          "canonical_url": "https://raiden.site.ktaiwork.jp/archives/4597",
-          "official_host": "raiden.site.ktaiwork.jp",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        },
-        {
-          "title": "不正アクセスに伴う一連の対応について | お知らせ | 株式会社アルカディア",
-          "date": "2026-10-19",
-          "source": "不正アクセスに伴う一連の対応について | お知らせ | 株式会社アルカディア",
-          "issuer": "不正アクセスに伴う一連の対応について | お知らせ | 株式会社アルカディア",
-          "source_url": "https://www.arcadia.co.jp/info/4076",
-          "canonical_url": "https://www.arcadia.co.jp/info/4076",
-          "official_host": "www.arcadia.co.jp",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        },
-        {
-          "title": "弊社サービスへの不正アクセスに伴う一連の対応について（第13報）",
-          "date": "2026-10-20",
-          "source": "株式会社アルカディア",
-          "issuer": "株式会社アルカディア",
-          "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
-          "canonical_url": "https://raiden.site.ktaiwork.jp/archives/4597",
-          "official_host": "raiden.site.ktaiwork.jp",
-          "first_seen_at": "2026-10-21T13:10:58Z",
-          "last_seen_at": "2026-10-21T13:10:58Z"
-        },
-        {
-          "title": "弊社サービスへの不正アクセスに伴う一連の対応について（第14～18報）",
-          "date": "2026-10-21",
-          "source": "株式会社アルカディア",
-          "issuer": "株式会社アルカディア",
-          "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
-          "canonical_url": "https://raiden.site.ktaiwork.jp/archives/4597",
-          "official_host": "raiden.site.ktaiwork.jp",
-          "first_seen_at": "2026-10-21T13:10:58Z",
-          "last_seen_at": "2026-10-21T13:10:58Z"
-        }
-      ],
-      "posted_at": "2026-10-21T13:10:58Z"
-    },
-    {
       "id": "4181bbf51a7d309d372f",
       "event_key": null,
       "event_scope": "",
@@ -3800,7 +3802,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-21T13:06:04.706465+00:00"
+          "last_seen_at": "2026-10-21T13:11:22.639385+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -4183,7 +4185,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T13:06:04.706465+00:00"
+          "last_seen_at": "2026-10-21T13:11:22.639385+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -4194,7 +4196,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T13:06:04.706465+00:00"
+          "last_seen_at": "2026-10-21T13:11:22.639385+00:00"
         }
       ],
       "leaked_records": null,
@@ -4310,7 +4312,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T13:06:04.706465+00:00"
+          "last_seen_at": "2026-10-21T13:11:22.639385+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -4321,7 +4323,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T13:06:04.706465+00:00"
+          "last_seen_at": "2026-10-21T13:11:22.639385+00:00"
         }
       ],
       "leaked_records": null,
@@ -4392,7 +4394,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T13:06:04.706465+00:00"
+          "last_seen_at": "2026-10-21T13:11:22.639385+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -4437,7 +4439,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T13:06:04.706465+00:00"
+          "last_seen_at": "2026-10-21T13:11:22.639385+00:00"
         }
       ],
       "leaked_records": null,
@@ -4554,8 +4556,8 @@
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
     "official_links_found": 200,
-    "official_pages_verified": 3,
-    "new_records": 3,
+    "official_pages_verified": 0,
+    "new_records": 0,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
