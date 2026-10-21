@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T08:09:00+09:00",
+  "updated_at": "2026-10-21T23:16:50.055789+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -10,6 +10,80 @@
     ]
   },
   "incidents": [
+    {
+      "id": "46b18567068f43549fc7",
+      "event_key": null,
+      "event_scope": "",
+      "name": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-18",
+      "posted_at": "2026-10-21T23:16:50.055789+00:00",
+      "status": "official",
+      "source": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
+      "issuer": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
+      "reported_org": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "２． 影響範囲の調査状況 前回発表いたしました流出した会員情報に加え、一部のシステムログファイルにつきましても閲覧・取得されたことが判明したことから、会員情報の有無を確認するため当該ログの精査を行っております。(1) 他社サービスでのパスワード変更のお願い 今回流出した会員情報（メールアドレスとパスワード）の組み合わせを使い、第三者が他のWebサービスへ不正ログインを試みるおそれがございます。",
+      "source_url": "https://www.nttsolmare.com/press/2026/1016-1.html",
+      "official_host": "www.nttsolmare.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-21T23:16:50.055789+00:00",
+      "updated_at": "2026-10-21T23:16:50.055789+00:00",
+      "reports": [
+        {
+          "title": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
+          "date": "2026-10-18",
+          "source": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
+          "issuer": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
+          "source_url": "https://www.nttsolmare.com/press/2026/1016-1.html",
+          "canonical_url": "https://www.nttsolmare.com/press/2026/1016-1.html",
+          "official_host": "www.nttsolmare.com",
+          "first_seen_at": "2026-10-21T23:16:50.055789+00:00",
+          "last_seen_at": "2026-10-21T23:16:50.055789+00:00"
+        }
+      ]
+    },
+    {
+      "id": "c6415173433f1e2f2ce7",
+      "event_key": null,
+      "event_scope": "",
+      "name": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-16",
+      "posted_at": "2026-10-21T23:16:50.055789+00:00",
+      "status": "official",
+      "source": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
+      "issuer": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
+      "reported_org": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "10月16日（金） ・その後の調査・分析において、『コミックシーモア』の会員情報を管理するシステムに不正アクセスがあり、その内部に保管する会員情報が第三者へ流出したことを確認いたしました。(1) 他社サービスでのパスワード変更のお願い 今回流出した会員情報（メールアドレスとパスワード）の組み合わせを使い、第三者が他のWebサービスへ不正ログインを試みるおそれがございます。",
+      "source_url": "https://www.nttsolmare.com/press/2026/1016.html",
+      "official_host": "www.nttsolmare.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-21T23:16:50.055789+00:00",
+      "updated_at": "2026-10-21T23:16:50.055789+00:00",
+      "reports": [
+        {
+          "title": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
+          "date": "2026-10-16",
+          "source": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
+          "issuer": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
+          "source_url": "https://www.nttsolmare.com/press/2026/1016.html",
+          "canonical_url": "https://www.nttsolmare.com/press/2026/1016.html",
+          "official_host": "www.nttsolmare.com",
+          "first_seen_at": "2026-10-21T23:16:50.055789+00:00",
+          "last_seen_at": "2026-10-21T23:16:50.055789+00:00"
+        }
+      ]
+    },
     {
       "id": "e47d0b2d8f74d0fe23f6",
       "event_key": null,
@@ -1338,6 +1412,102 @@
       "posted_at": "2026-10-19T16:48:37.216144+00:00"
     },
     {
+      "id": "7736bdf7055281f7942d",
+      "event_key": null,
+      "event_scope": "",
+      "name": "岩井コスモ証券、委託先への不正アクセスで顧客情報4,975名分が漏えい",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-21",
+      "status": "official",
+      "source": "岩井コスモ証券",
+      "issuer": "岩井コスモ証券",
+      "reported_org": "岩井コスモ証券",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": 4975,
+      "leaked_records": null,
+      "detail": "委託先への不正アクセスで顧客情報が閲覧可能となり、10月20日の第2報で対象は4,975名（第1報の4,611名に新たに判明した364名を追加）と公表。氏名・メールアドレス等が含まれ、取引暗証番号は含まれない。10月21日の報告では、不正アクセス発生時に不正な売買注文7口座分、うち5口座で約定を確認し原状回復措置を実施。",
+      "source_url": "https://www.iwaicosmo.net/info/post_499.html",
+      "official_host": "www.iwaicosmo.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
+      "updated_at": "2026-10-19T23:26:28.672677+00:00",
+      "reports": [
+        {
+          "title": "外部委託先への不正アクセスに伴うお客様情報の漏洩について｜ニュースリリース｜岩井コスモ証券",
+          "date": "2026-10-16",
+          "source": "外部委託先への不正アクセスに伴うお客様情報の漏洩について｜ニュースリリース｜岩井コスモ証券",
+          "issuer": "外部委託先への不正アクセスに伴うお客様情報の漏洩について｜ニュースリリース｜岩井コスモ証券",
+          "source_url": "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
+          "canonical_url": "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
+          "official_host": "www.iwaicosmo.co.jp",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        },
+        {
+          "title": "外部委託先への不正アクセスに伴うお客様情報の漏洩について（第2報）｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
+          "date": "2026-10-20",
+          "source": "外部委託先への不正アクセスに伴うお客様情報の漏洩について（第2報）｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
+          "issuer": "外部委託先への不正アクセスに伴うお客様情報の漏洩について（第2報）｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
+          "source_url": "https://www.iwaicosmo.net/info/2_9214.html",
+          "canonical_url": "https://www.iwaicosmo.net/info/2_9214.html",
+          "official_host": "www.iwaicosmo.net",
+          "first_seen_at": "2026-10-21T23:06:38.331471+00:00",
+          "last_seen_at": "2026-10-21T23:06:38.331471+00:00"
+        },
+        {
+          "title": "不正アクセスによる個人情報漏洩および不正取引に関するご報告｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
+          "date": "2026-10-21",
+          "source": "不正アクセスによる個人情報漏洩および不正取引に関するご報告｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
+          "issuer": "不正アクセスによる個人情報漏洩および不正取引に関するご報告｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
+          "source_url": "https://www.iwaicosmo.net/info/post_499.html",
+          "canonical_url": "https://www.iwaicosmo.net/info/post_499.html",
+          "official_host": "www.iwaicosmo.net",
+          "first_seen_at": "2026-10-21T23:06:38.331471+00:00",
+          "last_seen_at": "2026-10-21T23:06:38.331471+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
+    {
+      "id": "c6415173433f1e2f2ce7",
+      "event_key": null,
+      "event_scope": "",
+      "name": "コミックシーモア、不正アクセスで会員情報319件とシステムログ最大約420万件が流出",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-21",
+      "status": "official",
+      "source": "NTTソルマーレ株式会社",
+      "issuer": "NTTソルマーレ株式会社",
+      "reported_org": "NTTソルマーレ株式会社（コミックシーモア）",
+      "incident_count": 4200319,
+      "incident_count_label": "会員登録情報319件＋システムログ最大約420万件（重複を含む可能性）",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "『コミックシーモア』への不正アクセスについて、10月21日の第4報で、会員データベース上の登録情報319件（メールアドレス、ハッシュ化パスワード、ニックネーム、生年月日、性別）と、システムログファイル上の情報最大約420万件が流出したと公表。ログの件数には同一顧客に関する情報の重複を含む可能性がある。表示上の合計は319件と最大約420万件を便宜上合算した値。",
+      "source_url": "https://www.nttsolmare.com/press/2026/1021.html",
+      "official_host": "www.nttsolmare.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
+      "updated_at": "2026-10-19T23:26:28.672677+00:00",
+      "reports": [
+        {
+          "source_url": "https://www.nttsolmare.com/press/2026/1021.html",
+          "canonical_url": "https://www.nttsolmare.com/press/2026/1021.html",
+          "title": "コミックシーモア、不正アクセスで会員情報319件とシステムログ最大約420万件が流出",
+          "date": "2026-10-21",
+          "source": "NTTソルマーレ株式会社",
+          "issuer": "NTTソルマーレ株式会社",
+          "official_host": "www.nttsolmare.com",
+          "first_seen_at": "2026-10-19T23:26:28.672677+00:00",
+          "last_seen_at": "2026-10-19T23:26:28.672677+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
+    {
       "id": "a5374aca81c47e693851",
       "event_key": null,
       "event_scope": "",
@@ -1486,65 +1656,6 @@
       "posted_at": "2026-10-19T16:48:37.216144+00:00"
     },
     {
-      "id": "7736bdf7055281f7942d",
-      "event_key": null,
-      "event_scope": "",
-      "name": "岩井コスモ証券、委託先への不正アクセスで顧客情報4,975名分が漏えい",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-10-21",
-      "status": "official",
-      "source": "岩井コスモ証券",
-      "issuer": "岩井コスモ証券",
-      "reported_org": "岩井コスモ証券",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": 4975,
-      "leaked_records": null,
-      "detail": "委託先への不正アクセスで顧客情報が閲覧可能となり、10月20日の第2報で対象は4,975名（第1報の4,611名に新たに判明した364名を追加）と公表。氏名・メールアドレス等が含まれ、取引暗証番号は含まれない。10月21日の報告では、不正アクセス発生時に不正な売買注文7口座分、うち5口座で約定を確認し原状回復措置を実施。",
-      "source_url": "https://www.iwaicosmo.net/info/post_499.html",
-      "official_host": "www.iwaicosmo.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
-      "updated_at": "2026-10-19T23:26:28.672677+00:00",
-      "reports": [
-        {
-          "title": "外部委託先への不正アクセスに伴うお客様情報の漏洩について｜ニュースリリース｜岩井コスモ証券",
-          "date": "2026-10-16",
-          "source": "外部委託先への不正アクセスに伴うお客様情報の漏洩について｜ニュースリリース｜岩井コスモ証券",
-          "issuer": "外部委託先への不正アクセスに伴うお客様情報の漏洩について｜ニュースリリース｜岩井コスモ証券",
-          "source_url": "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
-          "canonical_url": "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
-          "official_host": "www.iwaicosmo.co.jp",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        },
-        {
-          "title": "外部委託先への不正アクセスに伴うお客様情報の漏洩について（第2報）｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
-          "date": "2026-10-20",
-          "source": "外部委託先への不正アクセスに伴うお客様情報の漏洩について（第2報）｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
-          "issuer": "外部委託先への不正アクセスに伴うお客様情報の漏洩について（第2報）｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
-          "source_url": "https://www.iwaicosmo.net/info/2_9214.html",
-          "canonical_url": "https://www.iwaicosmo.net/info/2_9214.html",
-          "official_host": "www.iwaicosmo.net",
-          "first_seen_at": "2026-10-21T23:06:38.331471+00:00",
-          "last_seen_at": "2026-10-21T23:06:38.331471+00:00"
-        },
-        {
-          "title": "不正アクセスによる個人情報漏洩および不正取引に関するご報告｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
-          "date": "2026-10-21",
-          "source": "不正アクセスによる個人情報漏洩および不正取引に関するご報告｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
-          "issuer": "不正アクセスによる個人情報漏洩および不正取引に関するご報告｜ご案内｜お知らせ｜岩井コスモ証券ネット取引",
-          "source_url": "https://www.iwaicosmo.net/info/post_499.html",
-          "canonical_url": "https://www.iwaicosmo.net/info/post_499.html",
-          "official_host": "www.iwaicosmo.net",
-          "first_seen_at": "2026-10-21T23:06:38.331471+00:00",
-          "last_seen_at": "2026-10-21T23:06:38.331471+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
       "id": "6a7cd99dcbdec7ee2d28",
       "event_key": null,
       "event_scope": "",
@@ -1651,78 +1762,6 @@
           "official_host": "wasabi-inc.biz",
           "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
           "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
-      "id": "c6415173433f1e2f2ce7",
-      "event_key": null,
-      "event_scope": "",
-      "name": "コミックシーモア、不正アクセスで会員情報319件とシステムログ最大約420万件が流出",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-10-21",
-      "status": "official",
-      "source": "NTTソルマーレ株式会社",
-      "issuer": "NTTソルマーレ株式会社",
-      "reported_org": "NTTソルマーレ株式会社（コミックシーモア）",
-      "incident_count": 4200319,
-      "incident_count_label": "会員登録情報319件＋システムログ最大約420万件（重複を含む可能性）",
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "『コミックシーモア』への不正アクセスについて、10月21日の第4報で、会員データベース上の登録情報319件（メールアドレス、ハッシュ化パスワード、ニックネーム、生年月日、性別）と、システムログファイル上の情報最大約420万件が流出したと公表。ログの件数には同一顧客に関する情報の重複を含む可能性がある。表示上の合計は319件と最大約420万件を便宜上合算した値。",
-      "source_url": "https://www.nttsolmare.com/press/2026/1021.html",
-      "official_host": "www.nttsolmare.com",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
-      "updated_at": "2026-10-19T23:26:28.672677+00:00",
-      "reports": [
-        [
-          {
-            "title": "『コミックシーモア』緊急メンテナンスについて",
-            "date": "2026-10-15",
-            "source": "NTTソルマーレ株式会社",
-            "issuer": "NTTソルマーレ株式会社",
-            "source_url": "https://www.nttsolmare.com/press/2026/0616-1.html",
-            "canonical_url": "https://www.nttsolmare.com/press/2026/0616-1.html",
-            "official_host": "www.nttsolmare.com",
-            "first_seen_at": "2026-10-22T08:09:00+09:00",
-            "last_seen_at": "2026-10-22T08:09:00+09:00"
-          }
-        ],
-        {
-          "title": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
-          "date": "2026-10-16",
-          "source": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
-          "issuer": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
-          "source_url": "https://www.nttsolmare.com/press/2026/1016.html",
-          "canonical_url": "https://www.nttsolmare.com/press/2026/1016.html",
-          "official_host": "www.nttsolmare.com",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        },
-        {
-          "title": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
-          "date": "2026-10-18",
-          "source": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
-          "issuer": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
-          "source_url": "https://www.nttsolmare.com/press/2026/1016-1.html",
-          "canonical_url": "https://www.nttsolmare.com/press/2026/1016-1.html",
-          "official_host": "www.nttsolmare.com",
-          "first_seen_at": "2026-10-21T13:06:39.819150+00:00",
-          "last_seen_at": "2026-10-21T13:06:39.819150+00:00"
-        },
-        {
-          "title": "『コミックシーモア』お客様の情報流出に関するご報告（第4報）｜ニュースリリース｜NTTソルマーレ株式会社",
-          "date": "2026-10-21",
-          "source": "『コミックシーモア』お客様の情報流出に関するご報告（第4報）｜ニュースリリース｜NTTソルマーレ株式会社",
-          "issuer": "『コミックシーモア』お客様の情報流出に関するご報告（第4報）｜ニュースリリース｜NTTソルマーレ株式会社",
-          "source_url": "https://www.nttsolmare.com/press/2026/1021.html",
-          "canonical_url": "https://www.nttsolmare.com/press/2026/1021.html",
-          "official_host": "www.nttsolmare.com",
-          "first_seen_at": "2026-10-21T23:06:38.331471+00:00",
-          "last_seen_at": "2026-10-21T23:06:38.331471+00:00"
         }
       ],
       "posted_at": "2026-10-19T16:48:37.216144+00:00"
@@ -3654,6 +3693,89 @@
       "posted_at": "2026-10-19T16:48:37.216144+00:00"
     },
     {
+      "id": "jfa-passport-20261018",
+      "event_key": null,
+      "event_scope": "",
+      "name": "JFA Passportへの不正アクセス調査、個人情報の漏えい確認されず",
+      "sector": "スポーツ・団体",
+      "region": "日本",
+      "date": "2026-10-21",
+      "status": "official",
+      "source": "公益財団法人日本サッカー協会",
+      "issuer": "公益財団法人日本サッカー協会",
+      "reported_org": "JFA Passport利用者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "JFA公式アプリ「JFA Passport」への不正アクセスを試みる攻撃について、10月21日の第2報で調査結果を公表。本件に起因する個人情報の漏えいは確認されず、JFAが利用する関連システムでも情報漏えいや不正利用等の影響は確認されなかった。",
+      "source_url": "https://www.jfa.jp/about_jfa/news/00036942",
+      "official_host": "www.jfa.jp",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "title": "【第2報】JFA公式アプリ「JFA Passport」への不正なアクセスを試みる攻撃に関する調査結果と今後の対応について",
+          "date": "2023-12-23",
+          "source": "【第2報】JFA公式アプリ「JFA Passport」への不正なアクセスを試みる攻撃に関する調査結果と今後の対応について",
+          "issuer": "【第2報】JFA公式アプリ「JFA Passport」への不正なアクセスを試みる攻撃に関する調査結果と今後の対応について",
+          "source_url": "https://www.jfa.jp/about_jfa/news/00036942",
+          "canonical_url": "https://www.jfa.jp/about_jfa/news/00036942",
+          "official_host": "www.jfa.jp",
+          "first_seen_at": "2026-10-21T23:06:38.331471+00:00",
+          "last_seen_at": "2026-10-21T23:06:38.331471+00:00"
+        },
+        {
+          "title": "JFA公式アプリ「JFA Passport」への不正アクセスについて",
+          "date": "2026-10-18",
+          "source": "公益財団法人日本サッカー協会",
+          "issuer": "公益財団法人日本サッカー協会",
+          "source_url": "https://www.jfa.jp/about_jfa/news/00036934/",
+          "canonical_url": "https://www.jfa.jp/about_jfa/news/00036934/",
+          "official_host": "www.jfa.jp",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:33:59+00:00"
+    },
+    {
+      "id": "trustbank-furusato-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "トラストバンク「ふるさとチョイス」で不正アクセス、会員情報445万4097件が外部流出",
+      "sector": "IT・ふるさと納税",
+      "region": "日本",
+      "date": "2026-10-20",
+      "status": "official",
+      "source": "株式会社トラストバンク",
+      "issuer": "株式会社トラストバンク",
+      "reported_org": "株式会社トラストバンク（ふるさとチョイス）",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": 4454097,
+      "affected_people": null,
+      "detail": "10月19日に不審なアクセスを把握し、10月17日の不正アクセスと会員情報の外部流出を確認。公式発表時点で「ふるさとチョイス」の会員情報4,454,097件が流出したと公表。対象項目は氏名、メールアドレス、住所、電話番号、ハッシュ化パスワード、寄附控除試算額。件数は今後の調査で変動する可能性がある。",
+      "source_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020",
+      "official_host": "www.trustbank.co.jp",
+      "last_seen_at": "2026-10-19T16:33:59+00:00",
+      "updated_at": "2026-10-19T16:33:59+00:00",
+      "reports": [
+        {
+          "source_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020",
+          "canonical_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020",
+          "title": "トラストバンク「ふるさとチョイス」で不正アクセス、会員情報445万4097件が外部流出",
+          "date": "2026-10-20",
+          "source": "株式会社トラストバンク",
+          "issuer": "株式会社トラストバンク",
+          "official_host": "www.trustbank.co.jp",
+          "first_seen_at": "2026-10-19T16:33:59+00:00",
+          "last_seen_at": "2026-10-19T16:33:59+00:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:33:59+00:00"
+    },
+    {
       "id": "entatch-toho-20261019",
       "event_key": null,
       "event_scope": "",
@@ -3834,66 +3956,6 @@
       "posted_at": "2026-10-19T16:33:59+00:00"
     },
     {
-      "id": "trustbank-furusato-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "トラストバンク「ふるさとチョイス」で不正アクセス、会員情報445万4097件が外部流出",
-      "sector": "IT・ふるさと納税",
-      "region": "日本",
-      "date": "2026-10-20",
-      "status": "official",
-      "source": "株式会社トラストバンク",
-      "issuer": "株式会社トラストバンク",
-      "reported_org": "株式会社トラストバンク（ふるさとチョイス）",
-      "incident_count": null,
-      "incident_count_label": null,
-      "leaked_records": 4454097,
-      "affected_people": null,
-      "detail": "10月19日に不審なアクセスを把握し、10月17日の不正アクセスと会員情報の外部流出を確認。公式発表時点で「ふるさとチョイス」の会員情報4,454,097件が流出したと公表。対象項目は氏名、メールアドレス、住所、電話番号、ハッシュ化パスワード、寄附控除試算額。件数は今後の調査で変動する可能性がある。",
-      "source_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020",
-      "official_host": "www.trustbank.co.jp",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        [
-          {
-            "title": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ",
-            "date": "2026-10-20",
-            "source": "株式会社トラストバンク",
-            "issuer": "株式会社トラストバンク",
-            "source_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020",
-            "canonical_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020",
-            "official_host": "www.trustbank.co.jp",
-            "first_seen_at": "2026-10-22T08:09:00+09:00",
-            "last_seen_at": "2026-10-22T08:09:00+09:00"
-          }
-        ],
-        {
-          "title": "不正アクセスの疑いに伴うサービス一時停止のお知らせ",
-          "date": "2026-10-19",
-          "source": "株式会社トラストバンク",
-          "issuer": "株式会社トラストバンク",
-          "source_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
-          "canonical_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
-          "official_host": "www.trustbank.co.jp",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        },
-        {
-          "title": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ | NEWSROOM | 株式会社トラストバンク",
-          "date": "2026-10-20",
-          "source": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ | NEWSROOM | 株式会社トラストバンク",
-          "issuer": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ | NEWSROOM | 株式会社トラストバンク",
-          "source_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020",
-          "canonical_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020",
-          "official_host": "www.trustbank.co.jp",
-          "first_seen_at": "2026-10-21T23:06:38.331471+00:00",
-          "last_seen_at": "2026-10-21T23:06:38.331471+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:33:59+00:00"
-    },
-    {
       "id": "joshin-network-20261019",
       "event_key": null,
       "event_scope": "",
@@ -3959,53 +4021,6 @@
           "source_url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
           "canonical_url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
           "official_host": "data.swcms.net",
-          "first_seen_at": "2026-10-19T16:33:59+00:00",
-          "last_seen_at": "2026-10-19T16:33:59+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:33:59+00:00"
-    },
-    {
-      "id": "jfa-passport-20261018",
-      "event_key": null,
-      "event_scope": "",
-      "name": "JFA Passportへの不正アクセス調査、個人情報の漏えい確認されず",
-      "sector": "スポーツ・団体",
-      "region": "日本",
-      "date": "2026-10-21",
-      "status": "official",
-      "source": "公益財団法人日本サッカー協会",
-      "issuer": "公益財団法人日本サッカー協会",
-      "reported_org": "JFA Passport利用者",
-      "incident_count": null,
-      "incident_count_label": null,
-      "leaked_records": null,
-      "affected_people": null,
-      "detail": "JFA公式アプリ「JFA Passport」への不正アクセスを試みる攻撃について、10月21日の第2報で調査結果を公表。本件に起因する個人情報の漏えいは確認されず、JFAが利用する関連システムでも情報漏えいや不正利用等の影響は確認されなかった。",
-      "source_url": "https://www.jfa.jp/about_jfa/news/00036942",
-      "official_host": "www.jfa.jp",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
-      "reports": [
-        {
-          "title": "【第2報】JFA公式アプリ「JFA Passport」への不正なアクセスを試みる攻撃に関する調査結果と今後の対応について",
-          "date": "2023-12-23",
-          "source": "【第2報】JFA公式アプリ「JFA Passport」への不正なアクセスを試みる攻撃に関する調査結果と今後の対応について",
-          "issuer": "【第2報】JFA公式アプリ「JFA Passport」への不正なアクセスを試みる攻撃に関する調査結果と今後の対応について",
-          "source_url": "https://www.jfa.jp/about_jfa/news/00036942",
-          "canonical_url": "https://www.jfa.jp/about_jfa/news/00036942",
-          "official_host": "www.jfa.jp",
-          "first_seen_at": "2026-10-21T23:06:38.331471+00:00",
-          "last_seen_at": "2026-10-21T23:06:38.331471+00:00"
-        },
-        {
-          "title": "JFA公式アプリ「JFA Passport」への不正アクセスについて",
-          "date": "2026-10-18",
-          "source": "公益財団法人日本サッカー協会",
-          "issuer": "公益財団法人日本サッカー協会",
-          "source_url": "https://www.jfa.jp/about_jfa/news/00036934/",
-          "canonical_url": "https://www.jfa.jp/about_jfa/news/00036934/",
-          "official_host": "www.jfa.jp",
           "first_seen_at": "2026-10-19T16:33:59+00:00",
           "last_seen_at": "2026-10-19T16:33:59+00:00"
         }
@@ -4253,7 +4268,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-21T23:06:07.722741+00:00"
+          "last_seen_at": "2026-10-21T23:16:17.564060+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -4589,7 +4604,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T23:06:07.722741+00:00"
+          "last_seen_at": "2026-10-21T23:16:17.564060+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -4600,7 +4615,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T23:06:07.722741+00:00"
+          "last_seen_at": "2026-10-21T23:16:17.564060+00:00"
         }
       ],
       "leaked_records": null,
@@ -4716,7 +4731,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T23:06:07.722741+00:00"
+          "last_seen_at": "2026-10-21T23:16:17.564060+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -4727,7 +4742,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T23:06:07.722741+00:00"
+          "last_seen_at": "2026-10-21T23:16:17.564060+00:00"
         }
       ],
       "leaked_records": null,
@@ -4798,7 +4813,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T23:06:07.722741+00:00"
+          "last_seen_at": "2026-10-21T23:16:17.564060+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -4843,7 +4858,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-21T23:06:07.722741+00:00"
+          "last_seen_at": "2026-10-21T23:16:17.564060+00:00"
         }
       ],
       "leaked_records": null,
@@ -4960,8 +4975,8 @@
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
     "official_links_found": 211,
-    "official_pages_verified": 8,
-    "new_records": 8,
+    "official_pages_verified": 2,
+    "new_records": 2,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
