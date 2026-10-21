@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T13:06:39.819150+00:00",
+  "updated_at": "2026-10-21T13:10:58Z",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,91 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "studio-unauthorized-access-20261016",
+      "event_key": "studio-cloud-unauthorized-access-20260930",
+      "event_scope": "Studioクラウド環境への不正アクセス",
+      "name": "Studio、クラウド環境への不正アクセスで顧客情報の流出可能性を公表",
+      "sector": "IT・ウェブサイト作成サービス",
+      "region": "日本",
+      "date": "2026-10-20",
+      "status": "official",
+      "source": "Studio",
+      "issuer": "Studio",
+      "reported_org": "Studio利用者・Studio AI先行利用申込者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "Studioは、9月30日から10月1日にかけてクラウド環境への不正アクセスがあり、10月14日に外部からデータを取得できる状態を解消したと公表。実際に取得された事実は確認していないが、取得されたものとして対応中。アカウント情報、CMS・フォームの内容、外部サービスの認証情報等が対象となる可能性があり、件数は調査中。10月20日更新の公式案内では個人情報保護委員会への報告や対象者への通知に関する説明を更新。",
+      "source_url": "https://studio.design/ja/security/notice/2026-10-incident",
+      "official_host": "studio.design",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "posted_at": "2026-10-21T13:10:58Z",
+      "last_seen_at": "2026-10-21T13:10:58Z",
+      "updated_at": "2026-10-21T13:10:58Z",
+      "reports": [
+        {
+          "title": "〖重要〗不正アクセスによる情報流出に関するお詫びとお願い（第一報）",
+          "date": "2026-10-16",
+          "source": "Studio",
+          "issuer": "Studio",
+          "source_url": "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
+          "canonical_url": "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
+          "official_host": "studio.design",
+          "first_seen_at": "2026-10-21T13:10:58Z",
+          "last_seen_at": "2026-10-21T13:10:58Z"
+        },
+        {
+          "title": "Studioにおける不正アクセスに関するご案内（10月20日更新）",
+          "date": "2026-10-20",
+          "source": "Studio",
+          "issuer": "Studio",
+          "source_url": "https://studio.design/ja/security/notice/2026-10-incident",
+          "canonical_url": "https://studio.design/ja/security/notice/2026-10-incident",
+          "official_host": "studio.design",
+          "first_seen_at": "2026-10-21T13:10:58Z",
+          "last_seen_at": "2026-10-21T13:10:58Z"
+        }
+      ]
+    },
+    {
+      "id": "nec-vendor-incident-20261020",
+      "event_key": "nec-subcontractor-cyberattack-20261020",
+      "event_scope": "NEC委託先へのサイバー攻撃を起点とする顧客システム障害・情報漏えい",
+      "name": "NEC、委託先経由の不正アクセスによる顧客システム障害・情報漏えいを公表",
+      "sector": "IT・システム開発",
+      "region": "日本",
+      "date": "2026-10-20",
+      "status": "official",
+      "source": "日本電気株式会社",
+      "issuer": "日本電気株式会社",
+      "reported_org": "NECの顧客企業",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "NECのシステム開発・保守委託先が9月下旬にサイバー攻撃を受け、窃取された正規アカウント情報を悪用した顧客システムへの不正アクセスを確認。サーバー内のファイル暗号化により複数の顧客システムが利用できなくなり、共有クラウド内の個人情報・システム情報を含むファイルの漏えいも確認したと10月20日に公表。対象顧客名や件数は公表されていない。",
+      "source_url": "https://jpn.nec.com/news/info/20261020.html",
+      "official_host": "jpn.nec.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "posted_at": "2026-10-21T13:10:58Z",
+      "last_seen_at": "2026-10-21T13:10:58Z",
+      "updated_at": "2026-10-21T13:10:58Z",
+      "reports": [
+        {
+          "title": "委託先への不正アクセスに起因するお客さまのシステム障害、情報漏えいに関するお詫び",
+          "date": "2026-10-20",
+          "source": "日本電気株式会社",
+          "issuer": "日本電気株式会社",
+          "source_url": "https://jpn.nec.com/news/info/20261020.html",
+          "canonical_url": "https://jpn.nec.com/news/info/20261020.html",
+          "official_host": "jpn.nec.com",
+          "first_seen_at": "2026-10-21T13:10:58Z",
+          "last_seen_at": "2026-10-21T13:10:58Z"
+        }
+      ]
+    },
     {
       "id": "46b18567068f43549fc7",
       "event_key": null,
@@ -778,10 +863,10 @@
       "id": "fa15ad2728305b51e64a",
       "event_key": null,
       "event_scope": "",
-      "name": "ジェトロ｜当機構ウェブサイトへの不正アクセスについて",
+      "name": "ジェトロ、一部ウェブサイトの不正アクセス被害を公表し暫定再開",
       "sector": "公式発表",
       "region": "日本",
-      "date": "2026-10-19",
+      "date": "2026-10-20",
       "status": "official",
       "source": "独立行政法人日本貿易振興機構（ジェトロ）",
       "issuer": "独立行政法人日本貿易振興機構（ジェトロ）",
@@ -790,26 +875,37 @@
       "incident_count_label": null,
       "affected_people": null,
       "leaked_records": 743,
-      "detail": "10月14日から一部ウェブサイトへの不正アクセスを確認し、10月17日から公開を一時停止。企業名・担当者のメールアドレスなど743件の個人情報漏えいを確認し、該当企業へ通知済みと公表。",
-      "source_url": "https://www.jetro.go.jp/",
+      "detail": "ジェトロは一部ウェブサイトへの不正アクセスを確認し、企業名・担当者のメールアドレスなど743件の個人情報漏えいを公表。10月20日にウェブサイトを一部機能制限付きで暫定再開した。検索機能や認証が必要なコンテンツには利用制限が残る。",
+      "source_url": "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html",
       "official_host": "www.jetro.go.jp",
       "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
-      "updated_at": "2026-10-19T23:26:28.672677+00:00",
+      "last_seen_at": "2026-10-21T13:10:58Z",
+      "updated_at": "2026-10-21T13:10:58Z",
       "reports": [
         {
           "title": "当機構ウェブサイトへの不正アクセスについて",
           "date": "2026-10-19",
           "source": "独立行政法人日本貿易振興機構（ジェトロ）",
           "issuer": "独立行政法人日本貿易振興機構（ジェトロ）",
-          "source_url": "https://www.jetro.go.jp/",
-          "canonical_url": "https://www.jetro.go.jp/",
+          "source_url": "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html",
+          "canonical_url": "https://www.jetro.go.jp/news/releases/2026/a6deaac68f2dbe3b.html",
           "official_host": "www.jetro.go.jp",
           "first_seen_at": "2026-10-19T22:09:53.410784+00:00",
           "last_seen_at": "2026-10-19T22:09:53.410784+00:00"
+        },
+        {
+          "title": "当機構ウェブサイトの暫定再開について",
+          "date": "2026-10-20",
+          "source": "独立行政法人日本貿易振興機構（ジェトロ）",
+          "issuer": "独立行政法人日本貿易振興機構（ジェトロ）",
+          "source_url": "https://www.jetro.go.jp/news/announcement/2026/1e5d9962ca1cec2f.html",
+          "canonical_url": "https://www.jetro.go.jp/news/announcement/2026/1e5d9962ca1cec2f.html",
+          "official_host": "www.jetro.go.jp",
+          "first_seen_at": "2026-10-21T13:10:58Z",
+          "last_seen_at": "2026-10-21T13:10:58Z"
         }
       ],
-      "posted_at": "2026-10-19T22:09:53.410784+00:00"
+      "posted_at": "2026-10-21T13:10:58Z"
     },
     {
       "id": "a5374aca81c47e693851",
@@ -3037,10 +3133,10 @@
       "id": "arcadia-speecan-20261019",
       "event_key": null,
       "event_scope": "",
-      "name": "アルカディア、SpeeCAN等への不正アクセスによる個人情報漏えい可能性を更新",
+      "name": "アルカディア、不正アクセス後のフィッシングメール約142万通配信と機能制限解除を公表",
       "sector": "IT・自治体向けシステム",
       "region": "日本",
-      "date": "2026-10-19",
+      "date": "2026-10-21",
       "status": "official",
       "source": "株式会社アルカディア",
       "issuer": "株式会社アルカディア",
@@ -3049,11 +3145,11 @@
       "incident_count_label": "SpeeCAN RAIDENの漏えい可能性があるメールアドレス（約313.6万件、推定）",
       "leaked_records": null,
       "affected_people": null,
-      "detail": "アルカディアはSpeeCAN RAIDENへの不正アクセスで、メールアドレス約3,136,000件、電話番号約105,000件、FAX番号約15,000件が漏えいした可能性を推定値として公表。その後、NET119について最大約13,000件、119RAIDENについてメールアドレス約97,000件・電話番号約17,000件・FAX番号約400件の漏えい可能性も公表。項目別の値であり、人数や重複を除いた合計は公表されていないため、トップの合計には主指標のメールアドレス約3,136,000件のみ計上します。",
+      "detail": "アルカディアは不正アクセス後の調査状況を更新。10月21日の第17報で、不正なプログラムにより1,423,428通のフィッシングメールが配信され、少なくとも869,575通は同社内に保有するメールアドレス宛てではなかったことを公表。第18報では一部機能の制限解除を発表した。各サービスの個人情報漏えい可能性の規模は従来の公表値のままで、フィッシングメールの配信通数は漏えい件数に加算しない。",
       "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
       "official_host": "raiden.site.ktaiwork.jp",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T22:08:50.502Z",
+      "last_seen_at": "2026-10-21T13:10:58Z",
+      "updated_at": "2026-10-21T13:10:58Z",
       "reports": [
         {
           "title": "弊社サービスへの不正アクセスに伴う一連の対応について（10月19日 第12報）",
@@ -3076,9 +3172,31 @@
           "official_host": "www.arcadia.co.jp",
           "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
           "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
+        },
+        {
+          "title": "弊社サービスへの不正アクセスに伴う一連の対応について（第13報）",
+          "date": "2026-10-20",
+          "source": "株式会社アルカディア",
+          "issuer": "株式会社アルカディア",
+          "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "canonical_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "official_host": "raiden.site.ktaiwork.jp",
+          "first_seen_at": "2026-10-21T13:10:58Z",
+          "last_seen_at": "2026-10-21T13:10:58Z"
+        },
+        {
+          "title": "弊社サービスへの不正アクセスに伴う一連の対応について（第14～18報）",
+          "date": "2026-10-21",
+          "source": "株式会社アルカディア",
+          "issuer": "株式会社アルカディア",
+          "source_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "canonical_url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "official_host": "raiden.site.ktaiwork.jp",
+          "first_seen_at": "2026-10-21T13:10:58Z",
+          "last_seen_at": "2026-10-21T13:10:58Z"
         }
       ],
-      "posted_at": "2026-10-19T16:33:59+00:00"
+      "posted_at": "2026-10-21T13:10:58Z"
     },
     {
       "id": "4181bbf51a7d309d372f",
