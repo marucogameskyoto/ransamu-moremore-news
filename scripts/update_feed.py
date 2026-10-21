@@ -216,8 +216,10 @@ except (OSError, json.JSONDecodeError, TypeError):
 
 events = {}
 for event in previous_events:
+    reports = event.get("reports") if isinstance(event.get("reports"), list) else []
+    first_report = reports[0] if reports and isinstance(reports[0], dict) else {}
     identity = ("official-event:" + event.get("event_scope", "").casefold() + ":" + event["event_key"].casefold()) if event.get("event_key") else (
-        "url:" + (event["reports"][0].get("canonical_url") if event["reports"] else event["id"])
+        "url:" + (first_report.get("canonical_url") or first_report.get("source_url") or event["id"])
     )
     events[identity] = event
 
