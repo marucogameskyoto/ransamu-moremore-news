@@ -43,7 +43,9 @@ jobs:
               echo "should_run=true" >> "$GITHUB_OUTPUT"
               exit 0
             }
-          RUNS_JSON="$runs_json" python - <<'PY'
+          runs_file="$RUNNER_TEMP/scheduled-runs.json"
+          printf '%s' "$runs_json" > "$runs_file"
+          RUNS_JSON_PATH="$runs_file" python - <<'PY'
           import json
           import os
           from datetime import datetime, timezone
@@ -51,7 +53,8 @@ jobs:
           current_id = int(os.environ["GITHUB_RUN_ID"])
           now = datetime.now(timezone.utc)
           hour_start = now.replace(minute=0, second=0, microsecond=0)
-          runs = json.loads(os.environ["RUNS_JSON"]).get("workflow_runs", [])
+          with open(os.environ["RUNS_JSON_PATH"], encoding="utf-8") as runs_file:
+              runs = json.load(runs_file).get("workflow_runs", [])
           succeeded = any(
               int(run["id"]) != current_id
               and run.get("status") == "completed"
