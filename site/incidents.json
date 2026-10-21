@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T19:22:34.485419+00:00",
+  "updated_at": "2026-10-21T23:03:00Z",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -4041,22 +4041,22 @@
       "id": "gyazo-20260925",
       "event_key": null,
       "event_scope": "",
-      "name": "Gyazo、不正アクセスでユーザー情報約2,362万件などの漏えいを確認",
+      "name": "Gyazo、不正アクセスでユーザー情報2,362万件と画像メタデータ約4.9億件などの漏えいを公表",
       "sector": "IT・画像共有サービス",
       "region": "日本",
-      "date": "2026-09-25",
+      "date": "2026-10-21",
       "status": "official",
       "source": "株式会社Helpfeel",
       "issuer": "株式会社Helpfeel",
       "reported_org": "Gyazo",
-      "incident_count": 23620000,
-      "incident_count_label": "ユーザー関連データ（約2,362万件）",
+      "incident_count": 513620000,
+      "incident_count_label": "ユーザー情報約2,362万件＋画像メタデータ約4.9億件（メタデータ内の区分を含む）",
       "affected_people": null,
-      "detail": "9月11日に画像アップロードサーバーへの不正アクセスが発生。9月16日の第一報でユーザー関連データ約2,362万件の漏えいを確認。9月25日の第二報では削除済み画像に関するメタデータ約1.74億件の追加漏えいを公表。異なるデータ区分の数値は重複関係が不明なため、トップ合計にはユーザー関連データの公表値のみを計上",
-      "source_url": "https://corp.helpfeel.com/news/news-20260925-01",
+      "detail": "9月11日に画像アップロードサーバーへの不正アクセスが発生。10月21日の第三報で外部専門機関の調査完了を公表し、ユーザー情報約2,362万件、画像に関するメタデータ約4.9億件、特定ユーザー133名が所有する画像432件等を漏えい範囲として説明。約240万件の条件を絞って取得された画像のメタデータ、約1.74億件の削除済み画像メタデータは約4.9億件の内数として加算せず、画像432件も別途件数に加算していない。ユーザー情報はアカウント数であり実人数ではない。",
+      "source_url": "https://corp.helpfeel.com/news/news-20261021",
       "official_host": "corp.helpfeel.com",
-      "last_seen_at": "2026-10-19T13:07:28Z",
-      "updated_at": "2026-10-19T13:07:28Z",
+      "last_seen_at": "2026-10-21T23:03:00Z",
+      "updated_at": "2026-10-21T23:03:00Z",
       "reports": [
         {
           "title": "「Gyazo」への不正アクセスによる情報漏えいに関するお知らせとお詫び",
@@ -4079,6 +4079,17 @@
           "official_host": "corp.helpfeel.com",
           "first_seen_at": "2026-10-19T13:07:28Z",
           "last_seen_at": "2026-10-19T13:07:28Z"
+        },
+        {
+          "title": "「Gyazo」への不正アクセスによる情報漏えいに関する調査結果のご報告とお詫び（第三報）",
+          "date": "2026-10-21",
+          "source": "株式会社Helpfeel",
+          "issuer": "株式会社Helpfeel",
+          "source_url": "https://corp.helpfeel.com/news/news-20261021",
+          "canonical_url": "https://corp.helpfeel.com/news/news-20261021",
+          "official_host": "corp.helpfeel.com",
+          "first_seen_at": "2026-10-21T23:03:00Z",
+          "last_seen_at": "2026-10-21T23:03:00Z"
         }
       ],
       "leaked_records": null,
@@ -4551,6 +4562,233 @@
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
+    },
+    {
+      "id": "blastmail-incident-20261021",
+      "event_key": "blastmail-unauthorized-access-20261021",
+      "event_scope": "ブラストメール運営基盤への不正アクセス・契約者情報の外部持出し",
+      "name": "ブラストメール、契約者情報を含むデータの外部持出しを確認",
+      "sector": "IT・メール配信サービス",
+      "region": "日本",
+      "date": "2026-10-21",
+      "status": "official",
+      "source": "株式会社ラクス",
+      "issuer": "株式会社ラクス",
+      "reported_org": "ブラストメール契約者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "株式会社ラクスは、子会社ラクスライトクラウドが提供するメール配信サービス「ブラストメール」への不正アクセスについて、第2報で、販売管理システムから全契約者の会社名・担当者名・電話番号・メールアドレス・契約や支払い履歴等を含むデータの外部持出しを確認したと公表。一部顧客では配信先リスト等の漏えいも確認。対象数と個別の影響範囲は調査中で、サービス停止は継続、再開日時は未定。",
+      "source_url": "https://www.rakus.co.jp/news/2026/1021-3.html",
+      "official_host": "www.rakus.co.jp",
+      "posted_at": "2026-10-21T23:03:00Z",
+      "last_seen_at": "2026-10-21T23:03:00Z",
+      "updated_at": "2026-10-21T23:03:00Z",
+      "reports": [
+        {
+          "title": "当社子会社が提供する「ブラストメール」における不審なアクセスの検知およびサービス停止について",
+          "date": "2026-10-21",
+          "source": "株式会社ラクス",
+          "issuer": "株式会社ラクス",
+          "source_url": "https://www.rakus.co.jp/news/2026/1021-2.html",
+          "canonical_url": "https://www.rakus.co.jp/news/2026/1021-2.html",
+          "official_host": "www.rakus.co.jp",
+          "first_seen_at": "2026-10-21T23:03:00Z",
+          "last_seen_at": "2026-10-21T23:03:00Z"
+        },
+        {
+          "title": "〖第2報〗当社子会社が提供する「ブラストメール」における不正アクセスによる情報漏えいおよびサービス停止について",
+          "date": "2026-10-21",
+          "source": "株式会社ラクス",
+          "issuer": "株式会社ラクス",
+          "source_url": "https://www.rakus.co.jp/news/2026/1021-3.html",
+          "canonical_url": "https://www.rakus.co.jp/news/2026/1021-3.html",
+          "official_host": "www.rakus.co.jp",
+          "first_seen_at": "2026-10-21T23:03:00Z",
+          "last_seen_at": "2026-10-21T23:03:00Z"
+        }
+      ]
+    },
+    {
+      "id": "blastmail-shunan-20261021",
+      "event_key": "blastmail-unauthorized-access-20261021",
+      "event_scope": "周南市ファンクラブメールマガジン登録情報",
+      "name": "周南市ファンクラブメールマガジン登録情報302件に漏えいのおそれ",
+      "sector": "自治体・メール配信サービス",
+      "region": "日本",
+      "date": "2026-10-21",
+      "status": "official",
+      "source": "山口県周南市",
+      "issuer": "山口県周南市",
+      "reported_org": "周南市ファンクラブメールマガジン登録者",
+      "incident_count": 302,
+      "incident_count_label": "302件（登録情報・漏えいのおそれ）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "周南市は、ファンクラブメールマガジンの配信に利用するブラストメール運営会社への不正アクセスに伴い、登録情報302件が漏えいした可能性を公表。対象項目は氏名・住所・電話番号・メールアドレス等。運営会社が原因と影響範囲を調査中。",
+      "source_url": "https://www.city.shunan.lg.jp/soshiki/101/153883.html",
+      "official_host": "www.city.shunan.lg.jp",
+      "posted_at": "2026-10-21T23:03:00Z",
+      "last_seen_at": "2026-10-21T23:03:00Z",
+      "updated_at": "2026-10-21T23:03:00Z",
+      "reports": [
+        {
+          "title": "「周南市ファンクラブメールマガジン」配信サービスに対する不正アクセスによる情報漏洩の可能性について",
+          "date": "2026-10-21",
+          "source": "山口県周南市",
+          "issuer": "山口県周南市",
+          "source_url": "https://www.city.shunan.lg.jp/soshiki/101/153883.html",
+          "canonical_url": "https://www.city.shunan.lg.jp/soshiki/101/153883.html",
+          "official_host": "www.city.shunan.lg.jp",
+          "first_seen_at": "2026-10-21T23:03:00Z",
+          "last_seen_at": "2026-10-21T23:03:00Z"
+        }
+      ]
+    },
+    {
+      "id": "blastmail-kami-20261021",
+      "event_key": "blastmail-unauthorized-access-20261021",
+      "event_scope": "香美市登録制メール登録情報",
+      "name": "香美市、登録制メールのアドレス流出を確認",
+      "sector": "自治体・メール配信サービス",
+      "region": "日本",
+      "date": "2026-10-21",
+      "status": "official",
+      "source": "高知県香美市",
+      "issuer": "高知県香美市",
+      "reported_org": "香美市登録制メール登録者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "香美市は、登録制メールの配信に利用するブラストメール運営会社のシステムへの不審アクセスにより、登録者のメールアドレスが外部に流出したことを確認したと公表。確認内容は現時点のもので、今後の調査により変動する可能性があると説明。件数は公表していない。",
+      "source_url": "https://www.city.kami.lg.jp/soshiki/10/tourokumail-rouei.html",
+      "official_host": "www.city.kami.lg.jp",
+      "posted_at": "2026-10-21T23:03:00Z",
+      "last_seen_at": "2026-10-21T23:03:00Z",
+      "updated_at": "2026-10-21T23:03:00Z",
+      "reports": [
+        {
+          "title": "香美市登録制メールにおける不正アクセスに伴う個人情報の漏えいの可能性について",
+          "date": "2026-10-21",
+          "source": "高知県香美市",
+          "issuer": "高知県香美市",
+          "source_url": "https://www.city.kami.lg.jp/soshiki/10/tourokumail-rouei.html",
+          "canonical_url": "https://www.city.kami.lg.jp/soshiki/10/tourokumail-rouei.html",
+          "official_host": "www.city.kami.lg.jp",
+          "first_seen_at": "2026-10-21T23:03:00Z",
+          "last_seen_at": "2026-10-21T23:03:00Z"
+        }
+      ]
+    },
+    {
+      "id": "blastmail-oita-kosodate-20261021",
+      "event_key": "blastmail-unauthorized-access-20261021",
+      "event_scope": "おおいた子育て応援パスポート登録者情報",
+      "name": "大分県、子育て応援パスポート登録者情報の漏えい可能性を公表",
+      "sector": "自治体・メール配信サービス",
+      "region": "日本",
+      "date": "2026-10-21",
+      "status": "official",
+      "source": "大分県",
+      "issuer": "大分県",
+      "reported_org": "おおいた子育て応援パスポート登録者・子育て応援店",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "大分県は、委託事業で運営する「おおいた子育て応援パスポート」のメール配信に利用するブラストメール運営会社への不正アクセスを受け、登録者情報が漏えいした可能性を公表。対象項目はメールアドレス、市町村名、会員区分。個別情報の漏えい有無を調査中で、対象数は公表していない。",
+      "source_url": "https://www.pref.oita.jp/soshiki/12520/kosodateouen-passport.html",
+      "official_host": "www.pref.oita.jp",
+      "posted_at": "2026-10-21T23:03:00Z",
+      "last_seen_at": "2026-10-21T23:03:00Z",
+      "updated_at": "2026-10-21T23:03:00Z",
+      "reports": [
+        {
+          "title": "「おおいた子育て応援パスポート」の登録者情報の漏えい可能性について",
+          "date": "2026-10-21",
+          "source": "大分県",
+          "issuer": "大分県",
+          "source_url": "https://www.pref.oita.jp/soshiki/12520/kosodateouen-passport.html",
+          "canonical_url": "https://www.pref.oita.jp/soshiki/12520/kosodateouen-passport.html",
+          "official_host": "www.pref.oita.jp",
+          "first_seen_at": "2026-10-21T23:03:00Z",
+          "last_seen_at": "2026-10-21T23:03:00Z"
+        }
+      ]
+    },
+    {
+      "id": "studio-nagoya-smoking-20261021",
+      "event_key": "studio-cloud-unauthorized-access-20260930",
+      "event_scope": "名古屋市ICT禁煙支援事業の申込情報",
+      "name": "名古屋市、Studio不正アクセスで禁煙支援事業の申込886件に漏えいのおそれ",
+      "sector": "自治体・Web制作プラットフォーム",
+      "region": "日本",
+      "date": "2026-10-21",
+      "status": "official",
+      "source": "名古屋市",
+      "issuer": "名古屋市",
+      "reported_org": "名古屋市ICTを活用した禁煙支援事業の申込者",
+      "incident_count": 886,
+      "incident_count_label": "886件（申込情報・漏えいのおそれ）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "名古屋市は、委託事業の申込フォームを管理していたStudio株式会社のクラウド環境への不正アクセスに伴い、2025年7月14日から2026年8月31日までの申込886件の個人情報が漏えいした可能性を公表。氏名・連絡先や健康関連情報等が含まれる可能性があり、対象者886名に通知した。",
+      "source_url": "https://www.city.nagoya.jp/houdou/3003942/3003949/3006141.html",
+      "official_host": "www.city.nagoya.jp",
+      "posted_at": "2026-10-21T23:03:00Z",
+      "last_seen_at": "2026-10-21T23:03:00Z",
+      "updated_at": "2026-10-21T23:03:00Z",
+      "reports": [
+        {
+          "title": "不正アクセスにより個人情報が漏えいした可能性のある事案について",
+          "date": "2026-10-21",
+          "source": "名古屋市",
+          "issuer": "名古屋市",
+          "source_url": "https://www.city.nagoya.jp/houdou/3003942/3003949/3006141.html",
+          "canonical_url": "https://www.city.nagoya.jp/houdou/3003942/3003949/3006141.html",
+          "official_host": "www.city.nagoya.jp",
+          "first_seen_at": "2026-10-21T23:03:00Z",
+          "last_seen_at": "2026-10-21T23:03:00Z"
+        }
+      ]
+    },
+    {
+      "id": "studio-edogawa-contest-20261021",
+      "event_key": "studio-cloud-unauthorized-access-20260930",
+      "event_scope": "江戸川区の農の風景コンテスト応募情報",
+      "name": "江戸川区、Studio不正アクセスでコンテスト応募者6人分に漏えいのおそれ",
+      "sector": "自治体・Web制作プラットフォーム",
+      "region": "日本",
+      "date": "2026-10-21",
+      "status": "official",
+      "source": "東京都江戸川区",
+      "issuer": "東京都江戸川区",
+      "reported_org": "江戸川区の農の風景コンテスト応募者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": 6,
+      "detail": "江戸川区は、委託事業の応募フォームに利用したStudio株式会社のクラウド環境への不正アクセスに伴い、応募者6名の氏名・生年月日・住所・メールアドレス・電話番号が漏えいした可能性を公表。現時点で実際の取得は確認されていない。",
+      "source_url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/10/1021.html",
+      "official_host": "www.city.edogawa.tokyo.jp",
+      "posted_at": "2026-10-21T23:03:00Z",
+      "last_seen_at": "2026-10-21T23:03:00Z",
+      "updated_at": "2026-10-21T23:03:00Z",
+      "reports": [
+        {
+          "title": "2026年10月21日 区の委託事業における個人情報漏えいの可能性",
+          "date": "2026-10-21",
+          "source": "東京都江戸川区",
+          "issuer": "東京都江戸川区",
+          "source_url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/10/1021.html",
+          "canonical_url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/10/1021.html",
+          "official_host": "www.city.edogawa.tokyo.jp",
+          "first_seen_at": "2026-10-21T23:03:00Z",
+          "last_seen_at": "2026-10-21T23:03:00Z"
+        }
+      ]
     }
   ],
   "discovery_summary": {
@@ -4566,6 +4804,22 @@
       "www.mrmax.co.jp: ValueError: Redirect left the source host",
       "support.rakuten-drive.com: HTTPError: HTTP Error 403: Forbidden",
       "ScanNetSecurity（発見用）: robots.txt disallows this URL"
+    ]
+  },
+  "manual_update_summary": {
+    "updated_at": "2026-10-21T23:03:00Z",
+    "new_records": 6,
+    "updated_records": [
+      "gyazo-20260925"
+    ],
+    "verified_sources": [
+      "https://corp.helpfeel.com/news/news-20261021",
+      "https://www.rakus.co.jp/news/2026/1021-3.html",
+      "https://www.city.shunan.lg.jp/soshiki/101/153883.html",
+      "https://www.city.kami.lg.jp/soshiki/10/tourokumail-rouei.html",
+      "https://www.pref.oita.jp/soshiki/12520/kosodateouen-passport.html",
+      "https://www.city.nagoya.jp/houdou/3003942/3003949/3006141.html",
+      "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/press/2026/10/1021.html"
     ]
   }
 }
