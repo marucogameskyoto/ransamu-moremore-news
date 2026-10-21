@@ -277,6 +277,8 @@ events = {}
 by_url = {}
 for event in previous_events:
     reports = event.get("reports") or []
+    if reports and not all(isinstance(report, dict) for report in reports):
+        reports = []
     if not reports and event.get("source_url"):
         reports = [{"source_url": event["source_url"], "canonical_url": canonical_url(event["source_url"]),
                     "title": event.get("name", ""), "date": event.get("date", "日付不明"),
