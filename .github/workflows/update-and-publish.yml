@@ -15,8 +15,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pages-${{ github.event_name }}
-  cancel-in-progress: ${{ github.event_name == 'push' }}
+  group: pages-${{ github.repository }}
+  cancel-in-progress: false
 
 jobs:
   schedule-guard:
@@ -98,7 +98,11 @@ jobs:
             echo "No incident data changes to persist."
           else
             git commit -m "Update official incident digest"
-            git push
+            if ! git push; then
+              echo "Remote changed during collection; rebasing and retrying once."
+              git pull --rebase origin main
+              git push
+            fi
           fi
       - name: Configure Pages
         uses: actions/configure-pages@v5
