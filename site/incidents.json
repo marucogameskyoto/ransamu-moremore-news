@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T14:46:28.017540+00:00",
+  "updated_at": "2026-10-22T14:57:12+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -10,6 +10,78 @@
     ]
   },
   "incidents": [
+    {
+      "id": "netprotections-np-atobarai-20261022",
+      "event_key": null,
+      "event_scope": "",
+      "name": "NP後払い請求書再発行システムへの不正アクセス、顧客情報28,884件にアクセス",
+      "sector": "決済・後払い",
+      "region": "日本",
+      "date": "2026-10-22",
+      "posted_at": "2026-10-22T14:57:12+00:00",
+      "status": "official",
+      "source": "株式会社ネットプロテクションズ",
+      "issuer": "株式会社ネットプロテクションズ",
+      "reported_org": "NP後払い利用者",
+      "incident_count": 28884,
+      "incident_count_label": "対象件数",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "「NP後払い」の請求書再発行システムに機械的かつ連続的なリクエストが行われ、顧客情報の一部にアクセスがあったと公表。対象は一部取引の28,884件で、氏名・住所（法人利用では会社名・部署名等）が含まれる。発生日は10月14日に判明。個人情報の不正利用は確認されていない。",
+      "source_url": "https://corp.netprotections.com/news/info/corporate/20261022/",
+      "official_host": "corp.netprotections.com",
+      "last_seen_at": "2026-10-22T14:57:12+00:00",
+      "updated_at": "2026-10-22T14:57:12+00:00",
+      "reports": [
+        {
+          "title": "「NP後払い」への不正アクセスについて",
+          "date": "2026-10-22",
+          "source": "株式会社ネットプロテクションズ",
+          "issuer": "株式会社ネットプロテクションズ",
+          "source_url": "https://corp.netprotections.com/news/info/corporate/20261022/",
+          "canonical_url": "https://corp.netprotections.com/news/info/corporate/20261022/",
+          "official_host": "corp.netprotections.com",
+          "first_seen_at": "2026-10-22T14:57:12+00:00",
+          "last_seen_at": "2026-10-22T14:57:12+00:00"
+        }
+      ]
+    },
+    {
+      "id": "valuence-online-purchase-20261021",
+      "event_key": null,
+      "event_scope": "",
+      "name": "バリュエンスのオンライン買取システムに不正アクセス、顧客最大1,165名の情報漏えい",
+      "sector": "小売・買取",
+      "region": "日本",
+      "date": "2026-10-21",
+      "posted_at": "2026-10-22T14:57:12+00:00",
+      "status": "official",
+      "source": "バリュエンスジャパン株式会社",
+      "issuer": "バリュエンスジャパン株式会社",
+      "reported_org": "オンライン買取サービス利用者・従業員",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": 1165,
+      "leaked_records": null,
+      "detail": "オンライン買取システムへの不正アクセスを10月18日に検知。顧客情報と従業員情報が取得された可能性を公表した。顧客の対象は最大1,165名。電話番号のほか、最大439名分の氏名・住所・生年月日・性別・職業・メールアドレス・銀行口座情報等、10名分の本人確認書類画像が含まれる可能性がある。各項目の対象者は重複するため合算しない。店頭・出張・宅配買取への影響はないと説明。",
+      "source_url": "https://www.valuence.inc/news/2026/10/21/notice-regarding-unauthorized-access/",
+      "official_host": "www.valuence.inc",
+      "last_seen_at": "2026-10-22T14:57:12+00:00",
+      "updated_at": "2026-10-22T14:57:12+00:00",
+      "reports": [
+        {
+          "title": "〖お詫び〗当社オンライン買取システムへの不正アクセスによる個人情報の漏えいに関するお詫びとお知らせ",
+          "date": "2026-10-21",
+          "source": "バリュエンスジャパン株式会社",
+          "issuer": "バリュエンスジャパン株式会社",
+          "source_url": "https://www.valuence.inc/news/2026/10/21/notice-regarding-unauthorized-access/",
+          "canonical_url": "https://www.valuence.inc/news/2026/10/21/notice-regarding-unauthorized-access/",
+          "official_host": "www.valuence.inc",
+          "first_seen_at": "2026-10-22T14:57:12+00:00",
+          "last_seen_at": "2026-10-22T14:57:12+00:00"
+        }
+      ]
+    },
     {
       "id": "jfa-passport-20261018",
       "event_key": null,
