@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T19:17:28.947587+00:00",
+  "updated_at": "2026-10-22T23:03:58+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -10,6 +10,150 @@
     ]
   },
   "incidents": [
+    {
+      "id": "receptionist-studio-20261022",
+      "event_key": null,
+      "event_scope": "",
+      "name": "RECEPTIONIST、Studio不正アクセスで旧問い合わせフォーム情報約1,600件・約1,200名分が漏えいのおそれ",
+      "sector": "IT・クラウドサービス",
+      "region": "日本",
+      "date": "2026-10-22",
+      "posted_at": "2026-10-22T23:03:58+00:00",
+      "status": "official",
+      "source": "株式会社RECEPTIONIST",
+      "issuer": "株式会社RECEPTIONIST",
+      "reported_org": "株式会社RECEPTIONISTの旧コーポレートサイト問い合わせフォーム利用者",
+      "incident_count": 1600,
+      "incident_count_label": "延べ送信件数（概算）",
+      "affected_people": 1200,
+      "leaked_records": null,
+      "detail": "旧コーポレートサイトのお問い合わせフォームを通じて送信された情報が、Studio株式会社のクラウド環境への不正アクセスにより漏えいした可能性があると公表。対象期間は2024年3月13日から2026年10月5日まで。延べ約1,600件で、同一人の複数回送信を含み、人数換算は約1,200名。実際に第三者が取得した事実は確認されていないが、全件を対象に対応する。自社サービスの利用者データは対象外。",
+      "source_url": "https://receptionist.co.jp/news/20261022-notice",
+      "official_host": "receptionist.co.jp",
+      "last_seen_at": "2026-10-22T23:03:58+00:00",
+      "updated_at": "2026-10-22T23:03:58+00:00",
+      "reports": [
+        {
+          "title": "当社が利用していた外部サービスへの不正アクセスによる お問い合わせ情報漏えいの可能性に関するお詫びとお知らせ",
+          "date": "2026-10-22",
+          "source": "株式会社RECEPTIONIST",
+          "issuer": "株式会社RECEPTIONIST",
+          "source_url": "https://receptionist.co.jp/news/20261022-notice",
+          "canonical_url": "https://receptionist.co.jp/news/20261022-notice",
+          "official_host": "receptionist.co.jp",
+          "first_seen_at": "2026-10-22T23:03:58+00:00",
+          "last_seen_at": "2026-10-22T23:03:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "aisin-yysystem-studio-20261022",
+      "event_key": null,
+      "event_scope": "",
+      "name": "アイシン、Studio不正アクセスでYYSystem問い合わせフォーム3,396件が漏えいのおそれ",
+      "sector": "製造・IT",
+      "region": "日本",
+      "date": "2026-10-22",
+      "posted_at": "2026-10-22T23:03:58+00:00",
+      "status": "official",
+      "source": "株式会社アイシン",
+      "issuer": "株式会社アイシン",
+      "reported_org": "YYSystemお問い合わせフォーム利用者",
+      "incident_count": 3396,
+      "incident_count_label": "フォーム受付件数",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "YYSystemのウェブサイト運営に利用していたStudio株式会社のクラウド環境への不正アクセスに伴い、お問い合わせフォームの情報が漏えいした可能性があると公表。2026年9月16日までにフォームへ入力された氏名、メールアドレス、お問い合わせ内容の受付件数は3,396件。現時点で不正利用や二次被害は確認されていない。",
+      "source_url": "https://www.aisin.com/jp/news/2026/010729.html",
+      "official_host": "www.aisin.com",
+      "last_seen_at": "2026-10-22T23:03:58+00:00",
+      "updated_at": "2026-10-22T23:03:58+00:00",
+      "reports": [
+        {
+          "title": "外部サービス「Studio」への不正アクセスに伴う個人情報漏えいの可能性について",
+          "date": "2026-10-22",
+          "source": "株式会社アイシン",
+          "issuer": "株式会社アイシン",
+          "source_url": "https://www.aisin.com/jp/news/2026/010729.html",
+          "canonical_url": "https://www.aisin.com/jp/news/2026/010729.html",
+          "official_host": "www.aisin.com",
+          "first_seen_at": "2026-10-22T23:03:58+00:00",
+          "last_seen_at": "2026-10-22T23:03:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "layerx-studio-20261020",
+      "event_key": null,
+      "event_scope": "",
+      "name": "LayerX、Studio不正アクセスで問い合わせフォーム情報2,295件が漏えいのおそれ",
+      "sector": "IT・クラウドサービス",
+      "region": "日本",
+      "date": "2026-10-20",
+      "posted_at": "2026-10-22T23:03:58+00:00",
+      "status": "official",
+      "source": "株式会社LayerX",
+      "issuer": "株式会社LayerX",
+      "reported_org": "LayerXコーポレートサイト問い合わせフォーム利用者",
+      "incident_count": 2295,
+      "incident_count_label": "延べ問い合わせ件数",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "コーポレートサイトの制作・運営に利用していたStudio株式会社のクラウド環境への不正アクセスに伴い、問い合わせフォーム情報が漏えいした可能性があると公表。対象は2022年6月30日から2023年11月1日までの問い合わせ2,295件で、同一人からの複数回の問い合わせを含む。実際に第三者が取得した事実は確認されていないが、漏えいしたものとして対応。不正利用や二次被害は確認されていない。",
+      "source_url": "https://layerx.co.jp/news/202610201500/",
+      "official_host": "layerx.co.jp",
+      "last_seen_at": "2026-10-22T23:03:58+00:00",
+      "updated_at": "2026-10-22T23:03:58+00:00",
+      "reports": [
+        {
+          "title": "外部委託先への不正アクセスに伴う、当社コーポレートサイトのお問い合わせ情報の漏えいの可能性に関するお知らせ",
+          "date": "2026-10-20",
+          "source": "株式会社LayerX",
+          "issuer": "株式会社LayerX",
+          "source_url": "https://layerx.co.jp/news/202610201500/",
+          "canonical_url": "https://layerx.co.jp/news/202610201500/",
+          "official_host": "layerx.co.jp",
+          "first_seen_at": "2026-10-22T23:03:58+00:00",
+          "last_seen_at": "2026-10-22T23:03:58+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mhlw-ichief-edu-cyberattack-20261022",
+      "event_key": null,
+      "event_scope": "",
+      "name": "厚生労働省、委託事業サイトへのサイバー攻撃で最大595名の個人情報漏えいのおそれ",
+      "sector": "行政・労働安全衛生",
+      "region": "日本",
+      "date": "2026-10-22",
+      "posted_at": "2026-10-22T23:03:58+00:00",
+      "status": "official",
+      "source": "厚生労働省",
+      "issuer": "厚生労働省",
+      "reported_org": "1FEdu（いちえふエデュ）受講者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": 595,
+      "leaked_records": null,
+      "detail": "厚生労働省の委託事業を受託するテクノヒル株式会社が運営するウェブサイト「1FEdu」に第三者によるサイバー攻撃があり、個人情報が漏えい、または漏えいした可能性があると報告を受けた。メールアドレスとパスワードは6名分の漏えいを確認し、それらを用いた不正ログインも確認。データベースに含まれる教育受講者最大595名分の個人情報も漏えいした可能性がある。",
+      "source_url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
+      "official_host": "www.mhlw.go.jp",
+      "last_seen_at": "2026-10-22T23:03:58+00:00",
+      "updated_at": "2026-10-22T23:03:58+00:00",
+      "reports": [
+        {
+          "title": "委託事業に係る個人情報の漏えいについて",
+          "date": "2026-10-22",
+          "source": "厚生労働省",
+          "issuer": "厚生労働省",
+          "source_url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
+          "canonical_url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
+          "official_host": "www.mhlw.go.jp",
+          "first_seen_at": "2026-10-22T23:03:58+00:00",
+          "last_seen_at": "2026-10-22T23:03:58+00:00"
+        }
+      ]
+    },
     {
       "id": "netprotections-np-atobarai-20261022",
       "event_key": null,
