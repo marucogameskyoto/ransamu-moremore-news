@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T00:43:59.699832+00:00",
+  "updated_at": "2026-10-22T01:37:29.339233+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -4238,7 +4238,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-22T00:43:34.463400+00:00"
+          "last_seen_at": "2026-10-22T01:36:59.725337+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -4574,7 +4574,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-22T00:43:34.463400+00:00"
+          "last_seen_at": "2026-10-22T01:36:59.725337+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -4585,7 +4585,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-22T00:43:34.463400+00:00"
+          "last_seen_at": "2026-10-22T01:36:59.725337+00:00"
         }
       ],
       "leaked_records": null,
@@ -4701,7 +4701,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-22T00:43:34.463400+00:00"
+          "last_seen_at": "2026-10-22T01:36:59.725337+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -4712,7 +4712,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-22T00:43:34.463400+00:00"
+          "last_seen_at": "2026-10-22T01:36:59.725337+00:00"
         }
       ],
       "leaked_records": null,
@@ -4783,7 +4783,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-22T00:43:34.463400+00:00"
+          "last_seen_at": "2026-10-22T01:36:59.725337+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -4828,7 +4828,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-22T00:43:34.463400+00:00"
+          "last_seen_at": "2026-10-22T01:36:59.725337+00:00"
         }
       ],
       "leaked_records": null,
@@ -4950,8 +4950,6 @@
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
-      "up-edu.com: ValueError: Redirect left the source host",
-      "up-edu.com: ValueError: Redirect left the source host",
       "www.mrmax.co.jp: ValueError: Redirect left the source host",
       "support.rakuten-drive.com: HTTPError: HTTP Error 403: Forbidden",
       "www.nihon-kotsu.co.jp: HTTPError: HTTP Error 404: Not Found",
