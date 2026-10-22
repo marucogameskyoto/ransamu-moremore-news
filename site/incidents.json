@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T23:03:58+00:00",
+  "updated_at": "2026-10-22T23:05:12.810202+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -11,36 +11,184 @@
   },
   "incidents": [
     {
-      "id": "receptionist-studio-20261022",
+      "id": "318de226ef4a16f39c2d",
       "event_key": null,
       "event_scope": "",
-      "name": "RECEPTIONIST、Studio不正アクセスで旧問い合わせフォーム情報約1,600件・約1,200名分が漏えいのおそれ",
-      "sector": "IT・クラウドサービス",
+      "name": "不正アクセスによるお客様情報流出の可能性および一部サービス停止のお知らせ - バルテック",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-22",
+      "posted_at": "2026-10-22T23:05:12.810202+00:00",
+      "status": "official",
+      "source": "不正アクセスによるお客様情報流出の可能性および一部サービス停止のお知らせ - バルテック",
+      "issuer": "不正アクセスによるお客様情報流出の可能性および一部サービス停止のお知らせ - バルテック",
+      "reported_org": "不正アクセスによるお客様情報流出の可能性および一部サービス停止のお知らせ - バルテック",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "【第一報】 この度、第三者からの不正アクセスにより、弊社が保有するお客様情報の流出とみなされる事実が発生したことを確認したため、現在弊社の一部サービスを停止し、緊急メンテナンスを行っております。",
+      "source_url": "https://www.webjapan.co.jp/maintenance/serviceteishi261022",
+      "official_host": "www.webjapan.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-22T23:05:12.810202+00:00",
+      "updated_at": "2026-10-22T23:05:12.810202+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによるお客様情報流出の可能性および一部サービス停止のお知らせ - バルテック",
+          "date": "2026-10-22",
+          "source": "不正アクセスによるお客様情報流出の可能性および一部サービス停止のお知らせ - バルテック",
+          "issuer": "不正アクセスによるお客様情報流出の可能性および一部サービス停止のお知らせ - バルテック",
+          "source_url": "https://www.webjapan.co.jp/maintenance/serviceteishi261022",
+          "canonical_url": "https://www.webjapan.co.jp/maintenance/serviceteishi261022",
+          "official_host": "www.webjapan.co.jp",
+          "first_seen_at": "2026-10-22T23:05:12.810202+00:00",
+          "last_seen_at": "2026-10-22T23:05:12.810202+00:00"
+        }
+      ]
+    },
+    {
+      "id": "cf8b9b282025cc4bb0f2",
+      "event_key": null,
+      "event_scope": "",
+      "name": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について｜デジタル庁",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-22",
+      "posted_at": "2026-10-22T23:05:12.810202+00:00",
+      "status": "official",
+      "source": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について｜デジタル庁",
+      "issuer": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について｜デジタル庁",
+      "reported_org": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について｜デジタル庁",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "）がホームページ運営の一部にそのサービスを利用していたStudio株式会社が、第三者からの不正アクセスを受け、個人情報が外部に漏えいした可能性があることが判明しました。【重要】不正アクセスによる情報流出に関するお詫びとお願い（第一報）| Studio株式会社 2 漏えいした可能性がある個人情報 漏えいした可能性がある個人情報の範囲は現在精査中ですが、現時点で対象となり得る個人情報は以下のとおりです。",
+      "source_url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+      "official_host": "www.digital.go.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-22T23:05:12.810202+00:00",
+      "updated_at": "2026-10-22T23:05:12.810202+00:00",
+      "reports": [
+        {
+          "title": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について｜デジタル庁",
+          "date": "2026-10-22",
+          "source": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について｜デジタル庁",
+          "issuer": "Studio 株式会社における不正アクセスによる個人情報の漏えいの可能性について｜デジタル庁",
+          "source_url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+          "canonical_url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+          "official_host": "www.digital.go.jp",
+          "first_seen_at": "2026-10-22T23:05:12.810202+00:00",
+          "last_seen_at": "2026-10-22T23:05:12.810202+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1b5c1be31ee77ce900c3",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【重要・第六報】登録情報の暗号化対応完了のお知らせ - ワサビスイッチ(旧:ワールドスイッチ)｜サポートマニュアル（WASABI SWITCH Portal）",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-20",
+      "posted_at": "2026-10-22T23:05:12.810202+00:00",
+      "status": "official",
+      "source": "【重要・第六報】登録情報の暗号化対応完了のお知らせ - ワサビスイッチ(旧:ワールドスイッチ)｜サポートマニュアル（WASABI SWITCH Portal）",
+      "issuer": "【重要・第六報】登録情報の暗号化対応完了のお知らせ - ワサビスイッチ(旧:ワールドスイッチ)｜サポートマニュアル（WASABI SWITCH Portal）",
+      "reported_org": "【重要・第六報】登録情報の暗号化対応完了のお知らせ - ワサビスイッチ(旧:ワールドスイッチ)｜サポートマニュアル（WASABI SWITCH Portal）",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "■ 以下のモールにつきましては、再発行を行わなくても連携自体は継続いたしますが、漏洩の可能性を考慮し、セキュリティ保護のため必ずご対応をお願いいたします。",
+      "source_url": "https://wasabi-inc.biz/help/news/20261020-01",
+      "official_host": "wasabi-inc.biz",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-22T23:05:12.810202+00:00",
+      "updated_at": "2026-10-22T23:05:12.810202+00:00",
+      "reports": [
+        {
+          "title": "【重要・第六報】登録情報の暗号化対応完了のお知らせ - ワサビスイッチ(旧:ワールドスイッチ)｜サポートマニュアル（WASABI SWITCH Portal）",
+          "date": "2026-10-20",
+          "source": "【重要・第六報】登録情報の暗号化対応完了のお知らせ - ワサビスイッチ(旧:ワールドスイッチ)｜サポートマニュアル（WASABI SWITCH Portal）",
+          "issuer": "【重要・第六報】登録情報の暗号化対応完了のお知らせ - ワサビスイッチ(旧:ワールドスイッチ)｜サポートマニュアル（WASABI SWITCH Portal）",
+          "source_url": "https://wasabi-inc.biz/help/news/20261020-01",
+          "canonical_url": "https://wasabi-inc.biz/help/news/20261020-01",
+          "official_host": "wasabi-inc.biz",
+          "first_seen_at": "2026-10-22T23:05:12.810202+00:00",
+          "last_seen_at": "2026-10-22T23:05:12.810202+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e3e4b88762bcd0688e2b",
+      "event_key": null,
+      "event_scope": "",
+      "name": "Z-IDシステムへの不正ログインについて（第一報） - Ｚ会",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-19",
+      "posted_at": "2026-10-22T23:05:12.810202+00:00",
+      "status": "official",
+      "source": "Z-IDシステムへの不正ログインについて（第一報） - Ｚ会",
+      "issuer": "Z-IDシステムへの不正ログインについて（第一報） - Ｚ会",
+      "reported_org": "Z-IDシステムへの不正ログインについて（第一報） - Ｚ会",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": 13,
+      "detail": "１．不正ログインの発生状況（10月19日 18:00時点） 10月15日午前11時頃に、一部のお客様のアカウントにおいて、第三者によりパスワードが不正にパスワードリセットの操作をされた事案を確認いたしました。本件はZ-IDシステムに対する不正ログインによるものであり、当社のサーバーやデータベースに対する直接の不正侵入・サイバー攻撃によって、お客様の情報が外部へ流出した形跡は確認されておりません。",
+      "source_url": "https://www.zkai.co.jp/post-120678",
+      "official_host": "www.zkai.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-22T23:05:12.810202+00:00",
+      "updated_at": "2026-10-22T23:05:12.810202+00:00",
+      "reports": [
+        {
+          "title": "Z-IDシステムへの不正ログインについて（第一報） - Ｚ会",
+          "date": "2026-10-19",
+          "source": "Z-IDシステムへの不正ログインについて（第一報） - Ｚ会",
+          "issuer": "Z-IDシステムへの不正ログインについて（第一報） - Ｚ会",
+          "source_url": "https://www.zkai.co.jp/post-120678",
+          "canonical_url": "https://www.zkai.co.jp/post-120678",
+          "official_host": "www.zkai.co.jp",
+          "first_seen_at": "2026-10-22T23:05:12.810202+00:00",
+          "last_seen_at": "2026-10-22T23:05:12.810202+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mhlw-ichief-edu-cyberattack-20261022",
+      "event_key": null,
+      "event_scope": "",
+      "name": "厚生労働省、委託事業サイトへのサイバー攻撃で最大595名の個人情報漏えいのおそれ",
+      "sector": "行政・労働安全衛生",
       "region": "日本",
       "date": "2026-10-22",
       "posted_at": "2026-10-22T23:03:58+00:00",
       "status": "official",
-      "source": "株式会社RECEPTIONIST",
-      "issuer": "株式会社RECEPTIONIST",
-      "reported_org": "株式会社RECEPTIONISTの旧コーポレートサイト問い合わせフォーム利用者",
-      "incident_count": 1600,
-      "incident_count_label": "延べ送信件数（概算）",
-      "affected_people": 1200,
+      "source": "厚生労働省",
+      "issuer": "厚生労働省",
+      "reported_org": "1FEdu（いちえふエデュ）受講者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": 595,
       "leaked_records": null,
-      "detail": "旧コーポレートサイトのお問い合わせフォームを通じて送信された情報が、Studio株式会社のクラウド環境への不正アクセスにより漏えいした可能性があると公表。対象期間は2024年3月13日から2026年10月5日まで。延べ約1,600件で、同一人の複数回送信を含み、人数換算は約1,200名。実際に第三者が取得した事実は確認されていないが、全件を対象に対応する。自社サービスの利用者データは対象外。",
-      "source_url": "https://receptionist.co.jp/news/20261022-notice",
-      "official_host": "receptionist.co.jp",
+      "detail": "厚生労働省の委託事業を受託するテクノヒル株式会社が運営するウェブサイト「1FEdu」に第三者によるサイバー攻撃があり、個人情報が漏えい、または漏えいした可能性があると報告を受けた。メールアドレスとパスワードは6名分の漏えいを確認し、それらを用いた不正ログインも確認。データベースに含まれる教育受講者最大595名分の個人情報も漏えいした可能性がある。",
+      "source_url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
+      "official_host": "www.mhlw.go.jp",
       "last_seen_at": "2026-10-22T23:03:58+00:00",
       "updated_at": "2026-10-22T23:03:58+00:00",
       "reports": [
         {
-          "title": "当社が利用していた外部サービスへの不正アクセスによる お問い合わせ情報漏えいの可能性に関するお詫びとお知らせ",
+          "title": "委託事業に係る個人情報の漏えいについて",
           "date": "2026-10-22",
-          "source": "株式会社RECEPTIONIST",
-          "issuer": "株式会社RECEPTIONIST",
-          "source_url": "https://receptionist.co.jp/news/20261022-notice",
-          "canonical_url": "https://receptionist.co.jp/news/20261022-notice",
-          "official_host": "receptionist.co.jp",
+          "source": "厚生労働省",
+          "issuer": "厚生労働省",
+          "source_url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
+          "canonical_url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
+          "official_host": "www.mhlw.go.jp",
           "first_seen_at": "2026-10-22T23:03:58+00:00",
           "last_seen_at": "2026-10-22T23:03:58+00:00"
         }
@@ -83,6 +231,42 @@
       ]
     },
     {
+      "id": "receptionist-studio-20261022",
+      "event_key": null,
+      "event_scope": "",
+      "name": "RECEPTIONIST、Studio不正アクセスで旧問い合わせフォーム情報約1,600件・約1,200名分が漏えいのおそれ",
+      "sector": "IT・クラウドサービス",
+      "region": "日本",
+      "date": "2026-10-22",
+      "posted_at": "2026-10-22T23:03:58+00:00",
+      "status": "official",
+      "source": "株式会社RECEPTIONIST",
+      "issuer": "株式会社RECEPTIONIST",
+      "reported_org": "株式会社RECEPTIONISTの旧コーポレートサイト問い合わせフォーム利用者",
+      "incident_count": 1600,
+      "incident_count_label": "延べ送信件数（概算）",
+      "affected_people": 1200,
+      "leaked_records": null,
+      "detail": "旧コーポレートサイトのお問い合わせフォームを通じて送信された情報が、Studio株式会社のクラウド環境への不正アクセスにより漏えいした可能性があると公表。対象期間は2024年3月13日から2026年10月5日まで。延べ約1,600件で、同一人の複数回送信を含み、人数換算は約1,200名。実際に第三者が取得した事実は確認されていないが、全件を対象に対応する。自社サービスの利用者データは対象外。",
+      "source_url": "https://receptionist.co.jp/news/20261022-notice",
+      "official_host": "receptionist.co.jp",
+      "last_seen_at": "2026-10-22T23:03:58+00:00",
+      "updated_at": "2026-10-22T23:03:58+00:00",
+      "reports": [
+        {
+          "title": "当社が利用していた外部サービスへの不正アクセスによる お問い合わせ情報漏えいの可能性に関するお詫びとお知らせ",
+          "date": "2026-10-22",
+          "source": "株式会社RECEPTIONIST",
+          "issuer": "株式会社RECEPTIONIST",
+          "source_url": "https://receptionist.co.jp/news/20261022-notice",
+          "canonical_url": "https://receptionist.co.jp/news/20261022-notice",
+          "official_host": "receptionist.co.jp",
+          "first_seen_at": "2026-10-22T23:03:58+00:00",
+          "last_seen_at": "2026-10-22T23:03:58+00:00"
+        }
+      ]
+    },
+    {
       "id": "layerx-studio-20261020",
       "event_key": null,
       "event_scope": "",
@@ -113,42 +297,6 @@
           "source_url": "https://layerx.co.jp/news/202610201500/",
           "canonical_url": "https://layerx.co.jp/news/202610201500/",
           "official_host": "layerx.co.jp",
-          "first_seen_at": "2026-10-22T23:03:58+00:00",
-          "last_seen_at": "2026-10-22T23:03:58+00:00"
-        }
-      ]
-    },
-    {
-      "id": "mhlw-ichief-edu-cyberattack-20261022",
-      "event_key": null,
-      "event_scope": "",
-      "name": "厚生労働省、委託事業サイトへのサイバー攻撃で最大595名の個人情報漏えいのおそれ",
-      "sector": "行政・労働安全衛生",
-      "region": "日本",
-      "date": "2026-10-22",
-      "posted_at": "2026-10-22T23:03:58+00:00",
-      "status": "official",
-      "source": "厚生労働省",
-      "issuer": "厚生労働省",
-      "reported_org": "1FEdu（いちえふエデュ）受講者",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": 595,
-      "leaked_records": null,
-      "detail": "厚生労働省の委託事業を受託するテクノヒル株式会社が運営するウェブサイト「1FEdu」に第三者によるサイバー攻撃があり、個人情報が漏えい、または漏えいした可能性があると報告を受けた。メールアドレスとパスワードは6名分の漏えいを確認し、それらを用いた不正ログインも確認。データベースに含まれる教育受講者最大595名分の個人情報も漏えいした可能性がある。",
-      "source_url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
-      "official_host": "www.mhlw.go.jp",
-      "last_seen_at": "2026-10-22T23:03:58+00:00",
-      "updated_at": "2026-10-22T23:03:58+00:00",
-      "reports": [
-        {
-          "title": "委託事業に係る個人情報の漏えいについて",
-          "date": "2026-10-22",
-          "source": "厚生労働省",
-          "issuer": "厚生労働省",
-          "source_url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
-          "canonical_url": "https://www.mhlw.go.jp/stf/newpage_76892.html",
-          "official_host": "www.mhlw.go.jp",
           "first_seen_at": "2026-10-22T23:03:58+00:00",
           "last_seen_at": "2026-10-22T23:03:58+00:00"
         }
@@ -1466,7 +1614,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-10-22T19:16:55.482020+00:00"
+          "last_seen_at": "2026-10-22T23:04:41.721561+00:00"
         }
       ]
     },
@@ -4513,7 +4661,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-22T19:16:55.482020+00:00"
+          "last_seen_at": "2026-10-22T23:04:41.721561+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -4976,7 +5124,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-22T19:16:55.482020+00:00"
+          "last_seen_at": "2026-10-22T23:04:41.721561+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -4987,7 +5135,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-22T19:16:55.482020+00:00"
+          "last_seen_at": "2026-10-22T23:04:41.721561+00:00"
         }
       ],
       "leaked_records": null,
@@ -5058,7 +5206,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-22T19:16:55.482020+00:00"
+          "last_seen_at": "2026-10-22T23:04:41.721561+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -5103,7 +5251,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-22T19:16:55.482020+00:00"
+          "last_seen_at": "2026-10-22T23:04:41.721561+00:00"
         }
       ],
       "leaked_records": null,
@@ -5219,9 +5367,9 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 211,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 220,
+    "official_pages_verified": 4,
+    "new_records": 4,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
