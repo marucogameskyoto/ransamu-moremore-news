@@ -3703,10 +3703,10 @@
       "id": "jfa-passport-20261018",
       "event_key": null,
       "event_scope": "",
-      "name": "JFA Passportへの不正アクセス調査、個人情報の漏えい確認されず",
+      "name": "JFA Passportへの不正アクセス調査、漏えい確認されず全機能再開",
       "sector": "スポーツ・団体",
       "region": "日本",
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "status": "official",
       "source": "公益財団法人日本サッカー協会",
       "issuer": "公益財団法人日本サッカー協会",
@@ -3715,11 +3715,11 @@
       "incident_count_label": null,
       "leaked_records": null,
       "affected_people": null,
-      "detail": "JFA公式アプリ「JFA Passport」への不正アクセスを試みる攻撃について、10月21日の第2報で調査結果を公表。本件に起因する個人情報の漏えいは確認されず、JFAが利用する関連システムでも情報漏えいや不正利用等の影響は確認されなかった。",
+      "detail": "JFA公式アプリ「JFA Passport」への不正アクセスを試みる攻撃について、10月21日の第2報で個人情報の漏えいや不正利用が確認されなかったと公表。10月22日の第3報で、安全性確認と必要な対策を終え、アプリの全機能を再開した。",
       "source_url": "https://www.jfa.jp/about_jfa/news/00036942",
       "official_host": "www.jfa.jp",
-      "last_seen_at": "2026-10-19T16:33:59+00:00",
-      "updated_at": "2026-10-19T16:33:59+00:00",
+      "last_seen_at": "2026-10-22T13:57:21Z",
+      "updated_at": "2026-10-22T13:57:21Z",
       "reports": [
         {
           "title": "【第2報】JFA公式アプリ「JFA Passport」への不正なアクセスを試みる攻撃に関する調査結果と今後の対応について",
@@ -3742,6 +3742,17 @@
           "official_host": "www.jfa.jp",
           "first_seen_at": "2026-10-19T16:33:59+00:00",
           "last_seen_at": "2026-10-19T16:33:59+00:00"
+        },
+        {
+          "title": "〖第3報〗JFA公式アプリ「JFA Passport」のサービス再開について",
+          "date": "2026-10-22",
+          "source": "公益財団法人日本サッカー協会",
+          "issuer": "公益財団法人日本サッカー協会",
+          "source_url": "https://www.jfa.jp/news/00036946/",
+          "canonical_url": "https://www.jfa.jp/news/00036946/",
+          "official_host": "www.jfa.jp",
+          "first_seen_at": "2026-10-22T13:57:21Z",
+          "last_seen_at": "2026-10-22T13:57:21Z"
         }
       ],
       "posted_at": "2026-10-19T16:33:59+00:00"
