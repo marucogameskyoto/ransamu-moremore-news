@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T23:16:50.055789+00:00",
+  "updated_at": "2026-10-22T00:35:21+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -41,43 +41,6 @@
           "issuer": "『コミックシーモア』会員情報の流出に関するご報告（第3報）｜ニュースリリース｜NTTソルマーレ株式会社",
           "source_url": "https://www.nttsolmare.com/press/2026/1016-1.html",
           "canonical_url": "https://www.nttsolmare.com/press/2026/1016-1.html",
-          "official_host": "www.nttsolmare.com",
-          "first_seen_at": "2026-10-21T23:16:50.055789+00:00",
-          "last_seen_at": "2026-10-21T23:16:50.055789+00:00"
-        }
-      ]
-    },
-    {
-      "id": "c6415173433f1e2f2ce7",
-      "event_key": null,
-      "event_scope": "",
-      "name": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-10-16",
-      "posted_at": "2026-10-21T23:16:50.055789+00:00",
-      "status": "official",
-      "source": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
-      "issuer": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
-      "reported_org": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "10月16日（金） ・その後の調査・分析において、『コミックシーモア』の会員情報を管理するシステムに不正アクセスがあり、その内部に保管する会員情報が第三者へ流出したことを確認いたしました。(1) 他社サービスでのパスワード変更のお願い 今回流出した会員情報（メールアドレスとパスワード）の組み合わせを使い、第三者が他のWebサービスへ不正ログインを試みるおそれがございます。",
-      "source_url": "https://www.nttsolmare.com/press/2026/1016.html",
-      "official_host": "www.nttsolmare.com",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-21T23:16:50.055789+00:00",
-      "updated_at": "2026-10-21T23:16:50.055789+00:00",
-      "reports": [
-        {
-          "title": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
-          "date": "2026-10-16",
-          "source": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
-          "issuer": "『コミックシーモア』会員情報の流出に関するお詫びとお願い (第2報)｜ニュースリリース｜NTTソルマーレ株式会社",
-          "source_url": "https://www.nttsolmare.com/press/2026/1016.html",
-          "canonical_url": "https://www.nttsolmare.com/press/2026/1016.html",
           "official_host": "www.nttsolmare.com",
           "first_seen_at": "2026-10-21T23:16:50.055789+00:00",
           "last_seen_at": "2026-10-21T23:16:50.055789+00:00"
@@ -1466,43 +1429,6 @@
           "official_host": "www.iwaicosmo.net",
           "first_seen_at": "2026-10-21T23:06:38.331471+00:00",
           "last_seen_at": "2026-10-21T23:06:38.331471+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
-      "id": "c6415173433f1e2f2ce7",
-      "event_key": null,
-      "event_scope": "",
-      "name": "コミックシーモア、不正アクセスで会員情報319件とシステムログ最大約420万件が流出",
-      "sector": "公式発表",
-      "region": "日本",
-      "date": "2026-10-21",
-      "status": "official",
-      "source": "NTTソルマーレ株式会社",
-      "issuer": "NTTソルマーレ株式会社",
-      "reported_org": "NTTソルマーレ株式会社（コミックシーモア）",
-      "incident_count": 4200319,
-      "incident_count_label": "会員登録情報319件＋システムログ最大約420万件（重複を含む可能性）",
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "『コミックシーモア』への不正アクセスについて、10月21日の第4報で、会員データベース上の登録情報319件（メールアドレス、ハッシュ化パスワード、ニックネーム、生年月日、性別）と、システムログファイル上の情報最大約420万件が流出したと公表。ログの件数には同一顧客に関する情報の重複を含む可能性がある。表示上の合計は319件と最大約420万件を便宜上合算した値。",
-      "source_url": "https://www.nttsolmare.com/press/2026/1021.html",
-      "official_host": "www.nttsolmare.com",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-19T23:26:28.672677+00:00",
-      "updated_at": "2026-10-19T23:26:28.672677+00:00",
-      "reports": [
-        {
-          "source_url": "https://www.nttsolmare.com/press/2026/1021.html",
-          "canonical_url": "https://www.nttsolmare.com/press/2026/1021.html",
-          "title": "コミックシーモア、不正アクセスで会員情報319件とシステムログ最大約420万件が流出",
-          "date": "2026-10-21",
-          "source": "NTTソルマーレ株式会社",
-          "issuer": "NTTソルマーレ株式会社",
-          "official_host": "www.nttsolmare.com",
-          "first_seen_at": "2026-10-19T23:26:28.672677+00:00",
-          "last_seen_at": "2026-10-19T23:26:28.672677+00:00"
         }
       ],
       "posted_at": "2026-10-19T16:48:37.216144+00:00"
@@ -3716,7 +3642,7 @@
       "reports": [
         {
           "title": "【第2報】JFA公式アプリ「JFA Passport」への不正なアクセスを試みる攻撃に関する調査結果と今後の対応について",
-          "date": "2023-12-23",
+          "date": "2026-10-21",
           "source": "【第2報】JFA公式アプリ「JFA Passport」への不正なアクセスを試みる攻撃に関する調査結果と今後の対応について",
           "issuer": "【第2報】JFA公式アプリ「JFA Passport」への不正なアクセスを試みる攻撃に関する調査結果と今後の対応について",
           "source_url": "https://www.jfa.jp/about_jfa/news/00036942",
@@ -3761,6 +3687,17 @@
       "last_seen_at": "2026-10-19T16:33:59+00:00",
       "updated_at": "2026-10-19T16:33:59+00:00",
       "reports": [
+        {
+          "title": "不正アクセスの疑いに伴うサービス一時停止のお知らせ",
+          "date": "2026-10-19",
+          "source": "NTTソルマーレ株式会社",
+          "issuer": "NTTソルマーレ株式会社",
+          "source_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
+          "canonical_url": "https://www.trustbank.co.jp/newsroom/news/news261019/",
+          "official_host": "www.trustbank.co.jp",
+          "first_seen_at": "2026-10-22T00:35:21+00:00",
+          "last_seen_at": "2026-10-22T00:35:21+00:00"
+        },
         {
           "source_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020",
           "canonical_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020",
