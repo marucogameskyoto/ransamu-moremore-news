@@ -222,6 +222,14 @@ for event in previous_events:
         "url:" + (first_report.get("canonical_url") or first_report.get("source_url") or event["id"])
     )
     events[identity] = event
+    # Make every official announcement URL resolve to the same grouped event.
+    # This keeps follow-up notices attached to a curated incident even when an
+    # RSS feed does not provide an explicit incident identifier.
+    for report in reports:
+        if isinstance(report, dict):
+            report_url = report.get("canonical_url") or report.get("source_url")
+            if report_url:
+                events["url:" + report_url] = event
 
 errors = []
 successful_feeds = 0
@@ -243,6 +251,11 @@ for feed in CONFIG["feeds"]:
                 }
                 events[identity] = event
             merge_event(event, item)
+            for report in event.get("reports", []):
+                if isinstance(report, dict):
+                    report_url = report.get("canonical_url") or report.get("source_url")
+                    if report_url:
+                        events["url:" + report_url] = event
     except Exception as exc:
         errors.append(f"{feed['name']}: {type(exc).__name__}: {exc}")
 
@@ -251,11 +264,12 @@ if successful_feeds == 0 and CONFIG["feeds"]:
 
 retention_days = CONFIG.get("history_days", 90)
 cutoff = NOW - timedelta(days=retention_days)
-retained = []
+retained_by_id = {}
 for event in events.values():
     last_seen = parse_date(event.get("last_seen_at"))
     if last_seen is None or last_seen >= cutoff:
-        retained.append(event)
+        retained_by_id[event["id"]] = event
+retained = list(retained_by_id.values())
 
 items = sorted(retained, key=lambda row: (row.get("updated_at", ""), row.get("name", "")), reverse=True)[:CONFIG["max_items"]]
 payload = {"updated_at": NOW_TEXT, "demo": False, "automation": "official-rss-events", "incidents": items}
