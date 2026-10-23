@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T06:00:50+00:00",
+  "updated_at": "2026-10-23T06:03:11.282902+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -10,154 +10,6 @@
     ]
   },
   "incidents": [
-    {
-      "id": "tohoku-frontier-studio-20261017",
-      "event_key": null,
-      "event_scope": "",
-      "name": "東北電力フロンティア、Studio不正アクセスでイベントフォーム情報延べ182件が漏えいのおそれ",
-      "sector": "電力・サービス",
-      "region": "日本",
-      "date": "2026-10-17",
-      "posted_at": "2026-10-23T06:00:50+00:00",
-      "status": "official",
-      "source": "東北電力フロンティア株式会社",
-      "issuer": "東北電力フロンティア株式会社",
-      "reported_org": "イベント関連Webサイトの問い合わせフォーム利用者",
-      "incident_count": 182,
-      "incident_count_label": "問い合わせフォーム情報の延べ件数",
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "イベント関連Webサイトの制作・運用に利用するStudioのサービスへの不正アクセスに伴い、問い合わせフォーム情報が外部に漏えいした可能性を公表。対象は延べ182件。第三者による実際の情報取得は確認されていない。電気契約や光回線等の顧客情報、イベント参加者情報は対象外と説明。",
-      "source_url": "https://www.tohoku-frontier.co.jp/news/1947/",
-      "official_host": "www.tohoku-frontier.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-23T06:00:50+00:00",
-      "updated_at": "2026-10-23T06:00:50+00:00",
-      "reports": [
-        {
-          "title": "当社が利用する外部サービスへの不正アクセスに伴う個人情報漏洩の可能性について",
-          "date": "2026-10-17",
-          "source": "東北電力フロンティア株式会社",
-          "issuer": "東北電力フロンティア株式会社",
-          "source_url": "https://www.tohoku-frontier.co.jp/news/1947/",
-          "canonical_url": "https://www.tohoku-frontier.co.jp/news/1947/",
-          "official_host": "www.tohoku-frontier.co.jp",
-          "first_seen_at": "2026-10-23T06:00:50+00:00",
-          "last_seen_at": "2026-10-23T06:00:50+00:00"
-        }
-      ]
-    },
-    {
-      "id": "crowdworks-studio-20261019",
-      "event_key": null,
-      "event_scope": "",
-      "name": "クラウドワークス、Studio不正アクセスで3サービスのフォーム情報12,131件が漏えいのおそれ",
-      "sector": "IT・人材サービス",
-      "region": "日本",
-      "date": "2026-10-19",
-      "posted_at": "2026-10-23T06:00:50+00:00",
-      "status": "official",
-      "source": "株式会社クラウドワークス",
-      "issuer": "株式会社クラウドワークス",
-      "reported_org": "クラウドワークス アカデミー、クラウドタウン、クラウドリンクスのフォーム利用者",
-      "incident_count": 12131,
-      "incident_count_label": "4フォームの合計送信件数（実人数とは一致しない場合あり）",
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "Studioへの不正アクセスに伴い、同社サービス3件のフォーム送信情報が漏えいした可能性を公表。内訳はクラウドワークス アカデミー問い合わせ354件、クラウドタウン申込み11,462件・問い合わせ299件、クラウドリンクス問い合わせ16件。合計12,131件で、同一利用者の複数送信を含むため実人数とは一致しない場合がある。第三者が実際に取得した事実は確認されていない。",
-      "source_url": "https://crowdworks.co.jp/news/v-2z1klpkvd/",
-      "official_host": "crowdworks.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-23T06:00:50+00:00",
-      "updated_at": "2026-10-23T06:00:50+00:00",
-      "reports": [
-        {
-          "title": "外部ウェブサイト制作サービス「Studio」不正アクセスに伴う個人情報漏えいの可能性に関するお知らせ",
-          "date": "2026-10-19",
-          "source": "株式会社クラウドワークス",
-          "issuer": "株式会社クラウドワークス",
-          "source_url": "https://crowdworks.co.jp/news/v-2z1klpkvd/",
-          "canonical_url": "https://crowdworks.co.jp/news/v-2z1klpkvd/",
-          "official_host": "crowdworks.co.jp",
-          "first_seen_at": "2026-10-23T06:00:50+00:00",
-          "last_seen_at": "2026-10-23T06:00:50+00:00"
-        }
-      ]
-    },
-    {
-      "id": "mlit-housing-subsidy-20261020",
-      "event_key": null,
-      "event_scope": "",
-      "name": "国交省、住宅省エネ2024事務局への不正操作で登録事業者情報23,918名分が漏えいのおそれ",
-      "sector": "行政・住宅",
-      "region": "日本",
-      "date": "2026-10-20",
-      "posted_at": "2026-10-23T06:00:50+00:00",
-      "status": "official",
-      "source": "国土交通省",
-      "issuer": "国土交通省",
-      "reported_org": "住宅省エネ2024キャンペーン登録事業者等",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": 23918,
-      "leaked_records": null,
-      "detail": "住宅省エネ2024キャンペーン事務局のシステムへの外部からの不正操作により、登録事業者情報が漏えいした可能性を公表。対象情報は速報値で23,918名（16,950事業者）。個人事業主や補助金担当者等の情報が含まれ、原因と被害状況は調査中。消費者情報および他年度の同種事業の登録事業者情報の漏えいは確認されていない。",
-      "source_url": "https://www.mlit.go.jp/report/press/house04_hh_001366.html",
-      "official_host": "www.mlit.go.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-23T06:00:50+00:00",
-      "updated_at": "2026-10-23T06:00:50+00:00",
-      "reports": [
-        {
-          "title": "「住宅省エネ2024キャンペーン」の事務局における登録事業者情報の漏洩の可能性について",
-          "date": "2026-10-20",
-          "source": "国土交通省",
-          "issuer": "国土交通省",
-          "source_url": "https://www.mlit.go.jp/report/press/house04_hh_001366.html",
-          "canonical_url": "https://www.mlit.go.jp/report/press/house04_hh_001366.html",
-          "official_host": "www.mlit.go.jp",
-          "first_seen_at": "2026-10-23T06:00:50+00:00",
-          "last_seen_at": "2026-10-23T06:00:50+00:00"
-        }
-      ]
-    },
-    {
-      "id": "fujitv-promotion-system-20261020",
-      "event_key": null,
-      "event_scope": "",
-      "name": "フジテレビ、番組宣伝システムへの不正アクセスで最大730件の情報漏えいのおそれ",
-      "sector": "放送・メディア",
-      "region": "日本",
-      "date": "2026-10-20",
-      "posted_at": "2026-10-23T06:00:50+00:00",
-      "status": "official",
-      "source": "株式会社フジテレビジョン",
-      "issuer": "株式会社フジテレビジョン",
-      "reported_org": "番組宣伝システムに登録されたメディア関係者",
-      "incident_count": 730,
-      "incident_count_label": "漏えい可能性のある対象件数（最大）",
-      "affected_people": null,
-      "leaked_records": null,
-      "detail": "番組宣伝システムへの第三者による不正アクセスを2026年10月19日夜に確認。氏名・会社名・メールアドレス等が外部に漏えいした可能性があり、対象は最大730件と公表。登録資料を含む影響範囲を調査中。視聴者の個人情報は当該システムに登録されていない。",
-      "source_url": "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf",
-      "official_host": "www.fujitv.co.jp",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-23T06:00:50+00:00",
-      "updated_at": "2026-10-23T06:00:50+00:00",
-      "reports": [
-        {
-          "title": "番組宣伝システムへの不正アクセスについて",
-          "date": "2026-10-20",
-          "source": "株式会社フジテレビジョン",
-          "issuer": "株式会社フジテレビジョン",
-          "source_url": "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf",
-          "canonical_url": "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf",
-          "official_host": "www.fujitv.co.jp",
-          "first_seen_at": "2026-10-23T06:00:50+00:00",
-          "last_seen_at": "2026-10-23T06:00:50+00:00"
-        }
-      ]
-    },
     {
       "id": "318de226ef4a16f39c2d",
       "event_key": null,
@@ -240,6 +92,154 @@
           "official_host": "www.digital.go.jp",
           "first_seen_at": "2026-10-22T23:05:12.810202+00:00",
           "last_seen_at": "2026-10-22T23:05:12.810202+00:00"
+        }
+      ]
+    },
+    {
+      "id": "mlit-housing-subsidy-20261020",
+      "event_key": null,
+      "event_scope": "",
+      "name": "国交省、住宅省エネ2024事務局への不正操作で登録事業者情報23,918名分が漏えいのおそれ",
+      "sector": "行政・住宅",
+      "region": "日本",
+      "date": "2026-10-20",
+      "posted_at": "2026-10-23T06:00:50+00:00",
+      "status": "official",
+      "source": "国土交通省",
+      "issuer": "国土交通省",
+      "reported_org": "住宅省エネ2024キャンペーン登録事業者等",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": 23918,
+      "leaked_records": null,
+      "detail": "住宅省エネ2024キャンペーン事務局のシステムへの外部からの不正操作により、登録事業者情報が漏えいした可能性を公表。対象情報は速報値で23,918名（16,950事業者）。個人事業主や補助金担当者等の情報が含まれ、原因と被害状況は調査中。消費者情報および他年度の同種事業の登録事業者情報の漏えいは確認されていない。",
+      "source_url": "https://www.mlit.go.jp/report/press/house04_hh_001366.html",
+      "official_host": "www.mlit.go.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-23T06:00:50+00:00",
+      "updated_at": "2026-10-23T06:00:50+00:00",
+      "reports": [
+        {
+          "title": "「住宅省エネ2024キャンペーン」の事務局における登録事業者情報の漏洩の可能性について",
+          "date": "2026-10-20",
+          "source": "国土交通省",
+          "issuer": "国土交通省",
+          "source_url": "https://www.mlit.go.jp/report/press/house04_hh_001366.html",
+          "canonical_url": "https://www.mlit.go.jp/report/press/house04_hh_001366.html",
+          "official_host": "www.mlit.go.jp",
+          "first_seen_at": "2026-10-23T06:00:50+00:00",
+          "last_seen_at": "2026-10-23T06:00:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "fujitv-promotion-system-20261020",
+      "event_key": null,
+      "event_scope": "",
+      "name": "フジテレビ、番組宣伝システムへの不正アクセスで最大730件の情報漏えいのおそれ",
+      "sector": "放送・メディア",
+      "region": "日本",
+      "date": "2026-10-20",
+      "posted_at": "2026-10-23T06:00:50+00:00",
+      "status": "official",
+      "source": "株式会社フジテレビジョン",
+      "issuer": "株式会社フジテレビジョン",
+      "reported_org": "番組宣伝システムに登録されたメディア関係者",
+      "incident_count": 730,
+      "incident_count_label": "漏えい可能性のある対象件数（最大）",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "番組宣伝システムへの第三者による不正アクセスを2026年10月19日夜に確認。氏名・会社名・メールアドレス等が外部に漏えいした可能性があり、対象は最大730件と公表。登録資料を含む影響範囲を調査中。視聴者の個人情報は当該システムに登録されていない。",
+      "source_url": "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf",
+      "official_host": "www.fujitv.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-23T06:00:50+00:00",
+      "updated_at": "2026-10-23T06:00:50+00:00",
+      "reports": [
+        {
+          "title": "番組宣伝システムへの不正アクセスについて",
+          "date": "2026-10-20",
+          "source": "株式会社フジテレビジョン",
+          "issuer": "株式会社フジテレビジョン",
+          "source_url": "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf",
+          "canonical_url": "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf",
+          "official_host": "www.fujitv.co.jp",
+          "first_seen_at": "2026-10-23T06:00:50+00:00",
+          "last_seen_at": "2026-10-23T06:00:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "crowdworks-studio-20261019",
+      "event_key": null,
+      "event_scope": "",
+      "name": "クラウドワークス、Studio不正アクセスで3サービスのフォーム情報12,131件が漏えいのおそれ",
+      "sector": "IT・人材サービス",
+      "region": "日本",
+      "date": "2026-10-19",
+      "posted_at": "2026-10-23T06:00:50+00:00",
+      "status": "official",
+      "source": "株式会社クラウドワークス",
+      "issuer": "株式会社クラウドワークス",
+      "reported_org": "クラウドワークス アカデミー、クラウドタウン、クラウドリンクスのフォーム利用者",
+      "incident_count": 12131,
+      "incident_count_label": "4フォームの合計送信件数（実人数とは一致しない場合あり）",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "Studioへの不正アクセスに伴い、同社サービス3件のフォーム送信情報が漏えいした可能性を公表。内訳はクラウドワークス アカデミー問い合わせ354件、クラウドタウン申込み11,462件・問い合わせ299件、クラウドリンクス問い合わせ16件。合計12,131件で、同一利用者の複数送信を含むため実人数とは一致しない場合がある。第三者が実際に取得した事実は確認されていない。",
+      "source_url": "https://crowdworks.co.jp/news/v-2z1klpkvd/",
+      "official_host": "crowdworks.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-23T06:00:50+00:00",
+      "updated_at": "2026-10-23T06:00:50+00:00",
+      "reports": [
+        {
+          "title": "外部ウェブサイト制作サービス「Studio」不正アクセスに伴う個人情報漏えいの可能性に関するお知らせ",
+          "date": "2026-10-19",
+          "source": "株式会社クラウドワークス",
+          "issuer": "株式会社クラウドワークス",
+          "source_url": "https://crowdworks.co.jp/news/v-2z1klpkvd/",
+          "canonical_url": "https://crowdworks.co.jp/news/v-2z1klpkvd/",
+          "official_host": "crowdworks.co.jp",
+          "first_seen_at": "2026-10-23T06:00:50+00:00",
+          "last_seen_at": "2026-10-23T06:00:50+00:00"
+        }
+      ]
+    },
+    {
+      "id": "tohoku-frontier-studio-20261017",
+      "event_key": null,
+      "event_scope": "",
+      "name": "東北電力フロンティア、Studio不正アクセスでイベントフォーム情報延べ182件が漏えいのおそれ",
+      "sector": "電力・サービス",
+      "region": "日本",
+      "date": "2026-10-17",
+      "posted_at": "2026-10-23T06:00:50+00:00",
+      "status": "official",
+      "source": "東北電力フロンティア株式会社",
+      "issuer": "東北電力フロンティア株式会社",
+      "reported_org": "イベント関連Webサイトの問い合わせフォーム利用者",
+      "incident_count": 182,
+      "incident_count_label": "問い合わせフォーム情報の延べ件数",
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "イベント関連Webサイトの制作・運用に利用するStudioのサービスへの不正アクセスに伴い、問い合わせフォーム情報が外部に漏えいした可能性を公表。対象は延べ182件。第三者による実際の情報取得は確認されていない。電気契約や光回線等の顧客情報、イベント参加者情報は対象外と説明。",
+      "source_url": "https://www.tohoku-frontier.co.jp/news/1947/",
+      "official_host": "www.tohoku-frontier.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-23T06:00:50+00:00",
+      "updated_at": "2026-10-23T06:00:50+00:00",
+      "reports": [
+        {
+          "title": "当社が利用する外部サービスへの不正アクセスに伴う個人情報漏洩の可能性について",
+          "date": "2026-10-17",
+          "source": "東北電力フロンティア株式会社",
+          "issuer": "東北電力フロンティア株式会社",
+          "source_url": "https://www.tohoku-frontier.co.jp/news/1947/",
+          "canonical_url": "https://www.tohoku-frontier.co.jp/news/1947/",
+          "official_host": "www.tohoku-frontier.co.jp",
+          "first_seen_at": "2026-10-23T06:00:50+00:00",
+          "last_seen_at": "2026-10-23T06:00:50+00:00"
         }
       ]
     },
@@ -2008,7 +2008,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-10-23T01:37:41.500123+00:00"
+          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
         }
       ]
     },
@@ -4870,7 +4870,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-23T01:37:41.500123+00:00"
+          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -5333,7 +5333,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T01:37:41.500123+00:00"
+          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -5344,7 +5344,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T01:37:41.500123+00:00"
+          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
         }
       ],
       "leaked_records": null,
@@ -5415,7 +5415,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T01:37:41.500123+00:00"
+          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -5460,7 +5460,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T01:37:41.500123+00:00"
+          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
         }
       ],
       "leaked_records": null,
