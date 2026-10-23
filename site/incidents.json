@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T14:18:19.915374+00:00",
+  "updated_at": "2026-10-23T14:56:47+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,114 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "blastmail-tokyo-agri-volunteer-20261023",
+      "event_key": "blastmail-unauthorized-access-20261021",
+      "event_scope": "東京都農林水産振興財団・東京広域援農ボランティア事業",
+      "name": "東京都、ブラストメール不正アクセスで援農ボランティア事業の登録情報最大約16,000件に漏えい",
+      "sector": "行政・農業支援・メール配信サービス",
+      "region": "日本",
+      "date": "2026-10-23",
+      "status": "official",
+      "source": "東京都",
+      "issuer": "東京都",
+      "reported_org": "東京広域援農ボランティア事業の生産者・ボランティア参加者",
+      "incident_count": 16000,
+      "incident_count_label": "最大約16,000件（対象者数・漏えい範囲は調査中）",
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "東京都は、政策連携団体が委託する事業者のメール配信に使われていたブラストメールへの不正アクセスにより、東京広域援農ボランティア事業の個人情報漏えいが判明したと公表。対象者数は最大約16,000件で、氏名・メールアドレス・属性が対象。サービス提供会社から一部契約者の配信先リスト等の漏えい報告を受けており、範囲を調査中。対象者数の公表単位を保持し、実人数と断定しない。",
+      "source_url": "https://www.metro.tokyo.lg.jp/ja/information/press/2026/10/2026102317",
+      "official_host": "www.metro.tokyo.lg.jp",
+      "posted_at": "2026-10-23T14:56:47+00:00",
+      "last_seen_at": "2026-10-23T14:56:47+00:00",
+      "updated_at": "2026-10-23T14:56:47+00:00",
+      "reports": [
+        {
+          "title": "メール配信サービスへの不正アクセスによる個人情報の漏えいについて",
+          "date": "2026-10-23",
+          "source": "東京都",
+          "issuer": "東京都",
+          "source_url": "https://www.metro.tokyo.lg.jp/ja/information/press/2026/10/2026102317",
+          "canonical_url": "https://www.metro.tokyo.lg.jp/ja/information/press/2026/10/2026102317",
+          "official_host": "www.metro.tokyo.lg.jp",
+          "first_seen_at": "2026-10-23T14:56:47+00:00",
+          "last_seen_at": "2026-10-23T14:56:47+00:00"
+        }
+      ]
+    },
+    {
+      "id": "blastmail-nissho-20261023",
+      "event_key": "blastmail-unauthorized-access-20261021",
+      "event_scope": "日本消防協会メールマガジン配信先情報",
+      "name": "日本消防協会、ブラストメール不正アクセスでメルマガ情報漏えいの可能性",
+      "sector": "公益法人・メール配信サービス",
+      "region": "日本",
+      "date": "2026-10-23",
+      "status": "official",
+      "source": "公益財団法人日本消防協会",
+      "issuer": "公益財団法人日本消防協会",
+      "reported_org": "同協会のメールマガジン配信先",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "日本消防協会は、利用するメールマガジン配信サービス「ブラストメール」で情報漏えいの可能性を確認したと公表。漏えいの有無、対象情報、影響範囲を確認中。協会を装ったメールへの注意を呼びかけている。対象数は公表していない。",
+      "source_url": "https://www.nissho.or.jp/info/news20261023.html",
+      "official_host": "www.nissho.or.jp",
+      "posted_at": "2026-10-23T14:56:47+00:00",
+      "last_seen_at": "2026-10-23T14:56:47+00:00",
+      "updated_at": "2026-10-23T14:56:47+00:00",
+      "reports": [
+        {
+          "title": "当協会が利用するメールマガジン配信サービスにおける情報漏えいの可能性について",
+          "date": "2026-10-23",
+          "source": "公益財団法人日本消防協会",
+          "issuer": "公益財団法人日本消防協会",
+          "source_url": "https://www.nissho.or.jp/info/news20261023.html",
+          "canonical_url": "https://www.nissho.or.jp/info/news20261023.html",
+          "official_host": "www.nissho.or.jp",
+          "first_seen_at": "2026-10-23T14:56:47+00:00",
+          "last_seen_at": "2026-10-23T14:56:47+00:00"
+        }
+      ]
+    },
+    {
+      "id": "blastmail-echigo-tokimeki-20261022",
+      "event_key": "blastmail-unauthorized-access-20261021",
+      "event_scope": "えちごトキめき鉄道・利用者案内等メール配信先情報",
+      "name": "えちごトキめき鉄道、ブラストメール不正アクセスで利用者情報漏えいの可能性",
+      "sector": "鉄道・メール配信サービス",
+      "region": "日本",
+      "date": "2026-10-22",
+      "status": "official",
+      "source": "えちごトキめき鉄道株式会社",
+      "issuer": "えちごトキめき鉄道株式会社",
+      "reported_org": "雪月花利用者、サポーターズクラブ会員、ツアー・イベント参加者等",
+      "incident_count": null,
+      "incident_count_label": null,
+      "leaked_records": null,
+      "affected_people": null,
+      "detail": "えちごトキめき鉄道は、案内やメールマガジンに利用するブラストメールで第三者による不正アクセスがあり、一部契約者の配信先情報等が外部に漏えいしたと運営会社から通知されたと公表。同社登録情報の漏えい有無は未確認。対象となる可能性のある情報はメールアドレス、氏名、雪月花の乗車日・座席番号、サポーターズクラブ会員番号。対象数は公表していない。",
+      "source_url": "https://www.echigo-tokimeki.co.jp/information/detail?id=2673",
+      "official_host": "www.echigo-tokimeki.co.jp",
+      "posted_at": "2026-10-23T14:56:47+00:00",
+      "last_seen_at": "2026-10-23T14:56:47+00:00",
+      "updated_at": "2026-10-23T14:56:47+00:00",
+      "reports": [
+        {
+          "title": "委託先からの情報漏洩の可能性について",
+          "date": "2026-10-22",
+          "source": "えちごトキめき鉄道株式会社",
+          "issuer": "えちごトキめき鉄道株式会社",
+          "source_url": "https://www.echigo-tokimeki.co.jp/information/detail?id=2673",
+          "canonical_url": "https://www.echigo-tokimeki.co.jp/information/detail?id=2673",
+          "official_host": "www.echigo-tokimeki.co.jp",
+          "first_seen_at": "2026-10-23T14:56:47+00:00",
+          "last_seen_at": "2026-10-23T14:56:47+00:00"
+        }
+      ]
+    },
     {
       "id": "corona-cloud-incident-20261022",
       "event_key": null,
