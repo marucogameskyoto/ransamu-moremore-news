@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T06:03:11.282902+00:00",
+  "updated_at": "2026-10-23T08:41:12.845365+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -2008,7 +2008,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
+          "last_seen_at": "2026-10-23T08:40:42.170452+00:00"
         }
       ]
     },
@@ -4870,7 +4870,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
+          "last_seen_at": "2026-10-23T08:40:42.170452+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -5333,7 +5333,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
+          "last_seen_at": "2026-10-23T08:40:42.170452+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -5344,7 +5344,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
+          "last_seen_at": "2026-10-23T08:40:42.170452+00:00"
         }
       ],
       "leaked_records": null,
@@ -5415,7 +5415,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
+          "last_seen_at": "2026-10-23T08:40:42.170452+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -5460,7 +5460,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T06:02:38.526250+00:00"
+          "last_seen_at": "2026-10-23T08:40:42.170452+00:00"
         }
       ],
       "leaked_records": null,
@@ -5576,7 +5576,7 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 220,
+    "official_links_found": 221,
     "official_pages_verified": 0,
     "new_records": 0,
     "warnings": [
