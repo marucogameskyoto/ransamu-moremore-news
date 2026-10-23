@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T19:21:05.127787+00:00",
+  "updated_at": "2026-10-23T19:34:01.437684+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,43 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "6328105d6d374cd26b1d",
+      "event_key": "hotelier-hotel-booking-system-unauthorized-access-20260914",
+      "event_scope": "株式会社ホテリエ・宿泊予約者情報",
+      "name": "ホテリエ、宿泊管理システムへの不正アクセスで予約者7,919人の個人情報流出",
+      "sector": "宿泊・ホテル運営",
+      "region": "日本",
+      "date": "2026-10-13",
+      "status": "official",
+      "source": "株式会社ホテリエ",
+      "issuer": "株式会社ホテリエ",
+      "reported_org": "同社が運営・管理する8施設の予約者",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": 7919,
+      "leaked_records": null,
+      "detail": "株式会社ホテリエは、利用する宿泊管理システムへの第三者による不正アクセスにより、8施設の予約者7,919人の個人情報が流出したと公表。対象期間は2026年4月8日から9月14日まで。氏名、電話番号、メールアドレス、国籍、宿泊日、施設名、宿泊料金等の予約情報が対象で、住所・クレジットカード情報・パスポート情報は含まれない。9月17日に個人情報保護委員会へ報告した。",
+      "source_url": "https://hotel.inc/news/information/20261013_01",
+      "official_host": "hotel.inc",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-24T00:00:00+09:00",
+      "updated_at": "2026-10-24T00:00:00+09:00",
+      "reports": [
+        {
+          "title": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ",
+          "date": "2026-10-13",
+          "source": "株式会社ホテリエ",
+          "issuer": "株式会社ホテリエ",
+          "source_url": "https://hotel.inc/news/information/20261013_01",
+          "canonical_url": "https://hotel.inc/news/information/20261013_01",
+          "official_host": "hotel.inc",
+          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
+          "last_seen_at": "2026-10-24T00:00:00+09:00"
+        }
+      ],
+      "posted_at": "2026-10-19T16:48:37.216144+00:00"
+    },
     {
       "id": "blastmail-tokyo-agri-volunteer-20261023",
       "event_key": "blastmail-unauthorized-access-20261021",
@@ -2233,7 +2270,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-10-23T19:20:31.670343+00:00"
+          "last_seen_at": "2026-10-23T19:33:29.775957+00:00"
         }
       ]
     },
@@ -2381,43 +2418,6 @@
           "official_host": "www.fivefoxes.co.jp",
           "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
           "last_seen_at": "2026-10-19T16:48:37.216144+00:00"
-        }
-      ],
-      "posted_at": "2026-10-19T16:48:37.216144+00:00"
-    },
-    {
-      "id": "6328105d6d374cd26b1d",
-      "event_key": "hotelier-hotel-booking-system-unauthorized-access-20260914",
-      "event_scope": "株式会社ホテリエ・宿泊予約者情報",
-      "name": "ホテリエ、宿泊管理システムへの不正アクセスで予約者7,919人の個人情報流出",
-      "sector": "宿泊・ホテル運営",
-      "region": "日本",
-      "date": "2026-10-13",
-      "status": "official",
-      "source": "株式会社ホテリエ",
-      "issuer": "株式会社ホテリエ",
-      "reported_org": "同社が運営・管理する8施設の予約者",
-      "incident_count": null,
-      "incident_count_label": null,
-      "affected_people": 7919,
-      "leaked_records": null,
-      "detail": "株式会社ホテリエは、利用する宿泊管理システムへの第三者による不正アクセスにより、8施設の予約者7,919人の個人情報が流出したと公表。対象期間は2026年4月8日から9月14日まで。氏名、電話番号、メールアドレス、国籍、宿泊日、施設名、宿泊料金等の予約情報が対象で、住所・クレジットカード情報・パスポート情報は含まれない。9月17日に個人情報保護委員会へ報告した。",
-      "source_url": "https://hotel.inc/news/information/20261013_01",
-      "official_host": "hotel.inc",
-      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
-      "last_seen_at": "2026-10-24T00:00:00+09:00",
-      "updated_at": "2026-10-24T00:00:00+09:00",
-      "reports": [
-        {
-          "title": "弊社が利用する宿泊管理システムへの不正アクセスによる、お客様の個人情報流出に関するお詫びとお知らせ",
-          "date": "2026-10-13",
-          "source": "株式会社ホテリエ",
-          "issuer": "株式会社ホテリエ",
-          "source_url": "https://hotel.inc/news/information/20261013_01",
-          "canonical_url": "https://hotel.inc/news/information/20261013_01",
-          "official_host": "hotel.inc",
-          "first_seen_at": "2026-10-19T16:48:37.216144+00:00",
-          "last_seen_at": "2026-10-24T00:00:00+09:00"
         }
       ],
       "posted_at": "2026-10-19T16:48:37.216144+00:00"
@@ -5095,7 +5095,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-23T19:20:31.670343+00:00"
+          "last_seen_at": "2026-10-23T19:33:29.775957+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -5431,7 +5431,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T19:20:31.670343+00:00"
+          "last_seen_at": "2026-10-23T19:33:29.775957+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -5442,7 +5442,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T19:20:31.670343+00:00"
+          "last_seen_at": "2026-10-23T19:33:29.775957+00:00"
         }
       ],
       "leaked_records": null,
@@ -5558,7 +5558,7 @@
           "canonical_url": "https://rizap.co.jp/news/gP13TGSu",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T19:20:31.670343+00:00"
+          "last_seen_at": "2026-10-23T19:33:29.775957+00:00"
         },
         {
           "title": "当社「APORITO」事業におけるシステム障害および情報漏えいのおそれに関するお知らせとお詫び（第5報）｜RIZAP株式会社",
@@ -5569,7 +5569,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T19:20:31.670343+00:00"
+          "last_seen_at": "2026-10-23T19:33:29.775957+00:00"
         }
       ],
       "leaked_records": null,
@@ -5640,7 +5640,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T19:20:31.670343+00:00"
+          "last_seen_at": "2026-10-23T19:33:29.775957+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -5685,7 +5685,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-23T19:20:31.670343+00:00"
+          "last_seen_at": "2026-10-23T19:33:29.775957+00:00"
         }
       ],
       "leaked_records": null,
