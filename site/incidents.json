@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T18:28:05.405013+00:00",
+  "updated_at": "2026-10-26T01:19:29.296176+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,43 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "363b6e58860d243f3a2a",
+      "event_key": null,
+      "event_scope": "",
+      "name": "PHP脆弱性対策に伴う長時間メンテナンス、および不正アクセス事案に関するお詫びとご説明｜お知らせ｜SaaS型ECサイト構築プラットフォームはfutureshop",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-25",
+      "posted_at": "2026-10-26T01:19:29.296176+00:00",
+      "status": "official",
+      "source": "PHP脆弱性対策に伴う長時間メンテナンス、および不正アクセス事案に関するお詫びとご説明｜お知らせ｜SaaS型ECサイト構築プラットフォームはfutureshop",
+      "issuer": "PHP脆弱性対策に伴う長時間メンテナンス、および不正アクセス事案に関するお詫びとご説明｜お知らせ｜SaaS型ECサイト構築プラットフォームはfutureshop",
+      "reported_org": "PHP脆弱性対策に伴う長時間メンテナンス、および不正アクセス事案に関するお詫びとご説明｜お知らせ｜SaaS型ECサイト構築プラットフォームはfutureshop",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "PHPの脆弱性への対策に伴う長時間メンテナンス（10月21日（水）〜22日（木）） 10月21日（水）に検知した不正アクセス 10月19日（月）に判明し、23日（金）に公表した会員情報漏えい（1店舗） 1. 10月21日（水）〜22日（木）の長時間メンテナンスについて（PHPの重大な脆弱性（通称PHP2Shell）への対策） 10月21日（水）21時36分から22日（木）23時35分まで、futureshopのサービスを長時間停止し、ご利用の事業者様、そのお客様に多大なご迷惑をおかけしましたことを、心よりお詫び申。",
+      "source_url": "https://www.future-shop.jp/news/2026/10/25.html",
+      "official_host": "www.future-shop.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-26T01:19:29.296176+00:00",
+      "updated_at": "2026-10-26T01:19:29.296176+00:00",
+      "reports": [
+        {
+          "title": "PHP脆弱性対策に伴う長時間メンテナンス、および不正アクセス事案に関するお詫びとご説明｜お知らせ｜SaaS型ECサイト構築プラットフォームはfutureshop",
+          "date": "2026-10-25",
+          "source": "PHP脆弱性対策に伴う長時間メンテナンス、および不正アクセス事案に関するお詫びとご説明｜お知らせ｜SaaS型ECサイト構築プラットフォームはfutureshop",
+          "issuer": "PHP脆弱性対策に伴う長時間メンテナンス、および不正アクセス事案に関するお詫びとご説明｜お知らせ｜SaaS型ECサイト構築プラットフォームはfutureshop",
+          "source_url": "https://www.future-shop.jp/news/2026/10/25.html",
+          "canonical_url": "https://www.future-shop.jp/news/2026/10/25.html",
+          "official_host": "www.future-shop.jp",
+          "first_seen_at": "2026-10-26T01:19:29.296176+00:00",
+          "last_seen_at": "2026-10-26T01:19:29.296176+00:00"
+        }
+      ]
+    },
     {
       "id": "2a943d0d016e0afbff71",
       "event_key": null,
@@ -2751,7 +2788,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-10-25T18:27:31.230255+00:00"
+          "last_seen_at": "2026-10-26T01:18:48.265635+00:00"
         }
       ]
     },
@@ -5576,7 +5613,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-25T18:27:31.230255+00:00"
+          "last_seen_at": "2026-10-26T01:18:48.265635+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -5912,7 +5949,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-25T18:27:31.230255+00:00"
+          "last_seen_at": "2026-10-26T01:18:48.265635+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -5923,7 +5960,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-25T18:27:31.230255+00:00"
+          "last_seen_at": "2026-10-26T01:18:48.265635+00:00"
         }
       ],
       "leaked_records": null,
@@ -6050,7 +6087,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-25T18:27:31.230255+00:00"
+          "last_seen_at": "2026-10-26T01:18:48.265635+00:00"
         }
       ],
       "leaked_records": null,
@@ -6121,7 +6158,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-25T18:27:31.230255+00:00"
+          "last_seen_at": "2026-10-26T01:18:48.265635+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -6166,7 +6203,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-25T18:27:31.230255+00:00"
+          "last_seen_at": "2026-10-26T01:18:48.265635+00:00"
         }
       ],
       "leaked_records": null,
@@ -6282,12 +6319,13 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 242,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 248,
+    "official_pages_verified": 1,
+    "new_records": 1,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
+      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
       "www.mrmax.co.jp: ValueError: Redirect left the source host",
       "support.rakuten-drive.com: HTTPError: HTTP Error 403: Forbidden",
       "www.nihon-kotsu.co.jp: HTTPError: HTTP Error 404: Not Found",
