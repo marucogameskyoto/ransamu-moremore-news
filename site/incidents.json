@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T09:10:26.073289+00:00",
+  "updated_at": "2026-10-27T15:26:44.325712+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,43 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "918bcfaf27d4096f769a",
+      "event_key": null,
+      "event_scope": "",
+      "name": "《第三報》不正アクセスによるお知らせ - バルテック",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-26",
+      "posted_at": "2026-10-27T15:26:44.325712+00:00",
+      "status": "official",
+      "source": "《第三報》不正アクセスによるお知らせ - バルテック",
+      "issuer": "《第三報》不正アクセスによるお知らせ - バルテック",
+      "reported_org": "《第三報》不正アクセスによるお知らせ - バルテック",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": 1213,
+      "detail": "■ 個人情報等の流出状況 ・サービスご契約者様の企業情報 ：１２１３件 ・売上等のデータ ：８７５社 上記データに個人情報のデータが含まれている可能性があり、流出件数は調査中となります。",
+      "source_url": "https://www.webjapan.co.jp/maintenance/serviceteishi261026",
+      "official_host": "www.webjapan.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-10-27T15:26:44.325712+00:00",
+      "updated_at": "2026-10-27T15:26:44.325712+00:00",
+      "reports": [
+        {
+          "title": "《第三報》不正アクセスによるお知らせ - バルテック",
+          "date": "2026-10-26",
+          "source": "《第三報》不正アクセスによるお知らせ - バルテック",
+          "issuer": "《第三報》不正アクセスによるお知らせ - バルテック",
+          "source_url": "https://www.webjapan.co.jp/maintenance/serviceteishi261026",
+          "canonical_url": "https://www.webjapan.co.jp/maintenance/serviceteishi261026",
+          "official_host": "www.webjapan.co.jp",
+          "first_seen_at": "2026-10-27T15:26:44.325712+00:00",
+          "last_seen_at": "2026-10-27T15:26:44.325712+00:00"
+        }
+      ]
+    },
     {
       "id": "363b6e58860d243f3a2a",
       "event_key": null,
@@ -2788,7 +2825,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-10-27T09:09:47.272071+00:00"
+          "last_seen_at": "2026-10-27T15:26:09.722412+00:00"
         }
       ]
     },
@@ -5613,7 +5650,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-10-27T09:09:47.272071+00:00"
+          "last_seen_at": "2026-10-27T15:26:09.722412+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -5949,7 +5986,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-27T09:09:47.272071+00:00"
+          "last_seen_at": "2026-10-27T15:26:09.722412+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -5960,7 +5997,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-27T09:09:47.272071+00:00"
+          "last_seen_at": "2026-10-27T15:26:09.722412+00:00"
         }
       ],
       "leaked_records": null,
@@ -6087,7 +6124,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-27T09:09:47.272071+00:00"
+          "last_seen_at": "2026-10-27T15:26:09.722412+00:00"
         }
       ],
       "leaked_records": null,
@@ -6158,7 +6195,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-27T09:09:47.272071+00:00"
+          "last_seen_at": "2026-10-27T15:26:09.722412+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -6203,7 +6240,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-10-27T09:09:47.272071+00:00"
+          "last_seen_at": "2026-10-27T15:26:09.722412+00:00"
         }
       ],
       "leaked_records": null,
@@ -6319,9 +6356,9 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 248,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 252,
+    "official_pages_verified": 1,
+    "new_records": 1,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
