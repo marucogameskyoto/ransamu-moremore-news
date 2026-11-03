@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T21:48:22.316942+00:00",
+  "updated_at": "2026-11-03T03:57:51.911501+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -10,6 +10,265 @@
     ]
   },
   "incidents": [
+    {
+      "id": "2e7515a4eb691cc032a9",
+      "event_key": null,
+      "event_scope": "",
+      "name": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせについて [istyle 株式会社アイスタイル]",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-02",
+      "posted_at": "2026-11-03T03:57:51.911501+00:00",
+      "status": "official",
+      "source": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせについて [istyle 株式会社アイスタイル]",
+      "issuer": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせについて [istyle 株式会社アイスタイル]",
+      "reported_org": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせについて [istyle 株式会社アイスタイル]",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "漏えいした情報 ・対象となる人数：約300万人 ・対象となる情報：「@cosme共通ID」にご登録いただいている会員情報の一部 ユーザーID（※1）、ニックネーム、名前（漢字・カナ）、郵便番号、住所、電話番号、メールアドレス、性別、生年月日、肌質、髪質 ※1 ユーザーIDは登録時に自動発番されるもので、ログイン時に利用されるものではありません。今回の不正アクセスの事実を確認後、速やかに被害の拡大防止に向けた対応を進めるとともに、現在は第三者のセキュリティ専門会社と原因および影響範囲の調査を進めております。",
+      "source_url": "https://www.istyle.co.jp/news/info/2026/11/1102.html",
+      "official_host": "www.istyle.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-03T03:57:51.911501+00:00",
+      "updated_at": "2026-11-03T03:57:51.911501+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせについて [istyle 株式会社アイスタイル]",
+          "date": "2026-11-02",
+          "source": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせについて [istyle 株式会社アイスタイル]",
+          "issuer": "不正アクセスによる個人情報漏えいに関するお詫びとお知らせについて [istyle 株式会社アイスタイル]",
+          "source_url": "https://www.istyle.co.jp/news/info/2026/11/1102.html",
+          "canonical_url": "https://www.istyle.co.jp/news/info/2026/11/1102.html",
+          "official_host": "www.istyle.co.jp",
+          "first_seen_at": "2026-11-03T03:57:51.911501+00:00",
+          "last_seen_at": "2026-11-03T03:57:51.911501+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a2c4825a10cd112a995c",
+      "event_key": null,
+      "event_scope": "",
+      "name": "デジタル社債の管理に関する外部委託先企業への不正アクセスによるお客さまの情報漏えいについて｜ニュースリリース｜株式会社 丸井グループ MARUI GROUP CO., LTD.",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-02",
+      "posted_at": "2026-11-03T03:57:51.911501+00:00",
+      "status": "official",
+      "source": "デジタル社債の管理に関する外部委託先企業への不正アクセスによるお客さまの情報漏えいについて｜ニュースリリース｜株式会社 丸井グループ MARUI GROUP CO., LTD.",
+      "issuer": "デジタル社債の管理に関する外部委託先企業への不正アクセスによるお客さまの情報漏えいについて｜ニュースリリース｜株式会社 丸井グループ MARUI GROUP CO., LTD.",
+      "reported_org": "デジタル社債の管理に関する外部委託先企業への不正アクセスによるお客さまの情報漏えいについて｜ニュースリリース｜株式会社 丸井グループ MARUI GROUP CO., LTD.",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "デジタル社債の管理に関する外部委託先企業への不正アクセスによるお客さまの情報漏えいについて｜ニュースリリース｜株式会社 丸井グループ MARUI GROUP CO., LTD. Jp En ニュースリリース トップ トップ 私たちのめざす姿 私たちのめざす姿 私たちのめざす姿 マネジメントメッセージ 共創理念体系 インパクト アセットと強み 企業文化 変革の変遷 共創 共創 共創 共創事例 事業戦略 事業戦略 事業戦略 小売 フィンテック 共創投資 サステナビリティ サステナビリティ サステナビリティ 丸井グルー。",
+      "source_url": "https://www.0101maruigroup.co.jp/nr/o-20-0zfdye",
+      "official_host": "www.0101maruigroup.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-03T03:57:51.911501+00:00",
+      "updated_at": "2026-11-03T03:57:51.911501+00:00",
+      "reports": [
+        {
+          "title": "デジタル社債の管理に関する外部委託先企業への不正アクセスによるお客さまの情報漏えいについて｜ニュースリリース｜株式会社 丸井グループ MARUI GROUP CO., LTD.",
+          "date": "2026-11-02",
+          "source": "デジタル社債の管理に関する外部委託先企業への不正アクセスによるお客さまの情報漏えいについて｜ニュースリリース｜株式会社 丸井グループ MARUI GROUP CO., LTD.",
+          "issuer": "デジタル社債の管理に関する外部委託先企業への不正アクセスによるお客さまの情報漏えいについて｜ニュースリリース｜株式会社 丸井グループ MARUI GROUP CO., LTD.",
+          "source_url": "https://www.0101maruigroup.co.jp/nr/o-20-0zfdye",
+          "canonical_url": "https://www.0101maruigroup.co.jp/nr/o-20-0zfdye",
+          "official_host": "www.0101maruigroup.co.jp",
+          "first_seen_at": "2026-11-03T03:57:51.911501+00:00",
+          "last_seen_at": "2026-11-03T03:57:51.911501+00:00"
+        }
+      ]
+    },
+    {
+      "id": "895537cfbc9956cb1a2e",
+      "event_key": null,
+      "event_scope": "",
+      "name": "お客様情報の一部が窃取された可能性に関するお詫びとお知らせ｜GMOペイメントゲートウェイ",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-02",
+      "posted_at": "2026-11-03T03:57:51.911501+00:00",
+      "status": "official",
+      "source": "お客様情報の一部が窃取された可能性に関するお詫びとお知らせ｜GMOペイメントゲートウェイ",
+      "issuer": "お客様情報の一部が窃取された可能性に関するお詫びとお知らせ｜GMOペイメントゲートウェイ",
+      "reported_org": "お客様情報の一部が窃取された可能性に関するお詫びとお知らせ｜GMOペイメントゲートウェイ",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "漏えい情報 対象アカウント数 氏名、メールアドレス、電話番号、住所の一部 63件 Vプリカ番号、Vプリカ専用セキュリティコード、有効期限、氏名 ３件 Vプリカ番号の一部 ３件 合計 69件 ※Vプリカとは、ライフカード株式会社様が提供するチャージ式のプリペイドカードサービスです。",
+      "source_url": "https://www.gmo-pg.com/news/news/info/2026/1102.html",
+      "official_host": "www.gmo-pg.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-03T03:57:51.911501+00:00",
+      "updated_at": "2026-11-03T03:57:51.911501+00:00",
+      "reports": [
+        {
+          "title": "お客様情報の一部が窃取された可能性に関するお詫びとお知らせ｜GMOペイメントゲートウェイ",
+          "date": "2026-11-02",
+          "source": "お客様情報の一部が窃取された可能性に関するお詫びとお知らせ｜GMOペイメントゲートウェイ",
+          "issuer": "お客様情報の一部が窃取された可能性に関するお詫びとお知らせ｜GMOペイメントゲートウェイ",
+          "source_url": "https://www.gmo-pg.com/news/news/info/2026/1102.html",
+          "canonical_url": "https://www.gmo-pg.com/news/news/info/2026/1102.html",
+          "official_host": "www.gmo-pg.com",
+          "first_seen_at": "2026-11-03T03:57:51.911501+00:00",
+          "last_seen_at": "2026-11-03T03:57:51.911501+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5bba547832c42f10a2d8",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【第2報】不正アクセスによる個人情報漏えいの可能性のある情報の内容修正について｜新着情報｜フジッコ株式会社",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-02",
+      "posted_at": "2026-11-03T03:57:51.911501+00:00",
+      "status": "official",
+      "source": "【第2報】不正アクセスによる個人情報漏えいの可能性のある情報の内容修正について｜新着情報｜フジッコ株式会社",
+      "issuer": "【第2報】不正アクセスによる個人情報漏えいの可能性のある情報の内容修正について｜新着情報｜フジッコ株式会社",
+      "reported_org": "【第2報】不正アクセスによる個人情報漏えいの可能性のある情報の内容修正について｜新着情報｜フジッコ株式会社",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "【第2報】不正アクセスによる個人情報漏えいの可能性のある情報の内容修正について｜新着情報｜フジッコ株式会社 商品情報 商品情報 トップ 家庭用商品 業務用商品 介護食・ ソフト食 素材 新商品・リニューアル品 ブランドサイト一覧 CM・プロモーション フジッコの通信販売 販売終了商品のご案内 フジッコの機能性表示食品 リン・カリウム分析値一覧 ご注意 手づくりカスピ海ヨーグルト季節のご注意 閉じる レシピ集 キャンペーン ・イベント 食育 食育 トップ 食育って？） 第1報： 不正アクセスによる個人情報漏えいの可。",
+      "source_url": "https://www.fujicco.co.jp/newsrelease/archive/detail_2907.html",
+      "official_host": "www.fujicco.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-03T03:57:51.911501+00:00",
+      "updated_at": "2026-11-03T03:57:51.911501+00:00",
+      "reports": [
+        {
+          "title": "【第2報】不正アクセスによる個人情報漏えいの可能性のある情報の内容修正について｜新着情報｜フジッコ株式会社",
+          "date": "2026-11-02",
+          "source": "【第2報】不正アクセスによる個人情報漏えいの可能性のある情報の内容修正について｜新着情報｜フジッコ株式会社",
+          "issuer": "【第2報】不正アクセスによる個人情報漏えいの可能性のある情報の内容修正について｜新着情報｜フジッコ株式会社",
+          "source_url": "https://www.fujicco.co.jp/newsrelease/archive/detail_2907.html",
+          "canonical_url": "https://www.fujicco.co.jp/newsrelease/archive/detail_2907.html",
+          "official_host": "www.fujicco.co.jp",
+          "first_seen_at": "2026-11-03T03:57:51.911501+00:00",
+          "last_seen_at": "2026-11-03T03:57:51.911501+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8aad52070eeb501da2d9",
+      "event_key": null,
+      "event_scope": "",
+      "name": "Vプリカに関する委託先での個人情報漏えいの可能性について | Ｖプリカ チャージして繰り返し使えるプリペイドカード",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-31",
+      "posted_at": "2026-11-03T03:57:51.911501+00:00",
+      "status": "official",
+      "source": "Vプリカに関する委託先での個人情報漏えいの可能性について | Ｖプリカ チャージして繰り返し使えるプリペイドカード",
+      "issuer": "Vプリカに関する委託先での個人情報漏えいの可能性について | Ｖプリカ チャージして繰り返し使えるプリペイドカード",
+      "reported_org": "Vプリカに関する委託先での個人情報漏えいの可能性について | Ｖプリカ チャージして繰り返し使えるプリペイドカード",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "Vプリカサービス再開のお知らせ プリカに関する委託先での個人情報漏えいについて【続報】 このたび、当社がVプリカサービスの提供にあたり利用している委託先のシステムにおいて、第三者による不正アクセスが確認され、 お客さまの個人情報が漏えいした可能性があることが判明いたしました。現在、委託先と連携し、個人情報漏えいの有無、対象となる情報および件数等について、詳細な調査を進めております。",
+      "source_url": "https://vpc.lifecard.co.jp/news/2026/detail/important-notice2.html",
+      "official_host": "vpc.lifecard.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-03T03:57:51.911501+00:00",
+      "updated_at": "2026-11-03T03:57:51.911501+00:00",
+      "reports": [
+        {
+          "title": "Vプリカに関する委託先での個人情報漏えいの可能性について | Ｖプリカ チャージして繰り返し使えるプリペイドカード",
+          "date": "2026-10-31",
+          "source": "Vプリカに関する委託先での個人情報漏えいの可能性について | Ｖプリカ チャージして繰り返し使えるプリペイドカード",
+          "issuer": "Vプリカに関する委託先での個人情報漏えいの可能性について | Ｖプリカ チャージして繰り返し使えるプリペイドカード",
+          "source_url": "https://vpc.lifecard.co.jp/news/2026/detail/important-notice2.html",
+          "canonical_url": "https://vpc.lifecard.co.jp/news/2026/detail/important-notice2.html",
+          "official_host": "vpc.lifecard.co.jp",
+          "first_seen_at": "2026-11-03T03:57:51.911501+00:00",
+          "last_seen_at": "2026-11-03T03:57:51.911501+00:00"
+        }
+      ]
+    },
+    {
+      "id": "a55d2704143900940c54",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【第２報】サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-28",
+      "posted_at": "2026-11-03T03:57:51.911501+00:00",
+      "status": "official",
+      "source": "【第２報】サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+      "issuer": "【第２報】サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+      "reported_org": "【第２報】サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "■事実概要 2026年10月17日、第三者による不正アクセスに伴い、当社が提供する一部サービスに影響が出ていることを確認しております。現時点において、個人情報や顧客データが外部へ流出した事実は確認されておりませんが、引き続き調査を進めてまいります。",
+      "source_url": "https://www.shinryo.com/news/20261028.html",
+      "official_host": "www.shinryo.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-03T03:57:51.911501+00:00",
+      "updated_at": "2026-11-03T03:57:51.911501+00:00",
+      "reports": [
+        {
+          "title": "【第２報】サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+          "date": "2026-10-28",
+          "source": "【第２報】サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+          "issuer": "【第２報】サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+          "source_url": "https://www.shinryo.com/news/20261028.html",
+          "canonical_url": "https://www.shinryo.com/news/20261028.html",
+          "official_host": "www.shinryo.com",
+          "first_seen_at": "2026-11-03T03:57:51.911501+00:00",
+          "last_seen_at": "2026-11-03T03:57:51.911501+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5b4fe7640a37e2067fb6",
+      "event_key": null,
+      "event_scope": "",
+      "name": "サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-21",
+      "posted_at": "2026-11-03T03:57:51.911501+00:00",
+      "status": "official",
+      "source": "サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+      "issuer": "サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+      "reported_org": "サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社 ニュース TOP ニュース サイバー攻撃によるシステム障害発生について 2026.10.21 サイバー攻撃によるシステム障害発生について このたび、当社にて10月17日に不正アクセスによるシステム障害が発生しました。現時点において、個人情報や顧客データが外部へ流出した事実は確認されておりませんが、継続して調査をいたします。",
+      "source_url": "https://www.shinryo.com/news/20261021.html",
+      "official_host": "www.shinryo.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-03T03:57:51.911501+00:00",
+      "updated_at": "2026-11-03T03:57:51.911501+00:00",
+      "reports": [
+        {
+          "title": "サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+          "date": "2026-10-21",
+          "source": "サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+          "issuer": "サイバー攻撃によるシステム障害発生について | ニュース | 新菱冷熱工業株式会社",
+          "source_url": "https://www.shinryo.com/news/20261021.html",
+          "canonical_url": "https://www.shinryo.com/news/20261021.html",
+          "official_host": "www.shinryo.com",
+          "first_seen_at": "2026-11-03T03:57:51.911501+00:00",
+          "last_seen_at": "2026-11-03T03:57:51.911501+00:00"
+        }
+      ]
+    },
     {
       "id": "09fbb30a6e3e4bac5942",
       "event_key": null,
@@ -3974,7 +4233,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-02T21:47:52.106276+00:00"
+          "last_seen_at": "2026-11-03T03:57:23.990287+00:00"
         }
       ]
     },
@@ -6799,7 +7058,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-11-02T21:47:52.106276+00:00"
+          "last_seen_at": "2026-11-03T03:57:23.990287+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -7135,7 +7394,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-02T21:47:52.106276+00:00"
+          "last_seen_at": "2026-11-03T03:57:23.990287+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -7146,7 +7405,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-02T21:47:52.106276+00:00"
+          "last_seen_at": "2026-11-03T03:57:23.990287+00:00"
         }
       ],
       "leaked_records": null,
@@ -7273,7 +7532,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-02T21:47:52.106276+00:00"
+          "last_seen_at": "2026-11-03T03:57:23.990287+00:00"
         }
       ],
       "leaked_records": null,
@@ -7344,7 +7603,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-02T21:47:52.106276+00:00"
+          "last_seen_at": "2026-11-03T03:57:23.990287+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -7389,7 +7648,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-02T21:47:52.106276+00:00"
+          "last_seen_at": "2026-11-03T03:57:23.990287+00:00"
         }
       ],
       "leaked_records": null,
@@ -7505,18 +7764,19 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 363,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 394,
+    "official_pages_verified": 7,
+    "new_records": 7,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
+      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
+      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
+      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
       "www.ryohin-keikaku.jp: HTTPError: HTTP Error 429: Too Many Requests",
-      "corp.world.co.jp: HTTPError: HTTP Error 404: Not Found",
-      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
-      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
       "www.nihon-kotsu.co.jp: HTTPError: HTTP Error 404: Not Found",
       "www.nihon-kotsu.co.jp: HTTPError: HTTP Error 404: Not Found",
+      "wasimil.com: ValueError: Redirect left the source host",
       "ScanNetSecurity（発見用）: robots.txt disallows this URL"
     ]
   }
