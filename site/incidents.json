@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T21:06:49.277566+00:00",
+  "updated_at": "2026-11-04T03:03:09.633973+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -10,6 +10,154 @@
     ]
   },
   "incidents": [
+    {
+      "id": "aff558668662339e4eae",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社デリバリーサービス「7NOW」の委託先への不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び｜セブン‐イレブン",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-03",
+      "posted_at": "2026-11-04T03:03:09.633973+00:00",
+      "status": "official",
+      "source": "当社デリバリーサービス「7NOW」の委託先への不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び｜セブン‐イレブン",
+      "issuer": "当社デリバリーサービス「7NOW」の委託先への不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び｜セブン‐イレブン",
+      "reported_org": "当社デリバリーサービス「7NOW」の委託先への不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び｜セブン‐イレブン",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "2. 漏えいした可能性のある情報 CBcloudの調査により、次の情報が第三者に取得されたことが確認されています。3. 当社のシステムへの影響 CBcloudの調査では、当社の認証情報や連携設定の流出・書き換えは確認されていません。",
+      "source_url": "https://www.sej.co.jp/company/important/185116.html",
+      "official_host": "www.sej.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-04T03:03:09.633973+00:00",
+      "updated_at": "2026-11-04T03:03:09.633973+00:00",
+      "reports": [
+        {
+          "title": "当社デリバリーサービス「7NOW」の委託先への不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び｜セブン‐イレブン",
+          "date": "2026-11-03",
+          "source": "当社デリバリーサービス「7NOW」の委託先への不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び｜セブン‐イレブン",
+          "issuer": "当社デリバリーサービス「7NOW」の委託先への不正アクセスに伴う、お客様情報の漏えいについてのお知らせとお詫び｜セブン‐イレブン",
+          "source_url": "https://www.sej.co.jp/company/important/185116.html",
+          "canonical_url": "https://www.sej.co.jp/company/important/185116.html",
+          "official_host": "www.sej.co.jp",
+          "first_seen_at": "2026-11-04T03:03:09.633973+00:00",
+          "last_seen_at": "2026-11-04T03:03:09.633973+00:00"
+        }
+      ]
+    },
+    {
+      "id": "ecb631996993f21ae350",
+      "event_key": null,
+      "event_scope": "",
+      "name": "台東区観光情報サイト「TAITOおでかけナビ」管理委託事業者への不正アクセスによる個人情報の流出【10月28日（木曜日）更新】",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-30",
+      "posted_at": "2026-11-04T03:03:09.633973+00:00",
+      "status": "official",
+      "source": "台東区観光情報サイト「TAITOおでかけナビ」管理委託事業者への不正アクセスによる個人情報の流出【10月28日（木曜日）更新】",
+      "issuer": "台東区観光情報サイト「TAITOおでかけナビ」管理委託事業者への不正アクセスによる個人情報の流出【10月28日（木曜日）更新】",
+      "reported_org": "台東区観光情報サイト「TAITOおでかけナビ」管理委託事業者への不正アクセスによる個人情報の流出【10月28日（木曜日）更新】",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "台東区観光情報サイト「TAITOおでかけナビ」管理委託事業者への不正アクセスによる個人情報の流出【10月28日（木曜日）更新】 台東区ホームページ このページの先頭です このページの本文へ移動 音声読み上げ・文字拡大 Foreign Language アクセス 閉じる 現在のページ トップページ 文化・観光・産業 お知らせ 台東区観光情報サイト「TAITOおでかけナビ」管理委託事業者への不正アクセスによる個人情報の流出【10月28日（木曜日）更新】 本文ここから 台東区観光情報サイト「TAITOおでかけナビ」管理。",
+      "source_url": "https://www.city.taito.lg.jp/bunka_kanko/other/houkoku1023.html",
+      "official_host": "www.city.taito.lg.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-04T03:03:09.633973+00:00",
+      "updated_at": "2026-11-04T03:03:09.633973+00:00",
+      "reports": [
+        {
+          "title": "台東区観光情報サイト「TAITOおでかけナビ」管理委託事業者への不正アクセスによる個人情報の流出【10月28日（木曜日）更新】",
+          "date": "2026-10-30",
+          "source": "台東区観光情報サイト「TAITOおでかけナビ」管理委託事業者への不正アクセスによる個人情報の流出【10月28日（木曜日）更新】",
+          "issuer": "台東区観光情報サイト「TAITOおでかけナビ」管理委託事業者への不正アクセスによる個人情報の流出【10月28日（木曜日）更新】",
+          "source_url": "https://www.city.taito.lg.jp/bunka_kanko/other/houkoku1023.html",
+          "canonical_url": "https://www.city.taito.lg.jp/bunka_kanko/other/houkoku1023.html",
+          "official_host": "www.city.taito.lg.jp",
+          "first_seen_at": "2026-11-04T03:03:09.633973+00:00",
+          "last_seen_at": "2026-11-04T03:03:09.633973+00:00"
+        }
+      ]
+    },
+    {
+      "id": "cdb7472d19bffc6f73bb",
+      "event_key": null,
+      "event_scope": "",
+      "name": "台東区大河ドラマ「べらぼう」活用推進協議会公式サイト「蔦重ゆかりの地 台東区」管理委託事業者への不正アクセスによる個人情報の流出【10月29日（木曜日）更新】",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-30",
+      "posted_at": "2026-11-04T03:03:09.633973+00:00",
+      "status": "official",
+      "source": "台東区大河ドラマ「べらぼう」活用推進協議会公式サイト「蔦重ゆかりの地 台東区」管理委託事業者への不正アクセスによる個人情報の流出【10月29日（木曜日）更新】",
+      "issuer": "台東区大河ドラマ「べらぼう」活用推進協議会公式サイト「蔦重ゆかりの地 台東区」管理委託事業者への不正アクセスによる個人情報の流出【10月29日（木曜日）更新】",
+      "reported_org": "台東区大河ドラマ「べらぼう」活用推進協議会公式サイト「蔦重ゆかりの地 台東区」管理委託事業者への不正アクセスによる個人情報の流出【10月29日（木曜日）更新】",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "台東区大河ドラマ「べらぼう」活用推進協議会公式サイト「蔦重ゆかりの地 台東区」管理委託事業者への不正アクセスによる個人情報の流出【10月29日（木曜日）更新】 台東区ホームページ このページの先頭です このページの本文へ移動 音声読み上げ・文字拡大 Foreign Language アクセス 閉じる 現在のページ トップページ 文化・観光・産業 お知らせ 台東区大河ドラマ「べらぼう」活用推進協議会公式サイト「蔦重ゆかりの地 台東区」管理委託事業者への不正アクセスによる個人情報の流出【10月29日（木曜日）更新】 。",
+      "source_url": "https://www.city.taito.lg.jp/bunka_kanko/other/tsutaju.html",
+      "official_host": "www.city.taito.lg.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-04T03:03:09.633973+00:00",
+      "updated_at": "2026-11-04T03:03:09.633973+00:00",
+      "reports": [
+        {
+          "title": "台東区大河ドラマ「べらぼう」活用推進協議会公式サイト「蔦重ゆかりの地 台東区」管理委託事業者への不正アクセスによる個人情報の流出【10月29日（木曜日）更新】",
+          "date": "2026-10-30",
+          "source": "台東区大河ドラマ「べらぼう」活用推進協議会公式サイト「蔦重ゆかりの地 台東区」管理委託事業者への不正アクセスによる個人情報の流出【10月29日（木曜日）更新】",
+          "issuer": "台東区大河ドラマ「べらぼう」活用推進協議会公式サイト「蔦重ゆかりの地 台東区」管理委託事業者への不正アクセスによる個人情報の流出【10月29日（木曜日）更新】",
+          "source_url": "https://www.city.taito.lg.jp/bunka_kanko/other/tsutaju.html",
+          "canonical_url": "https://www.city.taito.lg.jp/bunka_kanko/other/tsutaju.html",
+          "official_host": "www.city.taito.lg.jp",
+          "first_seen_at": "2026-11-04T03:03:09.633973+00:00",
+          "last_seen_at": "2026-11-04T03:03:09.633973+00:00"
+        }
+      ]
+    },
+    {
+      "id": "53ac8f4d1befaeaba077",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社システムへの不正アクセスに関するご報告",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-29",
+      "posted_at": "2026-11-04T03:03:09.633973+00:00",
+      "status": "official",
+      "source": "当社システムへの不正アクセスに関するご報告",
+      "issuer": "当社システムへの不正アクセスに関するご報告",
+      "reported_org": "当社システムへの不正アクセスに関するご報告",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": 7162,
+      "detail": "このたび、当社システムの一部に第三者による不正アクセスがあり、加盟店様の登録情報の一部が、外部に取得された可能性があることが判明いたしました。1. 概要 2026 年 10 月 25 日 9 時半頃から 16 時頃まで、当社管理システムの一部機能におけるアクセス制御の不備を悪用した不正アクセスを確認し、同日中に外部からのアクセスを遮断しました。",
+      "source_url": "https://elestyle.jp/20261029-report",
+      "official_host": "elestyle.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-04T03:03:09.633973+00:00",
+      "updated_at": "2026-11-04T03:03:09.633973+00:00",
+      "reports": [
+        {
+          "title": "当社システムへの不正アクセスに関するご報告",
+          "date": "2026-10-29",
+          "source": "当社システムへの不正アクセスに関するご報告",
+          "issuer": "当社システムへの不正アクセスに関するご報告",
+          "source_url": "https://elestyle.jp/20261029-report",
+          "canonical_url": "https://elestyle.jp/20261029-report",
+          "official_host": "elestyle.jp",
+          "first_seen_at": "2026-11-04T03:03:09.633973+00:00",
+          "last_seen_at": "2026-11-04T03:03:09.633973+00:00"
+        }
+      ]
+    },
     {
       "id": "2e7515a4eb691cc032a9",
       "event_key": null,
@@ -4233,7 +4381,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-03T21:06:11.756806+00:00"
+          "last_seen_at": "2026-11-04T03:02:40.653969+00:00"
         }
       ]
     },
@@ -7058,7 +7206,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-11-03T21:06:11.756806+00:00"
+          "last_seen_at": "2026-11-04T03:02:40.653969+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -7394,7 +7542,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-03T21:06:11.756806+00:00"
+          "last_seen_at": "2026-11-04T03:02:40.653969+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -7405,7 +7553,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-03T21:06:11.756806+00:00"
+          "last_seen_at": "2026-11-04T03:02:40.653969+00:00"
         }
       ],
       "leaked_records": null,
@@ -7532,7 +7680,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-03T21:06:11.756806+00:00"
+          "last_seen_at": "2026-11-04T03:02:40.653969+00:00"
         }
       ],
       "leaked_records": null,
@@ -7603,7 +7751,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-03T21:06:11.756806+00:00"
+          "last_seen_at": "2026-11-04T03:02:40.653969+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -7648,7 +7796,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-03T21:06:11.756806+00:00"
+          "last_seen_at": "2026-11-04T03:02:40.653969+00:00"
         }
       ],
       "leaked_records": null,
@@ -7764,9 +7912,9 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 394,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 401,
+    "official_pages_verified": 4,
+    "new_records": 4,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
