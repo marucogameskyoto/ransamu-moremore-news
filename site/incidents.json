@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T20:01:02.098874+00:00",
+  "updated_at": "2026-11-05T03:33:48.917583+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,339 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "a720cd12b026b70bf700",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社業務サーバーへの不正アクセスに関する調査結果およびお客さま情報に関する専用窓口設置のお知らせ | 重要なお知らせ | ニュース | 株式会社アンドエスティHD",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-04",
+      "posted_at": "2026-11-05T03:33:48.917583+00:00",
+      "status": "official",
+      "source": "当社業務サーバーへの不正アクセスに関する調査結果およびお客さま情報に関する専用窓口設置のお知らせ | 重要なお知らせ | ニュース | 株式会社アンドエスティHD",
+      "issuer": "当社業務サーバーへの不正アクセスに関する調査結果およびお客さま情報に関する専用窓口設置のお知らせ | 重要なお知らせ | ニュース | 株式会社アンドエスティHD",
+      "reported_org": "当社業務サーバーへの不正アクセスに関する調査結果およびお客さま情報に関する専用窓口設置のお知らせ | 重要なお知らせ | ニュース | 株式会社アンドエスティHD",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "当社業務サーバーへの不正アクセスに関する調査結果およびお客さま情報に関する専用窓口設置のお知らせ | 重要なお知らせ | ニュース | 株式会社アンドエスティHD ニュース 企業情報 IR情報 サステナビリティ グループ企業 採用情報 Play fashion! 検索 JP EN HOME ニュース 重要なお知らせ 当社業務サーバーへの不正アクセスに関する調査結果およびお客さま情報に関する専用窓口設置のお知らせ ニュース 2026.11.04 重要なお知らせ 当社業務サーバーへの不正アクセスに関する調査結果および。",
+      "source_url": "https://www.andst-hd.co.jp/news/notice/entry-17245",
+      "official_host": "www.andst-hd.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-05T03:33:48.917583+00:00",
+      "updated_at": "2026-11-05T03:33:48.917583+00:00",
+      "reports": [
+        {
+          "title": "当社業務サーバーへの不正アクセスに関する調査結果およびお客さま情報に関する専用窓口設置のお知らせ | 重要なお知らせ | ニュース | 株式会社アンドエスティHD",
+          "date": "2026-11-04",
+          "source": "当社業務サーバーへの不正アクセスに関する調査結果およびお客さま情報に関する専用窓口設置のお知らせ | 重要なお知らせ | ニュース | 株式会社アンドエスティHD",
+          "issuer": "当社業務サーバーへの不正アクセスに関する調査結果およびお客さま情報に関する専用窓口設置のお知らせ | 重要なお知らせ | ニュース | 株式会社アンドエスティHD",
+          "source_url": "https://www.andst-hd.co.jp/news/notice/entry-17245",
+          "canonical_url": "https://www.andst-hd.co.jp/news/notice/entry-17245",
+          "official_host": "www.andst-hd.co.jp",
+          "first_seen_at": "2026-11-05T03:33:48.917583+00:00",
+          "last_seen_at": "2026-11-05T03:33:48.917583+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e4b2414f5f6ed83f402d",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社サイトへの不正アクセスによる個人情報… | 株式会社ウチコミ",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-04",
+      "posted_at": "2026-11-05T03:33:48.917583+00:00",
+      "status": "official",
+      "source": "当社サイトへの不正アクセスによる個人情報… | 株式会社ウチコミ",
+      "issuer": "当社サイトへの不正アクセスによる個人情報… | 株式会社ウチコミ",
+      "reported_org": "当社サイトへの不正アクセスによる個人情報… | 株式会社ウチコミ",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "」（以下「当サイト」）のサーバが、第三者によるランサムウェアの被害を受け、お客様の個人情報が外部へ流出した可能性があることが判明いたしました。３．漏えいした可能性のある情報項目 当サイトに登録されている以下の会員情報および契約情報について、第三者による閲覧または取得の可能性があります。",
+      "source_url": "https://uchicomi.co.jp/news/647",
+      "official_host": "uchicomi.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-05T03:33:48.917583+00:00",
+      "updated_at": "2026-11-05T03:33:48.917583+00:00",
+      "reports": [
+        {
+          "title": "当社サイトへの不正アクセスによる個人情報… | 株式会社ウチコミ",
+          "date": "2026-11-04",
+          "source": "当社サイトへの不正アクセスによる個人情報… | 株式会社ウチコミ",
+          "issuer": "当社サイトへの不正アクセスによる個人情報… | 株式会社ウチコミ",
+          "source_url": "https://uchicomi.co.jp/news/647",
+          "canonical_url": "https://uchicomi.co.jp/news/647",
+          "official_host": "uchicomi.co.jp",
+          "first_seen_at": "2026-11-05T03:33:48.917583+00:00",
+          "last_seen_at": "2026-11-05T03:33:48.917583+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9773a820c45490909d12",
+      "event_key": null,
+      "event_scope": "",
+      "name": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（最終報）",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-04",
+      "posted_at": "2026-11-05T03:33:48.917583+00:00",
+      "status": "official",
+      "source": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（最終報）",
+      "issuer": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（最終報）",
+      "reported_org": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（最終報）",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "重要 不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（最終報） 2026/11/4 株式会社リンクステーション 2026年10月19日および10月20日にお知らせいたしました、「Gettii-Lite」への不正アクセスによる「GETTIIS」会員情報の漏えいにつきまして、原因および影響範囲の調査が完了いたしましたので、その結果と対応状況をご報告いたします。",
+      "source_url": "https://www.gettiis.jp/notice/detail/47",
+      "official_host": "www.gettiis.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-05T03:33:48.917583+00:00",
+      "updated_at": "2026-11-05T03:33:48.917583+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（最終報）",
+          "date": "2026-11-04",
+          "source": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（最終報）",
+          "issuer": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（最終報）",
+          "source_url": "https://www.gettiis.jp/notice/detail/47",
+          "canonical_url": "https://www.gettiis.jp/notice/detail/47",
+          "official_host": "www.gettiis.jp",
+          "first_seen_at": "2026-11-05T03:33:48.917583+00:00",
+          "last_seen_at": "2026-11-05T03:33:48.917583+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1a29768d67645d9c567a",
+      "event_key": null,
+      "event_scope": "",
+      "name": "「あしたのサーベイ」提供元における不正アクセス及び情報漏えいに関するお知らせ | あしたのチーム | あしたのチーム",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-04",
+      "posted_at": "2026-11-05T03:33:48.917583+00:00",
+      "status": "official",
+      "source": "「あしたのサーベイ」提供元における不正アクセス及び情報漏えいに関するお知らせ | あしたのチーム | あしたのチーム",
+      "issuer": "「あしたのサーベイ」提供元における不正アクセス及び情報漏えいに関するお知らせ | あしたのチーム | あしたのチーム",
+      "reported_org": "「あしたのサーベイ」提供元における不正アクセス及び情報漏えいに関するお知らせ | あしたのチーム | あしたのチーム",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "「あしたのサーベイ」提供元における不正アクセス及び情報漏えいに関するお知らせ | あしたのチーム | あしたのチーム 「人と組織の成長」を支援する。ニュース メンテナンス・障害 2026/11/04 「あしたのサーベイ」提供元における不正アクセス及び情報漏えいに関するお知らせ 当社がOEM提供を受けて販売する組織サーベイシステム「あしたのサーベイ」において、一部のお客様の個人情報が不正に取得されたとの報告を、提供元の株式会社ラフール（以下「ラフール社」）より受けました。",
+      "source_url": "https://www.ashita-team.com/news/261104-2",
+      "official_host": "www.ashita-team.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-05T03:33:48.917583+00:00",
+      "updated_at": "2026-11-05T03:33:48.917583+00:00",
+      "reports": [
+        {
+          "title": "「あしたのサーベイ」提供元における不正アクセス及び情報漏えいに関するお知らせ | あしたのチーム | あしたのチーム",
+          "date": "2026-11-04",
+          "source": "「あしたのサーベイ」提供元における不正アクセス及び情報漏えいに関するお知らせ | あしたのチーム | あしたのチーム",
+          "issuer": "「あしたのサーベイ」提供元における不正アクセス及び情報漏えいに関するお知らせ | あしたのチーム | あしたのチーム",
+          "source_url": "https://www.ashita-team.com/news/261104-2",
+          "canonical_url": "https://www.ashita-team.com/news/261104-2",
+          "official_host": "www.ashita-team.com",
+          "first_seen_at": "2026-11-05T03:33:48.917583+00:00",
+          "last_seen_at": "2026-11-05T03:33:48.917583+00:00"
+        }
+      ]
+    },
+    {
+      "id": "72da74314d5b36d1b455",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【重要】機関投資家・アナリスト向けIR情報配信サービス 緊急メンテナンス実施のお知らせ | ニュース | ニュース&イベント | 野村インベスター・リレーションズ株式会社",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-02",
+      "posted_at": "2026-11-05T03:33:48.917583+00:00",
+      "status": "official",
+      "source": "【重要】機関投資家・アナリスト向けIR情報配信サービス 緊急メンテナンス実施のお知らせ | ニュース | ニュース&イベント | 野村インベスター・リレーションズ株式会社",
+      "issuer": "【重要】機関投資家・アナリスト向けIR情報配信サービス 緊急メンテナンス実施のお知らせ | ニュース | ニュース&イベント | 野村インベスター・リレーションズ株式会社",
+      "reported_org": "【重要】機関投資家・アナリスト向けIR情報配信サービス 緊急メンテナンス実施のお知らせ | ニュース | ニュース&イベント | 野村インベスター・リレーションズ株式会社",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "公式発表ページで不正アクセスまたは情報漏えいに関する事案を公表。",
+      "source_url": "https://www.nomura-ir.co.jp/ja/news/news/news20261102_01.html",
+      "official_host": "www.nomura-ir.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-05T03:33:48.917583+00:00",
+      "updated_at": "2026-11-05T03:33:48.917583+00:00",
+      "reports": [
+        {
+          "title": "【重要】機関投資家・アナリスト向けIR情報配信サービス 緊急メンテナンス実施のお知らせ | ニュース | ニュース&イベント | 野村インベスター・リレーションズ株式会社",
+          "date": "2026-11-02",
+          "source": "【重要】機関投資家・アナリスト向けIR情報配信サービス 緊急メンテナンス実施のお知らせ | ニュース | ニュース&イベント | 野村インベスター・リレーションズ株式会社",
+          "issuer": "【重要】機関投資家・アナリスト向けIR情報配信サービス 緊急メンテナンス実施のお知らせ | ニュース | ニュース&イベント | 野村インベスター・リレーションズ株式会社",
+          "source_url": "https://www.nomura-ir.co.jp/ja/news/news/news20261102_01.html",
+          "canonical_url": "https://www.nomura-ir.co.jp/ja/news/news/news20261102_01.html",
+          "official_host": "www.nomura-ir.co.jp",
+          "first_seen_at": "2026-11-05T03:33:48.917583+00:00",
+          "last_seen_at": "2026-11-05T03:33:48.917583+00:00"
+        }
+      ]
+    },
+    {
+      "id": "32f1cb4d8b3947df388a",
+      "event_key": null,
+      "event_scope": "",
+      "name": "弊社サービス「COMSBI エンタープライズ基盤」への不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-26",
+      "posted_at": "2026-11-05T03:33:48.917583+00:00",
+      "status": "official",
+      "source": "弊社サービス「COMSBI エンタープライズ基盤」への不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び",
+      "issuer": "弊社サービス「COMSBI エンタープライズ基盤」への不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び",
+      "reported_org": "弊社サービス「COMSBI エンタープライズ基盤」への不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "【概要】 2026年10月23日（金）、本サービスの管理システムに対する第三者からの不正アクセスを確認いたしました。【経緯】 2026年10月23日（金）午前 第三者が本サービスの管理システムに不正にログイン 同日 12時12分 弊社が不正アクセスを把握し、認証情報の無効化を開始 同日 13時20分 外部からのアクセスを遮断し、本サービスを順次停止 同日 14時10分 外部の専門機関に調査の支援を依頼 同日 15時41分以降 第三者によるアクセスの試行はいずれも不成功。",
+      "source_url": "https://sonicmoov.com/news/xr5qdn-cnfsn",
+      "official_host": "sonicmoov.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-05T03:33:48.917583+00:00",
+      "updated_at": "2026-11-05T03:33:48.917583+00:00",
+      "reports": [
+        {
+          "title": "弊社サービス「COMSBI エンタープライズ基盤」への不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び",
+          "date": "2026-10-26",
+          "source": "弊社サービス「COMSBI エンタープライズ基盤」への不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び",
+          "issuer": "弊社サービス「COMSBI エンタープライズ基盤」への不正アクセスによる情報漏えいのおそれに関するお知らせとお詫び",
+          "source_url": "https://sonicmoov.com/news/xr5qdn-cnfsn",
+          "canonical_url": "https://sonicmoov.com/news/xr5qdn-cnfsn",
+          "official_host": "sonicmoov.com",
+          "first_seen_at": "2026-11-05T03:33:48.917583+00:00",
+          "last_seen_at": "2026-11-05T03:33:48.917583+00:00"
+        }
+      ]
+    },
+    {
+      "id": "f746644c28f89cc5de03",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【重要】外部アプリ「Swym Wishlist Plus」におけるセキュリティ事象についてのお知らせとお詫び | SHIPS CYCLE MARKET | 株式会社シップス",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-22",
+      "posted_at": "2026-11-05T03:33:48.917583+00:00",
+      "status": "official",
+      "source": "【重要】外部アプリ「Swym Wishlist Plus」におけるセキュリティ事象についてのお知らせとお詫び | SHIPS CYCLE MARKET | 株式会社シップス",
+      "issuer": "【重要】外部アプリ「Swym Wishlist Plus」におけるセキュリティ事象についてのお知らせとお詫び | SHIPS CYCLE MARKET | 株式会社シップス",
+      "reported_org": "【重要】外部アプリ「Swym Wishlist Plus」におけるセキュリティ事象についてのお知らせとお詫び | SHIPS CYCLE MARKET | 株式会社シップス",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "当店において「お気に入り機能」として利用しております外部アプリケーション「Swym Wishlist Plus」（開発元：Swym Corporation）に関し、開発元のシステムに対する第三者からの不正アクセスが発生した旨の発表がございました。本事案は、当店データベース等から保存済みの情報が流出したものではなく、改ざんされたプログラムにより誘導された外部の疑似サイト上にて、お客様がクレジットカード情報を入力された可能性があるという事象でございます。",
+      "source_url": "https://ships-cycle-market.jp/blogs/news/swym-security-notice-20261022",
+      "official_host": "ships-cycle-market.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-05T03:33:48.917583+00:00",
+      "updated_at": "2026-11-05T03:33:48.917583+00:00",
+      "reports": [
+        {
+          "title": "【重要】外部アプリ「Swym Wishlist Plus」におけるセキュリティ事象についてのお知らせとお詫び | SHIPS CYCLE MARKET | 株式会社シップス",
+          "date": "2026-10-22",
+          "source": "【重要】外部アプリ「Swym Wishlist Plus」におけるセキュリティ事象についてのお知らせとお詫び | SHIPS CYCLE MARKET | 株式会社シップス",
+          "issuer": "【重要】外部アプリ「Swym Wishlist Plus」におけるセキュリティ事象についてのお知らせとお詫び | SHIPS CYCLE MARKET | 株式会社シップス",
+          "source_url": "https://ships-cycle-market.jp/blogs/news/swym-security-notice-20261022",
+          "canonical_url": "https://ships-cycle-market.jp/blogs/news/swym-security-notice-20261022",
+          "official_host": "ships-cycle-market.jp",
+          "first_seen_at": "2026-11-05T03:33:48.917583+00:00",
+          "last_seen_at": "2026-11-05T03:33:48.917583+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5f43894676741624de66",
+      "event_key": null,
+      "event_scope": "",
+      "name": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第二報）",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-20",
+      "posted_at": "2026-11-05T03:33:48.917583+00:00",
+      "status": "official",
+      "source": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第二報）",
+      "issuer": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第二報）",
+      "reported_org": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第二報）",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "重要 不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第二報） 2026/10/20 株式会社リンクステーション このたび、弊社が運営するチケット販売サービス「Gettii-Lite」のサーバーに対し、第三者による不正アクセスが行われ、 弊社が管理する「GETTIIS」の会員情報が外部に流出したことを確認いたしました。",
+      "source_url": "https://www.gettiis.jp/notice/detail/42",
+      "official_host": "www.gettiis.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-05T03:33:48.917583+00:00",
+      "updated_at": "2026-11-05T03:33:48.917583+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第二報）",
+          "date": "2026-10-20",
+          "source": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第二報）",
+          "issuer": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第二報）",
+          "source_url": "https://www.gettiis.jp/notice/detail/42",
+          "canonical_url": "https://www.gettiis.jp/notice/detail/42",
+          "official_host": "www.gettiis.jp",
+          "first_seen_at": "2026-11-05T03:33:48.917583+00:00",
+          "last_seen_at": "2026-11-05T03:33:48.917583+00:00"
+        }
+      ]
+    },
+    {
+      "id": "85700a48f5bb207eff2e",
+      "event_key": null,
+      "event_scope": "",
+      "name": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第一報）",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-19",
+      "posted_at": "2026-11-05T03:33:48.917583+00:00",
+      "status": "official",
+      "source": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第一報）",
+      "issuer": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第一報）",
+      "reported_org": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第一報）",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "重要 不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第一報） 2026/10/19 株式会社リンクステーション このたび、弊社が運営するチケット販売サービス「Gettii-Lite」のサーバーに対し、第三者による不正アクセスが行われ、弊社が管理する「GETTIIS」の会員情報が外部に流出したことを確認いたしました。",
+      "source_url": "https://www.gettiis.jp/notice/detail/40",
+      "official_host": "www.gettiis.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-05T03:33:48.917583+00:00",
+      "updated_at": "2026-11-05T03:33:48.917583+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第一報）",
+          "date": "2026-10-19",
+          "source": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第一報）",
+          "issuer": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（第一報）",
+          "source_url": "https://www.gettiis.jp/notice/detail/40",
+          "canonical_url": "https://www.gettiis.jp/notice/detail/40",
+          "official_host": "www.gettiis.jp",
+          "first_seen_at": "2026-11-05T03:33:48.917583+00:00",
+          "last_seen_at": "2026-11-05T03:33:48.917583+00:00"
+        }
+      ]
+    },
     {
       "id": "aff558668662339e4eae",
       "event_key": null,
@@ -4379,7 +4712,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-04T20:00:29.929622+00:00"
+          "last_seen_at": "2026-11-05T03:33:14.940175+00:00"
         }
       ]
     },
@@ -7204,7 +7537,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-11-04T20:00:29.929622+00:00"
+          "last_seen_at": "2026-11-05T03:33:14.940175+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -7540,7 +7873,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-04T20:00:29.929622+00:00"
+          "last_seen_at": "2026-11-05T03:33:14.940175+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -7551,7 +7884,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-04T20:00:29.929622+00:00"
+          "last_seen_at": "2026-11-05T03:33:14.940175+00:00"
         }
       ],
       "leaked_records": null,
@@ -7678,7 +8011,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-04T20:00:29.929622+00:00"
+          "last_seen_at": "2026-11-05T03:33:14.940175+00:00"
         }
       ],
       "leaked_records": null,
@@ -7749,7 +8082,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-04T20:00:29.929622+00:00"
+          "last_seen_at": "2026-11-05T03:33:14.940175+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -7794,7 +8127,7 @@
           "canonical_url": "https://www.washingtonhotel.co.jp/corporation/news/228",
           "official_host": "www.washingtonhotel.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-04T20:00:29.929622+00:00"
+          "last_seen_at": "2026-11-05T03:33:14.940175+00:00"
         }
       ],
       "leaked_records": null,
@@ -7910,16 +8243,17 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 401,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 425,
+    "official_pages_verified": 9,
+    "new_records": 9,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
-      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
-      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
-      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
       "www.ryohin-keikaku.jp: HTTPError: HTTP Error 429: Too Many Requests",
+      "www.ryohin-keikaku.jp: HTTPError: HTTP Error 429: Too Many Requests",
+      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
+      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
+      "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
       "www.nihon-kotsu.co.jp: HTTPError: HTTP Error 404: Not Found",
       "www.nihon-kotsu.co.jp: HTTPError: HTTP Error 404: Not Found",
       "wasimil.com: ValueError: Redirect left the source host",
