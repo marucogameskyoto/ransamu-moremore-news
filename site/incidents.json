@@ -1,13 +1,385 @@
 {
-  "updated_at": "2026-11-09T17:49:26.499177+00:00",
+  "updated_at": "2026-11-10T04:30:59.272326+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
-    "sources_succeeded": 8,
+    "sources_succeeded": 7,
     "new_records": 0,
-    "warnings": []
+    "warnings": [
+      "長野都市ガス株式会社: robots.txt disallows this URL"
+    ]
   },
   "incidents": [
+    {
+      "id": "6330c3ad1cd629e616c0",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "日付不明",
+      "posted_at": "2026-11-10T04:30:59.272326+00:00",
+      "status": "official",
+      "source": "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）",
+      "issuer": "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）",
+      "reported_org": "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "公式発表ページで不正アクセスまたは情報漏えいに関する事案を公表。",
+      "source_url": "https://corporate.teket.jp/news/privacy_261108",
+      "official_host": "corporate.teket.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T04:30:59.272326+00:00",
+      "updated_at": "2026-11-10T04:30:59.272326+00:00",
+      "reports": [
+        {
+          "title": "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）",
+          "date": "日付不明",
+          "source": "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）",
+          "issuer": "【重要】不正アクセスによる情報流出に関するお詫びとお知らせ（第一報）",
+          "source_url": "https://corporate.teket.jp/news/privacy_261108",
+          "canonical_url": "https://corporate.teket.jp/news/privacy_261108",
+          "official_host": "corporate.teket.jp",
+          "first_seen_at": "2026-11-10T04:30:59.272326+00:00",
+          "last_seen_at": "2026-11-10T04:30:59.272326+00:00"
+        }
+      ]
+    },
+    {
+      "id": "229c9d590f86f9d1677d",
+      "event_key": null,
+      "event_scope": "",
+      "name": "業務委託企業への不正アクセスによる個人情報流出に関するお詫びとお知らせ｜株式会社セガ",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-09",
+      "posted_at": "2026-11-10T04:30:59.272326+00:00",
+      "status": "official",
+      "source": "業務委託企業への不正アクセスによる個人情報流出に関するお詫びとお知らせ｜株式会社セガ",
+      "issuer": "業務委託企業への不正アクセスによる個人情報流出に関するお詫びとお知らせ｜株式会社セガ",
+      "reported_org": "業務委託企業への不正アクセスによる個人情報流出に関するお詫びとお知らせ｜株式会社セガ",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "このたび、アララ社が第三者による不正アクセスを受け、メールマガジンの配信に利用したお客様のメールアドレスなどが外部に流出したことが判明いたしました。現在、アララ社において不正アクセスの原因究明や被害拡大防止等の対応が行われており、当社においてはアララ社および関係各社と連携し、流出情報の詳細について確認を進めております。",
+      "source_url": "https://www.sega.co.jp/release/261109_1.html",
+      "official_host": "www.sega.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T04:30:59.272326+00:00",
+      "updated_at": "2026-11-10T04:30:59.272326+00:00",
+      "reports": [
+        {
+          "title": "業務委託企業への不正アクセスによる個人情報流出に関するお詫びとお知らせ｜株式会社セガ",
+          "date": "2026-11-09",
+          "source": "業務委託企業への不正アクセスによる個人情報流出に関するお詫びとお知らせ｜株式会社セガ",
+          "issuer": "業務委託企業への不正アクセスによる個人情報流出に関するお詫びとお知らせ｜株式会社セガ",
+          "source_url": "https://www.sega.co.jp/release/261109_1.html",
+          "canonical_url": "https://www.sega.co.jp/release/261109_1.html",
+          "official_host": "www.sega.co.jp",
+          "first_seen_at": "2026-11-10T04:30:59.272326+00:00",
+          "last_seen_at": "2026-11-10T04:30:59.272326+00:00"
+        }
+      ]
+    },
+    {
+      "id": "1bf2e93077017ea598ff",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社システムへの不正アクセスによる個人情報漏えいのおそれについて - ラクスル株式会社",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-09",
+      "posted_at": "2026-11-10T04:30:59.272326+00:00",
+      "status": "official",
+      "source": "当社システムへの不正アクセスによる個人情報漏えいのおそれについて - ラクスル株式会社",
+      "issuer": "当社システムへの不正アクセスによる個人情報漏えいのおそれについて - ラクスル株式会社",
+      "reported_org": "当社システムへの不正アクセスによる個人情報漏えいのおそれについて - ラクスル株式会社",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "現時点で確認している事実 発覚日時：2026年11月8日 0時20分頃 対象システム：「ラクスル」のデータ入稿の処理に関わるシステム 確認している事象：第三者による不正アクセス。なお、クレジットカード情報、ログインID、パスワードについては漏えいしていないことを確認しております。",
+      "source_url": "https://corp.raksul.com/news/press/261109_unauthorized-access",
+      "official_host": "corp.raksul.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T04:30:59.272326+00:00",
+      "updated_at": "2026-11-10T04:30:59.272326+00:00",
+      "reports": [
+        {
+          "title": "当社システムへの不正アクセスによる個人情報漏えいのおそれについて - ラクスル株式会社",
+          "date": "2026-11-09",
+          "source": "当社システムへの不正アクセスによる個人情報漏えいのおそれについて - ラクスル株式会社",
+          "issuer": "当社システムへの不正アクセスによる個人情報漏えいのおそれについて - ラクスル株式会社",
+          "source_url": "https://corp.raksul.com/news/press/261109_unauthorized-access",
+          "canonical_url": "https://corp.raksul.com/news/press/261109_unauthorized-access",
+          "official_host": "corp.raksul.com",
+          "first_seen_at": "2026-11-10T04:30:59.272326+00:00",
+          "last_seen_at": "2026-11-10T04:30:59.272326+00:00"
+        }
+      ]
+    },
+    {
+      "id": "57e575cba5e94403da6c",
+      "event_key": null,
+      "event_scope": "",
+      "name": "工数管理システムへの不正アクセスについて（第二報） | 栄光ゼミナール公式サイト",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-09",
+      "posted_at": "2026-11-10T04:30:59.272326+00:00",
+      "status": "official",
+      "source": "工数管理システムへの不正アクセスについて（第二報） | 栄光ゼミナール公式サイト",
+      "issuer": "工数管理システムへの不正アクセスについて（第二報） | 栄光ゼミナール公式サイト",
+      "reported_org": "工数管理システムへの不正アクセスについて（第二報） | 栄光ゼミナール公式サイト",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "工数管理システムへの不正アクセスについて（第二報） | 栄光ゼミナール公式サイト サイト内検索 合格実績 塾生専用サイトCATS@Home home 小学生 中学受験対策 高校進学 小学生の個別指導 中学生 高校受験対策 中高一貫生 中学生の個別指導 高校生 大学受験対策 内部進学対策 高校生の個別指導 個別指導 小学生の個別 中学生の個別 高校生の個別 教室を探す 料金・時間割を見る MENU home 小学生 中学受験対策 高校進学 小学生の個別指導 中学生 高校受験対策 中高一貫生 中学生の個別指導 高校生。",
+      "source_url": "https://www.eikoh.co.jp/news/news-2/p222696",
+      "official_host": "www.eikoh.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T04:30:59.272326+00:00",
+      "updated_at": "2026-11-10T04:30:59.272326+00:00",
+      "reports": [
+        {
+          "title": "工数管理システムへの不正アクセスについて（第二報） | 栄光ゼミナール公式サイト",
+          "date": "2026-11-09",
+          "source": "工数管理システムへの不正アクセスについて（第二報） | 栄光ゼミナール公式サイト",
+          "issuer": "工数管理システムへの不正アクセスについて（第二報） | 栄光ゼミナール公式サイト",
+          "source_url": "https://www.eikoh.co.jp/news/news-2/p222696",
+          "canonical_url": "https://www.eikoh.co.jp/news/news-2/p222696",
+          "official_host": "www.eikoh.co.jp",
+          "first_seen_at": "2026-11-10T04:30:59.272326+00:00",
+          "last_seen_at": "2026-11-10T04:30:59.272326+00:00"
+        }
+      ]
+    },
+    {
+      "id": "86a50912da4316c4a2cf",
+      "event_key": null,
+      "event_scope": "",
+      "name": "不正アクセス検知に伴う調査結果および再発防止策のご報告【最終報】 | 激安・格安のネット印刷通販ならキングプリンターズ",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-09",
+      "posted_at": "2026-11-10T04:30:59.272326+00:00",
+      "status": "official",
+      "source": "不正アクセス検知に伴う調査結果および再発防止策のご報告【最終報】 | 激安・格安のネット印刷通販ならキングプリンターズ",
+      "issuer": "不正アクセス検知に伴う調査結果および再発防止策のご報告【最終報】 | 激安・格安のネット印刷通販ならキングプリンターズ",
+      "reported_org": "不正アクセス検知に伴う調査結果および再発防止策のご報告【最終報】 | 激安・格安のネット印刷通販ならキングプリンターズ",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": 4,
+      "detail": "不正アクセス検知に伴う調査結果および再発防止策のご報告【最終報】 | 激安・格安のネット印刷通販ならキングプリンターズ カスタマーサポートセンター 050-1782-6210 月～金 9:00～19:00 土 9:00～17:00 TEL サイト内検索 0 ログイン 初めてのお客様へ X MENU 印刷商品一覧 すべての商品を見る フライヤー・チラシ ポスター・サインディスプレイ 名刺 カード はがき・ポストカード 冊子・パンフレット シール・ステッカー チケット・金券 封筒 クリアファイル・フォルダー パウチメ。",
+      "source_url": "https://kingprinters.com/news/2026/oshirase_20261109",
+      "official_host": "kingprinters.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T04:30:59.272326+00:00",
+      "updated_at": "2026-11-10T04:30:59.272326+00:00",
+      "reports": [
+        {
+          "title": "不正アクセス検知に伴う調査結果および再発防止策のご報告【最終報】 | 激安・格安のネット印刷通販ならキングプリンターズ",
+          "date": "2026-11-09",
+          "source": "不正アクセス検知に伴う調査結果および再発防止策のご報告【最終報】 | 激安・格安のネット印刷通販ならキングプリンターズ",
+          "issuer": "不正アクセス検知に伴う調査結果および再発防止策のご報告【最終報】 | 激安・格安のネット印刷通販ならキングプリンターズ",
+          "source_url": "https://kingprinters.com/news/2026/oshirase_20261109",
+          "canonical_url": "https://kingprinters.com/news/2026/oshirase_20261109",
+          "official_host": "kingprinters.com",
+          "first_seen_at": "2026-11-10T04:30:59.272326+00:00",
+          "last_seen_at": "2026-11-10T04:30:59.272326+00:00"
+        }
+      ]
+    },
+    {
+      "id": "5b7350201bb11da62616",
+      "event_key": null,
+      "event_scope": "",
+      "name": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ（第6報） | NEWSROOM | 株式会社トラストバンク",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-09",
+      "posted_at": "2026-11-10T04:30:59.272326+00:00",
+      "status": "official",
+      "source": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ（第6報） | NEWSROOM | 株式会社トラストバンク",
+      "issuer": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ（第6報） | NEWSROOM | 株式会社トラストバンク",
+      "reported_org": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ（第6報） | NEWSROOM | 株式会社トラストバンク",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "サービスの再開について （1）2026年11月9日15時00分より再開するサービス ● 「ふるさとチョイス」アプリ版 （2）今後、再開を予定しているサービス ● チョイスPay 寄附者の皆様へのお願いとご案内 （1）パスワード再設定のお願い 今回の不正アクセスを受け、安全を期すため、全会員様の現在のパスワードを無効化しております。",
+      "source_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news20261109",
+      "official_host": "www.trustbank.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T04:30:59.272326+00:00",
+      "updated_at": "2026-11-10T04:30:59.272326+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ（第6報） | NEWSROOM | 株式会社トラストバンク",
+          "date": "2026-11-09",
+          "source": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ（第6報） | NEWSROOM | 株式会社トラストバンク",
+          "issuer": "不正アクセスによる寄附者様情報の外部流出に関するお詫びとお知らせ（第6報） | NEWSROOM | 株式会社トラストバンク",
+          "source_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news20261109",
+          "canonical_url": "https://www.trustbank.co.jp/newsroom/newsrelease/news20261109",
+          "official_host": "www.trustbank.co.jp",
+          "first_seen_at": "2026-11-10T04:30:59.272326+00:00",
+          "last_seen_at": "2026-11-10T04:30:59.272326+00:00"
+        }
+      ]
+    },
+    {
+      "id": "b876c6b81f6ce6548ed4",
+      "event_key": null,
+      "event_scope": "",
+      "name": "メール配信システム「Cuenote FC」への不正アクセスによる情報漏えいに関するお詫び（第二報） [istyle 株式会社アイスタイル]",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-09",
+      "posted_at": "2026-11-10T04:30:59.272326+00:00",
+      "status": "official",
+      "source": "メール配信システム「Cuenote FC」への不正アクセスによる情報漏えいに関するお詫び（第二報） [istyle 株式会社アイスタイル]",
+      "issuer": "メール配信システム「Cuenote FC」への不正アクセスによる情報漏えいに関するお詫び（第二報） [istyle 株式会社アイスタイル]",
+      "reported_org": "メール配信システム「Cuenote FC」への不正アクセスによる情報漏えいに関するお詫び（第二報） [istyle 株式会社アイスタイル]",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "■ユミルリンク株式会社「当社システムへの不正なアクセスに関するご報告（第二報）」 https://www.ymir.co.jp/info/ymir-information20261027.html ユミルリンク株式会社からの報告に基づき、当社の情報のうち確認した漏えい情報は以下の通りです。",
+      "source_url": "https://www.istyle.co.jp/news/info/2026/11/1109-2.html",
+      "official_host": "www.istyle.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T04:30:59.272326+00:00",
+      "updated_at": "2026-11-10T04:30:59.272326+00:00",
+      "reports": [
+        {
+          "title": "メール配信システム「Cuenote FC」への不正アクセスによる情報漏えいに関するお詫び（第二報） [istyle 株式会社アイスタイル]",
+          "date": "2026-11-09",
+          "source": "メール配信システム「Cuenote FC」への不正アクセスによる情報漏えいに関するお詫び（第二報） [istyle 株式会社アイスタイル]",
+          "issuer": "メール配信システム「Cuenote FC」への不正アクセスによる情報漏えいに関するお詫び（第二報） [istyle 株式会社アイスタイル]",
+          "source_url": "https://www.istyle.co.jp/news/info/2026/11/1109-2.html",
+          "canonical_url": "https://www.istyle.co.jp/news/info/2026/11/1109-2.html",
+          "official_host": "www.istyle.co.jp",
+          "first_seen_at": "2026-11-10T04:30:59.272326+00:00",
+          "last_seen_at": "2026-11-10T04:30:59.272326+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0720c34c73d876712f38",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【重要なお知らせ・Ｚ会】「Z-IDシステム」への不正アクセスに関する最終報告とお詫び - Ｚ会",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-09",
+      "posted_at": "2026-11-10T04:30:59.272326+00:00",
+      "status": "official",
+      "source": "【重要なお知らせ・Ｚ会】「Z-IDシステム」への不正アクセスに関する最終報告とお詫び - Ｚ会",
+      "issuer": "【重要なお知らせ・Ｚ会】「Z-IDシステム」への不正アクセスに関する最終報告とお詫び - Ｚ会",
+      "reported_org": "【重要なお知らせ・Ｚ会】「Z-IDシステム」への不正アクセスに関する最終報告とお詫び - Ｚ会",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": 13,
+      "detail": "なお、本件は認証基盤システムの機能を悪用したものであり、当社のサーバーやデータベース等への不正侵入、およびシステム内部からの個人情報流出の形跡はございません。対象件数：13件 閲覧・影響の可能性がある情報項目：全13名共通：氏名、Z-ID、メールアドレス 、Ｚ会受講者（該当者のみ）：申込日情報 ※パスワード、クレジットカード情報、銀行口座情報、成績・学習履歴などの決済・機密情報への不正アクセスや流出は確認されておりません。",
+      "source_url": "https://www.zkai.co.jp/post-121607",
+      "official_host": "www.zkai.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T04:30:59.272326+00:00",
+      "updated_at": "2026-11-10T04:30:59.272326+00:00",
+      "reports": [
+        {
+          "title": "【重要なお知らせ・Ｚ会】「Z-IDシステム」への不正アクセスに関する最終報告とお詫び - Ｚ会",
+          "date": "2026-11-09",
+          "source": "【重要なお知らせ・Ｚ会】「Z-IDシステム」への不正アクセスに関する最終報告とお詫び - Ｚ会",
+          "issuer": "【重要なお知らせ・Ｚ会】「Z-IDシステム」への不正アクセスに関する最終報告とお詫び - Ｚ会",
+          "source_url": "https://www.zkai.co.jp/post-121607",
+          "canonical_url": "https://www.zkai.co.jp/post-121607",
+          "official_host": "www.zkai.co.jp",
+          "first_seen_at": "2026-11-10T04:30:59.272326+00:00",
+          "last_seen_at": "2026-11-10T04:30:59.272326+00:00"
+        }
+      ]
+    },
+    {
+      "id": "e62bed084da93677bea3",
+      "event_key": null,
+      "event_scope": "",
+      "name": "業務委託先への不正アクセスによる情報漏えいについて | 小学館",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-06",
+      "posted_at": "2026-11-10T04:30:59.272326+00:00",
+      "status": "official",
+      "source": "業務委託先への不正アクセスによる情報漏えいについて | 小学館",
+      "issuer": "業務委託先への不正アクセスによる情報漏えいについて | 小学館",
+      "reported_org": "業務委託先への不正アクセスによる情報漏えいについて | 小学館",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "公式発表ページで不正アクセスまたは情報漏えいに関する事案を公表。",
+      "source_url": "https://www.shogakukan.co.jp/news/477708",
+      "official_host": "www.shogakukan.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T04:30:59.272326+00:00",
+      "updated_at": "2026-11-10T04:30:59.272326+00:00",
+      "reports": [
+        {
+          "title": "業務委託先への不正アクセスによる情報漏えいについて | 小学館",
+          "date": "2026-11-06",
+          "source": "業務委託先への不正アクセスによる情報漏えいについて | 小学館",
+          "issuer": "業務委託先への不正アクセスによる情報漏えいについて | 小学館",
+          "source_url": "https://www.shogakukan.co.jp/news/477708",
+          "canonical_url": "https://www.shogakukan.co.jp/news/477708",
+          "official_host": "www.shogakukan.co.jp",
+          "first_seen_at": "2026-11-10T04:30:59.272326+00:00",
+          "last_seen_at": "2026-11-10T04:30:59.272326+00:00"
+        }
+      ]
+    },
+    {
+      "id": "571c7e57943e269d6764",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【重要・速報】不正アクセスおよびお客様情報の漏えいに関するお詫びとご報告 - 使えるねっと",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-06",
+      "posted_at": "2026-11-10T04:30:59.272326+00:00",
+      "status": "official",
+      "source": "【重要・速報】不正アクセスおよびお客様情報の漏えいに関するお詫びとご報告 - 使えるねっと",
+      "issuer": "【重要・速報】不正アクセスおよびお客様情報の漏えいに関するお詫びとご報告 - 使えるねっと",
+      "reported_org": "【重要・速報】不正アクセスおよびお客様情報の漏えいに関するお詫びとご報告 - 使えるねっと",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "【重要・速報】不正アクセスおよびお客様情報の漏えいに関するお詫びとご報告 - 使えるねっと 会社情報 会社概要 使えるねっとが提供する価値 採用情報 パートナー お知らせ ニュース メンテナンス・障害情報 ブログ ログイン English 日本語 03-4590-8198 課題からサービスを探す 製品・サービス 製品・サービス クラウドの技術を活用した、業種・業界問わずご利用しやすい様々な製品・サービスをご提供しています。",
+      "source_url": "https://www.tsukaeru.net/news/20261107",
+      "official_host": "www.tsukaeru.net",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T04:30:59.272326+00:00",
+      "updated_at": "2026-11-10T04:30:59.272326+00:00",
+      "reports": [
+        {
+          "title": "【重要・速報】不正アクセスおよびお客様情報の漏えいに関するお詫びとご報告 - 使えるねっと",
+          "date": "2026-11-06",
+          "source": "【重要・速報】不正アクセスおよびお客様情報の漏えいに関するお詫びとご報告 - 使えるねっと",
+          "issuer": "【重要・速報】不正アクセスおよびお客様情報の漏えいに関するお詫びとご報告 - 使えるねっと",
+          "source_url": "https://www.tsukaeru.net/news/20261107",
+          "canonical_url": "https://www.tsukaeru.net/news/20261107",
+          "official_host": "www.tsukaeru.net",
+          "first_seen_at": "2026-11-10T04:30:59.272326+00:00",
+          "last_seen_at": "2026-11-10T04:30:59.272326+00:00"
+        }
+      ]
+    },
     {
       "id": "4787601a2e277b1c30e6",
       "event_key": null,
@@ -5270,7 +5642,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-09T17:48:52.635888+00:00"
+          "last_seen_at": "2026-11-10T04:30:34.751454+00:00"
         }
       ]
     },
@@ -8431,7 +8803,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-09T17:48:52.635888+00:00"
+          "last_seen_at": "2026-11-10T04:30:34.751454+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -8442,7 +8814,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-09T17:48:52.635888+00:00"
+          "last_seen_at": "2026-11-10T04:30:34.751454+00:00"
         }
       ],
       "leaked_records": null,
@@ -8569,7 +8941,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-09T17:48:52.635888+00:00"
+          "last_seen_at": "2026-11-10T04:30:34.751454+00:00"
         }
       ],
       "leaked_records": null,
@@ -8801,12 +9173,13 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 468,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 485,
+    "official_pages_verified": 10,
+    "new_records": 10,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
+      "www.ryohin-keikaku.jp: HTTPError: HTTP Error 429: Too Many Requests",
       "www.aioinissaydowa.co.jp: HTTPError: HTTP Error 406: Not Acceptable",
       "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
       "support.goodsmile.com: HTTPError: HTTP Error 403: Forbidden",
