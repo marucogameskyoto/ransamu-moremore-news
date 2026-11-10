@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T15:02:31.310526+00:00",
+  "updated_at": "2026-11-10T21:21:45.101084+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,154 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "80438daf195115f33664",
+      "event_key": null,
+      "event_scope": "",
+      "name": "ソフト９９公式オンラインショップへの不正アクセスによる 個人情報漏えいの可能性に関するお詫びとお知らせ｜大切なお知らせ｜ソフト９９",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-10",
+      "posted_at": "2026-11-10T21:21:45.101084+00:00",
+      "status": "official",
+      "source": "ソフト９９公式オンラインショップへの不正アクセスによる 個人情報漏えいの可能性に関するお詫びとお知らせ｜大切なお知らせ｜ソフト９９",
+      "issuer": "ソフト９９公式オンラインショップへの不正アクセスによる 個人情報漏えいの可能性に関するお詫びとお知らせ｜大切なお知らせ｜ソフト９９",
+      "reported_org": "ソフト９９公式オンラインショップへの不正アクセスによる 個人情報漏えいの可能性に関するお詫びとお知らせ｜大切なお知らせ｜ソフト９９",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "ソフト９９公式オンラインショップへの不正アクセスによる 個人情報漏えいの可能性に関するお詫びとお知らせ｜大切なお知らせ｜ソフト９９ ソフト９９コーポレーション お客様サポート オンラインショップ オンラインショップ ソフト９９公式オンラインショップ ココトリコ公式ショップ Language Select Language 日本語 English 中文（繁体字） Español Português 商品情報 商品情報トップ 洗車 補修 メンテナンス・ アクセサリー 住まいのお手入れ メガネ関連 スポーツ関連 ブラン。",
+      "source_url": "https://www.soft99.co.jp/important/detail/261110",
+      "official_host": "www.soft99.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T21:21:45.101084+00:00",
+      "updated_at": "2026-11-10T21:21:45.101084+00:00",
+      "reports": [
+        {
+          "title": "ソフト９９公式オンラインショップへの不正アクセスによる 個人情報漏えいの可能性に関するお詫びとお知らせ｜大切なお知らせ｜ソフト９９",
+          "date": "2026-11-10",
+          "source": "ソフト９９公式オンラインショップへの不正アクセスによる 個人情報漏えいの可能性に関するお詫びとお知らせ｜大切なお知らせ｜ソフト９９",
+          "issuer": "ソフト９９公式オンラインショップへの不正アクセスによる 個人情報漏えいの可能性に関するお詫びとお知らせ｜大切なお知らせ｜ソフト９９",
+          "source_url": "https://www.soft99.co.jp/important/detail/261110",
+          "canonical_url": "https://www.soft99.co.jp/important/detail/261110",
+          "official_host": "www.soft99.co.jp",
+          "first_seen_at": "2026-11-10T21:21:45.101084+00:00",
+          "last_seen_at": "2026-11-10T21:21:45.101084+00:00"
+        }
+      ]
+    },
+    {
+      "id": "521e9d8a4cee2020a1a6",
+      "event_key": null,
+      "event_scope": "",
+      "name": "社内管理システムへの不正アクセスによる個人情報および法人情報流出の可能性に関するお詫びとお知らせ | 【シェアフル公式】スキマバイト、単発・短期バイト探すなら｜履歴書不要",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-09",
+      "posted_at": "2026-11-10T21:21:45.101084+00:00",
+      "status": "official",
+      "source": "社内管理システムへの不正アクセスによる個人情報および法人情報流出の可能性に関するお詫びとお知らせ | 【シェアフル公式】スキマバイト、単発・短期バイト探すなら｜履歴書不要",
+      "issuer": "社内管理システムへの不正アクセスによる個人情報および法人情報流出の可能性に関するお詫びとお知らせ | 【シェアフル公式】スキマバイト、単発・短期バイト探すなら｜履歴書不要",
+      "reported_org": "社内管理システムへの不正アクセスによる個人情報および法人情報流出の可能性に関するお詫びとお知らせ | 【シェアフル公式】スキマバイト、単発・短期バイト探すなら｜履歴書不要",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "1．発生した事象 2026年11月4日23:30頃、弊社の管理システムに対して外部の第三者により不正アクセスが実行された結果、情報が外部へ流出した可能性があります。",
+      "source_url": "https://sharefull.com/information/9480",
+      "official_host": "sharefull.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T21:21:45.101084+00:00",
+      "updated_at": "2026-11-10T21:21:45.101084+00:00",
+      "reports": [
+        {
+          "title": "社内管理システムへの不正アクセスによる個人情報および法人情報流出の可能性に関するお詫びとお知らせ | 【シェアフル公式】スキマバイト、単発・短期バイト探すなら｜履歴書不要",
+          "date": "2026-11-09",
+          "source": "社内管理システムへの不正アクセスによる個人情報および法人情報流出の可能性に関するお詫びとお知らせ | 【シェアフル公式】スキマバイト、単発・短期バイト探すなら｜履歴書不要",
+          "issuer": "社内管理システムへの不正アクセスによる個人情報および法人情報流出の可能性に関するお詫びとお知らせ | 【シェアフル公式】スキマバイト、単発・短期バイト探すなら｜履歴書不要",
+          "source_url": "https://sharefull.com/information/9480",
+          "canonical_url": "https://sharefull.com/information/9480",
+          "official_host": "sharefull.com",
+          "first_seen_at": "2026-11-10T21:21:45.101084+00:00",
+          "last_seen_at": "2026-11-10T21:21:45.101084+00:00"
+        }
+      ]
+    },
+    {
+      "id": "0649559d893ffbc9e22f",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社サーバーへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（第二報）",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-09",
+      "posted_at": "2026-11-10T21:21:45.101084+00:00",
+      "status": "official",
+      "source": "当社サーバーへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（第二報）",
+      "issuer": "当社サーバーへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（第二報）",
+      "reported_org": "当社サーバーへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（第二報）",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "当社サーバーへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（第二報） 2026.11.09 当社サーバーへの不正アクセスによる 個人情報漏えいの可能性に関するお詫びとお知らせ（第二報） 2026年10月21日に公表いたしました、当社サーバーへの不正アクセスによる個人情報漏えいの可能性につきまして、外部の専門機関の協力のもと調査を進めております。",
+      "source_url": "https://oshirase.living.jp/news/20261109.html",
+      "official_host": "oshirase.living.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T21:21:45.101084+00:00",
+      "updated_at": "2026-11-10T21:21:45.101084+00:00",
+      "reports": [
+        {
+          "title": "当社サーバーへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（第二報）",
+          "date": "2026-11-09",
+          "source": "当社サーバーへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（第二報）",
+          "issuer": "当社サーバーへの不正アクセスによる個人情報漏えいの可能性に関するお詫びとお知らせ（第二報）",
+          "source_url": "https://oshirase.living.jp/news/20261109.html",
+          "canonical_url": "https://oshirase.living.jp/news/20261109.html",
+          "official_host": "oshirase.living.jp",
+          "first_seen_at": "2026-11-10T21:21:45.101084+00:00",
+          "last_seen_at": "2026-11-10T21:21:45.101084+00:00"
+        }
+      ]
+    },
+    {
+      "id": "4301a0cdcf95e3ac9c18",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社サーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び（第1報） – 株式会社 技研製作所 – GIKEN",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-09",
+      "posted_at": "2026-11-10T21:21:45.101084+00:00",
+      "status": "official",
+      "source": "当社サーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び（第1報） – 株式会社 技研製作所 – GIKEN",
+      "issuer": "当社サーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び（第1報） – 株式会社 技研製作所 – GIKEN",
+      "reported_org": "当社サーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び（第1報） – 株式会社 技研製作所 – GIKEN",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "よくわかる技研製作所 ワークインライフ 福利厚生 職場紹介 リモート会社見学 当社サーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び（第1報） HOME ニュース お知らせ 当社サーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び（第1報） 2026.11.9 お知らせ このたび、当社の業務用サーバーの 1 台が、ランサムウェアを含む外部からの不正アクセスを受けたことが判明しました。",
+      "source_url": "https://www.giken.com/ja/news/notices/notice_20261109",
+      "official_host": "www.giken.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-10T21:21:45.101084+00:00",
+      "updated_at": "2026-11-10T21:21:45.101084+00:00",
+      "reports": [
+        {
+          "title": "当社サーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び（第1報） – 株式会社 技研製作所 – GIKEN",
+          "date": "2026-11-09",
+          "source": "当社サーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び（第1報） – 株式会社 技研製作所 – GIKEN",
+          "issuer": "当社サーバーへの不正アクセスによる個人情報漏えいのおそれに関するお知らせとお詫び（第1報） – 株式会社 技研製作所 – GIKEN",
+          "source_url": "https://www.giken.com/ja/news/notices/notice_20261109",
+          "canonical_url": "https://www.giken.com/ja/news/notices/notice_20261109",
+          "official_host": "www.giken.com",
+          "first_seen_at": "2026-11-10T21:21:45.101084+00:00",
+          "last_seen_at": "2026-11-10T21:21:45.101084+00:00"
+        }
+      ]
+    },
     {
       "id": "6330c3ad1cd629e616c0",
       "event_key": null,
@@ -5640,7 +5788,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-10T15:01:58.958632+00:00"
+          "last_seen_at": "2026-11-10T21:21:11.448080+00:00"
         }
       ]
     },
@@ -8465,7 +8613,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/09/post-96.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T13:22:26.104921+00:00",
-          "last_seen_at": "2026-11-10T15:01:58.958632+00:00"
+          "last_seen_at": "2026-11-10T21:21:11.448080+00:00"
         }
       ],
       "reported_org": "長野都市ガス",
@@ -8801,7 +8949,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-10T15:01:58.958632+00:00"
+          "last_seen_at": "2026-11-10T21:21:11.448080+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -8812,7 +8960,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-10T15:01:58.958632+00:00"
+          "last_seen_at": "2026-11-10T21:21:11.448080+00:00"
         }
       ],
       "leaked_records": null,
@@ -8939,7 +9087,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-10T15:01:58.958632+00:00"
+          "last_seen_at": "2026-11-10T21:21:11.448080+00:00"
         }
       ],
       "leaked_records": null,
@@ -9010,7 +9158,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-10T15:01:58.958632+00:00"
+          "last_seen_at": "2026-11-10T21:21:11.448080+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -9171,9 +9319,9 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 484,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 492,
+    "official_pages_verified": 4,
+    "new_records": 4,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
