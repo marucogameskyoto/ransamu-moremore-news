@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T02:49:35.623785+00:00",
+  "updated_at": "2026-11-15T11:13:42.773395+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,154 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "8abb74db183f7394e4e5",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第三報）",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-15",
+      "posted_at": "2026-11-15T11:13:42.773395+00:00",
+      "status": "official",
+      "source": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第三報）",
+      "issuer": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第三報）",
+      "reported_org": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第三報）",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第三報） EVENT イベント ログイン 店舗を探す ログイン 店舗を探す 2026.11.15 当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第三報） 2026年11月7日に公表しました当社システムにおける不正アクセスにより、お客様をはじめ関係者の皆様に多大なご迷惑とご心配をおかけしておりますことを改めて心よりお詫び申し上げます。",
+      "source_url": "https://www.stepgolf.co.jp/news/261115",
+      "official_host": "www.stepgolf.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-15T11:13:42.773395+00:00",
+      "updated_at": "2026-11-15T11:13:42.773395+00:00",
+      "reports": [
+        {
+          "title": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第三報）",
+          "date": "2026-11-15",
+          "source": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第三報）",
+          "issuer": "当社業務システムへの不正アクセスによる個人情報漏えいのおそれに関するお詫びとご報告（第三報）",
+          "source_url": "https://www.stepgolf.co.jp/news/261115",
+          "canonical_url": "https://www.stepgolf.co.jp/news/261115",
+          "official_host": "www.stepgolf.co.jp",
+          "first_seen_at": "2026-11-15T11:13:42.773395+00:00",
+          "last_seen_at": "2026-11-15T11:13:42.773395+00:00"
+        }
+      ]
+    },
+    {
+      "id": "451bcf8d757dd3e8b403",
+      "event_key": null,
+      "event_scope": "",
+      "name": "不正アクセスによる個人情報流出に関するお詫びとお知らせ | 新着情報 | スノーピーク ＊ Snow Peak",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-13",
+      "posted_at": "2026-11-15T11:13:42.773395+00:00",
+      "status": "official",
+      "source": "不正アクセスによる個人情報流出に関するお詫びとお知らせ | 新着情報 | スノーピーク ＊ Snow Peak",
+      "issuer": "不正アクセスによる個人情報流出に関するお詫びとお知らせ | 新着情報 | スノーピーク ＊ Snow Peak",
+      "reported_org": "不正アクセスによる個人情報流出に関するお詫びとお知らせ | 新着情報 | スノーピーク ＊ Snow Peak",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "現時点で、リユース買取サービス、イベント予約システム、コミュニティアプリにおけるお客様情報の流出、ならびにスノーピーク公式オンラインストアおよびスノーピーク公式会員アプリへの不正ログインの計4件の事案を確認しております。1. 本件の概要 （1）リユース買取サービスにおけるお客様情報の流出 リユース買取サービスにおいて、11月9日に第三者による不正アクセスが行われ、お客様情報の一部が流出した可能性があることを11月12日に確認いたしました。",
+      "source_url": "https://www.snowpeak.co.jp/news/p20261113-0",
+      "official_host": "www.snowpeak.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-15T11:13:42.773395+00:00",
+      "updated_at": "2026-11-15T11:13:42.773395+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによる個人情報流出に関するお詫びとお知らせ | 新着情報 | スノーピーク ＊ Snow Peak",
+          "date": "2026-11-13",
+          "source": "不正アクセスによる個人情報流出に関するお詫びとお知らせ | 新着情報 | スノーピーク ＊ Snow Peak",
+          "issuer": "不正アクセスによる個人情報流出に関するお詫びとお知らせ | 新着情報 | スノーピーク ＊ Snow Peak",
+          "source_url": "https://www.snowpeak.co.jp/news/p20261113-0",
+          "canonical_url": "https://www.snowpeak.co.jp/news/p20261113-0",
+          "official_host": "www.snowpeak.co.jp",
+          "first_seen_at": "2026-11-15T11:13:42.773395+00:00",
+          "last_seen_at": "2026-11-15T11:13:42.773395+00:00"
+        }
+      ]
+    },
+    {
+      "id": "9f7a615f51f45e63051f",
+      "event_key": null,
+      "event_scope": "",
+      "name": "不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ | 株式会社Yeny",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-12",
+      "posted_at": "2026-11-15T11:13:42.773395+00:00",
+      "status": "official",
+      "source": "不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ | 株式会社Yeny",
+      "issuer": "不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ | 株式会社Yeny",
+      "reported_org": "不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ | 株式会社Yeny",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ | 株式会社Yeny トップ 会社概要 ニュース 新卒採用 サービス >TISインテックグループ >TISインテックグループ トップ 会社概要 ニュース 新卒採用 サービス >TISインテックグループ 不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ 2026/11/12 初回公表：2026年11月12日 最終更新：2026年11月12日 平素より、当社サービスをご利用いただき、誠にありがとうございます。",
+      "source_url": "https://yeny.jp/pressrelease/1547",
+      "official_host": "yeny.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-15T11:13:42.773395+00:00",
+      "updated_at": "2026-11-15T11:13:42.773395+00:00",
+      "reports": [
+        {
+          "title": "不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ | 株式会社Yeny",
+          "date": "2026-11-12",
+          "source": "不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ | 株式会社Yeny",
+          "issuer": "不正アクセスによる会員情報の漏えいに関するお詫びとお知らせ | 株式会社Yeny",
+          "source_url": "https://yeny.jp/pressrelease/1547",
+          "canonical_url": "https://yeny.jp/pressrelease/1547",
+          "official_host": "yeny.jp",
+          "first_seen_at": "2026-11-15T11:13:42.773395+00:00",
+          "last_seen_at": "2026-11-15T11:13:42.773395+00:00"
+        }
+      ]
+    },
+    {
+      "id": "7de6a8a28580c6c808da",
+      "event_key": null,
+      "event_scope": "",
+      "name": "NEWS | 当社サービス「OWNLY」への不正アクセスに伴う お客様情報漏洩に関するお詫びとお知らせ",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-10-27",
+      "posted_at": "2026-11-15T11:13:42.773395+00:00",
+      "status": "official",
+      "source": "NEWS | 当社サービス「OWNLY」への不正アクセスに伴う お客様情報漏洩に関するお詫びとお知らせ",
+      "issuer": "NEWS | 当社サービス「OWNLY」への不正アクセスに伴う お客様情報漏洩に関するお詫びとお知らせ",
+      "reported_org": "NEWS | 当社サービス「OWNLY」への不正アクセスに伴う お客様情報漏洩に関するお詫びとお知らせ",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "NEWS | 当社サービス「OWNLY」への不正アクセスに伴う お客様情報漏洩に関するお詫びとお知らせ ABOUT SERVICE WORK NEWS RECRUIT CONTACT NEWS ニュース&トピックス 2026/10/27 当社サービス「OWNLY」への不正アクセスに伴うお客様情報漏洩に関するお詫びとお知らせ 当社が提供する SNS キャンペーンツール「OWNLY」において、第三者による不正アクセスが発生し、当社サービスを利用して実施されたキャンペーンにご参加いただいたお客様の情報（参加者情報）の一。",
+      "source_url": "https://www.smartshare.jp/news/20261027",
+      "official_host": "www.smartshare.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-15T11:13:42.773395+00:00",
+      "updated_at": "2026-11-15T11:13:42.773395+00:00",
+      "reports": [
+        {
+          "title": "NEWS | 当社サービス「OWNLY」への不正アクセスに伴う お客様情報漏洩に関するお詫びとお知らせ",
+          "date": "2026-10-27",
+          "source": "NEWS | 当社サービス「OWNLY」への不正アクセスに伴う お客様情報漏洩に関するお詫びとお知らせ",
+          "issuer": "NEWS | 当社サービス「OWNLY」への不正アクセスに伴う お客様情報漏洩に関するお詫びとお知らせ",
+          "source_url": "https://www.smartshare.jp/news/20261027",
+          "canonical_url": "https://www.smartshare.jp/news/20261027",
+          "official_host": "www.smartshare.jp",
+          "first_seen_at": "2026-11-15T11:13:42.773395+00:00",
+          "last_seen_at": "2026-11-15T11:13:42.773395+00:00"
+        }
+      ]
+    },
     {
       "id": "c66c2db791ede1e70a9d",
       "event_key": null,
@@ -22,7 +170,7 @@
           "canonical_url": "https://www.jpcert.or.jp/wr/2026/wr261111.html",
           "official_host": "www.jpcert.or.jp",
           "first_seen_at": "2026-11-11T08:52:09.022641+00:00",
-          "last_seen_at": "2026-11-15T02:48:59.500868+00:00"
+          "last_seen_at": "2026-11-15T11:13:04.477671+00:00"
         }
       ],
       "reported_org": null,
@@ -36,8 +184,8 @@
       "source_url": "https://www.jpcert.or.jp/wr/2026/wr261111.html#14",
       "official_host": "www.jpcert.or.jp",
       "date": "2026-11-11",
-      "last_seen_at": "2026-11-15T02:48:59.500868+00:00",
-      "updated_at": "2026-11-15T02:48:59.500868+00:00",
+      "last_seen_at": "2026-11-15T11:13:04.477671+00:00",
+      "updated_at": "2026-11-15T11:13:04.477671+00:00",
       "detail": "公式フィードに掲載された発表タイトル。対象組織・件数は原文記載時のみ表示。"
     },
     {
@@ -7078,7 +7226,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-15T02:48:59.922564+00:00"
+          "last_seen_at": "2026-11-15T11:13:04.908790+00:00"
         }
       ]
     },
@@ -10239,7 +10387,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-15T02:48:59.922564+00:00"
+          "last_seen_at": "2026-11-15T11:13:04.908790+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -10250,7 +10398,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-15T02:48:59.922564+00:00"
+          "last_seen_at": "2026-11-15T11:13:04.908790+00:00"
         }
       ],
       "leaked_records": null,
@@ -10377,7 +10525,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-15T02:48:59.922564+00:00"
+          "last_seen_at": "2026-11-15T11:13:04.908790+00:00"
         }
       ],
       "leaked_records": null,
@@ -10448,7 +10596,7 @@
           "canonical_url": "https://www.nagano-toshi-gas.co.jp/news/2026/10/post-97.html",
           "official_host": "www.nagano-toshi-gas.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-15T02:48:59.922564+00:00"
+          "last_seen_at": "2026-11-15T11:13:04.908790+00:00"
         }
       ],
       "posted_at": "2026-10-19T12:30:00Z"
@@ -10609,9 +10757,9 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 557,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 560,
+    "official_pages_verified": 4,
+    "new_records": 4,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
