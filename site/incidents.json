@@ -1,13 +1,45 @@
 {
-  "updated_at": "2026-11-19T04:16:23.987252+00:00",
+  "updated_at": "2026-11-19T15:53:59.589954+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
     "sources_succeeded": 8,
-    "new_records": 0,
+    "new_records": 1,
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "96dba99618790169aab3",
+      "event_key": null,
+      "event_scope": "",
+      "reports": [
+        {
+          "title": "【お詫び】外部サービス「KARTE」への不正アクセスによる個人情報漏えいの可能性および一部サービスの一時停止について｜RIZAP株式会社",
+          "date": "2026-11-17",
+          "source": "RIZAP株式会社",
+          "issuer": "RIZAP株式会社",
+          "source_url": "https://rizap.co.jp/news/RUDfG2p4",
+          "canonical_url": "https://rizap.co.jp/news/RUDfG2p4",
+          "official_host": "rizap.co.jp",
+          "first_seen_at": "2026-11-19T15:53:16.058281+00:00",
+          "last_seen_at": "2026-11-19T15:53:16.058281+00:00"
+        }
+      ],
+      "reported_org": "RIZAP",
+      "incident_count": null,
+      "name": "【お詫び】外部サービス「KARTE」への不正アクセスによる個人情報漏えいの可能性および一部サービスの一時停止について｜RIZAP株式会社",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-17",
+      "status": "official",
+      "source": "RIZAP株式会社",
+      "issuer": "RIZAP株式会社",
+      "detail": "公式サイトの発表ページを巡回して検出。件数などの数値は原文で確認できた場合のみ掲載します。",
+      "source_url": "https://rizap.co.jp/news/RUDfG2p4",
+      "official_host": "rizap.co.jp",
+      "last_seen_at": "2026-11-19T15:53:16.058281+00:00",
+      "updated_at": "2026-11-19T15:53:16.058281+00:00"
+    },
     {
       "id": "e3b13c200cc78a76d71a",
       "event_key": null,
@@ -8558,7 +8590,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-19T04:15:46.826557+00:00"
+          "last_seen_at": "2026-11-19T15:53:16.058281+00:00"
         }
       ]
     },
@@ -11719,7 +11751,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-19T04:15:46.826557+00:00"
+          "last_seen_at": "2026-11-19T15:53:16.058281+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -11730,7 +11762,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-19T04:15:46.826557+00:00"
+          "last_seen_at": "2026-11-19T15:53:16.058281+00:00"
         }
       ],
       "leaked_records": null,
@@ -11857,7 +11889,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-19T04:15:46.826557+00:00"
+          "last_seen_at": "2026-11-19T15:53:16.058281+00:00"
         }
       ],
       "leaked_records": null,
@@ -12090,8 +12122,8 @@
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
     "official_links_found": 624,
-    "official_pages_verified": 19,
-    "new_records": 19,
+    "official_pages_verified": 0,
+    "new_records": 0,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
