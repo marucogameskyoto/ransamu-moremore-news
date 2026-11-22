@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T21:08:06.257129+00:00",
+  "updated_at": "2026-11-22T03:17:55.027843+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -8,6 +8,154 @@
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "5f695e4f4a62d3083f2a",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社グループが利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性について",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-21",
+      "posted_at": "2026-11-22T03:17:55.027843+00:00",
+      "status": "official",
+      "source": "当社グループが利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性について",
+      "issuer": "当社グループが利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性について",
+      "reported_org": "当社グループが利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性について",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "当社グループが利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性について | 株式会社メルカリ EN 日本語 About 会社情報 会社情報 私たちについて 会社概要 経営陣紹介 Press 最新のお知らせ 最新のお知らせ お知らせ / プレスリリース プレスキット Safety 安心・安全な取引のために マーケットプレイスの基本原則 私たちがつくりたいマーケットプレイス セキュリティ メルカリグループのセキュリティ アカウントの安全性 セキュリティの取組み メルカリグループの情報セキュリティ。",
+      "source_url": "https://about.mercari.com/press/news/articles/20261120_incidentreport",
+      "official_host": "about.mercari.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-22T03:17:55.027843+00:00",
+      "updated_at": "2026-11-22T03:17:55.027843+00:00",
+      "reports": [
+        {
+          "title": "当社グループが利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性について",
+          "date": "2026-11-21",
+          "source": "当社グループが利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性について",
+          "issuer": "当社グループが利用するクラウドサービスの委託先への不正アクセスによる情報流出の可能性について",
+          "source_url": "https://about.mercari.com/press/news/articles/20261120_incidentreport",
+          "canonical_url": "https://about.mercari.com/press/news/articles/20261120_incidentreport",
+          "official_host": "about.mercari.com",
+          "first_seen_at": "2026-11-22T03:17:55.027843+00:00",
+          "last_seen_at": "2026-11-22T03:17:55.027843+00:00"
+        }
+      ]
+    },
+    {
+      "id": "db418f676a1936ed6f83",
+      "event_key": null,
+      "event_scope": "",
+      "name": "外部サービス「KARTE」への不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ | 株式会社リクルート",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-20",
+      "posted_at": "2026-11-22T03:17:55.027843+00:00",
+      "status": "official",
+      "source": "外部サービス「KARTE」への不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ | 株式会社リクルート",
+      "issuer": "外部サービス「KARTE」への不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ | 株式会社リクルート",
+      "reported_org": "外部サービス「KARTE」への不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ | 株式会社リクルート",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "外部サービス「KARTE」への不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ | 株式会社リクルート 新規タブで開く リクルートホールディングスのサイトはこちら リクルートホールディングスのサイトはこちら サイト内検索 サイト内検索 キーワードで探す 企業情報 企業情報 View more 経営理念 経営理念 まだ、ここにない、出会い。",
+      "source_url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1120_149528.html",
+      "official_host": "www.recruit.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-22T03:17:55.027843+00:00",
+      "updated_at": "2026-11-22T03:17:55.027843+00:00",
+      "reports": [
+        {
+          "title": "外部サービス「KARTE」への不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ | 株式会社リクルート",
+          "date": "2026-11-20",
+          "source": "外部サービス「KARTE」への不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ | 株式会社リクルート",
+          "issuer": "外部サービス「KARTE」への不正アクセスに伴う個人情報漏えいの可能性に関するお詫びとお知らせ | 株式会社リクルート",
+          "source_url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1120_149528.html",
+          "canonical_url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1120_149528.html",
+          "official_host": "www.recruit.co.jp",
+          "first_seen_at": "2026-11-22T03:17:55.027843+00:00",
+          "last_seen_at": "2026-11-22T03:17:55.027843+00:00"
+        }
+      ]
+    },
+    {
+      "id": "57767d992a7e29dce30a",
+      "event_key": null,
+      "event_scope": "",
+      "name": "オンライン事前チェックインサービス「PreCheck-in」 不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ | 株式会社USEN-ALMEX",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-19",
+      "posted_at": "2026-11-22T03:17:55.027843+00:00",
+      "status": "official",
+      "source": "オンライン事前チェックインサービス「PreCheck-in」 不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ | 株式会社USEN-ALMEX",
+      "issuer": "オンライン事前チェックインサービス「PreCheck-in」 不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ | 株式会社USEN-ALMEX",
+      "reported_org": "オンライン事前チェックインサービス「PreCheck-in」 不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ | 株式会社USEN-ALMEX",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": 283,
+      "detail": "このたび、株式会社USEN-ALMEX（以下、当社）が提供するオンライン事前チェックインサービス「PreCheck-in（プリ･チェックイン）」において、第三者による不正アクセスを確認いたしました。",
+      "source_url": "https://www.usen-almex.jp/news/release/20261119.html",
+      "official_host": "www.usen-almex.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-22T03:17:55.027843+00:00",
+      "updated_at": "2026-11-22T03:17:55.027843+00:00",
+      "reports": [
+        {
+          "title": "オンライン事前チェックインサービス「PreCheck-in」 不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ | 株式会社USEN-ALMEX",
+          "date": "2026-11-19",
+          "source": "オンライン事前チェックインサービス「PreCheck-in」 不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ | 株式会社USEN-ALMEX",
+          "issuer": "オンライン事前チェックインサービス「PreCheck-in」 不正アクセスによる個人情報流出の可能性に関するお詫びとお知らせ | 株式会社USEN-ALMEX",
+          "source_url": "https://www.usen-almex.jp/news/release/20261119.html",
+          "canonical_url": "https://www.usen-almex.jp/news/release/20261119.html",
+          "official_host": "www.usen-almex.jp",
+          "first_seen_at": "2026-11-22T03:17:55.027843+00:00",
+          "last_seen_at": "2026-11-22T03:17:55.027843+00:00"
+        }
+      ]
+    },
+    {
+      "id": "8672dc1279146a3b94da",
+      "event_key": null,
+      "event_scope": "",
+      "name": "「離島とのつながり促進事業（島まーる）」における、メールマガジン配信サービスに対する不正アクセスによる情報漏洩について｜沖縄県公式ホームページ",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-12",
+      "posted_at": "2026-11-22T03:17:55.027843+00:00",
+      "status": "official",
+      "source": "「離島とのつながり促進事業（島まーる）」における、メールマガジン配信サービスに対する不正アクセスによる情報漏洩について｜沖縄県公式ホームページ",
+      "issuer": "「離島とのつながり促進事業（島まーる）」における、メールマガジン配信サービスに対する不正アクセスによる情報漏洩について｜沖縄県公式ホームページ",
+      "reported_org": "「離島とのつながり促進事業（島まーる）」における、メールマガジン配信サービスに対する不正アクセスによる情報漏洩について｜沖縄県公式ホームページ",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "「離島とのつながり促進事業（島まーる）」における、メールマガジン配信サービスに対する不正アクセスによる情報漏洩について ページ番号1041801 更新日 2026年11月12日 印刷 大きな文字で印刷 第2報（令和8年11月11日） 本事業メールマガジン会員の皆さまにおかれましては、多大なるご心配とご迷惑をおかけしておりますことを改めて深くお詫び申し上げます。",
+      "source_url": "https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1041801.html",
+      "official_host": "www.pref.okinawa.lg.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-22T03:17:55.027843+00:00",
+      "updated_at": "2026-11-22T03:17:55.027843+00:00",
+      "reports": [
+        {
+          "title": "「離島とのつながり促進事業（島まーる）」における、メールマガジン配信サービスに対する不正アクセスによる情報漏洩について｜沖縄県公式ホームページ",
+          "date": "2026-11-12",
+          "source": "「離島とのつながり促進事業（島まーる）」における、メールマガジン配信サービスに対する不正アクセスによる情報漏洩について｜沖縄県公式ホームページ",
+          "issuer": "「離島とのつながり促進事業（島まーる）」における、メールマガジン配信サービスに対する不正アクセスによる情報漏洩について｜沖縄県公式ホームページ",
+          "source_url": "https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1041801.html",
+          "canonical_url": "https://www.pref.okinawa.lg.jp/kensei/shinko/1017087/1017118/1041801.html",
+          "official_host": "www.pref.okinawa.lg.jp",
+          "first_seen_at": "2026-11-22T03:17:55.027843+00:00",
+          "last_seen_at": "2026-11-22T03:17:55.027843+00:00"
+        }
+      ]
+    },
     {
       "id": "fd59d336347064b192b1",
       "event_key": null,
@@ -1798,7 +1946,7 @@
           "canonical_url": "https://rizap.co.jp/news/RUDfG2p4",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-11-19T15:53:16.058281+00:00",
-          "last_seen_at": "2026-11-21T21:07:22.994663+00:00"
+          "last_seen_at": "2026-11-22T03:17:23.405719+00:00"
         }
       ],
       "reported_org": "RIZAP",
@@ -10366,7 +10514,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-21T21:07:22.994663+00:00"
+          "last_seen_at": "2026-11-22T03:17:23.405719+00:00"
         }
       ]
     },
@@ -13527,7 +13675,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261009.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-21T21:07:22.994663+00:00"
+          "last_seen_at": "2026-11-22T03:17:23.405719+00:00"
         },
         {
           "title": "【重要】当社運営ECサイト「東京酒粋」メールマガジン配信サービスへの不正アクセスに関する調査結果のお知らせ（第二報） | 2026年 | ニュース | 日本酒類販売株式会社",
@@ -13538,7 +13686,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-21T21:07:22.994663+00:00"
+          "last_seen_at": "2026-11-22T03:17:23.405719+00:00"
         }
       ],
       "leaked_records": null,
@@ -13665,7 +13813,7 @@
           "canonical_url": "https://rizap.co.jp/news/5hSUfKJ_",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-21T21:07:22.994663+00:00"
+          "last_seen_at": "2026-11-22T03:17:23.405719+00:00"
         }
       ],
       "leaked_records": null,
@@ -13897,9 +14045,9 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 720,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 729,
+    "official_pages_verified": 4,
+    "new_records": 4,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
