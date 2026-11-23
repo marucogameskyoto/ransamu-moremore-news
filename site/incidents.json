@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T19:50:33.370660+00:00",
+  "updated_at": "2026-11-23T03:47:44.757087+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -1946,7 +1946,7 @@
           "canonical_url": "https://rizap.co.jp/news/RUDfG2p4",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-11-19T15:53:16.058281+00:00",
-          "last_seen_at": "2026-11-22T19:49:51.895181+00:00"
+          "last_seen_at": "2026-11-23T03:47:07.440329+00:00"
         }
       ],
       "reported_org": "RIZAP",
@@ -10514,7 +10514,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-22T19:49:51.895181+00:00"
+          "last_seen_at": "2026-11-23T03:47:07.440329+00:00"
         }
       ]
     },
@@ -13686,7 +13686,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-22T19:49:51.895181+00:00"
+          "last_seen_at": "2026-11-23T03:47:07.440329+00:00"
         }
       ],
       "leaked_records": null,
