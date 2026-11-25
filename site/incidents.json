@@ -1,13 +1,230 @@
 {
-  "updated_at": "2026-11-24T20:14:37.595230+00:00",
+  "updated_at": "2026-11-25T11:30:32.445310+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
     "sources_succeeded": 8,
-    "new_records": 0,
+    "new_records": 1,
     "warnings": []
   },
   "incidents": [
+    {
+      "id": "6d5b5502678b84b099f3",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社サービス「Cacoo」のサービス再開のお知らせ | お知らせ | 株式会社ヌーラボ(Nulab inc.)",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-24",
+      "posted_at": "2026-11-25T11:30:32.445310+00:00",
+      "status": "official",
+      "source": "当社サービス「Cacoo」のサービス再開のお知らせ | お知らせ | 株式会社ヌーラボ(Nulab inc.)",
+      "issuer": "当社サービス「Cacoo」のサービス再開のお知らせ | お知らせ | 株式会社ヌーラボ(Nulab inc.)",
+      "reported_org": "当社サービス「Cacoo」のサービス再開のお知らせ | お知らせ | 株式会社ヌーラボ(Nulab inc.)",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "当社サービス「Cacoo」のサービス再開のお知らせ | お知らせ | 株式会社ヌーラボ(Nulab inc.) このページの本文へ移動する 会社概要 サービス ニュース IR情報 採用サイト ログイン 公開日： 2026年11月24日 お知らせ 当社サービス「Cacoo」のサービス再開のお知らせ 株式会社ヌーラボ（以下、当社）は、不正アクセスへの対応のため2026年11月14日18時45分より停止しておりました「Cacoo」について、第三報でお知らせした対策を実施し、動作と安全性を確認したうえで、本日2026年1。",
+      "source_url": "https://nulab.com/ja/info/20261124_cacoo_resumed",
+      "official_host": "nulab.com",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-25T11:30:32.445310+00:00",
+      "updated_at": "2026-11-25T11:30:32.445310+00:00",
+      "reports": [
+        {
+          "title": "当社サービス「Cacoo」のサービス再開のお知らせ | お知らせ | 株式会社ヌーラボ(Nulab inc.)",
+          "date": "2026-11-24",
+          "source": "当社サービス「Cacoo」のサービス再開のお知らせ | お知らせ | 株式会社ヌーラボ(Nulab inc.)",
+          "issuer": "当社サービス「Cacoo」のサービス再開のお知らせ | お知らせ | 株式会社ヌーラボ(Nulab inc.)",
+          "source_url": "https://nulab.com/ja/info/20261124_cacoo_resumed",
+          "canonical_url": "https://nulab.com/ja/info/20261124_cacoo_resumed",
+          "official_host": "nulab.com",
+          "first_seen_at": "2026-11-25T11:30:32.445310+00:00",
+          "last_seen_at": "2026-11-25T11:30:32.445310+00:00"
+        }
+      ]
+    },
+    {
+      "id": "879ffcc586f3d6561540",
+      "event_key": null,
+      "event_scope": "",
+      "name": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報） | 楽天証券",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-24",
+      "posted_at": "2026-11-25T11:30:32.445310+00:00",
+      "status": "official",
+      "source": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報） | 楽天証券",
+      "issuer": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報） | 楽天証券",
+      "reported_org": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報） | 楽天証券",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "キャンペーン 国内株式・信用 かぶミニ ® IPO・PO 米国株式・信用 投資信託・積立 NISA iDeCo 債券 FX CFD 先物OP 金・プラチナ ポイント投資 ロボアド IFA(運用相談) キャンペーン 国内株式 かぶミニ ® IPO・PO 米国株式 海外ETF NISA 投資信託・積立 iDeCo 金・プラチナ FX CFD ロボアド ポイント投資 IFA(運用相談) ホーム > お知らせ > 当社お客様の情報漏えいに関するお詫びとお知らせ（第2報） 当社お客様の情報漏えいに関するお詫びとお知らせ（第。",
+      "source_url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
+      "official_host": "www.rakuten-sec.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-25T11:30:32.445310+00:00",
+      "updated_at": "2026-11-25T11:30:32.445310+00:00",
+      "reports": [
+        {
+          "title": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報） | 楽天証券",
+          "date": "2026-11-24",
+          "source": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報） | 楽天証券",
+          "issuer": "当社お客様の情報漏えいに関するお詫びとお知らせ（第2報） | 楽天証券",
+          "source_url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
+          "canonical_url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
+          "official_host": "www.rakuten-sec.co.jp",
+          "first_seen_at": "2026-11-25T11:30:32.445310+00:00",
+          "last_seen_at": "2026-11-25T11:30:32.445310+00:00"
+        }
+      ]
+    },
+    {
+      "id": "bf197340f932d09da058",
+      "event_key": null,
+      "event_scope": "",
+      "name": "個人向けサービス「giftee」のシステムメンテナンス終了およびサービス再開のお知らせ | 株式会社ギフティ",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-24",
+      "posted_at": "2026-11-25T11:30:32.445310+00:00",
+      "status": "official",
+      "source": "個人向けサービス「giftee」のシステムメンテナンス終了およびサービス再開のお知らせ | 株式会社ギフティ",
+      "issuer": "個人向けサービス「giftee」のシステムメンテナンス終了およびサービス再開のお知らせ | 株式会社ギフティ",
+      "reported_org": "個人向けサービス「giftee」のシステムメンテナンス終了およびサービス再開のお知らせ | 株式会社ギフティ",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "4．安全性の確認と今後の対応について プリズマティクス株式会社は、不正アクセスの原因となった機能を無効化しました。2026.11.17 個人向けサービス「giftee」の一時停止および再開見通しに関するお知らせ 2026年11月12日（木）にお知らせいたしましたとおり、当社が会員情報の管理およびログイン認証に利用している外部サービス「prismatix」（提供元：プリズマティクス株式会社）において、第三者による不正アクセスが確認されました。",
+      "source_url": "https://giftee.co.jp/press/news/info20261124",
+      "official_host": "giftee.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-25T11:30:32.445310+00:00",
+      "updated_at": "2026-11-25T11:30:32.445310+00:00",
+      "reports": [
+        {
+          "title": "個人向けサービス「giftee」のシステムメンテナンス終了およびサービス再開のお知らせ | 株式会社ギフティ",
+          "date": "2026-11-24",
+          "source": "個人向けサービス「giftee」のシステムメンテナンス終了およびサービス再開のお知らせ | 株式会社ギフティ",
+          "issuer": "個人向けサービス「giftee」のシステムメンテナンス終了およびサービス再開のお知らせ | 株式会社ギフティ",
+          "source_url": "https://giftee.co.jp/press/news/info20261124",
+          "canonical_url": "https://giftee.co.jp/press/news/info20261124",
+          "official_host": "giftee.co.jp",
+          "first_seen_at": "2026-11-25T11:30:32.445310+00:00",
+          "last_seen_at": "2026-11-25T11:30:32.445310+00:00"
+        }
+      ]
+    },
+    {
+      "id": "fe2eb9505beda3efb656",
+      "event_key": null,
+      "event_scope": "",
+      "name": "一部ECモール内MTGショップの外部サービス提供元における不正アクセスの発生について（2026年11月24日修正） | MTG News | 株式会社MTG",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-24",
+      "posted_at": "2026-11-25T11:30:32.445310+00:00",
+      "status": "official",
+      "source": "一部ECモール内MTGショップの外部サービス提供元における不正アクセスの発生について（2026年11月24日修正） | MTG News | 株式会社MTG",
+      "issuer": "一部ECモール内MTGショップの外部サービス提供元における不正アクセスの発生について（2026年11月24日修正） | MTG News | 株式会社MTG",
+      "reported_org": "一部ECモール内MTGショップの外部サービス提供元における不正アクセスの発生について（2026年11月24日修正） | MTG News | 株式会社MTG",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": null,
+      "detail": "【重要】当社システムへの不正アクセスによる個人情報漏えいに関するお詫びとお知らせ（第二報：対象規模および今後の対応について）（株式会社GoQSystem） お客様には、多大なるご迷惑とご心配をおかけしておりますことを、深くお詫び申し上げます。■ 漏えいした情報 配送情報（お届け先の氏名、住所、電話番号、ご注文内容） 対象のお客様：17,605名 （2026年11月24日修正） ※個人情報の漏えいが確認されたお客様には、個別にご連絡いたします。",
+      "source_url": "https://www.mtg.gr.jp/news/detail/2026/11/article_2683.html",
+      "official_host": "www.mtg.gr.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-25T11:30:32.445310+00:00",
+      "updated_at": "2026-11-25T11:30:32.445310+00:00",
+      "reports": [
+        {
+          "title": "一部ECモール内MTGショップの外部サービス提供元における不正アクセスの発生について（2026年11月24日修正） | MTG News | 株式会社MTG",
+          "date": "2026-11-24",
+          "source": "一部ECモール内MTGショップの外部サービス提供元における不正アクセスの発生について（2026年11月24日修正） | MTG News | 株式会社MTG",
+          "issuer": "一部ECモール内MTGショップの外部サービス提供元における不正アクセスの発生について（2026年11月24日修正） | MTG News | 株式会社MTG",
+          "source_url": "https://www.mtg.gr.jp/news/detail/2026/11/article_2683.html",
+          "canonical_url": "https://www.mtg.gr.jp/news/detail/2026/11/article_2683.html",
+          "official_host": "www.mtg.gr.jp",
+          "first_seen_at": "2026-11-25T11:30:32.445310+00:00",
+          "last_seen_at": "2026-11-25T11:30:32.445310+00:00"
+        }
+      ]
+    },
+    {
+      "id": "364e821bd6d92eed379b",
+      "event_key": null,
+      "event_scope": "",
+      "name": "【第3報】外部サービスへの不正アクセスに伴う個人向けサービス「giftee」の個人情報漏えいおよび漏えいのおそれについて | 株式会社ギフティ",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-19",
+      "posted_at": "2026-11-25T11:30:32.445310+00:00",
+      "status": "official",
+      "source": "【第3報】外部サービスへの不正アクセスに伴う個人向けサービス「giftee」の個人情報漏えいおよび漏えいのおそれについて | 株式会社ギフティ",
+      "issuer": "【第3報】外部サービスへの不正アクセスに伴う個人向けサービス「giftee」の個人情報漏えいおよび漏えいのおそれについて | 株式会社ギフティ",
+      "reported_org": "【第3報】外部サービスへの不正アクセスに伴う個人向けサービス「giftee」の個人情報漏えいおよび漏えいのおそれについて | 株式会社ギフティ",
+      "incident_count": null,
+      "incident_count_label": null,
+      "affected_people": null,
+      "leaked_records": 126,
+      "detail": "③ 「prismatix」のログに記録されていた情報 対象件数：約30.5万件 対象情報：メールアドレス※ ※2021年1月から2026年10月30日までの間に会員登録・ログインを試みられたメールアドレスの一部 なお、①～③には対象者やメールアドレスの重複があり、上記の件数を単純に合計したものが漏えいおよび漏えいのおそれのある対象人数を示すものではありません。",
+      "source_url": "https://giftee.co.jp/press/news/info20261119",
+      "official_host": "giftee.co.jp",
+      "discovered_from": "https://legalagent.co.jp/legal-lab/security-incidents/",
+      "last_seen_at": "2026-11-25T11:30:32.445310+00:00",
+      "updated_at": "2026-11-25T11:30:32.445310+00:00",
+      "reports": [
+        {
+          "title": "【第3報】外部サービスへの不正アクセスに伴う個人向けサービス「giftee」の個人情報漏えいおよび漏えいのおそれについて | 株式会社ギフティ",
+          "date": "2026-11-19",
+          "source": "【第3報】外部サービスへの不正アクセスに伴う個人向けサービス「giftee」の個人情報漏えいおよび漏えいのおそれについて | 株式会社ギフティ",
+          "issuer": "【第3報】外部サービスへの不正アクセスに伴う個人向けサービス「giftee」の個人情報漏えいおよび漏えいのおそれについて | 株式会社ギフティ",
+          "source_url": "https://giftee.co.jp/press/news/info20261119",
+          "canonical_url": "https://giftee.co.jp/press/news/info20261119",
+          "official_host": "giftee.co.jp",
+          "first_seen_at": "2026-11-25T11:30:32.445310+00:00",
+          "last_seen_at": "2026-11-25T11:30:32.445310+00:00"
+        }
+      ]
+    },
+    {
+      "id": "17e4caaca964fbdfec61",
+      "event_key": null,
+      "event_scope": "",
+      "reports": [
+        {
+          "title": "当社サービスでお問い合わせ対応に利用しているチャットサービスへの不正アクセスに伴う個人情報漏洩の可能性について（2026年11月25日 11:30時点） | ヤマトホールディングス株式会社",
+          "date": "2026-11-25",
+          "source": "ヤマトホールディングス",
+          "issuer": "ヤマトホールディングス",
+          "source_url": "https://www.yamato-hd.co.jp/important/info_261125_1.html",
+          "canonical_url": "https://www.yamato-hd.co.jp/important/info_261125_1.html",
+          "official_host": "www.yamato-hd.co.jp",
+          "first_seen_at": "2026-11-25T11:29:47.295544+00:00",
+          "last_seen_at": "2026-11-25T11:29:47.295544+00:00"
+        }
+      ],
+      "reported_org": "ヤマト運輸株式会社",
+      "incident_count": null,
+      "name": "当社サービスでお問い合わせ対応に利用しているチャットサービスへの不正アクセスに伴う個人情報漏洩の可能性について（2026年11月25日 11:30時点） | ヤマトホールディングス株式会社",
+      "sector": "公式発表",
+      "region": "日本",
+      "date": "2026-11-25",
+      "status": "official",
+      "source": "ヤマトホールディングス",
+      "issuer": "ヤマトホールディングス",
+      "detail": "公式サイトの発表ページを巡回して検出。件数などの数値は原文で確認できた場合のみ掲載します。",
+      "source_url": "https://www.yamato-hd.co.jp/important/info_261125_1.html",
+      "official_host": "www.yamato-hd.co.jp",
+      "last_seen_at": "2026-11-25T11:29:47.295544+00:00",
+      "updated_at": "2026-11-25T11:29:47.295544+00:00"
+    },
     {
       "id": "c063da2ad0a492807454",
       "event_key": null,
@@ -1983,7 +2200,7 @@
           "canonical_url": "https://rizap.co.jp/news/RUDfG2p4",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-11-19T15:53:16.058281+00:00",
-          "last_seen_at": "2026-11-24T20:13:58.765963+00:00"
+          "last_seen_at": "2026-11-25T11:29:47.295544+00:00"
         }
       ],
       "reported_org": "RIZAP",
@@ -10551,7 +10768,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-24T20:13:58.765963+00:00"
+          "last_seen_at": "2026-11-25T11:29:47.295544+00:00"
         }
       ]
     },
@@ -13723,7 +13940,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-24T20:13:58.765963+00:00"
+          "last_seen_at": "2026-11-25T11:29:47.295544+00:00"
         }
       ],
       "leaked_records": null,
@@ -14082,12 +14299,13 @@
   ],
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
-    "official_links_found": 730,
-    "official_pages_verified": 0,
-    "new_records": 0,
+    "official_links_found": 742,
+    "official_pages_verified": 5,
+    "new_records": 5,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
+      "giftee.co.jp: HTTPError: HTTP Error 404: Not Found",
       "ScanNetSecurity（発見用）: robots.txt disallows this URL"
     ]
   }
