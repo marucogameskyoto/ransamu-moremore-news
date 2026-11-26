@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T05:11:01.682014+00:00",
+  "updated_at": "2026-11-26T17:05:31.037763+00:00",
   "demo": false,
   "automation": "official-source-verified-roundup-discovery",
   "crawl_summary": {
@@ -651,7 +651,7 @@
           "canonical_url": "https://www.yamato-hd.co.jp/important/info_261125_1.html",
           "official_host": "www.yamato-hd.co.jp",
           "first_seen_at": "2026-11-25T11:29:47.295544+00:00",
-          "last_seen_at": "2026-11-26T05:10:24.469100+00:00"
+          "last_seen_at": "2026-11-26T17:04:48.582537+00:00"
         }
       ],
       "reported_org": "ヤマト運輸株式会社",
@@ -2644,7 +2644,7 @@
           "canonical_url": "https://rizap.co.jp/news/RUDfG2p4",
           "official_host": "rizap.co.jp",
           "first_seen_at": "2026-11-19T15:53:16.058281+00:00",
-          "last_seen_at": "2026-11-26T05:10:24.469100+00:00"
+          "last_seen_at": "2026-11-26T17:04:48.582537+00:00"
         }
       ],
       "reported_org": "RIZAP",
@@ -11212,7 +11212,7 @@
           "canonical_url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "official_host": "www.crypton.co.jp",
           "first_seen_at": "2026-10-20T00:21:52.870Z",
-          "last_seen_at": "2026-11-26T05:10:24.469100+00:00"
+          "last_seen_at": "2026-11-26T17:04:48.582537+00:00"
         }
       ]
     },
@@ -14384,7 +14384,7 @@
           "canonical_url": "https://www.nishuhan.co.jp/news/2026/20261016_02.html",
           "official_host": "www.nishuhan.co.jp",
           "first_seen_at": "2026-10-19T12:30:00Z",
-          "last_seen_at": "2026-11-26T05:10:24.469100+00:00"
+          "last_seen_at": "2026-11-26T17:04:48.582537+00:00"
         }
       ],
       "leaked_records": null,
@@ -14744,8 +14744,8 @@
   "discovery_summary": {
     "roundup_pages_succeeded": 4,
     "official_links_found": 761,
-    "official_pages_verified": 12,
-    "new_records": 12,
+    "official_pages_verified": 0,
+    "new_records": 0,
     "warnings": [
       "SmartScope 情報漏洩・不正アクセス一覧: robots.txt disallows this URL",
       "Rocket Boys 情報漏えい事案まとめ: robots.txt disallows this URL",
